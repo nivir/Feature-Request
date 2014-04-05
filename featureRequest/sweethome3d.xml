@@ -1,0 +1,1737 @@
+<?xml version="1.0" ?>
+<requests>
+    <item>
+        <title>#303 Sol en pente.</title>
+        <detail> Bravo pour ce logiciel gratuit, c'est une v¨¦ritable merveille! 
+Il est tr¨¨s complet, intuitif etc, mais il manque a mon sens une petite fonctionnalit¨¦: celle de pouvoir commencer a cr¨¦er sa maison sur un sol qui ne soit pas forc¨¦ment plat, mais qui puisse aussi ¨ºtre en pente, en bosse... Pourquoi ne pas faire un menu &quot;Nivelrer-Deniveler le sol&quot; ce qui permettrait a l'utilisateur de concevoir le logement sur le flans d'une colline ou sur un sol en pente... avec pourquoi pas une fonctionnalit¨¦ qui permettrait de remettre le sol &quot;plat&quot; dans certaines pi¨¨ces (qui serait sinon &quot;sous terre&quot;). Voila, bonne continuation et bravo ancore!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#436 mvoement multiple (ala Sketchup)</title>
+        <detail> I know I can move things by using the &quot;resize&quot; feature by expanding in one direction and shrinking in the opposite direction.  What I think would be wonderful to have is: 
+1-I select an (or a number of) item(s). 
+2-I type in a number (let's say 12) 
+3-I press the up arrow. 
+4-My selected pieces mvoe up 12 units (unit being the current selection in the preferences window). Obviously If no number is typed before pressing the up arrow, then the current behavior would be maintained.  (given posts about how resize can be used for the purpose of moving, I have a feeling this suggestion must have been discussed in the past but couldn't find it using search). </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#250 mansarde</title>
+        <detail> il serais interressant de pouvoir cr¨¦er des pieces mansard¨¦es(grenier) et de pouvoir y ajouter des v¨¦lux</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#494 mark edited wall side</title>
+        <detail> When editing a wall (especially its color), I often accidently change the wrong side. 
+It would improve the usability to color or emphasize the edited side in the plan so that I can directly see what side of the wall I'm coloring at this time.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#466 Easy method of building roofs</title>
+        <detail> I read about the way to create a roof in this tutorial ( ), but I find it very inconvenient (I have to know the coordinates and dimensions of the roof in advance - when I change one of the house walls, I need to redo all the steps for creating the roof). 
+So maybe a &quot;native&quot; way of adding a roof (following the shape of the walls) would be a great improvement!</detail>
+        <time>2012-11-21</time>
+    </item>
+    <item>
+        <title>#245 Statistiques diverses: Surface des murs</title>
+        <detail> Il serait int¨¦ressant d'avoir des outil de calcul automatique des surfaces au murs d'une pi¨¨ces ou d'un ensemble de pi¨¨ces. On peut ainsi connaitre facilement quelle quantit¨¦ de peinture, de papier peint, de lambris, etc, on a besoin pour d'¨¦ventuels travaux. 
+Il faudrait pouvoir s¨¦lectionner les murs s¨¦par¨¦ment ou l'ensemble d'une pi¨¨ce. Le r¨¦sultat pourrait ¨ºtre actualis¨¦ instantan¨¦ment, afin de pouvoir faciliter d'¨¦ventuelles variantes de mesures. </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#452 Bay Window (Box Type)</title>
+        <detail> For my project, could please help create bay windows with back angle 90 degree?  Can I color the window surface and the frame separately like the attached photo?  Many thanks</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#430 filter for Furniture Browser</title>
+        <detail> Please add a filter for the furniture pane. Sometimes I find it easier to import a new furniture than looking for an existing one!  Thanks.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#139 Add Garden Design Features</title>
+        <detail> Enable Garden Design using this excellent Tool 
+Some enabling Features 
+1) Ability to create sloping Garden Plot 
+2) Ability to create Terraces (multiple Levels) 
+3) Ability to design different Sections of &quot;Floor&quot; 
+   Include ability to draw curved lines to section edges 
+4) &quot;Floor&quot; Patterns that include Grass, Soil, Paths, 
+   Pebbles etc 
+5) Plant Artefacts 
+6) Raised Bed Artefacts (Walls but Wood Finish)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#478 CALCUL DE DEVIS</title>
+        <detail> il serait int¨¦ressant pour chaque objet s¨¦lectionn¨¦  et d¨¦nombr¨¦ de pouvoir attribuer un cout afin d'¨¦valuer le cot total de la maison. 
+CALCULATION OF ESTIMATE 
+it would be interesting for each object selected and counted to attribute a cost to evaluate the total cost of the house. 
+Thank you.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#62 object selection framework</title>
+        <detail> Your software deals with the following features. 
+- multiple object selection techniques 
+- bounding box calculation 
+- grid snapping, magnetic areas 
+- triggering feedback to the user Would you like to offer any component that can be reused as a class library on its own in other applications? 
+How much are the existing interfaces reusable already?</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#232 Show Room Dimensions</title>
+        <detail> My suggestion is different than the one asking for wall lengths and how they should be calculated (Inner or outer). It would be helpfull if the length of each segment of room side could be displayed on the inside of each side.  Currently the square of the room displayed in middle of each room is very interesting and helpfull (now I can compare my rooms' sizes with each other) .  But after drawing my home I noticed that my mesurements is somewhere out by a few centimetres, but now I have to go click on each room corner to spot the length of a section. It gets harder when you need to figure out what corner to click (so I sometimes have to click the one corner then notice it's the length of the vertical wall, and then click the other corner to get the horizontal length). Then also I sometimes accidentally move the corner and have to undo. Then I have to zoom in to ensure that I don't move a corner, and then have to scroll to the next room. So in short it would be easy to visibly see all my room dimensions and compare them to my hand drawn diagram with my mesured lengths of my rooms.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#315 ideas for improvements after a few days use</title>
+        <detail> 1) Tabbed floor levels... technically a repeat of previous requests for &quot;multiple floors&quot;. 
+As good as &quot;Sweet Home 3D&quot; is already, I've noticed it's great when designing the floor levels at the bottom end of a set of stairs (such as a basement or ground floor). Not so great when designing floor levels at the top of the stairs (e.g. ground floor stairs leading into a basement, or the stairs leading down from a 1st or 2nd floor apartment, etc) 
+Imagine this improvement...  you start off by designing the basement level floor, place the stairs out of the basement in the basement (imagine a big old American style house, such as on the TV show &quot;This Old House&quot;, or the one in American sitcom &quot;Home Improvement&quot; with Tim Allen where he kept banging his head on the central heating pipe).  
+You then click &quot;add floor&quot;, and a fresh grid for you to design the ground floor level with an outline of the basement (that can be turned on or off) + the top of the stairs out of the basement are there waiting for you to design the ground floor around. Then you can just keep on adding floors and stairs until you're done. 
+Might also want to include a &quot;loft hatch&quot; that can be dragged onto the floor plan when you get to the loft / attic. 2) Paths / driveway tool for drawing paths and driveways on the ground level (e.g. so a garden can be designed, or show links between the house and the detached garage next to it on the plan. 3) A &quot;Get more furniture &amp; other extras online&quot; feature (I guess a bit like the &quot;online styles&quot; feature in webdesign software &quot;Netobjects fusion&quot;) to get extras like 
+- More furniture 
+- More Door styles 
+- More window styles (e.g. leaded, bay, sash, casement, etc) 
+- Garden goodies (e.g. Decking, Trellis, Greenhouses, Sheds, Railway sleepers, etc) 
+- More textures (e.g. wallpapers, carpets, tiles, etc) 
+- Software updates 4) Add an &quot;Apply&quot; button to the &quot;Modify Furniture&quot; window, so you can preview changes made in that before clicking the &quot;OK&quot; button to close it.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#445 Open and close doors</title>
+        <detail> It'd be great to have a possibility to open and close doors (and possilby windows) &quot;on the fly&quot;. This could be done by associating one open and one closed door model to a door object, and to provide an option to easily switch between the two models. 
+(Currently, to achieve the same effect, it's necessary to delete the door from the plan and to add the other variant instead -- which is rather tedious, especially if I'd just like to check what a room &quot;feels&quot; like with open and with closed doors.)</detail>
+        <time>2012-10-31</time>
+    </item>
+    <item>
+        <title>#415 furniture gets elevated while moving - bug is back?</title>
+        <detail> I just discovered this. Maybe the bug is back? 
+I use  SH3D version 3.0 on SuSE 11.4.  
+See the attached screenshot.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#451 Two-state furniture</title>
+        <detail> Sometimes, furniture is two-state, two-size, for example sofa bed, draw-out table or ironing board. To be going on, it would be perfect if there is a way to arrange just two sizes for a model and easily switch between them... 
+Thank you!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#327 Option d'impression sans ctes</title>
+        <detail> Bonjour, Pourriez-vous ajouter au menu 'mise en page' la fonction d'impression du plan sans les ctes. En effet, les ctes parfois nombreuses encombrent le plan lorsque je veux r¨¦fl¨¦chir ¨¤ des modifications... Cela permettrait de griffonner sur le plan et ¨¦galement de visualiser le plan plus facilement, notamment pour quelqu'un qui ne l'a pas conu... Merci pour SH3D 
+Franois</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#210 Please provide 'source only' source tar ball</title>
+        <detail> Hi, I am planning to package SweetHome3D for Debian/Ubuntu. I downloaded the source zip but I found out that it contains lot of binary code i.e. .so, .dll, .jar files. Even though I can cleanup the source to comply with packaging policies it is tedious to keep doing it with every new version. 
+It will be great if you could provide a clean source only tar ball, preferably a .tar.gz file. Thanks, 
+Onkar</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#387 Magnetismus</title>
+        <detail> Sehr oft arbeite ich mit der Magnetismus Funktion. Kann man nicht diese Funktion als Button in das Front Panel integrieren. Im Moment ist es sehr umstndlich, dieses immer wieder ein- und aus zu schalten. Ansonsten ist dieses Programm super, vielen Dank, weiter so!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#371 GPU</title>
+        <detail> Possibility of doing Render with GPU support NVIDIA. Very fast Render</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#209 Inner/outer wall length</title>
+        <detail> Think the most people are measuring their rooms from the inner side. When you create walls with that measuring by typing in the length you get a smaller room, because the measuring of the wall is &quot;in the middle&quot; of the object. 
+It would be useful when there woud be a choice to change that measuring from the middle to the inner/middle/outer sie of rooms.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#501 Positioning via the properties</title>
+        <detail> Now, the positioning via the properties dialogue is a little tricky: 
+You have an object with a width of 100cm and a depth of 2cm. 
+Copy the object, turn it around 90 degrees and position it at x=100. It is NOT where you expect it: at the end of the first object, but somewhere in the middle. Maybe you should add an anchoring where you can choose what corner/point you want to use as reference.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#503 Parallel 2D and 3D style presentation setting</title>
+        <detail> We get increasing requests to make combined 2D and 3D presentations of floorplans. It would then been time saving and efficient to have the possibility to add a individual style setup function separated for 2D and for 3D. 2D usually wished to be presented and printed in a simpler way than for the 3D presentation. Could it be an idea to make it possible to link a SVG file to each OBJ elements in the object tree? Then make a style setup menu and save both individual and combined style setting to a project so that the SVG element version will be presented in a separate 2D presenting view? Then as well it will be possible to export the 2D presentation version as a jpg og png with chosen resolution and correct look and style. To be able to preset a letterhead with text and logo for the different styles would as well be great. A function to choose wall height globally and then cut windows and doors also had been welcomed as part of the style setup functions as this is quite common and wished more and more in new presentations by clients. We are new to SH3D but are very impressed about the work that have been done. Our wish is to transfer from our existing tools to use SH3D more and we will be happy to try to contribute and engage more further on.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#71 Better Drawing Thick Walls</title>
+        <detail> French description follows the English one. 
+La description franaise suit celle en anglais. When drawing the walls of my future house, I knew some difficulties: 
+Walls dimensions of my house are given (by the architect) from/to the external wallsides (8m x 11m). 
+So, as my walls are very thicks (34cm) (and as I want to be very precise), I had to calculate the center of the wall coordinates (0 + 34/2 = 17). A very useful feature would be to have the possibility to choose if the drawing of the wall describes the center of the wall, the left or the right side. Thank you very much ! Quand je dessine les murs de ma future maison, je rencontre un probl¨¨me quand je dessine les murs fort ¨¦pais (34 cm). En effet, ma maison fait 8m sur 11, en comptant la distance entre la facade externe des murs. Aussi, pour ¨ºtre pr¨¦cis en suivant la grille de dessin pour tracer les murs, je me retrouve avec une maison plus grosse qu'elle n'est (cela d¨¦passe de 17 cm de chaque cot¨¦). Une am¨¦lioration int¨¦ressante serait de pouvoir choisir si l'on dessine sur le plan le milieu des murs, la gauche ou la droite. Merci d'avance !</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#542 Up Side down button / Bouton d'inversoin de sens</title>
+        <detail> It would be a real improvment to have the possibility of an up side down modification for the objects. For example, if you have a furniture with an angle to left it would be easy than to have with an angle to right, and so on. Congrats</detail>
+        <time>2012-11-21</time>
+    </item>
+    <item>
+        <title>#248 import button in online tool</title>
+        <detail> It would be good the have a new button in the Online tool interface as the existing one &quot;export to SH3D&quot; : &quot;import from SH3D&quot;. 
+When creating a model in SH3D at home, I'd like to import it in the online tool :)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#118 SYMETRIE</title>
+        <detail> Congratulations ! I will try to entertain my english by writing my question in english (sorry for the possible mistakes). Sweet Home 3D is an excellent software ! Nevertheless, i would like another feature which could be useful for other users : I have created a plan for my future house.  When we found our ground, we must do a horizontally symmetry. Instead of doing my plan again, would you be able to create this feature? Thanks in advance, Yours sincerely, Nicolas.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#374 Faire un accrochage automatique des murs</title>
+        <detail> Bonjour, Mon id¨¦e serait de faire en sorte que, lorsque l'on cr¨¦er un mur et qu'un des bouts s'approche d'un autre murs il y est un magn¨¦tisme qui se fasse. Cela ¨¦viterai donc d'avoir des bouts de murs qui d¨¦passent  ou des trous entre les murs. De plus, il serait int¨¦ressant de faire en sorte que lorsque l'on cr¨¦er une pi¨¨ce et que l'entoure de murs, le dernier mur cr¨¦¨¦ soit accroch¨¦ au premier mur. Peut  ¨ºtre aussi que l'on puisse faire un lien entre une pi¨¨ce et les murs qui l'entourent. Quand on bouge une salle, les murs associ¨¦s bougent aussi.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#379 Inches inches everywhere (allow setting display style)</title>
+        <detail> Ohh, it drives me batty.  Various places the program will show inches as inches (e.g. 56'), in others the same dimension shows as (4'8').  I might see 4'8' and want to correct it, but  the detail dialog brings up 56' instead.  Maybe some people view those with ease, but I don't. How about a single control somewhere that lets you choose the display style: 
+(x) Prefer foot/inch Notation 
+( ) use inch notation for measurements under   inches.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#528 Custom forms</title>
+        <detail> It would be great to be able to create a custom form (or background) that can show when the layout is printed to pdf, rather than the layouts just sitting there on a blank page. Or perhaps even a series of pre-existing templates that can be chosen when printing to pdf. See example attached:</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#320 Save pre-defined rendering positions for batch rendering</title>
+        <detail> Allow a set of pre-defined viewpoints to be saved for photo rendering in a batch.  I find that I have set places in each room where I want to take my photographs from.  If I make any sort of change to the room, I need to manually re-position my viewpoint to each of these places around the room and wait for the photo to be rendered.  If I could save all of these viewpoints and kick off a batch rendering, I could leave my computer for a couple of hours while the rendering is performed.  I would also be guaranteed that my photos are always taken from the same positions. Another thing that this would make easier would be to render a movie of a virtual tour, made of frames using individual photos.  Using this approach, you could move the observer through the house using the predefined positions and render a photo at each position.  You would then link all of these photos together as frames in a movie.  To do this, it would be beneficial if the stored viewing position included co-ordinates as well as the vertical and horizontal viewing angles.  This would allow you to simulate panning in your movie, by keeping the position the same but changing the viewing angles.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#100 add subsets to element list</title>
+        <detail> If I want to design a new home, the amount of small elements (e.g. shampoo or most other additional stuff from importet libraries) makes finding basic elements more difficult. 
+Would it be possible to have subsets? 
+e.g.  -kitchen 
+ +furniture 
+ +kitchenware (all kind of larger machines) 
+ +dishes and tableware same for bath and the other rooms.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#533 Cr¨¦ation d'arboresence</title>
+        <detail> Bonjour,  
+Serait-il possible de cr¨¦er une arboresence pour la liste des meubles et autres objets qui font parti du projet (ceux qui sont afficher dans la fen¨ºtre en bas a gauche) ? 
+Je crais souvent des objets ¨¤ base de botes.J'aimerais si possible pourvoir mettre toutes ces botes qui composent mon objet dans un dossier avec arboresence que l'on pourrait nommer comme on le veut.  
+Ou ¨¦galement mettre tout les m¨ºme objets (comme les portes ou fen¨ºtre...) dans un m¨ºme dossier. 
+Ce qui permetterait une meilleure visibilit¨¦ des objets qui composent le projet et de pouvoir les chercher plus rapidement 
+Il serait ¨¦galement int¨¦ressant de pouvoir s¨¦lectionner ce dossier pour pouvoir d¨¦placer en m¨ºme temps tout les objets qui le composent. J'esp¨¨re que mon explication est assez claire. Cordialement</detail>
+        <time>2012-11-21</time>
+    </item>
+    <item>
+        <title>#348 Unable to pick color by using #ffffff format</title>
+        <detail> Hello when you're modifying colour of some object (like wall). You should be able to pick  any colour by entering it's hexadecimal code (#fffffff). Version: SweetHome3D-2.5 How to reproduce: 1) create an object 
+2) right click on it =&gt; modify this object 
+3) open colour selector 
+4) enter a value like #000000 Actual results: Colour is the original one =&gt; it didn't take any effect 
+Colour can be specifically selected only by entering HSV and RGB values  Expected result: Colour specified by a hexadecimal string will be picked.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#33 Wiring feature</title>
+        <detail> I'm planning to construct a new &quot;digital&quot; house next year. One of the tings I'd like to plan very well is the wiring/conduits. Is it possible to add this feature? I'm thinking of, and things like that.  It would be useful to print a wiring only preview of the house in 2D/3D. Canand</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#364 skirting boards</title>
+        <detail> In order to give the wall a more realistic look, I have created skirting board (plinte) in bender and then imported then into sweet Home 3D (which I really love). 
+However it would be a lot easier if we could define a custom skirting profile directly within SH3D. Each wall could have it's own skirting profile. And the skirting would be automatically resized according to the wall it is attached to. 
+The skirting should be able to have a colour or texture different from the one defined for the wall so that you can create colour accent. 
+The same could work for the ceiling.(moulure de plafonds)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#532 export to svg create big files</title>
+        <detail> on my plan are a lot of doors. 
+i export my plan to svg -&gt; the size of the file is 3.3mb. 
+that file is to big for the content. 
+and to big for my application (max. size of svg is 1mb). have a look to the svg with big zoom-factor: 
+in the svg are the doors with the modell-symbol-picture out of the 3d-library (have a look to the attachment). 
+if i delete this modell-symbol-pictures in the doors -&gt; the file size of the svg will shrink to 144kb. 
+this little pictures are bitmaps (bmp, png, jpg, ...?) and need a lot of the file-size. anybody an idea how to export the plan without this litte pictures? 
+thanks for every feedback.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#441 Meilleurs rendus avec une astuce</title>
+        <detail> Bonjour Je tenais a vous faire part d'une petite am¨¦lioration possible des rendus dont je me suis rendu compte 
+lors de la cr¨¦ation d'un appartement J'ai g¨¦n¨¦r¨¦ un rendu d'un appartement en qualit¨¦ 4 (meilleure) et 3 
+La luminosit¨¦ rends bizarre sur la 4, et l\'image est granuleuse sur la 3 , 
+j'ai alors superpos¨¦ a ces deux images , une image de niveau 2 avec + ou - de transparence, et cela rends vraiment pas mal De mes tests, 
+sur une image niveau 4, il faut superpos¨¦ une image 2 avec un alpha a 30% ( assez transparente ) 
+sur une image niveau 3 , il faut superpos¨¦ une image 2 avec un alpha a 60% (moins transparente) Les diff¨¦rences de rendus sont assez notables avec cette technique je trouve Voir les rendus :  Je ne sais pas si vous jugerez cette id¨¦e utile mais je pensais que l'id¨¦e pouvait etre int¨¦ressante donc autant mieux vous la soumettre Cordialement 
+J¨¦r¨¦my Guilbault </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#264 Colorier les murs</title>
+        <detail> Bonjour, Il serait bien de pouvoir donner quelques couleurs aux murs dans la version plan et pas seulement dans la version 3D. Christophe</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#202 physical attaching of objects, penetration</title>
+        <detail> currently items can float in the air or penetrate each other. An item should always be attached to something. mostly the floor, or a wall or ceiling. Although some objects can penetrate each other. Add a penetration check and do not allow penetration.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#439 Furniture 3d stack up/down, 2d move up/down</title>
+        <detail> In  2d view, the furniture last added covers other furniture pieces. This can be troublesome since am area rug I want below my bed, and add after adding a bed would hide everything below it. It would be nice to have a move down/up/top/bottom right-click menu item for a furniture item. In 3d view, I feel I need to spend more than necessary effort to place one item on top of another. I mean &quot;more than necessary&quot; in the sense that it can be done in software. It would be nice to select a few items in order and then click on &quot;stack up&quot; (first item selected on the bottom) or &quot;stack down&quot; (first item selected on top). This can be a first-order stack using the bounding box of furniture items, or an exact stacking by measuring the min/max height of overlapping parts.  
+A &quot;gravitational stacking&quot; would be an interesting programming exercise but not useful in practice I think.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#498 multiple colors for a wall</title>
+        <detail> It would be nice to have multiple colors on one wall, i.e.: 
+- Main color with a border 
+- simple stripes</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#83 Murs inclin¨¦s</title>
+        <detail> Bonjour, Bravo pour ce logiciel ¨¤ prise en main rapide avec un joli r¨¦sultat. Je suis sous les toits et j'ai donc des murs inclin¨¦s. Ce type de murs n'est apparemment pas possible sous SweetHome3D. Je pense donc qu'un param¨¨tre en degr¨¦ pour l'angle d'inclinaison des murs serait pas mal. 
+Cela aura la contrainte de mettre la m¨ºme inclinaison pour les fen¨ºtre ou portes pos¨¦es sur le mur automatiquement ou manuellement. Si c'est manuel, il faudra aussi rajouter un param¨¨tre d'inclinaison pour les objets. Cordialement.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#237 Gestion des calques</title>
+        <detail> Est il possible d'avoir une gestion de calque afin de pouvoir faire des plans multi-batiments et multi-¨¦tages Cela serez un plus ind¨¦niable. Librement.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#293 Quelques Suggestions......</title>
+        <detail> Tout d'abord f¨¦licitations pour ce superbe logiciel totalement gratuit et libre, cependant je trouve dommage que l'on puisse pas construire un ¨¦tage (ou alors je n'ai pas encore trouver enfin presque mais ce n'est pas tr¨¨s intutif et on s'y perds). 
+Il serai bien que l'on puisse choisir comment construire un mur (choisir quel coter gauche ou droit ou milieu), seul le milieu est s¨¦lectionnable (il me semble pourtant que sur les anciennes version il ¨¦tait possible de choisir).  
+Pour les objets et meubles, on ne peux pas changer chaques couleurs mais que le tout, je m'explique : prennez le mod¨¨le &quot;Apple Ibook&quot; vous voulez le mettre en blanc par exemple et bien meme l'ecran s'y met, et c&quot;est la meme chose pour pas mal de meuble (je ne les aient pas tous tester), idem pour les dimensions, pourquoi ne pourrait-on pas dimensionner chaque pi¨¨ce d'une fenetre ou d'une porte? 
+Petite suggestion pour finir, la navigation 3D (notamment en vue a¨¦rienne, ce serai bien que l'on puisse &quot;d¨¦placer le mod¨¨le 3D en le figeant &quot;, une sorte de petite &quot;main&quot; (symbole beaucoup utiliser dans les programmes de CAO). 
+En tous cas je suis toujours, impressionner par le rendu, qui est bien meilleur que certains programme de CAO de plusieurs milliers d'euro. 
+En vous remerciant, 
+Bonne continuation.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#499 wall editor: swap colors</title>
+        <detail> Nice would be a button between the left and right side that swaps the colors/textures when editing the color. 
+Should be easy to implement.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#265 Importation de plans</title>
+        <detail> Il serait int¨¦ressant de pouvoir importer un plan depuis un logiciel comme cycas ou autocad... a ¨¦viterai de redessiner tout le plan.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#270 &quot;sprite&quot; raccourcis shortcuts</title>
+        <detail> Bonjour ! 
+Serait-il possible de configurer des raccourcis clavier pour le &quot;sprite&quot; qui se d¨¦place dans la visite virtuelle ? Je peux le d¨¦placer avec les fl¨¨ches de mon clavier, mais il n'y a pas de raccourci pour la rotation et l'angle de la t¨ºte. Cliquer sur les ¨¦paules du &quot;sprite&quot; pour avoir les icnes demande beaucoup de pr¨¦cision et rend la promenade moins fluide... 
+Excellent travail sinon !! Hello! 
+Is it possible to configure keyboard shortcuts for &quot;sprite&quot; that travels through the virtual tour? I can move with the arrows on my keyboard, but there is no shortcut to the rotation and the head angle. Clicking on the &quot;sprite&quot; shoulders icons needs precision and makes the ride less smooth ... 
+Excellent work otherwise!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#354 Configure maximum count of recent home files</title>
+        <detail> Currently at most 4 recent home files are available.  As I'm using 7 files at once in my current project, I would like to configure that property. Looking at the mass of open feature request and the simplicity of this one, I created the necessary modification myself. You find the source modification attached to this request. The only thing missing is the localization for all languages except English and German.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#449 Photo from 3D view</title>
+        <detail> create 3D photos or videos: 
+the ceiling should be opaque for external light sources ex. sun 
+It could be the setting from modify rooms --&gt; display ceiling use this for my proposal</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#420 reflect whole design in horizontal or vertical axis</title>
+        <detail> Please provide a button to reflect a whole design in the horizontal or vertical axis (I'm unsue thinking about it whether furniture needs to be mirrored by this operation .. I guess so!).</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#535 Grupping, Node Cahching</title>
+        <detail> It is so imp to group the walls or others and to catch the end point or others correctly. One more important UI, I thing to abilities the data dynamically. 
+Have a nice day lovly,</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#189 Easy way to add custom textures</title>
+        <detail> The current version: 
+In the current version of SH3D, you can import your own textures onto &quot;flat&quot; objects, using custom 3d models (such as &quot;carpet.obj&quot;). If you want your own texture on the flat object, you must first rename your JPEG file to e.g. &quot;carpet.jpg&quot; and then import &quot;carpet.obj&quot;. The idea: 
+How about a feature, that takes the work out of doing this? It could simply be a menu called &quot;Import JPEG to object&quot; or &quot;Import flat texture&quot; etc. The user would select his JPEG file, and it would automatically be applied to/converted into a flat object. Perhaps the user would be able to select the dimensions of the flat object, and whether or not to tile or &quot;stretch to fit&quot; the JPEG file to the object. Why it is a good idea: 
+This would make it very easy for anyone to e.g. hang their own pictures/paintings on the (digital) walls, create custom carpets, backgrounds or backdrops (nice to have photo-realistic scenery outside the windows :-) ), custom wall tiling (if not all of the wall uses the same texture/tiles, as is often the case in bathrooms) etc.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#25 Web Export / Image Map</title>
+        <detail> As I looked at this project, I was reminded of one called flopx (also on sf.net). What I would love to see in this tool is an export function for web (html/css/etc). While this might not be of obvious need to a &quot;home&quot; user, it could potentially export layouts for home automation products such as &quot;Mr House&quot;. I personally would like to use it to map out our offices (building layout/ cable or jack locations/ etc.) (From flopx's page) 
+Its a simple office planning tool, with a drag-n-drop interface to insert items into your virtual office. It can deal with multiple floors, and links between them. Various information about each computer/item (e.g. IP address, software installed, etc.) is stored. It exports to html, with image maps and links for each item. Its not for state-of-the-art layout, but is especially aimed at producing a nice, easy-to-use web page, e.g. for a company intranet.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#226 Importation / Exportation : .skp .dxf</title>
+        <detail> Ajout de l'importation / Exportation en .skp (Google SketchUp) ou .dxf (auto/Cad) serai g¨¦nial !! 
+Merci</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#148 more construction elements</title>
+        <detail> I`m missing: ** column square and round ** binding beam ** chimney greetz 
+alpenmolch</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#294 chaining of concrete and concrete posts</title>
+        <detail> I would like to use them but unfortunately there are unable in my software</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#330 Add customs atrtibute to objects</title>
+        <detail> Add custom attributes to property of elements (such price of a wall). Availability to export to txt like 
+wall1 :  Suite, wall_cost:$325, wall_paint$222, m2 of wall: 22 Several attributes can be assign such $ wall, $ paint, etc. &quot;T&quot; walls would be compute only visible area (such paint), no internal intersections.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#481 elevators</title>
+        <detail> need elevators</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#204 Disable 3D preview</title>
+        <detail> Hi, I would be great to be able to completely disable the 3D view. In my case I suspect the 3D rendering to slow down the application a lot. 
+I would be able to disable it, create my plan with more machine power. 
+Then I would 3D render on demand. 
+Reducing the pan does have much affect. Cheers, 
+Matthias</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#505 Double width walls</title>
+        <detail> Hi there, first of all congratulation for this great soft !! 
+Architects often need to include in there blue prints insulation of the walls. 
+If someone could include the option to divide the wall into two parts with width control for both, 
+that would make it the best free software in architecture !!!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#523 Finesse d'impression, pixels</title>
+        <detail> Bonjour, J'ai constat¨¦ avec surprise l'¨¦volution du module d'impression avec la possibilit¨¦ de mettre ¨¤ l'¨¦chelle, c'est super ! 
+Par contre, il semble que l'¨¦paisseur des traits ne suit pas l'¨¦chelle d'impression. En 1/50¨¨me et surtout 1/100, les traits sont grossiers. 
+De m¨ºme avec la sortie pdf. 
+Du coup, j'exporte le plan en svg que j'ouvre avec inkscape pour l'enregistrer en pdf. De cette mani¨¨re, le r¨¦sultat est plus fin. 
+J'ai tout r¨¦cemment rencontr¨¦ des soucis de rendu avec un fichier, l'l¨¦tage mais pas avec le rez-de-chauss¨¦e (2 fichiers svg distincts). Pas compris ?! Autre souci lors de l'exportation en svg, les &quot;cm&quot; de sweethome deviennent des pixels sous inkscape, et je n'ai pas trouv¨¦ de moyen simple de mise ¨¤ l'¨¦chelle. Cordialement, Marbaf</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#538 Calculate the volume of cement (or other material used) and cost (total and per walls, ceilings, floors)</title>
+        <detail> The ability to calculate the total volume of the walls, floors and ceilings so that a user can estimate the amount of cement needed and the cost per square foot. The program should separate the 3, and give a total for each. It should also allow users to enter a dollar value per square foot of cement (or whatever other material is being used) for each, so that it can calculate the estimated cost for each volume (of walls, ceiling and floors).</detail>
+        <time>2012-09-23</time>
+    </item>
+    <item>
+        <title>#347 font selection</title>
+        <detail> It will' be great if user can change default font family.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#129 Category management requested</title>
+        <detail> Hi, Presently I'm using Sweet Home 3D in two languages at the same time (and I'm testing it in 3 languages: FR, EN, DE). 
+When you use the soft in more than one language, it would be great to be able to give more than one name for a category. With this option it would be possible to set the category name in FR, EN or DE. 
+An other point that would be great is if it would be possible to move, by drag-n-drop, a model from one category to another, rather than the actual way of doing (double-clic the furniture, modify the category name in the dialog). Cheers, 
+Dan -- 
+Sweet Home 3D 1.4 
+Java 1.5.0_16 
+Mac OS X 10.5.5 Fr 
+MacBook Pro 2.4GHz Intel Core 2 Duo with 2 Gb RAM.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#433 size (in bytes) contribution of each furniture piece</title>
+        <detail> I hope you can add a column to the Installed-Furnireu panel that shows the size contribution of each installed furniture to the size of the project file. This will allow one to decide if a piece of furniture added to the plan is worth the size it adds to the file size. The file size for my home had grown to over 30 mega bytes which I had to copy to different machines over DSL lines as I moved form home to work to home to work to home (I know... I could use a flash but that's a different story)... Yesterday I finally unzipped the sh3d file and realized that most of that size was due to a few fancy car models I had put in my home which I could completely do without but the models stayed in my model because I didn't know what type of overhead they cause. Thanks again.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#440 distrubute furniture function</title>
+        <detail> It would be nice to have a distribute function. It is very useful in making a group of equally spaced items (like clothes hangers) 
+&quot;Distribute furniture&quot; would distribute a bunch of selected furniture items within the min/max location of the selected furniture.  
+distribute can be within x, y, or z dimensions.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#221 Color Selection and Remembering</title>
+        <detail> When selecting a color, especially in HSB mode, could this be changed to a circle of colors and a rotating equilateral triangle of brightness selection, allowing users to select colors at the tip of triangle, similar to the one in GIMP. This is important because when selecting complementary colors, apparently, one should select colors at equal distance on the color wheel to form a group of perfectly harmonized tones. The selector should have a minimum of 3 points  (that is why the equilateral triangle) but should not be limited to 3 points. If possible, allowing this to change to square, pentagon, hexagon etc.. Each time, a color is selected, it should be remembered in a list, similar to the Java's Color Selector, allowing users to compare the newly selected color with previous set. This is very important for interior designers who care about color harmony.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#489 Make Texture behaviour editable</title>
+        <detail> It would be nice if there was a way to define at least the angle how a texture is added to an object. 
+e.g. if i have a long texture (120x30cm) and I add it to the floor as texture it would be very handy to be able to define the angle ho the texture lies on the floor. 0¡ã / 90¡ã / 180¡ã </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#358 Allow plugins in classpath for easy development</title>
+        <detail> Currently only plugins from JAR files are loaded. That way every source code change needs a restart, as these files are locked. For easier development it would be nice to have the plugins loaded from their compile directory. To achieve this I added that folder to the classpath of SH3D, defined the ApplicationPlugin.properties in META-INF and modified the plugin manager (see the proposed patch). By the way, what is the right place to post a plugin? Until now I found two of them:  
+- The SH3D forum - where no overview page exists, you have to search for the desired plugin in the threads 
+- The tracker &quot;Plug-ins&quot; - only three plugins up to now, looking at the forums I found some more I'm currently writing 3 plugins and want to be sure that none of them exists already: 
+&quot;Edit room points&quot; 
+&quot;Connect walls&quot; 
+&quot;Resize selected objects&quot;</detail>
+        <time>2012-09-18</time>
+    </item>
+    <item>
+        <title>#476 Less entry in right-click menu</title>
+        <detail> Right-clic menu is full of entry and it is sometimes hard to find the one you are looking for... I proposed to do a big cleaning in it. 
+For instance: 
+- all the entry relative to background image doesn&quot;t need to be in this menu. 
+- the &quot;boussole&quot; (sorry , I don't know the english word) doesn't need to be there 
+- the export to svg 
+- all the entry relatice to level managment You should only keep the most used task in right-click menu.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#382 Skylight</title>
+        <detail> Is there a way of adding a skylight or turning a window flat to the ceiling?  If not, I vote to add this item if possible.  The only workaround I have found so far is to import a glass coffee table, set it at 96&quot; elevation and make it one inch high so the legs disappear.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#193 OpenGL</title>
+        <detail> Hi! 
+very good program I like it!! Is OpenGL support planned?</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#168 Print Layout</title>
+        <detail> it would be nice if we could print referring to a layout and just inserting the drawing into this layout. This layout could have been made in another software such has OOwriter, scribus or Inskcape, so that this layout would only have to be exported in PDF, and use as is by this feature. This could may be be done via some pdftk or imagemagick command.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#323 Modifier Directement l'objet dans le descriptif de gauche</title>
+        <detail> Bonjour, 
+Serait-il possible de pouvoir modifier le Nom et les Dimensions 
+pour chaque objet, DIRECTEMENT dans les colonnes: Nom, Largeur, profondeur, Hauteur,  
+sans passer par Ctrl+E ou le menu contextuel &quot;Modifier le mobilier&quot; ? 
+Merci pour Sweet Home 3D !!!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#484 side view</title>
+        <detail> Thank you for your wonderful program! Please add a side view of the wall with the ability to edit the location of electrical outlets and switches (they may be in the same vertical plane and it is not very convenient when you edit them) and tools for drawing a hidden (or open) wiring and piping for cold, hot heat, drain tubes.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#271 my wishlist for SH3D</title>
+        <detail> First of all I want to say that I like SH3D very-very much. I have paid 99 euros for another 3D program, only to find that I hardly use it, because I like SH3D so much. It's the time of the year to make wish-lists, so I thought I'd better make mine as well. Who knows there will be a full stocking with SH3D goodies... EASY CHANGES 
+- maximum elevation is 999; it would be great to have 9999 
+- when importing textures for walls-floors-skies the maximum texture size behaves a bit strange; one of the two values has to be a maximum of 999; the other value can then scale to a larger number; it would be nice if both values could be larger than 999 
+- put floors and walls in the parts list; when you have a lot of items stacked on top of a wall, it's a nuisance to remove them all if you want to change the wall 
+- it would be nice to be able to group objects; this feature would be handy to temporarily combine furniture, e.g. a table with 6 chairs 
+- an explanation on how to make doors and windows; when I try to modify a door or window and then export it as an ¡°obj¡±, it becomes furniture and looses the wall-insertion capabilities; maybe it's possible to add a check-box ¡°export as door/window¡±  
+- change the tab-order in the colour picker so that it goes HSV and then RGB (and not HR-SG-VB); also highlight the values when tabbing to make changing them easier 
+- add layers 
+- add the possibility to export as ¡°zip¡± (in the file menu) 
+- place ¡°export to obj¡± in the file menu (instead of the in 3d view menu) 
+- when dragging an object into the design you first have to de-select it before you can edit its properties; right-clicking on the inserted object now opens the ¡°import furniture¡± window; doing this often leads to unexpected crashes 
+- auto-save feature 
+- re-organize the standard libraries (see separate note) 
+- make it possible to delete the standard furniture items 
+- organize a furniture design contest NOT-SO-EASY CHANGES 
+- textures on furniture, or at least on some basic shapes (especially the box-shape); when making furniture with a textured basic shape and than saving them as an ¡°obj¡±, the jpg that is used for the texture is exported separately for each shape used; that causes an enormous inflation of the file-size 
+- a solution to ¡°make light¡±; illumination now doesn't give light: the renderer uses standard settings to light the scene; it would be great to be able to control the individual lighting of the lamps used, and so giving the scene a  more realistic appearance 
+- in ¡°Modify Furniture¡± you can check ¡°visible¡±. Ideally there would be two check boxes here: ¡°visible on plan¡± and ¡°visible in 3D¡± 
+- z-axis rotation would make life a bit easier, and simplify many tasks; there's a simple workaround, namely importing the same shape in a different orientation, but that means double entries in the library 
+- this one is tricky: doors and windows that adapt automatically to sloping walls and become sloping as well Hans Dirkse 
+hansdirkse@gmail.com</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#266 Export to Blender</title>
+        <detail> On my older computer (1GB memory), it is very time consuming to export a .obj file from Sweet Home 3D and then import it into Blender.  I wish Sweet Home 3D could export directly to a .blend file.  This should be possible, since both Sweet Home 3D and Blender are both open source.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#385 Support for non-rectangular windows</title>
+        <detail> Having round walls in v3.0 is wonderful.  However (of course) it would also be wonderful if we could insert non-rectangular windows (round) such as a Ship's Porthole. Thanks as always - Nick</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#464 Grouping of non-furniture objects</title>
+        <detail> Sometimes you encounter the need to move a room with all objects inside  (furniture, but also small walls, dimension-lines). 
+So it would be very useful if grouping is also possible with all kinds of objects. As far as I can see, at the moment grouping is only available for furniture items.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#508 Moving all objects (wall, pieces, furniture, ...)</title>
+        <detail> Is it possible to add any new &quot;group&quot; functionalities to move ALL objects (furniture, walls, pieces, quotations and texts of ALL levels) at the same time (the function 'group' unfortunately works only furniture in version 3.5)? For example, I designed a house on 3 levels, and I must now adjust its placement on a specific cadastral plan that I imported. 
+If this improvement is accepted, it would be good to group with a combination af all objetcs : furniture AND/OR walls AND/OR pieces AND/OR quotations AND/OR texts on the first level AND/OR the second AND/OR the third AND/OR ... 
+Thank you !</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#186 associer les murs</title>
+        <detail> bonjour, 
+d¨¦j¨¤ merci pour ce super logiciel. 
+Serait-il possible de pouvoir lier des murs &quot;ind¨¦pendants&quot;?(La fonction inverse de diviser). 
+merci d'avance</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#296 Estimated rendering time</title>
+        <detail> When I need to create imgae - (render the view) sometimes it will takes a lot of time. Will be nice to have a countdown timer with estimated rendering time.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#405 attach wall to room</title>
+        <detail> I'm using SH3D to design an building and change quite often the position of an wall. When changing this position, I also have the correct the rooms and the dimensions. A nice feature would be to attach the wall to the room, such that moving the wall will automatically adjust the room and the according dimensions. So, while moving the wall you would immediatly see the inpact on the room size and the length of the walls.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#328 Electrical Component in 2D design view</title>
+        <detail> Availability to add (like walls) basic electrical component on the wall (can specify the height of placement) and light on free position in the view. 
+Availability to make relationship between electrical components (no rendered in the 3d view) in order to make and electrical 2d plan &amp; render in the 3d view the electrical position of the components.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#483 multiple suggestions...</title>
+        <detail> maniquins, cashiers,sewing mashines, hair and makeup salon equiptment</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#536 Use native file chooser dialog under Linux</title>
+        <detail> Under Linux (Ubuntu 11.10, SH3D 2.6), the dialog for loading files is very inconvenient to use, and ugly. I'm not a Java expert, but this seems to be due to Swing using some outdated interface (Gtk 1?) instead of the current OS &quot;native&quot; style. I'd really prefer current Gtk dialogs for file (and maybe also color) operations.  While researching this subject, I stumbled across this related Stackoverflow thread  , which suggests using AWT instead of Swing for dialogs. 
+  </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#74 Angle of sloped walls</title>
+        <detail> For the sloped walls, can you add a feature so that the user can choose between using degrees for making the angle (if it can be done) OR use the inches at the start and end? 
+Right now, I'm having trouble with calculating how many inches the end should be from the start. So, it would be easier if I could just type in the start inches and tell SH3D what degree of angle I want.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#545 Import pro100 projetcs.</title>
+        <detail> Import pro100 projetcs.</detail>
+        <time>4 days ago</time>
+    </item>
+    <item>
+        <title>#426 Distributed rendering / cluster</title>
+        <detail> Hello, 
+I would like to cluster rendering over all machines I have. Already tried &quot;cluster-knoppix&quot;, &quot;instant grid&quot; and &quot;PelicanHPC&quot; but wasn't successful. Is clustering, especially with the advanced rendering plugin (sunflow), already possible? If so, please provide me with a tutorial. Cluster-Knoppix is discontinued but I remember that a job had to be split up in subprocesses for every node to make use of all processors. The other distributions I tried seem to not automatically distribute jobs to nodes. There should be a simple solution for this, rendering photos on a local machine shows that internally there are different processes for each core. greetings 
+tortillamann</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#341 Support side related dimensions</title>
+        <detail> When i'm drawing a wall with an exact width and then a perpendicular one, the inner size of the previous is not good anymore if i change the wall width. It could be nice to tell if a wall size is defined a side to the wall so that we xan work more precisely</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#424 Export / Embed</title>
+        <detail> Could be useful a function to export a project into a portable file with embedded used items (models/textures). 
+I am managing my projects on more than one computer and whenever I do a modification by adding a model/texture on a project, I need to manually &quot;sync&quot; all items on other PCs. 
+Would be good to &quot;export&quot; the project into a special file (containing all items used in it) in order to get it simply &quot;imported&quot; on other computers. 
+Thanks</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#513 Dual screen support</title>
+        <detail> There will be nice to have possibility to sort panels &quot;3D View&quot; and &quot;Plan&quot; (sorry, I have only Czech version and I!m not sure about names in EN) in row.  
+Than we can use 2nd monitor for better workplace.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#350 Lock items</title>
+        <detail> The ability to lock items, furniture or otherwise, is essential.  Sometimes an item is placed in a location where it cannot be moved.  For example, I have a &quot;fixed&quot; plant table in one room.  Being able to lock that item would prevent it accidentally being shifted, even a little bit.  This applies likewise to a specific chair (say, for a handicapped person), or a large item such as a piano. Thank you!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#278 Feature Request: move furniture between folders</title>
+        <detail> I have had great success with  Sweet Home 3D, but one nagging bug is that imported objects always seem to go into the &quot;Bathroom&quot; folder. ( which is the first folder )  Even if I explicitly right click on a different folder and click &quot;import furniture&quot; from there, it still puts it in the Bathroom folder. There is also no means of moving the models to a different folder that I can figure out... copy and paste certainly doesn't work. Importing Library files works fine, and individual objects works ( except that they go into the bathroom folder! ) OSX 10.5 
+Java version 1.5.0_22 
+Sweet Home V 2.2 Thanks very much for everyone's efforts on this wonderful project!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#363 Join two libraries in FurnitureLibraryEditor plugin</title>
+        <detail> Please, make it possible to join two libraries when using the FurnitureLibraryEditor plugin. Thank you,  Hans</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#495 custom color palettes / color libraries</title>
+        <detail> It would be nice if I could add a whole custom color palette (with custom titles, of course) or a &quot;color library&quot;. 
+Why? It would be possible to add... 
+- RAL colors 
+- Paints of a specific manufacturer (i.e. swingcolor, Schner Wohnen, Glasurit, Sto, ...) 
+- Pantone / HKS colors Such colors are globalized and are the same everywhere. I could go into a store and ask &quot;Hi, I'm looking for RAL 08/15. The best, I'd take 10 liters...&quot; 
+No more asking for &quot;hmmm. this looks like ... no, not quite. This one? no. hmmmm but ... let me see, ...&quot;</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#73 Create .rpm installer for Linux</title>
+        <detail> It would be better for all users of Linux if we had an installer instead of this tar.gz (not all new Linux users mess with the 'konsole' and although I can - I prefer not to - I prefer to install things the same way as I install most things on my system. I click an .rpm and it installs. Debian based Linux will need a .deb for there installer :D This would be GREATLY appreciated.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#367 HotKeys and Mouse Gestures Configurable</title>
+        <detail> Please add the adility to configure in the user's settings all functions used with HotKeys and Mouse Gestures. 
+I think this will be better rather my previuos post asking to disable copy object with CTRL.</detail>
+        <time>2012-11-21</time>
+    </item>
+    <item>
+        <title>#408 Change room dimension by entering number</title>
+        <detail> Hi, There is still one feature I'm missing. Usually, I have a plan of the room indicating the length of the room sides. In the next step I'm drawing the room by copying the original plan. If now in the plan one side of the room has e.g. 26,5 cm it is quite difficult du get exacly this also into SweetHome3D. Could it be possible to add an option in the right click-menu &quot;Adjust length of this side of the room&quot; and (in a second step) &quot;lock this side of the room&quot;? 
+Additionally, a &quot;split this side of the room&quot; to add a corner would be also great.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#421 service network plugin</title>
+        <detail> A plug-in to manage all networks (electricity, computers, TV, telephone, water, drain, heating, ...) would be interesting. 
+It will allow to define the outlets but also the cabling (and compute lengths as well). 
+Ideally the cabling and the outlets would be shown in different layers (if that will be ever supported).</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#324 Outil fl¨¨che et texte multiligne</title>
+        <detail> Bonjour, Serait-il possible d'ajouter l'outil fl¨¨che afin de d¨¦porter un texte par exemple. 
+Le texte pourrait-il ¨ºtre multiligne? Cela me permettrait de donner des indications comme sur mon modificatif de permis de construire par exemple. Merci, 
+Franois</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#497 horizontal walls</title>
+        <detail> might sound weird, but I'd like to request horizontal walls 
+Senseful i.e. for a garage that has some storage that was made with a wall, but doesn't have an own floor. 
+Also senseful if a room has a step.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#406 Rotate 2D Objects and removing Aspect Ratio</title>
+        <detail> We would like to be able to rotate PNG files, so that the images rotate with the boxes. 
+This would make the 2D print outs easier to read In addition, it would be awesome if, we had the ability to remove the aspect ratio to stretch an image, (say a symbol). 
+If someone stretches a window curtain, for example, the 2D diagram would be an empty box because the object isn't wide enough.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#427 Dimensions and text on 3D View / cotations-texte sur vue 3D</title>
+        <detail> Would it be possible to add text on the 3D view (or the photo created from the 3D) view so that one's could see the dimensions of the objects (height or elevation for example) ? 
+Moreover can we display text on the 3D view ? 
+Would it be possible to add this feature ? Serait-il possible d'afficher sur la vue 3D les ctations des objets de faon ¨¤ indiquer leur hauteur par rapport au sol ?  
+Par ailleurs, peut-on faire apparatre du texte sur la vue 3D ? 
+Peut on imaginer voir ces possibilit¨¦s d¨¦velopper dans de nouvelles versions ?</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#162 Gridlines printing</title>
+        <detail> Hello, I am sure that &quot;Gridlines printing&quot; is a very useful feature. Unfortunately gridlines are invisible on a printed page. Aslo they are not available if  file is saved in *.pdf format. Could you add such options? 
+Thank you in advance, Vladimir</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#471 Print room list</title>
+        <detail> In addition to printing the house &quot;room by room&quot; ( ), it would be cool to have a room list with the sizes of each room and a summary for all rooms of the floor and the complete house.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#401 Some suggestions...</title>
+        <detail> Dear puybaret,  thanks for your wonderful piece of software. Nevertheless I want to make some suggestions, if you don't object. 
+It would be nice to see some of them implemented in a next release. Where Should I Store my Data and Configuration Files if I Target Multiple OS Versions? 
+ What's the difference between My Documents and Application Data? 
+ CSIDL 
+ don't save all models/libraries in *.sh3d, only the ones used in current project OR use a better compression algorithm snap to grid, simpler UI Simple Snap-to-Grid cursor to your graphics application 
+  J. Carter</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#398 Scroll view home plan horizontal</title>
+        <detail> The window view &quot;Home Plan&quot; scroll horizontally while holding the shift key when rotated on the mouse wheel. Die Fensteransicht &quot;Wohnungsplan&quot; horizontal scrollen wenn bei gedr¨¹ckter Shift-Taste am Mausrad gedreht wird.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#419 unsplit walls</title>
+        <detail> Please allow a  split wall to be &quot;unsplit&quot;. Replace the selected walls by a single wall between the end-points, with the majority thickness and majority features.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#470 Calculate the height of a room under a roof and the angle</title>
+        <detail> If you have a room under a sloping roof, the height of the room changes everywhere, so it would be very useful to have a tool that calculates the height at the actual point. In addition, it would be good to know the angle of the roof (in Germany this angle is mandatory in many cases) - the integration in the create-wall-form would be perfect. Especially for the rooms under the roof it is very important to know the height (for ex. to draw a helpline where the room is exactly 2meters and another where it is still 1,20m...).</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#502 Tree view in the elements list</title>
+        <detail> Very nice and useful would be different tree views in the furniture list: 
+- Open a &quot;non-bound group&quot;/category 
+(in my example screen shot, it's WC-Becken, Sp¨¹larmatur, Sp¨¹lkasten) 
+or simply via drag and drop on the furniture icon. 
+In the &quot;non-bound group&quot;, all items can be moved like before, it's just a structuring in the box below. What are the advantages of such a grouping in the furniture list? 
+- The list will be more readable: If you furnish a house, there will be a lot of stuff. Stuff you want to move separately (so where grouping with the current function will not be senseful). You have an items list (useful for moving company, a to-buy list or even a parts list if you make your own furniture with sh3d; maybe you also will add a 'print furniture list' function?) Items you have more than once will be easier to found (i.e. you have a house with three kitchens, 'stove 1', 'stove 2' and 'stove 3' aren't very easy to sort and aren't good to identify. If you grouped something (i.e. a bath tub, the water faucet and a shower curtain), and you want to change only ONE thing, you will not have to ungroup it, change one property and group it again (and of course, re-set the group name again!).</detail>
+        <time>2012-10-28</time>
+    </item>
+    <item>
+        <title>#425 Configurable Grid</title>
+        <detail> We use a modular soil-cement brick (with 30 cm x 15 cm), so every measure in the plan must comply with the 15 x 15 cm modulation: walls must have a 15 cm width, and the lenght of every wall must be a multiple of 15 cm. Some info in portuguese from our site  My request is to enable the user to configure the grid. Currently displayed grid shows a 10 x 10 cm grid. Default grid should be 10 x 10 cm, but we would like to be able to change it to 15 x 15 cm. Besides it would be very nice if we could have a snap to grid feature. Thanks! 
+Marcio</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#370 Should be able to lock the length of a wall</title>
+        <detail> Wall lengths are easy to measure - I can be sure I have them right. 
+ Yet, when I drag walls around, the program changes the wall lengths from the ones I have set. Can I suggest giving the user the ability to lock the length of a given wall, so that only the angle and position changes when it is dragged around?  If too many walls are locked in this way, it's fine for the program to refuse to move walls around, IMO.   The user would just have to unlock some walls.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#170 Text bearbeiten</title>
+        <detail> Eingef¨¹gter Text sollte sich auch drehen lassen. Auch sollte man den Text unterstreichen knnen.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#409 Highlighting in 2D-View</title>
+        <detail> Hi, What I've done recently was changing just a little bit of an already submitted plan. For this, I would like a kind of &quot;highlight&quot; function (e.g. marking in red) such I could indicate which are the new changes (or which is actually the interesting item, or...). Would be great, if this would be available for Walls as for Furniture.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#158 Support multiple layers in the home plan</title>
+        <detail> It would be very helpful to have multiple layers in the home plan. Each layer should have a &quot;name&quot; and &quot;description&quot; and flags for &quot;visible&quot;, &quot;printable&quot;, &quot;locked&quot;. Use case: Have one layer for the rooms and walls, other layers for furniture, so it would be easy to switch between different furniture arrangements for one room. Hint: The implementation of layers in OpenOffice3 Draw is a good reference.</detail>
+        <time>2012-10-06</time>
+    </item>
+    <item>
+        <title>#397 2D plan view - Locating function</title>
+        <detail> In some cases, it would be useful to have easy locating function. For example, I add a new piece of funiture,e.g a chair . And somehow I made a mistake with the position,and the chair was located 2000 inches away, so my whole 2D planer view and 3D bird view  goes wrong. My orginal house design was shifted away, and hardly going back to the orgin. So it will be useful if there is a quick locating funciton, 
+Might be  a button, &quot;to the orgin&quot; or &quot;to location (x,y)&quot; , or  &quot;to pre-set location #1 &quot;, etc 
+Also , some button, like &quot;Front View&quot; ,&quot;left-view&quot;,&quot;right-view &quot;,bottom-view&quot;,&quot;top-view&quot;,&quot;ISO-view&quot; would be helpful in the bird-view mode. apologize for my poor english :&gt;</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#279 Portable Apps</title>
+        <detail> Make a Sweet Home version for Portable Apps system (www.portableapps.com)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#326 Orientation et couleur du texte</title>
+        <detail> Bonjour, Serait-il possible de changer l'orientation et la couleur des textes svp? (de 90¡ã ¨¤ la rigueur) Merci 
+Franois</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#231 VRML export...</title>
+        <detail> Add a VRML 2.0/X3d export capability so that 'sweet homes' can be viewed sweetly on any web browser equipped with VRML plugin.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#480 Lights - Halog¨¨nes &amp; led</title>
+        <detail> D'abord merci pour cette application formidable.  Serait-il possible de cr¨¦er l'¨¦clairage de type &quot;spot halog¨¨ne&quot; en plus du type Halog¨¨ne qui cr¨¦erait une ¨¦clairage focalis¨¦ ¨¤ environ 35¡ã ce qui est la moyenne des ampoules halog¨¨ne GU10 ou GU5.2 au lieu d'avoir un Halo lumineux qui d'une part sature la couleur des mat¨¦riaux environnants et d'autre part ne reproduit que le mode d'¨¦clairage d'une lampe halog¨¨ne ¨¤ pied bien moins r¨¦pandu en conception que les rails de spots halog¨¨ne et faux plafonds. Par ailleurs la tendance actuelle est d'incorporer des r¨¦tro-¨¦clairages ¨¤ led (type ruban ¨¤ led). Je n'ai pas pu reproduire ce type d'¨¦clairage qui a les caract¨¦ristiques d'¨ºtre tr¨¨s focalis¨¦ et de faible intensit¨¦ r¨¦parti sur une longueur donn¨¦e au lieu d'¨ºtre un point lumineux.  Si de tels d¨¦veloppements sont possibles le rendu 3D de type &quot;meilleur rendu&quot; devrait ¨ºtre encore plus impressionnant de r¨¦alisme et permettre des simulations encore plus haut de gamme. Encore merci pour ce logiciel qui est d¨¦j¨¤ tr¨¨s puissant, fonctionnel et d¨¦j¨¤ tr¨¨s impressionnant de r¨¦alisme en photo 3D meilleur rendu.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#351 Import from pCon.catalog</title>
+        <detail> Hello, 
+on pCon.catalog a lot of free models provided from their manufactorers are available. 
+Is it possible to implement a Importfunction directly from this website, like the plugin for autocad &amp; autocad architecture ? 
+best regards &amp; thx for your realy good sw 
+trekstock</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#212 fonctionnement bi-¨¦crans</title>
+        <detail> Pour les utilisateurs ayant des affichages bi-¨¦crans, il serait int¨¦ressant que l'utilisateur puisse positionner ¨¤ son gr¨¦ les 4 parties principales de l'interface (style positionnement de palettes de certains logiciels). Par exemple, avoir la liste du mobilier, les caract¨¦ristiques voire le rendu sur un ¨¦cran et le plan en cours de construction sur l'autre ¨¦cran.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#157 Make the home furniture list editable</title>
+        <detail> The home furniture list pane should be directly editable to avoid the detour to double click and edit in a popup window.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#346 Etat avant apres</title>
+        <detail> Bonjour et tout d'abord f¨¦licitation pour ce superbe travail ! En utilisant Sweet Home j'ai remarqu¨¦ une fonction qui me manquait ¨¤ l'instar d'archicube : avoir un ¨¦tat avant (Etat actuel) et un ¨¦tat futur (le projet proprement dit), je n'ai pas trouv¨¦ si cela ¨¤ d¨¦j¨¤ ¨¦t¨¦ ¨¦voqu¨¦ dans la wishlist sinon mea culpa. Bonne continuation !</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#319 Partage des dimensions</title>
+        <detail> Ce serait bien de pouvoir partager une grande ctes en plusieurs ¨¤ l'aide d'index qui glisseraient. Quand l'une augmente, celle de l'autre ct¨¦ de l'index diminue... 
+Ce serait bien aussi de pouvoir attacher les ctes aux murs ou aux objets (¨¤ la rigueur seulement horizontalement ou verticalement). Merci, 
+Franois</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#117 Virtual Tour</title>
+        <detail> I thought it would be nice to have a feature whereby you can do an automated virtual tour. This would include being able to place waypoints which would allow the camera to &quot;walk&quot; from waypoint A to waypoint N. Also would be great if you could pause the tour and use the mouse to free look around in the paused position. Also if the tour could be run in full screen mode. (darylmonnink@gmail.com)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#318 creating plans by measuring</title>
+        <detail> it might be helpufl to create rooms only by nowing some measurements. 
+I imagin this as follows. 
+ the user adds measurements (by clicking on two walls and entering the distance between them) 
+*walls are moved and changed in thickness automatically. Walls which can not exactly be place should be marked. So the user has the possibility to enter new measurements to make the walls exactly placeable or to move the walls by drag an drop to the place they should be in his opinion. 
+==&gt; users who want to import their own  home can now measure their rooms, enter the results and get an exact plan. The User does not has the problem to measure the thickness of walls, chimneys,..... 
+==&gt;as a solution for implementation I imagin, that by the measurements rooms are calculated, which are puzzeled together and then the gaps are filled with walls.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#301 plaquer texture-image sur meuble</title>
+        <detail> Serait-il possible de plaquer les photos de ses propres meubles sur des &quot;boites&quot; aux dimensions (avec respect des transparences) de mani¨¨re ¨¤ ne pas avoir ¨¤ creer des objets sp¨¦cifiques qui ne servent qu'une fois ?</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#167 Automatic organizing of furnitues</title>
+        <detail> I know I am asking little too much on what I am proposing, but I would like to see if you guys can add the following features: 1) Allow to put the furniture details, length and size of furniture.  
+2) Allow to to provide the shape, size and designs or rooms, home, and garden. 
+3) Automatically  find and place those furniture in the best way possible showing what is the best/worst options regarding space utilization and design. Thanks,</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#300 Hard to print in A3</title>
+        <detail> Hum, I can't understand how to print on A3. 
+1- the selected printer in the menu &quot;Mise en page&quot; is not kept 
+2- weird margins are by default set : e.g. 90 mm right, 134 mm bottom (my default Windows printer is a A4 HP officejet 5110) 
+3- I select a A3 printer : e.g. Adobe Acrobat, and set the margins to 5 mm everywhere 
+4- I choose then &quot;print preview&quot; : the drawing is clipped, maybe to a A4 size on a A3 sheet. 
+5- I choose then &quot;Print&quot; and there the printer selected is back to the Windows default one, not the one selected in &quot;Mise en Page&quot;. The result is clipped. I could get rid of that by setting Adobe PDF as the default Windows printer. 
+I suppose the problem is due that the software &quot;forgets&quot; the selected printer and its properties when one changes of menu</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#187 PDF 3D</title>
+        <detail> You should convert your 3D model to 3D PDF.  
+See sample here :  
+More information here:  </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#477 Bathroom's furniture should include a towel dryer</title>
+        <detail> I think that all is said in the title... Towel dryer (s¨ºche-serviette in French) are very often used in bathroom, it would be great to include one model by default in SweetHome3D.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#274 electrical installation</title>
+        <detail> My wish: electrical installation</detail>
+        <time>2012-11-18</time>
+    </item>
+    <item>
+        <title>#504 Alternate layout for the panes</title>
+        <detail> When I maximize SH3D on my wide screen monitor the layout of the panes (regardless of how I resize them) is not ideal.  For me a better layout for wide screen would be three small panes on the left (Catelog, List and 3D) with one big Plan pane on the right.  I know you can display the 3D in a separate window but when the UI is maximized this mean the 3D view is always obscuring something.  Perhaps you could have the choice of these two layouts in the preferences.  See attachment for the two layouts to make this clear.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#132 Easy map extraction</title>
+        <detail> I've been trying your application and it looks very useful. It could be nice to enable a feature when saving the projects that stores a 2D map and 3D preview of the project.  For instance, the OpenOffice document (which is packed inside a Tar.gz archive) contains a file with an image of the cover of the document. In the same way, it would be useful to allow third party programs to easily extract a thumbnail of the project to catalog it. In my particular case, I'm thinking about linking some of the projects I'm working in with Sweet Home 3D if that possibility could be reached. It will be enough to add those files inside the JAR file, like the other models. Thanks</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#173 Ability to draw 'lines'</title>
+        <detail> Offer ability to draw lines, arrows, basic 2D shapes (similar to what you would find in Microsoft Powerpoint, word, etc.)  Lines should be able to be colored and have the weight (thickness, dashing, etc.) and color changed.  Drawn lines should have ability to set beginning and ending height (similar to current 'Wall' feature).  Lines should be displayed in 3D view with proper xyz position (but can be left as &quot;2D&quot; objects.  Lines should be able to penetrate anything (walls, objects, etc.) Use case (why): by allowing the ability to draw lines with different characteristics, the user can create numerous features as per their needs - plumbing diagrams, electrical diagrams, framing diagrams, etc. By setting walls transparent, user can very effectively lay out a whole design.  It's up to the user to define the line (based on color, weighting, etc) and create a key as to what they mean. This would satisfy numerous feature requests in the database.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#342 Support keyboard constraint</title>
+        <detail> When moving a wall i want it to keep aligned with other. A key modifier would be nice. We already have Ctrl that copies. May be shift could keep the wall aligned horizontally and.or vertically.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#492 snap to raster / other items</title>
+        <detail> Surely, SH3D has some kind of magnetics, but I think that is a little poor. Magnetic snapping (best while pressing a key, i.e. shift? control?) would be nice. Snapping to: 
+- other items 
+- same X or Y position of other items 
+- reference lines / help lines (sorry, don't know the best vocabulary. in German, it's &quot;Hilfslinie&quot;) 
+- customizable raster (i.e. full meters, 50cm, 10cm, 5cm, ...?)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#386 Une version pour arm ?</title>
+        <detail> Bonjour, 
+Apr¨¨s avoir profit¨¦ de SweetHome3D sur mon PC linux, je viens de tester SweetHome3D 
+sur mon mobile (N900/maemo linux arm). 
+Mais j'ai cette erreur (avec le java 6.0 update 21 de sun/oracle pour arm) : 
+/opt/SweetHome3D-3.0 $ ./SweetHome3D  
+Exception in thread &quot;main&quot; java.lang.UnsatisfiedLinkError: /opt/SweetHome3D-3.0/lib/libj3dcore-ogl.so: /opt/SweetHome3D-3.0/lib/libj3dcore-ogl.so: cannot open shared object file: No such file or directory (Possible cause: can't load IA 32-bit .so on a ARM-bit platform) 
+    at java.lang.ClassLoader$NativeLibrary.load(Native Method) 
+    at java.lang.ClassLoader.loadLibrary0(ClassLoader.java:1803) 
+    at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1728) 
+    at java.lang.Runtime.loadLibrary0(Runtime.java:823) 
+    at java.lang.System.loadLibrary(System.java:1028) 
+    at javax.media.j3d.NativePipeline$1.run(NativePipeline.java:231) 
+    at java.security.AccessController.doPrivileged(Native Method) 
+    at javax.media.j3d.NativePipeline.loadLibrary(NativePipeline.java:200) 
+    at javax.media.j3d.NativePipeline.loadLibraries(NativePipeline.java:157) 
+    at javax.media.j3d.MasterControl.loadLibraries(MasterControl.java:987) 
+    at javax.media.j3d.VirtualUniverse.(VirtualUniverse.java:299) 
+    at javax.media.j3d.GraphicsConfigTemplate3D.getBestConfiguration(GraphicsConfigTemplate3D.java:321) 
+    at java.awt.GraphicsDevice.getBestConfiguration(GraphicsDevice.java:159) 
+    at com.eteks.sweethome3d.j3d.Component3DManager.(Unknown Source) 
+    at com.eteks.sweethome3d.j3d.Component3DManager.getInstance(Unknown Source) 
+    at com.eteks.sweethome3d.SweetHome3D.addComponent3DRenderingErrorObserver(Unknown Source) 
+    at com.eteks.sweethome3d.SweetHome3D.init(Unknown Source) 
+    at com.eteks.sweethome3d.SweetHome3D.main(Unknown Source) Je suppose qu'il faut les versions arm des '.so' ? 
+Est-il possible d'en disposer ou d'avoir les ¨¦l¨¦ments n¨¦cessaire ¨¤ leur compilation ? 
+Merci. Guy.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#163 Square/box walls</title>
+        <detail> Need to be able to create square/box rooms in one motion, instead of having to create 4 seperate walls. </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#526 scaled printing in USA</title>
+        <detail> Although there is an option to scale a print, it does not have the option to set architechural scales, which is what 90% of all architechural drawing are done with: i.e:  1/4'=1'-0&quot;.   Engineering scales are rather useless for small scale drawings, as produced by SweetHome 3D.  Please consider how these drawing might be used - submission for Permits,  review by Contractors,  estimating based on scaled dimensions, etc. </detail>
+        <time>2012-11-21</time>
+    </item>
+    <item>
+        <title>#469 Create guidelines</title>
+        <detail> it would be very helpful if you could create some helping guidelines and arrange objects along these.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#121 window?</title>
+        <detail> Not able to cut the wall to place the window in an opt position. need outer concrete staircases</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#190 information speciale</title>
+        <detail> L'ajout d'un texte libre associe a nombre d'objets pourrait repondre a des besoins particuliers.  
+Exemples : 
+pour un mur, information=&quot;composition = crepi (1997) + parpaing 0.40 + isolation 0.04 + BA13&quot; 
+pour une armoire, information= &quot;poids = 185 Kg, origine = papy Marc, pied gauche devant a reparer&quot; 
+Cette information pourrait apparaitre dans une bulle quand le pointeur de la souris passe dessus.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#21 some useful stuffs</title>
+        <detail> It will be useful to : 
+- create text boxes for commenting. 
+- adjust magnetic grid 
+- connect a new wall to a corner more easily 
+- moving a corner with more than two walls must modified all walls. 
+- stick an object to the approach of a wall 
+- add objects into masks (and show/hide it) But good Job ! Sweet Home is very easy to use.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#161 Insert image onto 2D view</title>
+        <detail> I would great if next release could have fauture to insert some symbolic images (.gif, .png) onto 2D view, just like it's with the additional text, no need to see it on 3D. I'm doing it with external image editing programs, but it's really annoying. Great project by the way...</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#396 Textures</title>
+        <detail> I would like to add a library of textures to be in Google SketchUp. The library would be for example a variety of colors, textures, bricks, carpets, glass and more.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#460 Rotating Angle for Top View</title>
+        <detail> When you are using the top view (in english i think it's called &quot;bird's view&quot;) you can rotate it, using both the rotate buttons or using the mouse. But if you want to get a screenshot you probably want to set a 0 angle, and manually it might be difficult. Depending on the size of your design sometimes it's not that simple, so a way to make it easier is to have the chance to manually define the rotation angle (as i've said it will be usually 0, but you can play with it).</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#233 Allow Web Colors to be used in color picker box</title>
+        <detail> I am using photographs that I took of my house to pick the color of my walls from (using ColorPic), but for every pick I have to enter the RGB values separately in the color dialog.  Because ColorPic also output the RGB hex values in one string e.g. #EED7B1, it would be quicker to just paste that in the Sweet Home 3D color dialog.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#376 Export to DXF</title>
+        <detail> Fundamental improvements are: more than a floor modelling and dxf exporting of the 2D drawing</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#450 Plans de faades et plans de coupe</title>
+        <detail> Il serait bein de pouvoir ¨¦diter des plans de faade et des plans de coupe. It will be great if we can edit plan of facade and sectional plan...</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#362 Support for inserting non-rectangular window into walls</title>
+        <detail> Hi folks, 
+i got an error in my wall, when I inserted a windws which is not rectangular (see attachment please). The window was imported from SketchUp via DAE. 
+It was configured as door/window. Anyone an idea? 
+Greets, Oetzmann.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#510 Vertical or horizontal orientation for text</title>
+        <detail> Allow measurements and notations to be oriented either vertically or horizontally. Measurements on floor plans could have text displayed  independent of the orientation of the measurement (ie: a vertical measurement could have either a vertical or horizontal display of the measurement) allowing for cleaner display on floor plan prints. 
+Notations should have the same option for displaying them either vertically or horizontally.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#153 Hauteur de sol</title>
+        <detail> Bonjour, tout d'abord f¨¦licitations car ce logiciel est super g¨¦nial. Pensez-vous qu'il soit compliqu¨¦ de faire en sorte que la hauteur du sol des pi¨¨ces soit param¨¦trable. En effet, en r¨¦novation, il est courant d'avoir des pi¨¨ces dont le sol n'est pas toujours ¨¤ la m¨ºme hauteur...</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#529 group / ungroup selected objects</title>
+        <detail> Add option - merge the selected object (group) and divide the selected objects (ungroup). The merged object would then move suddenly. Add option - set objects in the drawing to zoom in or out (bring to front or send it back). This is the fact that if I'm wearing several items and one of them is smaller than the other so that the smaller more obscure. They can not be smaller then the mice to grasp an object.</detail>
+        <time>2012-10-28</time>
+    </item>
+    <item>
+        <title>#417 Borders of estate</title>
+        <detail> I would like to request the possibility to draw the borders of the estate where the home will build on. I am in the planning phase for an estate and home  at the moment. There are some restrictions for planning the house. It would be good if it is possible to draw the borders of the estate and plan with the restrictions and design the house according to it. 
+Also in a later step it would be possible to enhance the tool with things like planning of the garden etc. Thanks in advance, Christian</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#522 Notion d'¨¦chelle sur plans</title>
+        <detail> Bonjour, Je sais que ce n'est pas la fonction premi¨¨re du logiciel, mais avec la vue de dessus des meubles, j'arrive ¨¤ obtenir des plans techniques pas trop mal. 
+Par contre, le gros souci concerne le positionnement. Serait-il possible d'am¨¦liorer la pr¨¦cision d'¨¦chelle ou d'introduire cette notion au niveau des plans. 
+Par exemple, le zoom pourrait-il ¨ºtre cal¨¦ sur une ¨¦chelle de pr¨¦cision, comme des plans d'architecte (1/50, 1/100,...). 
+Par ailleurs, quand on d¨¦place un objet, les valeurs de position en centim¨¨tres affichent plusieurs chiffres derri¨¨re la virgule. Serait-il possible de d¨¦finir un niveau d'ajustement automatique au millim¨¨tre ou optionnellement au centim¨¨tre ? 
+A apart¨¦ pour les objets, il serait int¨¦ressant de visualiser le point aux valeurs x,y affich¨¦es en double-cliquant. 
+De m¨ºme avec l'outil de mesure point¨¦ manuellement. Une position qui parait exacte se retrouve d¨¦cal¨¦e en agrandissant. L'inverse est aussi vrai. Avec une sorte de trame, au millim¨¨tre, le postionnement serait toujours vrai (¨¤ l'¨¦chelle humaine). Je suis conscient de la difficult¨¦ de la tache, tout avis est bienvenu. 
+Sweethome reste un super outil. 
+Merci, 
+Marbaf</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#507 Prevent object to be moved on mouse clic</title>
+        <detail> Hello. I'm using SH3D 3.5 installed on Windows 7 and I'm having some problems of accidental objects movement when I click on them to select or double click on them to edit. It would be nice if the first movement after a click or double click is discarded unless it's greater than a given threshold. Regards.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#133 Creating walls concept</title>
+        <detail> As I understand SweetHome 3D is designed for real amateurs to hive them possibility of rearrange apartment. I was playing with it for last 2-3 hours, and trying to draw place we have bought. After this (not long) time I'm thinking about two simple features. Layers. If the walls, are on one layer, and stuff inside is one layer over it is much more comfortable to drag things inside, because working on &quot;stuff&quot; layer there is no possibility to move wall. Wall design. It will be nice to have two ways of wall creating Anyway great project! Congratulations!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#410 Good as I mentioned eh interior designer</title>
+        <detail> Good as I mentioned eh interior designer then really use a lot of these programs I have MUHC suggestions: 1) generate more than one story in one file 2) generate cuts would be interesting to genearan not only beautiful but also renders technical parts would be perhaps interesting to see the &quot;PCON planner&quot; dwg also merge. At the moment it would be that I'd have to bring this type of program that would seem if we did a wall of a gallery and tell it to do the plaster wall and create a court with details and excellent all right? 
+I have several ideas have any questions. to orders 
+Juan15_8_86@hotmail.com</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#185 zoom out: infinity</title>
+        <detail> Zoom out: infinity, for design more house: village, city, neighborhood, ..</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#105 Provide a SketchUp/SKP import</title>
+        <detail> Google provides a very large database of 3D models ( ). If the .skp format could be imported, then this database would be available to SW3D users. SketchUp6Pro seems to be able to export to 3ds. Unfortunately SketchUp does not run on Linux and only the pro version has this ability which has to be bought.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#223 Export Jpg</title>
+        <detail> Is it possible to export the plan in jpg ? Thanks a lot</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#453 Cr¨¦ation d'¨¦tages et de toits</title>
+        <detail> J'aimerais pouvoir cr¨¦er des ¨¦tages sur mes logements. 
+Se serait bien d'ajouter une fonction pour la cr¨¦ation de toits et une fonction pour la cr¨¦ation d'¨¦tages. 
+Merci</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#205 &quot;¨¦l¨¦vation&quot; dans &quot;modifier meubles&quot; doit ¨ºtre &quot;moins&quot;</title>
+        <detail> Bonjour,  
+Je poste du Japon. 
+Je viens de cr¨¦¨¦ le plan de mon appartement (au 5 ¨¨me ¨¦tage) que je vais acheter l'ann¨¦e prochaine. 
+J'aimerais bien ajeter une vue sur la fen¨ºtre : les batments du quartier, les arbres du parc ...  
+Pour cela, il faut que &quot;¨¦l¨¦vation&quot; dans &quot;modifier meubles&quot; doit permettre des chifres &quot;moins&quot;, par exemple &quot;-1600 cm&quot;. 
+Car j'aggrandis des plantes dans la maison ¨¤ l'¨¦chelle naturelles et je les plante ¨¤ &quot;-1600 cm&quot; au dessous des fen¨ºtres. 
+Si non il fauderait chercher une liaison avec Google Earth qui nous montre une vue ext¨¦rieure de la maison.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#242 handicap</title>
+        <detail> serait il possible de rajouter un outil cercle, ou un cercle (1,50 m) correspondant aux aires de rotations des fauteuil roulant, s'il est ppossible de rajouter un outil cercle, cela le remplacerait. ce ogiciel est formidable, mais il manque cet outil pour la convention obligatoire de aires de rotation pour l'am¨¦nagent de logements adapt¨¦s aux personnes handicap¨¦es. de plus srait il possible de rajouter en bibliotheque de base un fauteuil roulant ? 
+je suis ergoth¨¦rapeute et me sert frequement de ce logiciel pour des am¨¦nagements pour ersonnes d¨¦pendantes. merci et encore bravo p.brochec@rey-leroux.com</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#392 half-sphere</title>
+        <detail> In the next project, I need to create 2 half-speres, and 1 sphere. 
+Can you help me, please.... and to add this possibility in your sofware (SweetHome 3D) 
+Thanks a lot.... 
+For instance, I have to simulate a bubble (go to the attachment)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#473 allow dimensions to be edited</title>
+        <detail> I have read the post at  ,1021 and very much agree with the OP.  It is next to impossible to build an accurate floorplan with this tool, good though it is in other ways.  Surely this can be improved without sacrificing the excellent ease of use and 3d view?  
+ Anyhow my suggestion, that would help a great deal at minimum effort is this - make dimensions editable.  In other words, on double-click a dialogue box should open, as with other objects, allowing the user to manually enter a size.   (This may also imply giving dimensions a direction like walls to allow control of which end moves).  As dimensions do not anchor to objects I don't see why this enhancement can't be done very easily and without disrupting anything. Thank you 
+Richard</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#432 misc interface improvements (I hope)</title>
+        <detail> 1-Add icon on the main window command panel (next to question mark, etc.) to toggle between two modes of furniture catalog: category folders(tree view), searchable list (icon view) 2-Move (or maybe add extra icon) for &quot;plan lock&quot; icon ( which now sits on top left corner of floor plan window) to the main window command panel. I only saw this icon yesterday after using s3d for a while which is partially my own fault but also maybe because that icon is sitting there all by iteself.  3-Add ability for the 3d view stand-alone window to move under the main window (maybe add a &quot;always on top&quot; flag in the &quot;3D View&quot; menu  that is checked by default). When I don't want to see this window, I either have to hide it off screen somewhere or switch to &quot;display in main window&quot; followed by switching to &quot;display in separate window&quot; which on my machine takes a second or two (maybe because it has to recompute the 3d view every time I switch). Thanks again. This software is very impressive work.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#144 square meter calculator</title>
+        <detail> I'm missing a feature that caclulates the square meter of my house (exclusive of the walls)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#32 Get Hot New Stuff</title>
+        <detail> Adding the possibility to download new stuffs from Sweet Home 3D could be a good idea. A standard already exist to do so :  Unfortunately the Java implementation is in early development   but perhaps it is easy to improve.  One other problem is that a central repository should be created. Something similar to   could be a very good idea to let users  create new furnitures very easily with a classification (kitchen, bedroom, garden...) for each object.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#109 Measurement input, Text input &amp; some other</title>
+        <detail> (1) After taking the measurements in my new appartement due to the wall thickness I had  to change every measurement before inserting into Sweet Home 3D. The software would be much more comfortable if it would be possible to insert the wall length from one corner to another one - not from one point somewhere inside the wall to another point somewhere inside the wall. (2) It whould be nice if the user could insert own text. (3) It should be possible to lock the position of walls. If the thickness is changed it should be possible to keep the in room measurements (thickness changing to one side, the other side ore both sides). (4) There should be a button to see the whole project to make the overview easier.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#375 Creating walls using left or right edge</title>
+        <detail> I tried to comment on another thread about this subject, but for some reason it wouldn't let me.  First, great job on the software nice tool.  I would like to request the ability to switch out the reference line when creating a wall.  The middle causes several problems as you put your home together:  
+1. Size - its difficult to get your rooms the right size unless you always remember to add half of your wall size to the length. 
+2. Intersecting or aligning walls - this is difficult as the middle line magnet does not seem to want to align correctly, It throws my lines off 1/2&quot; one way or the other. If i could create a room then have the walls snap together with other rooms that would work. 1 More item - Split walls, should split, they stick together thank you again for a great product</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#500 position des fen¨ºtres</title>
+        <detail> Cher Emmanuel, comme les ¨¦crans sont plus larges que hautes, serait-il possibles de 
+faire placer en default la fen¨ºtre &quot;3D&quot; sur la droite de la fen¨ºtre 
+&quot;dessin&quot; au lieu que au dessous? SANS avoir ¨¤ ouvrir une fen¨ºtre 
+s¨¦par¨¦e en plus ? Merci bien et mes f¨¦licitations 
+    mikel8</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#247 Ajout de cloison isolante sur mur porteur</title>
+        <detail> Mettre en option la possibilit¨¦ de cr¨¦er une cloison isolante lors de la cr¨¦ation d'un mur porteur  
+(cloison de 10cm sur un mur porteur de 20cm) 
+donc pour un mur porteur de 20 cm on aura une ¨¦paisseur total de 30cm  
++ la possibilit¨¦ d'afficher la cotation des cloisons (10cm) et du mur porteur (20cm) ou du total (30cm) voir l'exemple en pi¨¨ce jointe</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#225 Dessins 2D simple</title>
+        <detail> Bonjour et f¨¦licitations pour ce super logiciel vraiment agr¨¦able ¨¤ utiliser ! ma requ¨ºte serait d'ajouter la possibilit¨¦ d'avoir du dessin simple 2D pour mettre des fl¨¨ches, des carr¨¦, des ronds ou des lignes droite simple afin de donner par exemple quelques explications suppl¨¦mentaire au plan qui serait lu par une autre personne, un genre de petit addons de dessin simple comme on trouve sous Paint par exemple. Merci d'avance d'¨¦tudier cette proposition qui ¨¤ peut ¨ºtre d¨¦j¨¤ ¨¦t¨¦ faite sous Ability to draw 'lines' - ID: 2739260, mais en anglais, il me semble que ca concerne la m¨ºme chose (mon anglais laisse ¨¤ d¨¦sirer...)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#515 Amelioration des mouvements des objets</title>
+        <detail> les objets ont une possibilit¨¦ limit¨¦ au niveau de mouvement si possible de faire en sorte que a soit possible de faire pivoter les objets en degr¨¦ a plusieurs sens axes X, et Y. 
+exp: 
+une boite forme cube on peut changer la largeur, longueur, hauteur, et tourn¨¦ vers la gauche ou droite en axe X mais il n'est pas possible d'inclin¨¦ en axe Y 
+donc pivoter en axe Y serait au top</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#472 Draw non-wall objects</title>
+        <detail> If I want to mark some special points or areas, I have to create them as walls with a height of 5cm of use a simple &quot;box&quot; from the furniture library at the moment. 
+It would be great to some kind of &quot;drawing tool&quot; for rectangles/cubes, circles (cylinderes) and color these items individually.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#414 3D/2D ortho mode of viewport/walls and untextured render</title>
+        <detail> Hello, me and my friends are using Sweet Home 3D and we kind like it and with combination like Blender it\'s really good. I like that using human i can see all things inside my plan with eyes of human let it render. And there is somethin like improvment for this view. All are perspective, which is good for real presentation and for drawings ORTHO mode is usefull with side walls or partial views like SIDE, TOP and FRONT :) 
+Another echance could be that these renders are sometimes better in with flat white materials for all objects.  Thank you for nice program :)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#491 rotation for all axises / tilting</title>
+        <detail> Sometimes, it's useful not just to turn things around (X axis), but also to tilt things (Y axis) or even turn them upside down. 
+This might become very useful for ramps, roofs, crime scenes ;o), etc.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#372 Improvements in the documentation</title>
+        <detail> Hello, 
+  I've just had my first exposure to the documentation (in French) of Sweet Home 3D. I feel it's important to note initial impressions of the documentation before I slave away and find the answers to my questions (with a considerable loss of time). The first remark is that the documentation did not give me much of an idea of the general strategy I should employ when using the software. In particular what kind of approach is there to drawing my appartment: I see there is a tool called &quot;Dessiner les pieces&quot; and a tool called &quot;Dessiner les murs&quot;. I guess these translate to &quot;Draw the rooms&quot; and &quot;Draw the walls&quot;. Now a total beginner doesnt really know whether these are complementary or conflicting or what: can we draw the rooms without drawing the walls? If we draw the walls arent we drawing the rooms? 
+Another piece of advice might be wether it's a good idea to use a pencil and paper sketch in the first place.... The second remark is that there is a command which is &quot;dessiner les cotes&quot; in French. I havent got a clue as to what this even means, but I have a vague memory of having seen the term while browing a book on Autocad in a public library. Surely you're not asking people to have prior expericence of CAD software? After all you are trying to reach as wide an audience as possible. So I suggest that a little glossary be added to the documentation.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#527 transparenca for walls for use with background images</title>
+        <detail> hi! 
+creating walls unfortunately covers background images, so you dont't see them anymore. it would be great if walls would be transparent, e.g. as rooms are. best reguards 
+l</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#7 prices.</title>
+        <detail> I think this is is a good product to use as industrial catalog.  
+The essential thing to ad is a column whit prices  and total price.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#340 prix des objets</title>
+        <detail> il serait int¨¦ressant dans la fen¨ºtre du listing des objets de rajouter une colonne dans laquelle le tarif ( ¨¤ l'unit¨¦, au m¨¨tre carr¨¦) des diff¨¦rents objets pourrait ¨ºtre ajouter avec en bas de colonne le total des frais. 
+Merci beaucoup M. Puybaret, votre logiciel est vraiment extraordinaire!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#99 undo moving an element undoes, but also moves the plan</title>
+        <detail> If the element crosses the boundary of the plan window,  
+the undo function will also move the plan. 
+I think it tries to make the undone element visible,  
+which is not always feasible if the zoom factor is to large. 
+Please try to make the undo operation not move the plan around.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#461 Save Partial Render in Captures</title>
+        <detail> When you want to get a screenshot if you stop it before it's finished you lose all the part of the image which had already been rendered. But sometimes you are rendering from a very high point (maybe because you can't get closer in bird's view) and you are only interested in this central part, the one which has already been done. So.. what about keeping this if you stop the render, instead of losing all of it? I mean, you will have some black parts at the image after stoping it at the middle of the job, but in the end you get rendered the part you are interested in (probably you will use some image-related app such as &quot;the gimp&quot; to cut the important part of the image).</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#108 Commit values on &quot;OK&quot; Button and Save behavior</title>
+        <detail> First, thanks for making this available to the public.  I've been playing with it and it looks like it could be useful. That said, I have a couple suggestions: When changing the size of an object,for example, when I'm done there is a button marked &quot;OK&quot; and it is highlighted in blue (this is on a iMac using OS 10.5.4) but neither the &quot;Return&quot; nor the &quot;Enter&quot; key on the keyboard will save the changes.  It will change the name, but not the size changes.  I have to mouse over the highlighted button and click the mouse to save changes. The other thing is would it be possible to Save and Quit rather than having to save changes &quot;manually&quot; before quitting the program?</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#298 Mouse view panning</title>
+        <detail> Hello Sir, this great software deserves some more minor enhancements to get from my point of view better and better again. 
+Accurate positionnig of objects needs to often zoom and move around. Here it misses the panning function : cliking and dragging with the right or middle mouse button should slide the view. 
+Also with some mouses that embed the fuctionnality, tilting the mouse wheel left or right should pan the view left or right, as you do up/down with the mouse wheel. 
+-&gt; maybe the best solution would be zoom in / zoom out with the wheel, and panning with middle or right button drag. 
+A certain other software implements the panning by pressing the spacebar and moving the mouse... 
+It's up to you now ! 
+All the best.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#57 Several features</title>
+        <detail> Hi, Very good software. Here is some missing features i think: TIA Steph</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#333 acoustic insulation materials</title>
+        <detail> acoustic insulation materials, pladur, cotton, windows, doors, noise barriers,</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#322 Cocher et d¨¦cocher la case &quot;visible&quot;</title>
+        <detail> Bonjour,  
+Dans la colonne &quot;Visible&quot; une case indique un objet est visible ou invisible. 
+Serait-il possible de pouvoir cocher et de d¨¦cocher DIRECTEMENT cette case pour chaque objet, sans passer par Ctrl+E ou le menu contextuel &quot;Modifier le mobilier&quot; ? 
+Si c'est faisable, il serait bien de retrouver aussi directement dans le menu contextuel l'entr¨¦e: &quot;Rendre invisible&quot; si l'objet est visible et 
+&quot;Rendre visible&quot; si l'objet ¨¤ ¨¦t¨¦ rendu invisible. 
+Merci pour Sweet Home 3D !!!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#394 Trac¨¦ 2D SWEET HOME 3D</title>
+        <detail> Bonjour, Tout d'abord FELICITATION pour le d¨¦vellepement de ce superbe logiciel !! Pratique, simple ¨¤ utiliser.....  et gratuit en plus ! Merci beaucoup! 
+Ma proposition d'am¨¦lioration serait en fait de cr¨¦er la possibilit¨¦ d'effectuer des trac¨¦s 2D (lignes droite, spinline, cercle etc..) , et pourquoi pas de diff¨¦rentes couleurs. Tout cela pourrait permettre de tracer les r¨¦seaux ¨¦lectriques, chauffage, eau, axe, de poutres, etc.. Pas n¨¦cessairement visible dans les vues 3D, car cela d¨¦viendrait vite &quot;la jungle&quot;, mais unqiuementr sur le plan 2D. 
+Voil¨¤ mon id¨¦e, en esp¨¦rant avoir apporter un grain de sable ¨¤ votre ¨¦difice, mais un grain de sable tout de m¨¨me!! 
+Longue vie ¨¤ ce logiciel !! et encore f¨¦licitation ! 
+Bruno  
+TOULOUSE 31</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#208 diagonales</title>
+        <detail> Bonjour, 
+Il serait particuli¨¨rement int¨¦ressant de pouvoir utiliser  des mesures de diagonales pour dessiner des pi¨¨ces dont les angles ne sont pas ¨¤ angle droit. 
+Merci.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#435 easy switching between major modes (pointer, pan, etc.)</title>
+        <detail> I know you already have keyboard shortcuts for these modes (i.e., for example &quot;Create Room&quot; is Cntl+shift+R).  But the shortcts you have require typing with both hands which means to use them I have to take my hand away from the mouse. So faced with the option of moving the mouse over to the corresponding icon or using both hands to type the shortcut, I use the mouse.  My suggestion is to make the following shortcut assignments (maybe in addition to the ones you have): 
+F1 Select 
+F2 Pan 
+F3 Create Walls 
+F4 Create Rooms 
+F5 Create Dimension 
+F6 Add Text 
+so I can operate the mouse with my left hand and switch modes using my right hand. This would cut down my mouse odometer significantly since I constantly switch between &quot;select&quot;, &quot;Create Wall&quot;, and &quot;create dimension&quot;.  Thanks again.</detail>
+        <time>2012-11-21</time>
+    </item>
+    <item>
+        <title>#335 blender open files</title>
+        <detail> blender open files free royalties</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#496 wall area calculation</title>
+        <detail> Coloring walls is nice, no question. 
+It would help to get the amount of a color if I could see how much m is the wall.  
+I think, this will be easy to implement as such thing is already there with the floor area calculation.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#378 Disable create video if JMF not present at runtime</title>
+        <detail> Given the current licensing of JMF, one cannot distribute it with SweetHome3D unless a special exception to the GPL is provided by the copyright holders of SweetHome3D allowing their GPL code to be linked to JMF. Clearly, a special exception would be the best solution to this issue, however given that JMF isn't required for the core functionality of SweetHome3D, I propose a simple interim solution: Have SweetHome3D check to see if jmf.jar is present at runtime, and if it isn't, simply disable the &quot;create video&quot; menu item.  This will allow SweetHome3D to be distributed without JMF, but still function without displaying unsightly error messages if one selects &quot;create video&quot;</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#412 Assign numbers to furniture items and rooms</title>
+        <detail> Hi, 
+first thanks for this wonderful program! 
+In order to plan my move I like to assign letters to the rooms and numbers to furniture items. I then plan to attach those numbers to my real furniture items and put the room letters on the floor leading to the entrence of each room. There I plan to place the numbers of the furniture items in each place to allow the movers to find the right spot for each item. 
+Wouldn't this be a feature that might be of help to others as well? 
+Kind regards, 
+Frank</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#511 terrain editor</title>
+        <detail> When building houses on a sloped terrain, it should be possible to edit a mesh following the profile of the terrain.</detail>
+        <time>2012-11-21</time>
+    </item>
+    <item>
+        <title>#462 Establish Default Value for Brightness</title>
+        <detail> Depending on the version of SH3D you are using the default value for brightness in boxes and doors/windows is different. Sometimes it is flat (in older versions if i'm right) and sometimes it is brilliant. A way to deal with this is manually change this for every box/door/window you have, but a better way would be having the chance to establish the default value for this kind of object, and all the objects of this type having the default value should be updated with this.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#434 furniture pieces and rendering effort</title>
+        <detail> Is there a way to correlate the amount of extra effort (i.e., computing time/power) needed for each installed furniture in the floorplan? If there is, then it would be great to somehow convey this information to the designer.  I am rendering a 640 frame (each frame being 320x240) video on a computer with a 4-cpu i7 intel processor and it says it's going to take 120 hours. I think this is a bit excessive but don't really know where to start triming things down to reduce this time. Thanks.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#201 ease of use, hierarchical linking of objects</title>
+        <detail> Currently one can create a room by recognition of the walls. However if the walls are changed afterwards the room does not change as well. So the room is a copy of the walls and is not related to the walls anymore. If the walls are changed due to more precise measurement or layout afterwards, the whole room falls apart. Solution: A room must always be linked to its walls, not copied. The same is true for measurements. Currently they snap to walls, but if walls are moved or changed in thickness, the measurements might not refer to the walls anymore. 
+If one creates a room without walls, walls should be automatically created. (They could be removed or made &quot;transparent&quot; afterwards).</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#418 Wrap text and add arrows</title>
+        <detail> Would it be possible to wrap text (so that slightly more text does not keep expanding horizontally)? Maybe a resizeable text box for text? 
+Also, does it make sense to add an &quot;arrow&quot; feature that could be drawn to point a comment to some part of the plan? Thanks! Great product!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#229 Chek for updates</title>
+        <detail> Add a &quot;check for updates&quot; button in Help menu.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#42 Prise en charge importation</title>
+        <detail> le titre parle deja beaucoup mais je souhaiterai si possible que vous amelior¨¦ la prise en charge : 
+-des meuble en  obj 
+-la prise en charge des texture 
+pouvoir mettre des texture sur les boite serait egalement interresant 
+pouvoir ajouter des texture dans le menu pour changer ces meme texture 
+en esperant des changement</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#281 3D Mouse SpaceNavigator</title>
+        <detail> Hello, is there any opportunity to use a 3D Mouse, especially the 3D Connexion SpaceNavigator for Sweet Home 3D?  
+Is there any driver out there? thanks, 
+Nancy</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#88 Furniture import - DWG format</title>
+        <detail> Some producers of furniture release DWG files for architects. Please add import DWG object support.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#316 Longueur dans les photos</title>
+        <detail> Bonjour, 
+Merci ¨¦norm¨¦ment pour SH3D. En une journ¨¦e, j'ai refais ma future maison (enfin le rdc). Quel rendu! Quand je regarde les vues en rendu r¨¦aliste, je dois alterner avec le plan (changement de fen¨ºtre donc) pour me rappeler les longueurs. Ca pourrait ¨ºtre utile de pouvoir &quot;imprimer&quot; les cotes voulues sur le sol dans le rendu r¨¦aliste ou m¨ºme dans la visite virtuelle. Merci, 
+Franois</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#488 Negative elevation for furniture</title>
+        <detail> Hello, I have furnitures (in this case different elements of the roof) which begin on the second floor but should only be visible only when I'm editing the last floor. 
+But in general that's part of design which has sense on a floor but is now defined in the belower floor and is visible in both. Regards.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#437 pause/continue video creation</title>
+        <detail> Is it possible to pause video creation and continue later? Also, is it possible to stop the video creation in the middle and save whatever has been create so far? If not, is it possible to add these features? Thanks.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#400 Larger 3D model importing view</title>
+        <detail> While importing 3D model, kindly allow larger window, with drag enabled rotation of 3D model to clearly see how the model looks before importing</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#171 Attribute: list of colors</title>
+        <detail> Since imported object are composed, in order to properly change all their colors, objects should have instead of a &quot;simple&quot; color property a list of colors. (the feature was already mentioned in the 3d rendering request)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#291 improve fuction create wall</title>
+        <detail> Hello, Thanks for your soft. Excuse me for my bad english. A good idea to improve the function to create wall : draw walls on the left or the right and not only middle. It's perfect with function to create wall of room. 
+Thanks and good continuation.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#147 Update FAQ about error with 3D rendering</title>
+        <detail> It currently gives you this option : There is another option if you experience this error : libGL error: open DRM failed (Operation not permitted) 
+libGL error: reverting to (slow) indirect rendering 
+Java 3D WARNING : reported GLX version = 1.2 
+    GLX version 1.3 or higher is required 
+    The reported version number may be incorrect.  There is a known 
+    ATI driver bug in glXQueryVersion that incorrectly reports the GLX 
+    version as 1.2 when it really is 1.3, so Java 3D will attempt to 
+    run anyway. 
+JAVA 3D: OpenGL 1.2 detected; will run with reduced functionality 
+Canvas3D_createNewContext: couldn't make current 
+Error in Java 3D : 3 Renderer: Error creating Canvas3D graphics context Under a normal user do a glxinfo | grep direct and if you also see a similar error of libGL, try the same command as the root user. If there is no errror as the root user, do a chmod o+rw /dev/dri/card0 and retry the glxinfo | grep direct as your normal user. If there is no Operation not permitted anymore, you can start sweethome3d. 
+Tested on Centos5 with ATI proprietary driver.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#207 transformation vue 3D en  4 vues 2D</title>
+        <detail> L'id¨¦e est d'obtenir un plan de chacun des 4 murs d'une piece. Cela est utile lorsque l'on veut mettre en pratique la mise en oeuvre d'un projet d'amenagement avec le rajout des cotes Largeur, Hauteur et elavation.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#175 Adding objects with curves</title>
+        <detail> While there are requests for curved walls, I would like to add curved objects such as a 'box' with one (arc) two (semicircle) or three (tangent) curved sides. Ideally 'box' could be scaled length, width, and height as well as curvature (arc) of curve can be increased (pulled) or decreased (pushed).</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#159 Info Dialog about system capabilities</title>
+        <detail> Add a dialog box (maybe somewhere in the help menu) to display the current system capabilities and configuration, e.g. glx version, in a end user friendly way. Use Case: I've installed Sweet Home 3D on different systems and I've noticed varying behavior in printout. It took me some time to figure out the dependency on the glx version. </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#53 Angle par rapport ¨¤ la verticale</title>
+        <detail> Ce soft est tr¨¨s bien fait, et tr¨¨s utile ! Une am¨¦lioration serait int¨¦ressante: ajouter un angle par rapport ¨¤ la verticale pour les botes: cela permettrait de cr¨¦er des pans de toit inclin¨¦s, ou des ¨¦l¨¦ments de charpente.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#509 Color selection for measurements and notes text</title>
+        <detail> I would like to see the availability to select a color for a measurement or a note. When everything is black and white, it can get confusing. Having a color selection for the notes, and the measurement notations would be nice. Basic colors selection options of of black, red, blue, green, purple and pink would be nice. </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#446 Option to export &quot;pure&quot; floor plan (walls, doors, windows)</title>
+        <detail> It'd be great to be able to export just the &quot;pure&quot; floor plan with no actual furniture -- just walls, doors, and windows ( and possibly some other &quot;special&quot; elements like light switsches, sockets etc., see   ) , especially with an export format like DXF ( there's already a feature request for that,  
+  ) for editing in a CAD program.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#119 Elevations</title>
+        <detail> Would be really helpful to be able to add a roof and prepare elevations.  Thanks</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#261 browsable online catalog</title>
+        <detail> Its a bit of a nuisance sometimes when you're looking for a particular object and have to search all over to find something that could work. Also, sometimes I come across a set of objects on a website somewhere that I want a bunch of them but I have to download and load them individually because there is no library available for them. Would be great to have an online objects catalog that persons can contribute to. You can then connect to that catalog through the sweet home 3d application and browse objects that can be downloaded and installed automatically into the app right from within the sweet home 3d interface. </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#85 Importing 3D Home Architect Projects?</title>
+        <detail> Hello, 
+today, after reading a linux magazine's article about Sweet Home 3D, I'm visiting your website and I think your software could be really interesting... but I realized a very very accurate project of my apartment 2 years ago with 3D Home Architect.  There will be in the future a release of your project that will import its projects (maybe only the plant, I mean walls, switches, plugs, without 3d models)? I'm not sure I would start again from the beginning...  Best regards and thanks anyway 
+Emanuele</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#216 Dimension</title>
+        <detail> self dimensioning of all interior and exterior walls with a click.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#329 sloped walls</title>
+        <detail> In Order to design an attic, its necesary to build sloped walls. I didn't found such a function</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#249 Triangulation</title>
+        <detail> When you want to draw a house which is not based on rectangle, it could be hard to get corner dimension. 
+A triangulation pluggin could be a good solution¡­ </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#151 Salles en loi carrez</title>
+        <detail> Bonjour J'ai beaucoup appr¨¦ci¨¦ l'ajout du calcul automatique de la surface de salle. C'est vraiment super pratique. Par contre il ajoute dans la surface de la salle la surface de l'embrasures des portes. 
+En France pour le m¨¦trage en loi CARREZ il ne faut pas la prendre en compte. Ce serait donc bien de pouvoir cocher un option pour enlever ces surface lors de la g¨¦n¨¦ration automatique d'une salle. Sinon on peut bien sur faire toutes ses salles a la souris. En tout cas merci beaucoup pour ce super logiciel!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#407 Cursor Snap ! Wall Snap !</title>
+        <detail> It would be nice to be able to adjust the snap of the cursor. 
+User defining the snap value would be useful when laying down walls... using brick/block dimensions. as the snap value. 
+ie. with block length of 400mm it would be nice to have a snap value of 200mm, so wall can be efficiently set out. 
+On the gui, snap could be enabled/disabled/(left click to adjust) a hotspot on the ruler next to 'Lock Base Plan' It would also be useful to display the actual cursor position on screen, in conjunction with the ruler. Thanks</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#443 Create walls from an imported shape</title>
+        <detail> Hi, I wonder if is there a way to import walls from a shape (or 3D object) created in another software, such as a dwg or dxf plant created from an architect that I have to use in SH3D, thanks</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#246 Flat pak objects</title>
+        <detail> Perhaps someone could create a set of objects in standard flatpak dimensions - this would be great for planning DIY kitchens / bathrooms.  I'd love to do it myself but am not really technically literate.  Anyway, just a thought.  If I've committed some sort of faux-pas by requesting this here - I apologise in advance  - I'm new to all this. 
+thanks, roger.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#447 underparts of windows and doors</title>
+        <detail> Hi! I would like to depict walls which are not so high, because then it is easier to see all the rooms when you look at it from above. To make it still look realistic I would like to use only the underparts of windows and doors. Are there any underparts of doors and windows available?  
+Thanks!</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#65 Lier les cotes ¨¤ leur mur</title>
+        <detail> Super logiciel 
+il serait souhaitable que les cotes des murs soient li¨¦s aux murs .Ainsi en deplacent un mur la cote suivrait 
+Il faudrait rajouter dans les objets les parois de douche transparente 
+Autrement encore une fois SUPER logiciel tres convivial</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#381 TRANSPARENT WALLS - BUT NOT ALL</title>
+        <detail> I'm working on a great home design project whereby the walls are transparent for one  
+indoor pool room - That came out great!  
+But not all the walls in the house are transparent. 
+Is it possible to add a feature that allows for the choice of SOME walls to be transparent  
+while leaving the others opaque?</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#176 Rotate objects around x or y axis</title>
+        <detail> Current: objects can be rotated around z-axis Requested: ability to rotate objects around x or y-axis.  This would allow object to be tipped on side or put upside down: Use case (why): This would allow certain objects to be used in different fashions, i.e. cylinders can become tubes, polygon roofs can become pools or basins.  It would increase the usefulness of the existing library of objects.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#368 puerta</title>
+        <detail> cuando importo una nueva puerta cuando la uso no me aparece el circulo que normalmente aparece con las puertaas</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#343 Wall pattern for each wall / more patterns?</title>
+        <detail> I would appreciate if i can set Wall pattern for each wall independently in the plan. In my flat i have several types of the wall - basic walls (panel), it is not possible destroy it. &quot;Soft&quot; panels - like YTONG, it is possible destroy and adapt it. And other walls like bathroom + toilet all in one formica box (old prefab solution), plate between toilet and distribution, etc. 
+My plan is reconstruction, but i must each time explain difference among the walls. 
+Thanks :)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#457 Outline for the level above when working on basement.</title>
+        <detail> This is for version 3.4: 
+On levels with negative elevation a grey version of the level above should be visible. When working on a level, you get to see a grey outline of the level below. However, if you're working on a basement. e.g a level with negative elevation you don't have any indication of what's above. It would be very helpful if the user could choose to show an outline of the level above, or if this was automatic when working with levels with negative elevation.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#359 Use same language as installer</title>
+        <detail> It's possible to chose the language the installer should use, but looks like SH3D will always be in the local language. Selecting English in the installer would lead to a default French localization on a French WinXP and a default Japanese localization on a Japanese WinVista.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#391 Performance improvement</title>
+        <detail> fantastic tool, thanks for it ! Will be great to use multi-threading in photo and video creation. 
+Example, on a 4 cores machine (becoming more and more a standard), algorithms creating video or photo are not able to take advantage of all cores, but only one (and event not using hyper-threading capability). Potentially, the performances can be improved a lot on this area (we can imagine to have 1 hour creation where today it takes 6-8 hours on current machines, and at least 1.5 to 2 times improvement on several years machines)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#179 Christmas wishlist</title>
+        <detail> I just started using this app and I love it.. After a couple of hours using it I made this wish list of features: Move 3D view 
+A grip tool that allows me to move the 3D view side ways Move in angle 
+I would like to be able to move objects with shift+move to keep them in angle/straight line from previous location. Also with copying, being able to place the duplicate in exact position from the original. Align 
+I would like to see an align function for when placing multiple objects and have them lining up the the same level (X, Y and Z) Snap to 
+Maybe already implemented? To change the ¡°Snap to¡± scale so that all new objects place in scetch view already from the start follows a pre set pattern. Move walls issue 
+If I make a corner wall (two objects 90 degrees aligned) I choose one wall, and move it sideways, the connected wall will follow and become tilted. Is there a way to avoid this? Wall snap 
+I yet haven¡¯t found a function of deciding wheather a wall should be measured from its middle or it¡¯s borders? If I paint a room and I know the floor size, as of now, my walls will decrease the room size since they are drawn from the center point. Another way of creating a room would be to start with the floor. Either, when making the fourth courner I would like to be able to have it exactly aligned to the first point (shift click?), or even ¡°Illustrator style¡± make a square by clicking once, and the object would follow the mouse until I click again. If then the floow would appear in the object list (or by double click) one could set exact measurements, I would be really happy! Group objects 
+I would love to be able to group objects ie. A table with chairs, to be able to easily rotate all at the same time, or to move/copy them. Even possibly to save them as a group that could easily be recalled later. Wallpaper 
+I would be cool to be able to decorate separate walls with colours, patterns and photo images, as wallpaper 
+(I just now read the user manual and see that colours ) Flooring 
+Same as above (I just learned how to make separate floors in the same room by dividing with a wall that later is deleted) Import many objects at one time 
+How can I make libraries myself? Place objects in minus heights 
+I have not yet found out how to place objects below (!) the floor level. As with painting the second floor in a house, and I want the staircase to go down to the first floor. Make hole in the floor 
+Same example as above. It could be an ¡°anti materia¡± function that could also be used for making holes in walls etc. Adjust layers for multiple objects 
+When placing objects above each other I would like to be able to control layer properties ie. when placing a small table on top of a large rug, sometimes the rug ends up over the table which makes it dissapear in the scetch view. Import dwg format 
+After have searched 3D models for a minute or so, it seams like the dwg format is a broader format than obj/3ds Edit models 1 
+It would be REALLY cool to be able to modify models ie changing placing of the legs on a table, or modulate other details of model structures. Even make models from scratch and group/save them in the library? Edit models 2 
+Occasionally when I have right clicked on an item in the library to edit it is has ¡°lost¡± its information. Is it linked to the item created/downloaded to the desktop? I have erased the downloaded objects after importing them. 
+Also I would like to be able to edit/move/delete the preloaded objects aswell. Model library 
+It would be nice to be able to drag/drop models to other folders in the library view ie moving a chair from KITCHEN to LIVING ROOM. Also duplicate items for multiple instances. Why not even place the directly in the 3D view? Export objects 
+I would like to be able to export objects to edit them in other software Import obj issue? 
+I have made some different objects in Strata 3D (OS X) and ends up with different issues. Sometimes I¡¯m told that the format is wrong for importing. Sometimes the materials are not included. Sometimes the preview in scetch view is a solid box only. My windows will not become transparent although I have selected them as door/window in import stage. For single elements objects I was forced to make a group of that single object to be able to import it. 
+Strange enough, for other objects (multi elements) it was BECAUSE they were grouped that I was not allowed to import them. 
+Maybe my export/import issues has something to do with how the objects are created (mesh, polygon, skin etc) but I have not yet found out why. I look forward to when I with the kept simplicity can design lightning in the scenes aswell. Finally I would like to take the opportunity to again thank you for a great program! 
+I hope my comments will reflect my enthusiasm over using the application and will be looked upon as constructive critisism and a Christmas wish list.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#188 2D-wall texture (drawing) - ID: 2782348</title>
+        <detail> The wall modification dialog does not allow to change the texture for the 2D-layout within the &quot;home plan&quot;. But that's the area I'd like to make changes due to discussions with the architect. 2D-Layouts (&quot;home plans&quot;) of architects do have different textures for different types of walls, not only the texture shown in the picture attached. 
+Your answer (ID 2782348) probably refers to the wall structure/texture in the 3D-view, but that's not what I'm talking about. Thanks anyway for such a great program.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#442 Carrelage sur murs et sols</title>
+        <detail> D'abord gros bravo aux cr¨¦ateurs de ce logiciel ou on trouve tout ce qu'il faut pour travailler !!! Une am¨¦lioration serait la bienvenue concernant le carrelage sur Murs et Sols. Je m'explique: Lors de la pose de carrelage au sols, il serait bien d'avoir une option nous demandant ou placer le 1er carreau, car si on place un 45x45 celui-ci et tronqu¨¦ (souvent d¨¦coup¨¦), ) moins de d¨¦placer tout le plan. Concernant le carrelage sur les murs cela est un peu plus complexe, une option dans le menu des mesures des murs concernant la hauteur des carrelages seraient la bienvenue. 
+Exemple: Hauteur carrelage = xxx, Hauteur restante = yyy pour la peinture ou autres Actuellement pour avoir une hauteur de carrelage de 185cm, je suis oblig¨¦ de superpos¨¦ 2 murs (1 de 185cm et 1 de la hauteur restante) et de les faire de chevauch¨¦, et de tricher sur son ¨¦paisseur pour pas que ceux ci fasse disparaitre les carrelage ou autres. Cordialement</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#101 Congrats.  Arches? Victorian decor?</title>
+        <detail> Congrats on some great software - our architect was very impressed and not a little threatened. 
+Functionality is fine, but I'd love to see some more downloads: 
+arches; victorian decor and furniture; more kitchen furniture. 
+Downloads are huge - 11 MB for our one-storey 170m apartment. 
+Any plans for some garden design additions (garage, decking, driveway, trees, etc..)? 
+Great job - many thanks. david</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#156 Show numeric values of mouse pointer coordinates</title>
+        <detail> It would be great to show the current numeric values of the mouse pointer coordinates e.g in a status line or somewhere in the home plan pane.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#317 Paint rooms</title>
+        <detail> it should be possible to paint all walls in a room. (by double-clicking in it)</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#390 Need to translate strings</title>
+        <detail> There're some need-to-translate strings in the in later internationalization process. We picked these strings in the attached file, which presents the file name with the string, string location, string length and the string. </detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#44 Comble, grenier et chien-assis</title>
+        <detail> Bonjour, Je vous fais part d'un grand encouragement pour votre projet tr¨¨s prometteur. Voici mes petites demandes d'am¨¦lioration : Chien-assis &quot;Petite ouverture en charpente m¨¦nag¨¦e dans un comble.&quot; Oeil-de-boeuf &quot;Petite fen¨ºtre ronde&quot;. Gestion de la charpente Am¨¦nagement grenier et comble Conduit de chemin¨¦e, de po¨ºle avec la sortie de toit Gestion de toit et couverture Diff¨¦rents types d¡¯escaliers ( ¨¦chelle, ¨¤ palier, en colimaon, etc. ) merci</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#377 Console application</title>
+        <detail> Special version that will be able to run in batch mode without DirectX/OpenGL support. 
+Input: list of target  .png / *.mov in the output folder Simply compute a picture from the last saved parameters in a SH3D file, with some feedback in the console.</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#540 zoom localis¨¦</title>
+        <detail> Bonjour, j'aurais aim¨¦ savoir si il ¨¦tait possible de cr¨¦er un zoom localiser sur le plan 2d. 
+Je m'explique, entourer d'un carr¨¦ la zone sur laquelle on veut zoomer. 
+Car le zoom actuel est pas tr¨¨s pratique puisqu'il zoom au centre du projet donc pas forc¨¦ment la ou on veut. 
+Cordialement.</detail>
+        <time>2012-10-20</time>
+    </item>
+    <item>
+        <title>#389 Texture Library</title>
+        <detail> Dears Sirs, 
+I think it was important to have the possibility do create textures librarys like &quot;FurnitureLibraryEditor-1.2.jarr&quot; 
+Thanks, 
+Pedro Pico</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#525 Free wall inclination.</title>
+        <detail> Hello, I think one thing that should not be too hard to improve and it would be useful for the program is that it may draw the walls with the necessary inclination and 15 ¡ã to 15 ¡ã as at present. 
+In my opinion it would be a great improvement for the program because depending on how you have to draw rooms that do not correspond with reality. 
+Congratulations on the program. Translated with Google Translator Hola, creo que una cosa que no debe ser muy dificil de mejorar y que seria de gran utilidad para el programa es que se pudieran dibujar las paredes con la inclinaci¨®n que sea necesaria y no de 15 en 15 como sucede ahora.  
+En mi opinion seria una gran mejora para el programa ya que segun como tienes que dibujar habitaciones que no se corresponden con la realidad. 
+Felicidades por el programa. Traducido con Google Traductor</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#456 Some suggestions from a new users</title>
+        <detail> Hi to all!! I am going to explain some of the utilities that i dont find in SweetHome 3D. Your program help me to draw fast and its free software, so i want to make some suggestions to improve it by way of compensation. First of all: i read englishs texts but i dont usually write in english, so perhaps i do some mistakes... Come on!! I hope this suggestions contribute to make a better software... Thanks for your efforts and your great software, i hope that you earn a lot of money with it ;) !! From spain, Juan. P.D: Here are my suggestions in spanish... que los casilleros de la posici¨®n sean calculadora 
+que puedas dibujar todas las paredes de forma continua  y que luego puedas eliminar la uni¨®n entre ellas de una forma sencilla. 
+que puedas copiar y marcar una cantidad de desplazamiento (para hacer paralelas) 
+que puedas alargar una pared hasta llegar a la siguiente 
+que se te &quot;enganche&quot; un punto final de una pared con el punto final de otra 
+usar punto como separador de decimales en vez de coma. 
+bot¨®n centrar plano en dibujo (y poder donde quieras sin l¨ªmite) 
+bot¨®n cerrar vista 3d</detail>
+        <time>2012-09-14</time>
+    </item>
+    <item>
+        <title>#411 Print - 2d room by room</title>
+        <detail> A really useful feature would be the ability to print 2d plans for each room on separate pages or the ability to print an area of the plan. The room-by-room feature would zoom each room onto a separate page, but also show a little of any surrounding rooms. It would be really handy to be able to print each room, and pin it up in the relevant room, so everyone could see what the room will look like Thanks, Robin</detail>
+        <time>2012-11-21</time>
+    </item>
+    <item>
+        <title>#360 Access to console output</title>
+        <detail> Its difficult to access the console output in a default installation (for a possible workaround, see here:  ,1082 ). This makes it hard to find errors in other users installations. Why don't show the console output somewhere in the application (e.g. Help/About) or at least offer logging to a logfile from the commandline? This could be achieved either by the appended example code or by using one of the available logging frameworks (e.g. log4j).</detail>
+        <time>2012-09-14</time>
+    </item>
+</requests>

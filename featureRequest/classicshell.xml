@@ -1,0 +1,270 @@
+<?xml version="1.0" ?>
+<requests>
+    <item>
+        <title>#180 Personalized Menus</title>
+        <detail> Windows XP has the feature to be able to use personalized menus.  It would be fantastic if Classic Shell could implement a similar feature based on application usage.</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#209 Win7-like searchbox results</title>
+        <detail> Configuration options to display search results not in pop-up menu, but in one of column of main menu (like in Win7), determined by COLUMN_SEARCHREPLACE_UP or COLUMN_SEARCHREPLACE_DOWN element, where first will replace all menu elements up to column break with search results and second all menu elements down.</detail>
+        <time>2012-11-01</time>
+    </item>
+    <item>
+        <title>#234 Expand Programs inside left menu instead of cascade menu</title>
+        <detail> Like Win7 or Start8, when expanding the programs in dual column mode, expand the programs inside of the first column instead of cascading menus. In dual column mode add an option in the top left to open the Modern Start menu, like Start8 does. </detail>
+        <time>2012-11-09</time>
+    </item>
+    <item>
+        <title>#256 Universal Default Configuration and Settings Password</title>
+        <detail> I work at a school corporation where we hesitant to deploy Windows 8 to our users. I'm sure I'm not the only one who is a bit leery of the Metro UI experience, so this project has helped in making the move to Windows 8 easier. Thank you for your work on this project. It would be nice though if the project could have the following: My main concern is making sure that each user gets the same experience when using the start menu provided by Classic Shell and that the users can't change settings without authorization.</detail>
+        <time>2012-12-20</time>
+    </item>
+    <item>
+        <title>#244 Mouse only method for opening the Metro Start for Laptop Touchpads</title>
+        <detail> A tiny annoyance, but I'd appreciate a method of opening the metro start quickly and simply with a trackpad. Maybe just make the lowest of the right click menu a button to Metro Start. I did notice that I can get to it by going to the corner and scrolling up to get to the alt-tab like sidebar thingy, but it seems a bit wonky. Maybe I'm not waiting long enough.</detail>
+        <time>2012-12-05</time>
+    </item>
+    <item>
+        <title>#95 Auto-Collapse Folders in Navigation Pane</title>
+        <detail> I had an idea for a feature: It would be great if CS had an option to auto-collapse   in the navigation pane as soon as a folder change occurred,   for the current folder. (This would mean that, whenever someone navigates, the navigation pane would expand the current folder and collapse everything else, including subfolders of the current folder.) This may require a hackish method of modifying explorer, but I would find it very useful. :) Thank you!</detail>
+        <time>2012-12-26</time>
+    </item>
+    <item>
+        <title>#264 Help About</title>
+        <detail> Could you please add a button (or a menu item) in the settings window so that, on clicking, I can get to the classic shell's home page and downloads.</detail>
+        <time>6 days ago</time>
+    </item>
+    <item>
+        <title>#202 Toolbar &quot;View Medium Icons&quot;</title>
+        <detail> I'm new to Classic Shell - thanks for this wonderful tool ! 
+In Classic Explorer/Toolbar Buttons/ we have the possibility to create toolbar-buttons which changes the view in the file-pane, e.g &quot;View Details&quot;, &quot;View List&quot; and &quot;View Medium Icons&quot;. This works as expected. The size of the medium icons in the file-pane is correct and correspond with the Win7-Default. But Windows Explorer the  'View'-Function (with the long vertical slider) also allows modifications of the icon size in small steps - the same can be achieved with &quot;Control-key + mouse-wheel&quot;. A pleasant looking icon size depends not only of personal-taste (e.g eye-glasses), also of the Monitor-Size and resolution. eg. my personal style would be medium-size-icons  -4 mousewhell-ticks Monitor 19&quot; / 1280 x 1024). Therefore I suggest that the command &quot;viewicons_medium&quot; can be extended with some sort of parameter (eg. +1  or -3), similar as in &quot;Navigation Pane&quot;  the control &quot;Tree Item Spacing&quot; Best regards, Zach</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#183 Recent Places</title>
+        <detail> History of Windows Explorer are supposed to be under Recent Places. 
+I have noticed that it only lists the folders or places when you open a file or perform an action inside it. If you visit a folder and move back or close the explorer without opening any file inside it, it will not be recorded under Recent Places.   :-( Can you add an option to record all Folders were visited and place them in Recent Places? 
+Recent Places = X Items/Folders. So, we can get fast to the last folders we visited?</detail>
+        <time>2012-12-23</time>
+    </item>
+    <item>
+        <title>#265 Classic Shell is not Integrate into Explorer under function -Open-</title>
+        <detail> Hi, i have noted, using my personal programs as:  
+(NotePad++ --- VLC Media Player --- DVDFab --- AutoIT Script ---- etc...), 
+that when i click on &quot;Open File in these programs&quot;, Windows shows a new window of Explorer that permit to navigate in order to find file that will be opened. 
+Under this condition Explorer shows a different CommandBar with different menu &quot;Organize&quot;, noted because I have customized &quot;Organize Menu&quot;  with only command that i want and i see them when i normally start explorer but under option &quot;Open&quot; are not present. Under this case don't appear also Classic Shell Bar Integration with all Add-On icon Programs that i have done  
+(as: &quot;Show/Hide System File&quot; + &quot;Show/Hide Extension&quot; + &quot;All letter of Drive&quot;)  
+that are in my opinion very useful also in &quot;searching mode&quot; clicking on &quot;Open&quot; especially when i must find hide file or change their wrong extension. CONSIDERATION: When I Starts my session of explorer that present Classic Shell Integration 
+the Command Bar use this Key Registry to shows &quot;Organize Menu&quot;  When I click &quot;open&quot; on my personal programs explorer NOT present Classic Shell Integration and the Command Bar use this other Key Registry to shows &quot;Organize Menu&quot;, different from first  Will be possible integrate &quot;Classic Shell Bar&quot; also under &quot;Open&quot; condition?? 
+Thanks</detail>
+        <time>2 days ago</time>
+    </item>
+    <item>
+        <title>#165 option to not remember folder view settings</title>
+        <detail> Win-E folder options in WinXP had a checkbox (see attached) for &quot;Remember each folder's view settings&quot;.  In Win7 this option is gone and Win-E always remembers each folder's view settings.  I manage a complex directory structure with thousands of files and, depending on what I'm doing, I sometimes want all folders sorted by filename, or all sorted by date, or all by size, etc.  With WinXP I left this option unchecked so that when I sorted any folder by filename or date, etc, that new sort parameter would apply globally to every other folder I opened.  Now in Win7 I have to sort each folder one by one when I want to change them all from sort by filename to sort by date.  I know I can sort one folder and then go to folder options to apply that view to all folders, but I need to change my global sort parameter so often that this becomes a huge nuisance.  Would it be possible to add the old WinXP folder option to Classic Shell so that I can tell Win7 to stop remembering each folder's individual view settings?</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#228 Full Search depth in Windows 8 Search Box</title>
+        <detail> The Search Box in Windows 8 returns results from programs and apps only.  Search box results should draw from all files and folders.  This is the main reason I wanted my Windows 7 start button back anyway, I could find anything on the system with a few keystrokes and no mouse clicks. 
+ Thank you so much for the Classic Shell project! Certamus</detail>
+        <time>2012-12-12</time>
+    </item>
+    <item>
+        <title>#260 Remove controls from the Windows Start Menu.</title>
+        <detail> Hi. I actually posted this before, but never got around to actually getting back to it. Since that was so long ago, I thought it would be better to re-post it. Anyway, I need my Windows Start Menu to be as locked down as possible so as the Classic Shell menu is the only thing you can use. That means removing the search bar on the Windows Start Menu. Now I'm aware that you can turn off the Windows Search feature, but I would like to keep the search bar in Windows Explorer. And if I were to disable Windows Search, it wouldn't be in explorer. Also, do you think it would be possible to have an option to entirely hide the power button from the Windows Menu without it affecting the Classic Shell menu? Thanks, and keep up the good work!</detail>
+        <time>4 days ago</time>
+    </item>
+    <item>
+        <title>#148 Catigorically Group Programs</title>
+        <detail> I find myself reorganizing the Programs folder every time I add or upgrade software.  Primarily so that at least the Main Programs folder does not get very large, but then to also group programs into a Company or Categorical layout. Some Examples: 
+1)  Every Microsoft Product installed, creates a new shortcut folder in the root of the Programs folder.  My preference is to move/relocate these into a Microsoft folder in the Programs Folder so that all Microsoft products are grouped by that Company name.  Granted this is not really a &quot;Category&quot;, but I would prefer to group by Company name, then potentially by Category, or possibly have the shortcuts duplicated if they truly need to be in two locations. 
+2)  The Games folder I store under an Entertainment folder along with other entertainment type applications, Rhapsody, Pandora, etc. 
+3)  Installing Utility type programs, such as the ClassicShell, I then relocate to a Utility folder in the Programs Folder, one, so that usually shows up at the bottom of the Programs folder.  Now doing this may can cause the Utility folder to get fairly big, which is where organizing them by Category would come in handy. I have been thinking about coding something up for a while, but seeing how awesome the ClassShell application is, I think this would be an excellent feature enhancement. My first thought around this is Not to actually organize the contents of the Programs folder, but to organize it on the fly when programs are added/updated/uninstalled (Possibly using an Alternate Programs Folder). This way, the shortcuts remain in original location, so that installs/uninstalls will update/remove them correctly. Second thought is having maybe a few variations on the catorgical ordering, since different people have different views on how to organize them, and have this stored online so that as new programs are added to peoples pc's, the online can be used to see how people group them, and can be downloaded or checked whenever new programs are added that are not in the current downloaded categorical parameter file.</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#129 Prevent Explorer from scrolling selected item to bottom</title>
+        <detail> When you navigate back, Explorer will move the selected item to the bottom of the contents view.  This makes it really hard to keep track of where you were in a long list of things (since the spacial relationship is lost).  Note that this is NOT the same as the scroll bug in the navigation pane. Steps to repro: Open a folder in details view that has lots of other folders.  It should be enough so that you can scroll down some. 
+Double click a folder in the middle of the view to open it. 
+Click Back and note that the folder you opened has been scrolled to the bottom of the listview. I love the fixes Classic Shell adds to Win7 Explorer, but this one still drives me nuts.  Thanks!</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#221 Remove Windows Explorer Back\Forward buttons</title>
+        <detail> Hi. I was actually going to suggest this earlier, but after a bit of research, I found that this isn't possible due to the fact that the back\forward (navigation) buttons are tied to the address bar and the search box. This was disappointing to me because of the fact that I use the Classic Shell navigation buttons due to the fact that they are so customizable, and having both those AND the ones on the address bar seemed kind of silly. But after some thinking, I came up with an idea: why not have a feature that lets you hide the default Windows Explorer address bar altogether, and add a separate Classic Shell address bar that is completely customizable. That way, you could add your own buttons/commands and move it around as you'd like. I don't know if this is even possible, but I thought I thought I'd just throw it out there. Food for thought. Thanks in advance.</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#116 No to all button</title>
+        <detail> Add a &quot;No to all&quot; button when copying or moving files.</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#257 Add an option to force IE to use the semi-classic download dialog</title>
+        <detail> Hello. I didn't know that there is a semi-classic download dialog box in IE9 and it will appear sometimes when I click on a download link. So I don't know if it is possible, but I would like to have an option in the Classic IE9 that can force IE to use the semi-classic download dialog whenever I click on a download link, and after I made a choice in the dialog (open, save, save as), the normal download bar then appears and shows the download status for me. Thanks!</detail>
+        <time>2012-12-27</time>
+    </item>
+    <item>
+        <title>#241 Navigation Panel ON-OFF</title>
+        <detail> Hi, using your great program classic shell under Win7 x64 i see that it has in &quot;Setting Classic Explorer&quot; function to add 
+on &quot;ToolBar Button&quot; lots commands that into Windows explorer are allocated in the &quot;command bar&quot;: CopyItem, NewFolder, Rename, Cut, SelectAllItem, etc... ...in addiction i can also add Custom command for example a link to FILE.EXE (calculator, regedit, games...) 
+......and also &quot;Visual Basic Script files&quot; that i have created with function &quot;Show Hidden files&quot; and &quot;Show Extension files&quot; For this reason i have modified the &quot;style of explorer&quot; in order to always hide original command toolbar. 
+Unfortunately Microsoft on Win7 has removed the &quot;x&quot; icon on  that toolbar that closes left tree panel 
+(where all drives are showed), instead in Win2000 and WinXP there was &quot;  Close ToolBar&quot;, in Win7 the left tree panel  
+are named &quot;Navigation Panel&quot; but i can't close it.  (there isn't icon) The only solution that i found is return to show &quot;command bar&quot; and using regedit manual adding for all keys in [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\ these data \TasksItemsSelected 
+@=&quot;Windows.navpane&quot; \TasksNoItemsSelected 
+@=&quot;Windows.navpane&quot; In this mode are showed in command bar the botton that &quot;Open/Close panel&quot; also if without icon but only 
+using long text (in my language) I don't know how insert internal explorer command &quot;Windows.navpane&quot; into a script of visual basic. 
+For extension was easy do it, reading a value of key but now i have no idea. There is some possibility that you improve classic shell adding also this new function in the command list of classic shell, in this mode is mode easy navigate from different folder with mode istance of explorer. Thanks and sorry fo disturb</detail>
+        <time>2012-12-07</time>
+    </item>
+    <item>
+        <title>#75 Middle click = open new window</title>
+        <detail> Hello! 
+I'd like to request a little feature: when middle mouse click on a &quot;bread crumb&quot; in address bar (the clickable path of current folder) or a folder in a window, it would open the clicked folder in a new window. 
+This would be the same as middle click on a link in most modern browsers. Thank you. </detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#114 Translation in Dutch</title>
+        <detail> Can I help you to translate Classic Shell and Menu into Dutch 
+I already translate ChromePlus into Dutch see www.chromeplus.nl</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#213 Adress bar history (F4)</title>
+        <detail> Adress bar history (F4) - Please, add an option - XP style. to have it like in XP.</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#170 Classic systray</title>
+        <detail> It's been mentioned halfway in another FRq but differently - if at all possible, I would like to see the tray changed from the popup behavior to the XP-style &quot;swish&quot;, if it is outside the purview of Classic Shell's scope, I would like to see it thrown to the braintrust of the community and any modders</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#212 Skin Development</title>
+        <detail> When I set the skin to &quot;custom&quot; and start making new skin, something strange happens that goes away once I make a compiled skin. When I create variation files, 2.txt, 3.txt etc, certain things won't read properly from the variation files. Example, when I set a different bitmap value inside 2.txt it doesn't always read it and make the change.  I have discovered a way to fix this during development of a skin by placing an OPTION WTF=&quot;Keep me checked for now!&quot;,1 at the bottom of the options list. Then at the bottom of all files I place   and this forces all options to be read. Once I create a skin file I can remove all of this and it works correctly. Only when a skin is being read in custom mode do I have to do this. It did it in 3.5 and in 3.6 so I figured I should report it. I was wondering why there is not much skin support for this awesome program. I am starting to think that anyone who ran into this trouble that was not able to figure out a work around gave up on making skins. I think if you fix this you might find out there are more people out there trying to make skins then we all realize. Cory C.</detail>
+        <time>2012-12-01</time>
+    </item>
+    <item>
+        <title>#236 clustering in alternate colors</title>
+        <detail> HI, extremely useful Classic Shell, i search for it for so many years as i lost hope. 
+I think it would be helpful subfolders in left panel be showed in another/different color, if not possible color, another way would be alternate the font bold - regular - bold.... and so on as many subfolders there are.</detail>
+        <time>2012-11-19</time>
+    </item>
+    <item>
+        <title>#253 Different Icon Sizes in Columns of Startmenu</title>
+        <detail> It would be nice to have different icon sizes in each column of the startmenu like this is shown in the attached picture. For this, skin options should be extended to define the icon size for column 1 and column 2. Extend 'Main_large_icons' with 'Main_large_icons1' and 'Main_large_icons2'. It's not possible to define it with each column separately in the current version. As one could only make icons large for one column and small for the other then, which has the same size like the sub menu icon size, it would also be nice to extend the configuration in 'Menu Look' with a third icon size option. Use eg. Medium icon size for this. 
+In this way, users could eg. use 36px icons in the first column, 24px icons in the second column and 18px icons in the submenus. 
+For skin options, new options like 'Main_medium_icons' would be introduced for this. The introduction of a medium icon size would generally be fine as the large icon size should not have been changed if smaller icons wanted to be used in startmenu, but not as small as the small icons, that are used in the submenus. With the current version, large icon size must be changed for this. Thanks</detail>
+        <time>2012-12-19</time>
+    </item>
+    <item>
+        <title>#227 Interface issues...</title>
+        <detail> ...What's up with the default &quot;Windows Vista/7&quot; Start menu styling? The other styles in the program are very nice looking. The default 'seashell' Start button is hideous, please replace it with the Windows logo, or add more options 'out-of-the-box'. Microsoft now uses the 'Metro-fied' Windows logo, so it should be no problem if the default logo in Classic Shell was the Windows 7 one. Even Start8 uses it. Pinned items in XP/Vista/7 are on top of the most recently used programs list. In Classic Shell, they aren't. The icons for the &quot;Apps&quot; and &quot;Program&quot; lists are outdated and look out of place. The width of the left column that holds pinned items and recently used programs is too small. These problems give me the impression that the developer doesn't care about how it looks. This is a shame, because the program works well, but it needs to look well. The program is customizable, but the user shouldn't have to do gymnastics in order for it to look right. The developer apparently lacks the knowledge or expertise to make the interface conform to Microsoft's clean design by default.</detail>
+        <time>2012-11-01</time>
+    </item>
+    <item>
+        <title>#161 Rename folders in navigation pan</title>
+        <detail> It would be a great help and boost in productivity if it was possible to enable rename folders and resources in the navigation panel simply by long-double click the name in the navigation panel tree-structure similar to the way it works in file panel (click twice with a little delay in between and the rename function is engaged.) There was a setting for this feature in WinXp Thanks again for a great product.  You Win7 a real option again.</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#131 XP search interface</title>
+        <detail> Please add an option to have the Windows 2000 or XP search interface on Windows Vista/7 Because I still have not figured out how to search a word in all files *.txt</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#174 Control panel behaviour</title>
+        <detail> I have two issues with the 7 control panel that Classic Shell might be able to fix: 1) Switching to small icons, which is similar to the classic list view, sorts the icons  
+    alphabetically from left to right and not up and down as in the classic list view. 2) After switching to small or large icons the control panel will always revert to the 
+    original grouped setting, unlike in Windows XP where it remembered the view.</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#181 Default selection when file explorer is opened</title>
+        <detail> When launching file exporerer with  +   the default selection (in win 7) is in the right pane, wich requires a  +  to jump back to left pane (wich is default in win XP).  It would be much better if it is like in win XP by default.: The selection is &quot;My computer&quot; in left pane, this enables quicker navigation through the folders drill-down only using the arrow keys on the keyboard. A single   is then needed when reaching the target folder to work with the contained files. Many thanks for a great product  (could never live with win 7 without it!)</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#239 XP-style pane at left</title>
+        <detail> Windows XP Explorer had the advanced pane at left, which let to: The option groups were organized into collapsible nodes. Is it possible to create such pane in Windows 7 Explorer? Additional thoughts: Regards, 
+Sergey V.</detail>
+        <time>2012-11-22</time>
+    </item>
+    <item>
+        <title>#242 Desktop Sort Order - hierarchical</title>
+        <detail> I've been working with Win8 for several days, and truly, Classic Shell is only only reason not to go running back to XP until it goes End of Life. I have noticed (as I intetionally missed out of Vista and Win7) that C:\Documents &amp; Settings has been replaced by C:\Users.  That itself is not a problem. What   a problem is that in the XP days, that Desktop items in All Users would sort first before individual users.  This very conveniently put the &quot;core&quot; items first, followed by the account owners item. This appears to be missing in Win8, and I have no idea about previous versions (Vista &amp; Win7). From what I understand, C:\Users\Public\Desktop takes the place of C:\Docs &amp; Settings\All Users\Desktop, but the &quot;hierarchical&quot; sorting disappeared.  All Desktop items - Shortcuts, Folders, Files, etc. sort &quot;literally&quot; by item type (with Program Shortcuts buried in data files due to their .lnk extension, I suppose), or by name (again, buried in the files where the extension does not matter). Is this something that has a Registry entry to enable, or is this functionality that could be restored by a Classic Shell &quot;tweak&quot;? Or maybe there is no answer at all. Thanks for your efforts!</detail>
+        <time>2012-12-06</time>
+    </item>
+    <item>
+        <title>#141 Default View</title>
+        <detail> Ok, one of the most annoying things about Windows 7 is that I can't set my default view once and never think about it again.  Would be a great option as I've read many others are not happy with it.</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#252 Windows 8 features</title>
+        <detail> 1.In previous versions of Windows, selecting multiple files would display their total size in status bar. In Windows 8 this feature has been removed and is being greatly missed. 2.In Windows 7, with classic skins/themes, when your mouse hovers over application icons on taskbar, list of windows (instead of window thumbnails) would be displayed. This has changed in Windows 8, there is no way to turn thumbnails off. Instead of locating needed window by title - you have to look at thumbnails (generated at different scales), which are very not helpful. This feature is also being greatly missed.</detail>
+        <time>2012-12-15</time>
+    </item>
+    <item>
+        <title>#229 A few minor suggestion</title>
+        <detail> I really like your tool. 
+Here some features I think would be nice. Windows-Key: Tapping twice switches to the other UI (Modern/Metro / Desktop) 
+Shift Windows is nice, but in addition Windows+Shift would also be nice. 
+Option to Switch from Metro only to Desktop over key. Without opening the Menu. 
+Like from Metro: Tapping Windows-Key only switches to the UI (no opening of any kind of menu) Please please: 
+Try to recreate 1-2 skins that look more natural. 
+I understand that you're not a graphics guy but this is really important to new users as many (pretty sure) will think 'If this doesn't look right. I won't use it&quot; 
+I really enjoy your program but my this was one of my first thoughts. - The skins aren't standard as we know it doesn't match the default experience we unfortunatly just expect. xpeclient showed me a skin which he uses. This was the only reason I write this to you. 
+As I see it is possible to customize it the right way. 
+This will really get you people to use this software. 
+UI is unfortunatly an important part. Another UI think: 
+I personaly don't like the fading 'button' after clicking on some options like &quot;Documents&quot; or something. 
+Maybe this already can be turned off but I haven't found the right setting (yet) Question: 
+Is it possible to show all programms the &quot;in-view&quot; of the programms colum like we know from Windows Vista / 7. 
+I really like the old flawor like with expanding options form XP but maybe others want this 'All Programms' in the left colum as they know it. (All Programms / Back switch)</detail>
+        <time>2012-11-06</time>
+    </item>
+    <item>
+        <title>#207 Breadcrumb: Ctrl + Click in Address Bar items</title>
+        <detail> will open the appropiate item in a new window. BTW, 
+QTAddressBar (not QTTabBar) doesn't support W7 64. I liked this AddressBar in my XP, but I can't have it in my W7 64, and you can't find Quizzo (the dev) on Web.  Can you do something about it? I can't contact with the developer for updating it and somebody needs to keep it on...</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#263 Monitor selection when disabling hotcorners.</title>
+        <detail> It would be nice to select exactly which hotcorners you disable for multi monitors setups. 
+Thanks a lot. (you guys made a great program)</detail>
+        <time>2012-12-31</time>
+    </item>
+    <item>
+        <title>#261 Skin Color(s)</title>
+        <detail> Being a &quot;customizer&quot; by nature, I have come to love your Classic Shell software since acquiring Windows 8.  I am sorry I did not know of it earlier with Windows 7.  In fact, I was extremely excited to be able to go all the way back to the Windows 98 SE style start menu which was my favorite, though I grew to like the XP one as well. 
+ I will admit that though I find your software 98.9% perfect for my needs and give you high praise over the paid software that claims to do the same thing, there is one feature I would love.  I tested Start8 and was surprised how little customization Stardock put into that software, but the one thing they did was make the menu automatically adjust in color to the desktop settings.  This would be a visually pleasing feature add to a nearly perfect piece of software. Specifically, I am using the classic style menu with the Metro skin as I am trying to keep the feel of having a new OS with the better functionality of the old.  If that Metro skin could change with the colors of the taskbar in Windows 8 (or 7 for that matter) that would be awesome.  In the meantime, I have made my taskbar as close in color to your attractive Metro skin as possible (Windows 8 stupidly keeping the window title text in black keeps me from getting any darker.) Thank you for great software.  I will drop you a donation after my next paycheck because it rocks. Kevin</detail>
+        <time>2012-12-29</time>
+    </item>
+    <item>
+        <title>#262 Firefox Bookmarks Command</title>
+        <detail> A command that implements a menu of Firefox bookmarks (similar to IE Favorites) for the current user.</detail>
+        <time>2012-12-31</time>
+    </item>
+    <item>
+        <title>#120 Enable breadcrumb where it is really useful</title>
+        <detail> It recently occurs to me that breadcrumbs are indeed useful in some places, such as Control Panel and its &quot;Applets&quot;, where there is no real file system. 
+Is it possible for Classic Shell to leave Breadcrumb in these parts working while disable it in file system view?</detail>
+        <time>2012-10-29</time>
+    </item>
+    <item>
+        <title>#137 Breadcrumbs improving</title>
+        <detail> Hi, 
+Can you add this feature to Classic Shell: 
+ 
+I didnt find software like this working in W7. 
+I need something like this working in W7 to improve the navigation. 
+Thank You.</detail>
+        <time>2012-10-29</time>
+    </item>
+</requests>

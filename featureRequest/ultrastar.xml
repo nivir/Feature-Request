@@ -1,0 +1,1043 @@
+<?xml version="1.0" ?>
+<requests>
+    <item>
+        <title>#178 2 seperate Windows</title>
+        <detail> Hy, It would bee nice, to have the menu in one window, and the Song that is playing in a seperate Window. 
+So when i do a Party, i can have the menu on my laptopscreen and the song on my beamer (projector). What also would be cool, when i could choose the audio output divece, somwhere in the Ultrastar menu. regards retotito</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#214 Star power</title>
+        <detail> An idea to make game even more entertaining. Once life bar under score fills by getting a good streak, all points are counted x2 until bar expires after several seconds and can be filled from zero again. For that, I'd suggest that bar in the beginning is 0% instead of 50%,</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#124 UltraStar on netbooks</title>
+        <detail> Hi all, i guess that netbooks would be the optimal party machines for ultrastar. 
+Unfortunately most of them have  too less processor-power to run ultrastar. 
+According to my tests, the RAM would be enough. Is it possible to implement a kind of &quot;cache&quot; that prefetches and precalculates the videos and texts? 
+I think longer load times until a song finally starts might be ok, if ultrastar can be run from a netbook... I don't know if this is possible at all, just an idea. Thank you</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#55 Undo possibility in the editor</title>
+        <detail> I would love to have the possibility to undo the last action/few actions in the editor. Its not very nice when you havent saved 3 hours work and accidentially press D a few times screwing up everything :P (Also make it more clear that you have to have CBR mp3s to be sure the editor works as supposed, really took some time for me to figure out :P) USDX is great still! :D Thanks! :)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#180 Split theme.ini in seperate files</title>
+        <detail> Me and all the theme modders need to work through hundreds of code lines atm to update and enhance our skins. 
+It would be a lot easier to manage and work with it, if every screen could have its own *.ini to work with.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#68 Global BPM tuner</title>
+        <detail> Hi, I discovered sync problems text to mp3 and video that are related to the actual CPU speed (tested with softfsb). 
+It seems like I have to tune the FSB speed until I have a perfect text speed alignment(MP3 is always correct!) 
+instead of reclocking the cpu, I woudl really appreciate an option to globally make a relative change to the song BPMs (without changing the files) in the option dialogues, maybe with a slider widget. Thanks for your time and kind regards, smallbutfine 
+professional@online.de</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#139 Additional info about song during selection</title>
+        <detail> When choosing song, add this information: 
+a) range of voice/notes 
+b) show difficulty of song (create math equation to figure it out) 
+c) length of song 
+d) if video available, make the icon a bit bigger (animated?)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#62 Freestyle Message</title>
+        <detail> It's nothing special, but I think it might be quiet useful: 
+Couldn't you add a message, that appears automaticly when freestyle-lines are about to come - as it is in Singstar with the Flashing &quot; &quot; tag? Why all this trouble for this? Well, here an example: 
+You are playing with your friends, who see UltraStar for the first time, and you brought songs they don't know. So, if there is a song, that suddenly begins with some freestyle-text, it would be nice to know for them and not to wait till you explain it all the time. I know this is nothing important, but it would be cool to have that too. 
+Thanks for the effort guys! 
+CU</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#70 START and END in the same Unit</title>
+        <detail> I think it would be better to have the values of #START: and #END: in the same unit: At the moment START is in seconds and END in milliseconds. 
+Seconds would be the best unit for both.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#210 more than 2 channels per soundcard</title>
+        <detail> I've got a soundcard with 8 inputs (ESI ESP1010e + SM Q-PRE) is there a possibility to use 6 of them for UltraStar? 
+On default settings only the first 2 are shown and usable. According to ID: 2803060 i switched to Portaudio and all 8 were shown (6 of them visible) but still only the first 2 were usable.  
+After I've tried to enable ASIO in Portaudio but there are no further options. Sure Portaudio supports ASIO but the ASIOSDK from Steinberg is needed. (Translation to Delphi at:  ) BassAudio supports it with BASSASIO too without the ASIOSDK. Furthermore there are examples in Delphi... 
+What's the best solution except trying everything by myself? Maybe someone can add ASIO support for me...</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#209 Copying melody as well as text in editor</title>
+        <detail> I think that Ctrl + C and Ctrl + V should work not only for text, but for melodic line as well, that would speed up creation of txt files from scratch a whole lot.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#67 User defined Controlls</title>
+        <detail> Hi,  it would be a great feature if the user could define the controll buttons.  for example there are two devices, that are not working because auf that.  So maybe you cold make a little tool to configure the controlls by pressing the button - like most computer games do that.  Thank and: Great Work!!!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#196 Party mode - six teams</title>
+        <detail> It would be great if you could make it possible to have up to six teams in party mode. I know I've said it before, but this game's absolute biggest advantage visavi Singstar is that you're able to sing three persons at the same time. And since it's possible to split the screen, so that you can sing up to six persons at the same time, I think you ought to consider using this big advantage of yours when it comes to the party mode, i.e. letting us choose up to six teams, it would put you even more in the driving seat compared to the other games in this genre. I say this becuase at our parties we always compete with six teams :)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#71 Automatic note recognition</title>
+        <detail> Can you please add this function? 
+I dont't like to have your perfect US and also corvus'one on my PC. 
+It's in corvus' US since 0.53. </detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#35 Videos An-Auschalten</title>
+        <detail> Wre sehr praktisch, wenn man im Optionsmen¨¹ die Videos, die im Hintergrund der Songs laufen, an- bzw. ausschalten knnte. 
+Denn bei manchen langsameren PCs laufen die Videos nicht immer ruckelfrei und auerdem will mans auch ein bichen ruhiger. ;-)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#118 Direct selection of number of players</title>
+        <detail> A very useful addition would be the possibility to select the number of players when entering the &quot;Sing&quot; mode. The way through options --&gt; players is kinda annoying every time.. so the simplest option would be: Sing --&gt; No. of players? --&gt; Player names --&gt; etc... Is that easily possible?</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#39 Updater/Update notifier</title>
+        <detail> well, it would be nice if the program checked ever like week? (maybe manual adjustable) if there is a new update, donwload and install it. or just check it and notify the user that there is a new version available perhaps opening the website in the background..</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#111 BPM change in txt not needed</title>
+        <detail> I think nobody needs this feature because good songs aren't made with the real bpm but a high bpm (200-300). 
+I have got nearly 3000 songs which don't need such an bpm change. 
+Less work for you guys ;-)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#184 Challenge Mod - two matches</title>
+        <detail> Brunzelchen would it be possible, when implemented in 1.1, to update the challenge mod so that two matches could be played at the same time?  If you're using two screens player 1 and 2 (or 1, 2 and 3) could play match number 1 and player 3 and 4 (or 4, 5 and 6) play match number 2 at the same time.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#33 Better randomization of songs in partymode</title>
+        <detail> Right now, when you play partymode (we always play 7 rounds) it happens the game chooses a song you already had in an earlier round - or which one of the teams already chose to use a joker for. It'd be great if you guys could improve the randomization-routine, so the game keeps track of songs already played in earlier rounds or which got jokered out so these songs don't come up again during that game. Hope that makes sense :) Thanks for this great MOD, 
+Twi twilight98@gmx.de</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#79 Background image resizing</title>
+        <detail> The background should not have its aspect ratio changed. 
+It should either: I think the best way is to Expand to fit. That way the designer can make an image that is larger than needed, knowing that it may be cropped to most commonly 16:9 or 4:3 ratio.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#95 Save diskspace</title>
+        <detail> I have choosen to sort my songs in some different ways. 
+Release year and genre for example. 
+That means that different folders have the same song. The same song could appear in more than one folder. 
+1980's 
+Pop and Rock 
+greatest Rock Ballads It would be nice if you don't need to have a copy of the song in each folder. Shortxuts could for example be used in one of the folders to show that the song should be listed twice in UltraStar. / Frej</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#146 ASIO Device Support</title>
+        <detail> I have played a bit with recording and mixing audio with ASIO devices and I can see really advantages in using this technology for, low latency, applying and recording the output. Cheers, St K</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#27 Kurze Versionen singen</title>
+        <detail> Steht noch nicht, auf der Roadmap, hattet ihr aber wahrscheinlich schon im Hinterkopf, dass man wie auf der Playstation auch kurze Versionen singen kann!  Wr auch gut wenn man die Textdateien nicht verndern m¨¹sste.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#20 Network play</title>
+        <detail> well won't it be great if you can sit at your own computer, both of you, and just use your own headset? heck if it's internet instead of network you can just compete with foreign friends over the internet, only thing that needs to be sended is what song  
+(download &amp; upload of the song folder will be needed to be implemented) and the score needs to be transfered...</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#202 Add shortcut to set the GAP to the current position</title>
+        <detail> I have a lot of files and at least for the half of the songs the GAP does not match. Currently it is really time consuming to sync the GAP for every single song by: 
+  finding out the GAP does not fit 
+  changing the GAP to something that might be ok (the preview function of the editor does not work for me - maybe because I use mp3 files with variant bit rate) 
+  finding out that the GAP is still not correct 
+  etc. It would be nice if one has the change to listen to a song and just press a key when the singer starts to sing (like I would do it in the SongTapper) and the GAP of a text file is set to the current position. It would be even nicer if this could be included in the normal game and not just in the editor. If the *.txt file is opened in read only mode or something and it is not possible to modify the files from the game, it would be ok to write the GAP to an extra file or such. I know, that in the first place people with variant-bit-rate-mp3-files (where the editor does not work to specify the GAP) would benefit by this feature, but it would also be an improvement for all the others who would no longer need to open the editor and mess around with the GAP value.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#183 Filter by videos only</title>
+        <detail> It would be nice to be able to only show songs with videos in the song selection screen.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#43 Sortierung ¨¹berarbeiten</title>
+        <detail> Manchmal kommt es vor, dass Artist oder Title verschiedene Sonderzeichen vor ihren Namen haben. ('N Sync, (Don't Fear) The Reaper, ...) Wenn man dann nach Title oder Artist sortiert (egal ob normal oder 2) sind diese in eigenen Ordnern anstatt in N , D, ... US sollte einfach Sonderzeichen vor diesen Namen ignorieren und die Lieder passend dem 1. Buchstaben oder der 1. Zahl in Ordner einsortieren.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#164 Vocal-removal algorithm</title>
+        <detail> There should be an option to remove the vocals of a song through an algorithm. I know that this wouldn't work for all the songs, but still... it should be useful! Have a look at these links: 
+ 
+ 
+ 
+</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#194 More language covers</title>
+        <detail> I just found some more language covers with the same design as the ones in your release on my harddrive. 
+Ask greedo1985 for more!  
+ Thanks for the amazing new release!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#165 Support for Apple remote (and other remotes too!)</title>
+        <detail> Since people use the game at parties, often with the computer connected to a TV, it's annoying to use a keyboard! 
+There should be support for remotes so people would be able to do everything while sitting on the couch :-)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#41 Cover for Playlists</title>
+        <detail> Cover for Playlists, if you have a Playlist e.g. for Party-Songs, you could add a Cover with from a Party or so. 
+For that you could show a little picture next to the playlist name or you made a administration for playlists 92 from ultra-star.de</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#228  game audio engine system</title>
+        <detail> We are very interested in your game and we hope it will help you with your development. 
+We recommend you to use MITA(A professional audio engine system) as your game audio engine system. We really believe that it will benefit both of us!  
+First, MITA is absolutely free of charge under its ¡°MITA Non-Commercial License¡±. 
+Second, it has lots of features and functions to make it easy to process audio. With MITA, you will find the audio system of your game is so easy to develop, upgrade, maintain, but more powerful! Only a few codes to make a very immersive 3D realistic sound. Support multi-channel audio input and output. Automatic processing spatial variation of the sound. Support various DSP effects and cross-platform.¡­MITA makes your audio system development more convenient and swift. 
+Finally, if you used MITA, please let us know. We will add a hyperlink to your site in our homepage. 
+For more details, welcome to our website: www.migantech.com. You can download the full version from here. 
+Also if you have any questions about MITA, feel free to connect us!  
+Thank you!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#189 Deactivate Highscore List</title>
+        <detail> I'd like to deactivate the Highscore List that is shown after each completed song. Nobody really cares about highscores at our UltraStar partys, so it is annoying having to click the list away every time.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#25 Ordnerauswahl Partymodus</title>
+        <detail> Wenn man die Ordner oder die Playlist im Partymodus auswhlen will, kann man nur nach rechts gehen. Also vom ersten, zum Zweiten Ordner bis zum letzten runter und wieder zur¨¹ck. Die Auswahl sollte auch direkt vom ersten zum letzten mglich sein.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#226 rpm package download</title>
+        <detail> Please add a rpm (fedora) download, not everyone uses ubuntu (and with all of this recent Desktop envirnment changes, the game is turning quickly), and it's very troublesome to compile and add shortcuts. It would be great if a rpm would be available for download.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#148 Navigation through sort options via up/down arrows</title>
+        <detail> It would be brilliant if there were an option to switch between the various methods of sorting (artist, title, edition, genre, etc) using the up and down arrows instead of having to restart the game. Keep up the good work, 
+Thanks a ton, 
+thursday 
+:)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#220 Change Number of Players in Sing-Mode</title>
+        <detail> In Ultrastar you have to go through the games menu and then to the options to change the number of players for the sing-mode. It would be much easier if one could change the number of Players directly when entering der Sing-Mode.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#204 &quot;Unlimited&quot; number of players on one screen</title>
+        <detail> Hi! Have you looked on how the karaoke game &quot;Wii Sing&quot; is handling more than 4 players on one screen? 
+Using the way they have solved it you can, in theory, have as many players as your computer can handle at the same screen and time. For an example, if you have never seen it, check out the below You Tube link. 
+ Kind Regards, 
+Mattias, Sweden</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#129 Option to turn video off</title>
+        <detail> My Netbook is really slow. When I play a song with a video and use one mic, all is nicely fast. As soon as I use a second mic, it gets laggy. I would be pleased if there'd be an option to turn off video playback completely. Adding an Off argument to the MovieSize option (MovieSize = Half, Full  , Full  , Off) should suffice for the end user.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#123 Ausblenden der Lyrics</title>
+        <detail> Hi,  
+ein Feature, das mir sehr an Singstar gefllt, ist, dass die Lyrics bei lngeren &quot;Pausen&quot; ausgeblendet werden und bevor es mit dem Singen weitergeht wieder eingeblendet werden. Ein gutes Beispiel daf¨¹r ist &quot;Enjoy the Silence&quot;.  
+Vielleicht kann diese Funktion auch in Ultrastar umgesetzt werden.  
+Gr¨¹e</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#84 Screen selection setting</title>
+        <detail> It would be great if you could include a setting to select the screen USDX is displayed on.  This feature would be very useful for people who extend the windows desktop and use their TV as a secondary display. Right now USDX always uses the primary display. For users (like me ;)) who use their secondary display (i.e. TV) for programs such as the media center software MediaPortal (which can in turn be used to launch other programs like USDX), a screen selection setting would mean that USDX could be neatly integrated in such a setup. I've attached a screenshot of MediaPortal's setting dialog as an example for a screen selection setting (just to make sure that you understand what I mean).</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#221 Change volume voice playback (also during play)</title>
+        <detail> In Singstar you can adjust the volume of the output of your voice during play. Now my voice is louder than the music that is being played and I would like to hear the music too. </detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#154 Adjustable lyrics location</title>
+        <detail> The lyrics are currently displayed on the bottom of the screen. It would be nice to be able to display the lyrics on the top of the screen or display it on both locations. </detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#193 #PREVIEWSTART</title>
+        <detail> If the song has a large #START value, then we also need a large &quot;START&quot; for the video preview, for the automatic preview doesn't work in this case. I think some mods already use #PREVIEWSTART for this purpose. I think this should be implemented in UltraStar Deluxe by default. 
+Another solution could be to adjust the automatic preview according to the #START value.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#168 Dance features</title>
+        <detail> What about dance features? A part that at the same time contest for your voice and your danceing skills. Something like Stepmania or pydance ..... </detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#116 Duet Mode</title>
+        <detail> Here's an idea for you.  You can add a duet mode since some songs have both a boy and a girl part. I do have quite a bit of programming experience and can help with this if hands are needed, but the general idea is to run a second txt file and have the program read them together as one.  Of course this would require the players to have a microphone splitter or some other way of having 2 sound inputs. Comments?  Questions?  Need help? 
+E-mail me: 
+blubberyickything@gmail.com</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#80 Add Time Remaining / High Scores</title>
+        <detail> Love the game. I think a simple improvement would be to add an option so that when playing a song you could see the remaining length ala WinAMP etc. like &quot;-3:05&quot; at the beginning at &quot;0:00&quot; at the end. Another nice feature would be to have the highscores for a particular song display somewhere on the interface when browsing. 
+Chwwea</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#182 Multiple popup texts ingame</title>
+        <detail> Hi, How about having popups rating how well you sung last line display one of random texts? So instead of always &quot;awful&quot; it's &quot;awful&quot; or &quot;dismal&quot; or &quot;pathetic&quot; or &quot;ear-splitting&quot;, etc. &quot;perfect&quot; could also be &quot;ideal&quot;, &quot;flawless&quot;, &quot;epic&quot;. </detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#186 Creating Playlists while others playin</title>
+        <detail> im a big usdx fan and i own nearly 600 songs in my libary. but sadly such a big choice isnt sa good as thougth first. my experiences shown that it takes too much time to make a quick choose. thatswhy i had the idea to write a pogramm which give chance too choose the next songs for example on a netbook while others playin. some other nice features would be to include next to the songs the names of the next players automatically too.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#230 Songs repeating</title>
+        <detail> Hi 
+It would be amazing, if songs durning one play didn't repeat. I think it would be pretty easy to do. I've been playing Ultrastar with my friends for like 2 years and it is still the only thing that irritates us so much, when we are in a Party mode, we sing a song and then it appears again in a next round or even rounds several times. It's annoying when jokers are used and nobody wants to hear and sing the same song again.  Also a random selecting a song doesn't seem to be that random in the end (it could be improved as well) but it makes certain songs being &quot;randomly&quot; selected even more often.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#74 Overall ScoreStatistic in Party Modus at end of Party Modus</title>
+        <detail> Perhaps it is possible to create extra points in the Party Modus: The software should sum up all points from each Party Modus in the background of the system and show this sum of all reached points at the end of the Party Modus. Add an option to say that the group with the highest overall score could get an extra point.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#36 Top5 erweitern</title>
+        <detail> Fnde es praktisch, wenn man den Top5 Screen nach dem gesungenen Lied erweitern knnte bzw. dort sich weitere Highscores ansehen knnte. Denn wenn man ein Lied mehrmals gesungen hat, steht auf der Top5 Liste zum Teil nur noch ein Name und andere Spieler knnen gar nicht sehen, ob bzw. wie sie sich verbessert haben.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#89 guess which song is played</title>
+        <detail> in this party mode the song selection (with jokers) would be skipped. 
+then merely the midi track ist played (just like in the editor shift + p) 
+first the score of each player is 10000, sinking down fastly in the first seconds of the song getting slower during the song (like e^-x or something), finally reaching 0 points. 
+each player has its own key to hit, if he thinks he knows which song it is (artist - title)... 
+if he guesses wrong additional points (500/1000?) will be subtracted from his score... 
+if he guesses right, he wins with the current score.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#155 Party mode scores</title>
+        <detail> Party mode scores don't end up on the high score lists. In the 1.0.1 the duel scores used to do that. Will this be implemented or is it an active choice to keep them out in the 1.1 (I'm using rev 2056)? If the latter it would be such a shame.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#127 Tone assist</title>
+        <detail> As the 'click assist' but with notes. The midi/kar notes played by midi sounds, or changing the pitch of a wav note, it doesnt matters. This would be helpfull for testing your own songs, cheking if a song that you downloaded its ok, and to assist you while you learn a song.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#73 Unlimited Jokers</title>
+        <detail> Sometimes in Party Modus people do not like to sing a certain song(s). It would be nice if an option could be created to have unlimited Joker (just an ON / OFF Option).</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#152 Screen resolution should always use the default screen res..</title>
+        <detail> Rather than use predefined resolution, game should use default system screen resolution automatically. Add to config ini: // Setting Auto to False, will make game use resolotion defined here without detection,  
+// and game might not work on other monitors which have smaller resoltions used by system. 
+ScreenResolutionAuto = True 
+Resolution = usedresoltion</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#135 Multiple #EDITION values</title>
+        <detail> Was great having the same music in multiple editions without having to copy the folder ... occupy less space on disk .. TXT Could be of this type: 
+i.e. Using &quot;|&quot; as delimiter or another special character. or (...)  Thanks</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#191 Transparent notes</title>
+        <detail> I'd like to have transparent notes. At the moment, the notes hide large portions of the music videos. If you could see right through them, I think it would look better.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#114 On-the-fly fix of broken songs</title>
+        <detail> Hi! Background: 
+Thank you for a great work with ultrastar! 
+I have a vast ultrastar song archive and also normally a very large audience when running ultrastar. The problem is that now and then I come across songs which are not very well written. For example they might be a bit out of tune since the author did not bother testing anything else than easy difficulty or they may be a bit out of sync because of different versions of the mp3-file. Suggestion: 
+A simple way of fixing songs on-the-fly. Example: 
+Press a special key when playing the song, then use the arrow keys to move the correct lines around. (or shift click) -&gt; means move the line further ahead (to a later time) 
+&lt;- means move earlier 
+^  means change the correct frequency higher 
+v  means change the correct frequency lower If this can be done without stopping the song it would also be a great improvement! Then the audience will not notice that anything changed. When you exit the game mode the user interface should ask if you want to save the changes. Alternative suggestion: 
+If this is too difficult to do I would like a way to &quot;tag&quot; songs with &quot;broken&quot;. Which then moves them to another directory or does something which makes it easy for me to remove the songs from my archive. Thank you very much!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#162 Challenge Mode options</title>
+        <detail> When choosing the number of players and games in the Challenge Mode people should be able to decide the number of games each player should play and not the total number of games, otherwise it would take too long to play with large groups of people. 
+For example: right now if there are 7 people, the total number of games suggested by the game is 30 (I think). Every player is supposed to play against every other player twice (i.e. home and away). But this takes too long! And, furthermore, the number of games is wrong because it should be 42. But if I choose less games, let's say 12 games, the game will mess things up, because it may happen that a player gets to play 5 games and another player only 3! So the first one will have the chance to win more games and get more points.... obviously there's something wrong. 
+It would be better if I could choose the number of games each player should play: let's say I want each player to play 4 games. It doesn't matter that people won't be able to challenge each and every other friend: the important thing is that each player will play exactly 4 games. Ultrastar should then calculate the right number and combination of games that will allow such a thing. 
+It shouldn't be that complicated to code, I think! I've studied the problem from a mathematical point of view and these are the results (you can think of this as a sort of algorith you can use): 
+Let's assume that 
+N = Number of players; 
+G = Number of games each player is going to play; 
+GTOT = Total number og games played. 
+If you want to let each player play 1 time against each and every other player  then GTOT = |N-1|  and G = (N-1) . 
+If you want to let each player play 2 times (home and away) against each and every other player  then GTOT = (2 * |N-1|) and G = (2 X/2) . Note: if GTOT is not an integer it means that it is impossible to have each player play exactly X games. This means that if the number of players is odd, X has to be even. Hope this is going to help! Toz</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#213 Choose Gender</title>
+        <detail> It would be nice if there was not only the possibility to tipe in the players name, but also to choose the gender, so that songs with a female singer are preferred for a female singer (for example in party mod).</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#50 Delayed start for songs with small gap</title>
+        <detail> It's only a small detail, but it can make certain songs very annoying; 
+In songs with a gap below three seconds it is very hard to hit the first note(s) because the sung parts start right away, so I suggest a delayed playback for songs with a very small gap value would be quite useful. So after the song starts the song/video playback is all delayed by about 2 seconds so you can see the blue hint marker appear and prepare to sing.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#78 XBMC (Xbox Media Center)</title>
+        <detail> I hope a there will bei a release vor the xbmc ( )</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#51 subfolder support</title>
+        <detail> I love usdx but i would be nice if you could add subfolder support so i could mange my songs like this: Punk Green Day Green Day - When i come around 
+Green Day -... 
+Sum 41... Pop...</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#158 Fixs Linux version</title>
+        <detail> Now, you can add songs in /Home/(username)/.ultrastardx. But... You can't not add themes, sounds, fonts or pluggins. This is a big problem for linux's users. Thanks.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#138 Skins for comments (+ wav files?)</title>
+        <detail> Current comments include: Awful, great, awesome, perfect etc... (a) 
+For party mode these could be made funny/insulting: 
+(eg &quot;WTF&quot;, &quot;Quit Now&quot;, &quot;Nice one Lenon!&quot;, &quot;Sexy Time&quot;) etc...  (b) potentially add wav files for commentary.  
+So instead of just an icon, a voice would give commentary. 
+(a-la &quot;you don't know jack&quot;) (c) 
+Can diversify these, by making multiple random options for each comment.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#199 Fourth difficulty level</title>
+        <detail> Hi, Difference between scoring on medium and hard is huge. I suggest another difficulty setting. It would tolerate one semitone of difference, just like medium, except when singing off tune by semitone, it would only add half of possible points. It would fit squarely between medium and hard. I suggest it would be a new &quot;HARD&quot; and current hard would become &quot;EXPERT&quot;</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#231 Navigation by touchscreen</title>
+        <detail> I have a touchscreen monitor and ultrastar not work, I already changed in config.ini to on the joypad, is annoying to be plugging and unplugging your keyboard to play.</detail>
+        <time>2012-10-12</time>
+    </item>
+    <item>
+        <title>#107 Basic Lirc support</title>
+        <detail> it would be very nice to have lirc support. so i would not need a keyboard in our karaoke room.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#136 Karaoke mode</title>
+        <detail> Ability to turn off bars, or at least scores, muffle the midrange, and make it regular karaoke</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#47 Additional Playback version</title>
+        <detail> It is often possible to remove the vocals from a song using this method: English: 
+ German: 
+ You could of course make to different versions of the same track, for example &quot;Rammstein - Ohne Dich&quot; and &quot;Rammstein - Ohne Dich Playback&quot; but it would be more elegant if you could choose in USD which version you want. 
+This would need an additional entry in the txt file and some way to select which version to play. 
+Aaaand maybe the song pack creators would include playback versions :D. I am to lazy to create all of them on my own ;)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#134 Score World Charts</title>
+        <detail> Why not implement a internet-based world chart system with each ones score like the one on Frets on Fire? Here's the example:  That would increase the competition and the motivation :p</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#56 pro mode</title>
+        <detail> Instead of being able to sing without making breaks in the gaps(between two notes =&gt; &quot;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&quot;-cheat :P) you could add a 'pro mode' which, when its enabled, decrease your points if you sing in between of two notes. 
+You would probably want this to be disabled by default since its not in the original singstar. for questions: megaweezl on #usdx qn chan :D</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#212 Gold Lyrics</title>
+        <detail> At the moment, unsung golden notes appear as grey bars with gold sparkles (distinguishable from ordinary notes which appear as grey bars without gold sparkles). However the corresponding golden note lyric text which appears in grey is undistinguishable from lyrics corresponding to ordinary notes. Would it be possible to highlight unsung golden note lyrics in yellow so that they can be more easily spotted in the current and approaching lines and fill them in with yellow instead of blue when they have been sung? Thanks, 
+Thursday 
+:)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#49 Webcam statt video</title>
+        <detail> Eine Webcam als video quelle wre wunderbar.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#157 Add Date to Score, Filter Players, Switch songs Difficulty</title>
+        <detail> a, The filter patch works fine but I think it would be nice to be able to choose, let.s say in the otions/advanced, whether you want to filter the players in the high score lists or whether you want absolute scores. b, Why the weird American date stamps? Why not YY-MM-DD or DD-MM-YY where you go from the largest to the smallest or vice versa? c, It would be really nice if you could scroll songs while being watching a particular songs high score. I.e. for instance if you press right arrow you go to the next song and can directly see the next song's high score list. As it is now if you want to go through the high score lists it's very tedious since you have to do a lot of actions in order to be able to see the next songs high score list.  To make it short, up and down arrows for selecting difficulty and right and left for selecting songs.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#97 note indicator</title>
+        <detail> i was thinking, I am playing this game a lot to help sharpen my ear as well, and I am not there just yet, but a little square or something that said the note that I was supposed to be singing, or was singing, or maybe even both, like a note expected, and a note recieved would help a ton in building tonal memory.  then you would know what to do to make an A note, or an A#, and would reinforce it the entire time.  It would really help out with my ear training, and probably increase how well people sing a lot faster.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#82 Choose difficulty and name of the singer AFTER choosing song</title>
+        <detail> It would be logical to choose the difficulty and name of the singer AFTER choosing song, not before!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#167 random start song</title>
+        <detail> First i posted in Bugs - Sorry It is possible to add a randomize option (choosable from settings-menu 
+ON/OFF)to start every time with a random song ? 
+Or another idea - start with the last played song ... Hope some of you can implement it. Best regards 
+Grille</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#187 Display player's names ingame</title>
+        <detail> Display the player's name instead of P1, P2, ..., Px... would fix 2 issues: 
+- no more asking &quot;who is who?&quot; or  &quot;who am i?&quot; 
+- you can still tell who is who, even if your tv won't show colours when connected via s-video cable</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#149 RockBand Pitch monitor</title>
+        <detail> If this game has a pitch needle like RB/RB2, i might actually be good at it.  
+I am slightly tone deaf so I have no idea what pitch im singing at until its too late. 
+Being able to see my pitch would help immeasurably!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#113 Editor Interface</title>
+        <detail> Could you add an option for browsing through directories in the editor? It's always very annoying if you have to type in the whole directory line into the editor for each Midi you want to convert... 
+Would be helpful 
+THX</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#132 Triplets</title>
+        <detail> Currently everything is measured in semiquavers (4 to a beat). If you try to do triplets, you have to do 1, 2, 1 which is very inaccurate. 
+To do triplets, you need to triple the BPM so that there are 12 parts to 1 beat instead of 4, and the triplets have lengths 4, 4, 4.  
+Songs commonly have triplets so this affects many songs. I can think of two solutions: 
+1. Add a triplet command to the text file format 
+2. Add a &quot;triple bpm&quot; function to the editor, like the &quot;double bpm&quot; feature</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#173 View percentages in post-song statistics</title>
+        <detail> Currently post-song statistics indicate (non-golden) notes, line bonus and golden notes totals, but would it be possible to include corresponding percentages alongside these totals so a player can see what percentage of the total each type (s)he has accumulated over the song? For example, percentage results of 92%, 66% and 73% would indicate the singer has no trouble reaching most notes and sounding vaguely tuneful, but needs to concentrate more on perfecting lines and hitting more golden notes :) Keep up the great work, 
+thursday 
+:D</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#215 PS3-singstar style artist grouping</title>
+        <detail> Get rid of the alphabetic folders, and add true ps3 style artist grouping, where each artist with more than 1 song generates a vertical list you can scroll to choose which song.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#140 Deal with 'dead time'</title>
+        <detail> Many songs have long poses w/o singing. 
+Ability to fast forward or skip? 
+At least show how much time till u have to sing again.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#163 FFT instead of auto-correlation</title>
+        <detail> Guys I think you should use FFT instead of auto-correlation... it's much much better! 
+Have a look at Performous: it's ugly but the note-recognition is far better than in Utrastar.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#227 change handling of covers.cache</title>
+        <detail> I have noticed that long startup time has mostly to do with covers.cache. Can't this file be managed differentially, ie. not create cache of covers that are already there and instead just remove covers of files that are no longer present?</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#190 Make right shift key work in Editor</title>
+        <detail> I'd like to see the right shift key working in UltraStar Deluxe Editor. At the moment, only left shift works. Right shift + P is much shorter way, you could use only your left hand for right shift + P.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#218 Add Arabic Support</title>
+        <detail> I really need arabic unicode support for ultrastar deluxe. Its a very fundamental feature and i wish you would add it. Thanks in advance</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#31 Spieler-Anzahl im Player-Select-Screen ndern</title>
+        <detail> Hi zusammen, es wre klasse und praktischer, wenn man die Anzahl der Spieler anstatt wie bisher in den Optionen, auf dem Player-Select-Screen regeln kann. Z.B. durch die +Taste um einen weiteren Spieler hinzuzuf¨¹gen bzw. -Taste um einen abzuziehen. Was haltet ihr davon?</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#161 Extra visual effect for 'Ultrastar' rank</title>
+        <detail> How about an extra gratification for an excellent performance in songs? For example, in the summary screen after the song, where rank is supposed to achieve. Some ideas:</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#169 Multi lyrique</title>
+        <detail> It might be nice to put several words for same song. This can apply to the voices and chorus, or then for two players to sing different parts of a same song and at the final point is the sum of point of the two player.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#224 Allow global deactivation of videos</title>
+        <detail> It is possible to manage a background image and a background video for a song. UltraStar will always use the video and ignore the background image. For the use with slower computers it would be fine to globally deactivate the videos and use the background images instead.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#90 Txt-file supports duet (A male/female duet)</title>
+        <detail> It would be more functional if you could add another column the txt-file that determines whether a male singer of a female singer sings this part. Because in some songs  there will be a part where both singers sing together, but different lyrics. So if you can, could you please make UltraStar support a txt-file with an extra column that determines the singer? (For example, after the &quot;pitch&quot; column add a column that says &quot;0&quot; for female, and &quot;1&quot; for male and &quot;2&quot; for both.) I'll be looking forward to your answer 
+samisnotyoshi@gmx.com</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#131 Option &quot;Videogre&quot; ohne Funktion</title>
+        <detail> Die drei Einstellungsmglichkeiten im Optionenmen¨¹ unter &quot;Videogre&quot; haben keinerlei Funktion. Es wird immer ein &quot;gezoomtes&quot; Video dargestellt. Gibt es eine Mglichkeit das Original Seitenverhltnis bestehen zu lassen auch unter der Einschrnkung schwarzer Balken? </detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#172 View/edit more tags via song editor</title>
+        <detail> Currently the song editor permits the editing of #BPM and #GAP tags (and indirectly, I suppose the #RELATIVE tag too). Would it be possible to extend this to more of the remaining tags so that incorrect entries for the #GENRE, #VIDEOGAP and #EDITION tags in particular can be more easily fixed across a song collection without having to individually edit a large number (in my case ~300) files? :) Cheers, 
+thursday 
+:)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#112 .kar and and .midi files</title>
+        <detail> If ultrastar could read .kar and .midi files, downloads would be really quick, and you'd be able to use karaoke machine files. Karaoke machines don't rate you.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#81 Do not count the score if the song is not completed.</title>
+        <detail> If you skip a song at any timne in the song, the score will be recoreded. This is a non-sense because the song is not over yet, so it cannot be counted as completed.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#174 Autoscreenshot mode</title>
+        <detail> Is it possible to create an &quot;autoscreenshot mode&quot; which would generate a screenshot at the end of every line of a song and deposit these into a usefully named sub-folder of Screenshots e.g. Artist - Title? I've tried to manually trigger screenshots towards the end of every line of a song and it's surprisingly difficult to get the timing just right every time so that the screenshot doesn't happen too early (before the line has finished playing) or too late (by which time the next line has appeared on-screen and your sparkly notes and &quot;awesome&quot; have disappeared!) Thanks again devs, 
+thursday 
+:)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#133 support for transparency in cover pictures</title>
+        <detail> Add support for png alfa channels in cover pictures.  
+Cover picture can be png. And png can have (transparency) alfa channel. Not all played songs are from some cd. Cover can be also logo or something.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#185 6 Player on 1 Screen</title>
+        <detail> 4 and 6 Player in one Screen (1920x1080). 
+---1--- , ---3---                   ---1--- , ---4--- 
+---2--- , ---4---      and       ---2--- , ---5---          
+ ----Text ----                     ---3--- , ---6--- 
+                                       ----Text----</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#206 Rating songs for party modus</title>
+        <detail> Hi, 
+if you start party modus you can choose if you want to use all songs¡° or if you want to use a playlist¡°. I think it would be great, if there was a possibility to rate the songs (for example with stars like you can do it in a media player (for example the windows media player)) and then choose all songs but prefer those with the highest ratings¡° in the party modus.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#34 more jokers</title>
+        <detail> hey,  was ich schoen faende, waere eine erweiterte auswahl an jokern; der links-rechts joker: 
+man kann anstatt ein zufallslied ein lied nehmen, was links oder rechts neben dem ausgewaehltem lied ist der diktator-joker: 
+man kann sich ein lied (in einer vorgegebenen zeitspanne) aussuchen und das lied MUSS gesungen werden der du &quot;schaffst das nie&quot; joker: 
+man hat die moeglichkeit ein spieler zu waehlen von dem man denkt, das er nie und nimmer gewinnt. 
+wenn das zutrifft und der gewaehlte nicht gewinnt, dann erhaelt man 2 punkte (also der der den joker gespielt hat), ansonsten gewinnt der -der ja dann gewonnen hat- 2 punkt (einen fuer den sieg und einen fuer den joker Wink ) der &quot;you can t stop me&quot; joker: 
+wenn man meint, dass man das kommende lied auf JEDEN fall gewinnt, dann spielt man den joker und bekommt beim siegt doppelte punktzahl. sollte es nicht zutreffen, so wird ggf. allen anderen spielern in punkt mehr gegeben (oder dem joker-spieler ein punkt abgzogen) //es gibt sicherlich noch einige joker, die gut reinpassen wuerden, aber die find ich am besten Wink ich stelle mir das so vor, dass es zzgl. zu den 5 vorhandenen jokern halt einen SUPER-JOKER gibt, den man spielen kann. 
+wenn man den spielt, kann man halt einen der obrigen auswaehlen. schoen waere es auch noch, wenn in das spiel eine vorgegebene spiel-ich-nun-einen-joker abfrage reinkommt (zuschaltbar), dass also immer wer anders anfangen muss sich zu entscheiden. 
+(&quot;spieler 1, moechtest du einen joker spielen    &quot;, dann das gleiche mit allen anderen, aber halt immer eine andere reihenfolge und mit vorgegebener entscheidungs-zeit (10 sek oder so); 
+wurde mit   betaetigt, so kommt man in den joker-auswahl screen, sonst kommt der naechste drann.) 
+bei z.B. diktator-joker ist selbstverstaendlich nach dem joker das singen drann, egal ob der erste direkt den joker gespielt hat oder der letzte. 
+bei den &quot;vertrauens&quot; -jokern waere es auch witzig wenn man danach noch andere joker spielen kann ;D ich wuerde mich mega freuen, wenn ihr das machen koenntet Wink, nicht morgen und auch nicht in einer woche , .. 
+aber es waere der hammer, wenn ich ggf als alter opi das so mit meinen kollegaas spielen koennte Smile </detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#181 Online scores</title>
+        <detail> Hi Guys! 
+What about online database of the high scores and player's statistics (And maybe Social sites plugins)? ;)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#87 Player Selection in Single Player Mode</title>
+        <detail> If one plays in Single Player Mode, one has to write the name of the player, that is going to sing. I think it's a bit annoying. It would be great if one can create different profiles for more than one user, and you can select the profile of the actual player. (That could also be helpful in Multi-Player-Mode, I think.)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#150 Reload current song</title>
+        <detail> If you have the .txt file in notepad/vi/whatsoever text editor when experimenting with pitches and timing, to get the new scene currently seems to require leaving and reentering USDX. An option (hotkey?)  to reload the current song from disk (to get the newest changes written by other programs) would be more than &quot;just nice&quot; as leaving and reentering to play mode consumes a lot of time (and nerves).</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#223 Read tags from MP3 files</title>
+        <detail> Mp3 files support tagging. I use this feature extensively and know other people doing the same. I have tags for language, country, label, composer, producer, studio, year of publishing, genre, beats per minute etc. It would be really nice if UltraStar could read these tags and use it for grouping the songs. In my opinion UltraStar needs to hold a list somewhere with all the tags that should be written from the mp3 files and should than allow to group the songs for all of these tags. 
+There are also some advanced features possible: 
+- Tags support multiple values which are separated by semicolons. The UltraStar Mp3 tag support should recognize these multi value fields and list such songs in multiple groups 
+- Some values (like label or composer names) may look different but are equal (e.g. Mercury Records, Mecury Recordings, Mecury etc.). The UltraStar Mp3 tag support should support an equality list or could have some kind of algorithm that finds similar values and assign them to the same group</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#205 Change hotkey for altering BPM</title>
+        <detail> This is crucial in editor. Whenever I try to replay section, it's easy to accidentally press &quot;[&quot; button and have your BPM changed. This is even worse, since altering BPMs by 0,05 skips into the next multiply off 0,05. So if I had calculated BPM = 100,02, after accidentally pressing &quot;[&quot;, it skips to 100,1 or 100,05 and there is no way to return to 100,02 other than manual edition.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#144 One Person Harmony  (multiple choice of notes)</title>
+        <detail> In some songs there are two (or more) people or voices singing in harmony the same words. 
+Ultra star should give the singer the option of choosing which note to hit: 
+- Ultrastar files should have the ability to enter multiple notes simultaneously 
+- two (or more) bars would then display on the screen 
+- the singer would get full marks if he/she sings either of the bars So in the case of simon and garfunkel, singer would be able to sing either harmony without penalty.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#104 Choose soundcard for output</title>
+        <detail> Please let the user choose which output device he wants to use. I got an onboard soundcard and a Creative Audigy 2 ZS. The sound of the onboard soundcard outputs over the television because we play there :) It should be very easy, according to the source code. ;)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#40 Statistiken sortieren nach Schwierigkeit</title>
+        <detail> In den neuen Statistiken wird insbesondere beim Durchschnittswert der Punkte ¨¹berhaupt nicht nach Schwierigkeit unterschieden. Es wre doch sicherlich schner und besser, wenn man f¨¹r jeden Schwierigkeitsgrad einen eigenen Durchschnittswert htte. 
+Auch bei den anderen Statistiken fnde ich eine genauere Unterscheidung schner. PS: Auf jeden Fall 1000 DANK f¨¹r eure Arbeit. UltrastarDeluxe ist das beste PartySpiel zur Zeit ¨¹berhaupt. Dank EUCH!!!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#109 PartyModeSongScreen improvment</title>
+        <detail> Hey, 
+I would like it, if the name of the next game and the names of the next players are showed in the Song-Select-Screen  of the Party-Mode. Thanks!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#197 Vibratto support</title>
+        <detail> Both singstar and lips have it now. I think it would be a cool thing to have as it would separate people really singing well from those who aren't.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#141 Ability to normalize volume</title>
+        <detail> Different MP3s are different volume, is it possible to adjust/normalize automatically? 
+Make this an option.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#126 Rap Mode</title>
+        <detail> Add a rap mode for certain songs, like in SingStar.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#225 skip search songs on startup</title>
+        <detail> A suggestion for future version of UltraStar When the song's carpet has got a lot of songs, the start  UltraStar Deluxe take a long time (especially on slower computers such as netbooks or olds Pentium IV). 
+To reduce the time it could avoid the search of new songs on demand, or turned on or off in the configuration file Thanks</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#125 Random Song</title>
+        <detail> Have an option to play a random song, like in SingStar. User will select &quot;Random Song&quot; and the game will randomly select a song for them to sing.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#143 Right to left languages</title>
+        <detail> Support for Arabic, Hebrew, Persian etc¡­ 
+I guess this could be quite complex, and likely lower priority</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#222 Read tags from MP3 files</title>
+        <detail> Mp3 files support tagging. I use this feature extensively and know other people doing the same. I have tags for language, country, label, composer, producer, studio, year of publishing, genre, beats per minute etc. It would be really nice if UltraStar could read these tags and use it for grouping the songs. In my opinion UltraStar needs to hold a list somewhere with all the tags that should be written from the mp3 files and should than allow to group the songs for all of these tags. 
+There are also some advanced features possible: 
+- Tags support multiple values which are separated by semicolons. The UltraStar Mp3 tag support should recognize these multi value fields and list such songs in multiple groups 
+- Some values (like label or composer names) may look different but are equal (e.g. Mercury Records, Mecury Recordings, Mecury etc.). The UltraStar Mp3 tag support should support an equality list or could have some kind of algorithm that finds similar values and assign them to the same group</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#103 Adding Guitar Capability</title>
+        <detail> It would be nice if i can connect my guitar to the emulator. So instead of songs it should analyze the guitar sounds from audio line, correlate and tell the score. </detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#29 Challenge-Game in PartyMode</title>
+        <detail> It would be a great addition if the Challenge Game was available, like it is curently on the PS2 Version. 
+The Team has to decide wheter they try to sing a random song to score &gt;7500 Points or force the other team to sing. </detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#211 Incorporate new mic without quitting</title>
+        <detail> At the moment, if the game has already loaded and you want to add a new microphone, you have to plug in the new mic, quit the game, restart the game, wait while all 400+ of your favourite songs reload, navigate to the microphone settings menu, and then finally adjust the settings.  In an ideal world, it would be nice to plug in the new mic and have this trigger a popup which would ask me whether I want to reconfigure my microphone settings now that a new soundcard has been discovered. If I selected 'yes', the game would then rescan for soundcards and take me to the newly updated microphone settings screen where I could alter the setup as desired.  Is this ideal world scenario possible and if not, can we instead: plug in the new microphone, then press a hotkey (maybe something like ctrl+alt+m) which would force a rescan of the soundcards available to the game and then take us to the newly updated microphone settings screen where the setup could be edited as above. Thanks, 
+Thursday 
+:)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#198 Highscore list in Song menu</title>
+        <detail> Add View Song Higscores option to Song menu.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#110 right STRG, ALT and SHIFT</title>
+        <detail> Is it possible to map right-STRG, right-ALT (ALT GR)and right-SHIFT for the same functions as the left keys. 
+For example in the editor or random song search: 
+STRG+P=right-STRG+P Would be nice if you implement this. :-)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#99 Rehersal Mode..pick out and repeat portions of a song</title>
+        <detail> A &quot;reharsal-mode&quot; would be very cool. I often use the program to do my homework for my singing lessons, so it would be great if I could &quot;mark&quot; a section in a song and sing it repeatedly..and then afterwards get a log with the points, &quot;expected&quot; and &quot;sung&quot; notes of each try.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#108 Song-Rating</title>
+        <detail> Hi there, There was a great idea, about song-managing: It would be great to be able to rate songs while singing with stars from 1 to 5 or something like that (as in windows-media-player). You might be able than, to filter songs with 3 stars or above, or filters like that. This would be great if you have really much songs to be able to sort live. greetings</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#57 Duet songs</title>
+        <detail> It would be marvelous having a duet song feature, so two person could sing the same song with a micro each one and the score would be the addition of both singers. If we have four micros (two Singstar usb micro bundles), it could be possible a new Party mode for duet songs where two groups challenge singing in pairs these kind of songs. There is a spanish version of UltraStar that implements such feature and some more, it's called UltraStar-NG, you can contact with the creator, Elwyd, if you are interested in the code, he has developed a new txt pseudo-code to make possible this feature. Regards.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#192 Hide Hotkeys (Song Selection)</title>
+        <detail> I use a Gamepad for song selection, so people might get confused seeing keyboard hotkeys (ALT-123 etc.) at the large TV screen. It would be great if an option could hide that hotkey bar.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#122 Put some option in config.ini (or theme)</title>
+        <detail> as in base/UMusic.pas, in &quot;procedure TSoundLibrary.LoadSounds();&quot; : all the audio files are hard code.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#208 Unify written pitches in editor and mic test</title>
+        <detail> That's not a big one, Basically game should have the same note names written in editor as in mic test in &quot;Recording&quot;. Because now there is ambiguity in how notes 10 and 11 are written. Editor says &quot;B&quot; and &quot;H&quot;, mic check says &quot;A#&quot; and &quot;B&quot;. Not knowing about different notations, it's easy to get confused, why can't I set A# in editor, and why can't I sing &quot;H&quot; in mic check.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#63 New sorting options</title>
+        <detail> Could you please add the possibility of sorting by more tags? New options could be #YEAR and #CREATOR. Thank You</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#76 Party Modus: Change Micro to next player should be constant</title>
+        <detail> Give Micro to next player is not constant. Sometimes it goes to Player 1, then to Player 2 and back to Player 1.  Should be: Player 1, Player 2, Player 3, Player 1....</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#217 addons</title>
+        <detail> How about a bonus game like audiosurf or something that can get played within ultrastar when you are not in mood for singing but want to listen to the music and or wacth videos from your collection, olso the addition of a jokebox feuture will be great as well as other ways of exploring your music library this last 2 similar to ultrastar disign</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#203 vertical running scoring?</title>
+        <detail> Hey, could you add vertical running scoring? One excample (made with Karafun and without scoring facilities):  In my opinion vertical karaoke has a much more constantly lyric flow and is less confusing than the abrupt horizontal &quot;powerpoint slide/page forwarding&quot; karaoke style. In result someone can sing a song much more prezise using a vertical running lyrics/karaoke than with horizontal karaoke. That comes important with very fast and powerfull sung lyrics where someones has to manage correct breathing without the danger of hyperventilating.  regards,</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#18 Points for 2nd place in 3 team party mode</title>
+        <detail> Hi, it would be nice if there was a possibility to change the points awarded in the party mode. We often play in three teams, but against one person (which seems to be a good singer) we rarely get a point. Becoming 2nd doesn't help because the 2nd doesn't get any points.  A 3-1-0 point pattern would be more fair (or an option to set points in the configuration).</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#145 Party Mode - custom plugin selection</title>
+        <detail> A screen or option that allows user to select with plugin/modes are used for each of the rounds within party mode (eg. Dual, Team Dual, Blind etc). At the moment it appear as though this selection is always randomized and cannot be changed.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#229 High Scores to include Datestamp</title>
+        <detail> It would be nice to see when each of the high scores was set.  High scores should be saved with a date stamp.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#88 Just play a song</title>
+        <detail> I think this isn't hard to handle, but it would be a nice feature, that you can play a song without singing it. That helps to get an idea of what you have to sing, if you can't remember the song exactly.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#200 Intelligent random song selection</title>
+        <detail> ... in party mode. I don't want get several times the same song. Solution: save which songs have already been played. I've modified the source code &amp; added a new function, so it is actually already implemented and you are free to use it. It works quite good. Would be great if you include this feature.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#102 Score management</title>
+        <detail> First : love this game ! you've done a very nice job ! I propose 2 improvements : 
+-&gt; keep only the best score of each player in the song scores. 
+-&gt; keep more than 5 scores for each song (I think 10 would be a good idea) because when playing with multiple friends the worst of us do not even have their name in the list. thank's</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#72 Save Name Changes in Party Modus</title>
+        <detail> The actual Version 1.01 does not save the last inputs of all names. When starting a new Party Modus the software types in &quot;Player5&quot; .... automatically in the system. So the user has to type same names again and again when starting a new party modus</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#219 Alternative singing in two players mode</title>
+        <detail> There s an option in PS2 (i think is duet) where each player sing alternatively in the same song, for example: player 1: verse 1, player 2: verse 2; both players: chorus. Its more funny than singin both players the whole song.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#171 View song high-score table option in song menu</title>
+        <detail> Can this option be added to the song menu so players can easily see the high-score table before deciding whether to sing, rather than having to load then quit out of each successive song whose high-score tables they want to check? Thanks devs, 
+thursday 
+:)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#207 Integrated Playlist Editor</title>
+        <detail> I know that there already exists a Playlist Editor for Ultrastar Deluxe, but it would be nice if there was a Playlist Editor that is integrated into the Programm Ultrastar Dx itself.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#175 Adjust editor exit shortcut(s)</title>
+        <detail> At present you can exit the song editor using the backspace or escape keys and personally I'd prefer if escape was the only such shortcut. I use backspace with F4 to edit the text of the lyrics and it's very easy to think you're editing text and press backspace, only to find you weren't and you've just lost all the alterations you made since you last saved.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#159 'Lips' like vertical bar moving through the section</title>
+        <detail> Hi, I thought a vertical bar moving through the sung section from the left to the right accordingly to the beat, much like one in 'Lips', would be a welcome addition on many fronts: It would be a great help for newcomers or casual players - arguably more useful than clicks to the beat, especially as it does not pollute the song with extra sounds. It would serve as an extra help to detect errors in txt files, especially too long/short notes. It would add to the eye candy as well. Constructive feedback is welcome.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#53 Recording the voice</title>
+        <detail> Recording the voice while singing should be possible! There should be a replay feature! (Replay the recorded voice after singing.) There should be a feature to hear me singing over the speakers (I know under WinXP this is already possible by disabeling the mute from the microphone in the Windows audio mixer.)(I know this could be tricky because of acoustic feedback...) Possibility of falsification (Verzerrung) of the recorded voice --&gt; This is really very very very funny! 
+I tried it @ a party with PS2/SingStar! Really funny, especially the &quot;MickyMouse&quot;-effect or the speed and pitch setter!!!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#195 translations in txt files</title>
+        <detail> Hi, You could add support of translations of songs to native language to be displayed while song is played. Official Ultrastar has sth like that but only with official songs in some binary format.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#85 Very Important! Seek song forward</title>
+        <detail> I think that the most precious new feature to me is to seek or forward or rewind the song. For example, skip the musical interludium or go to the best part of the song, or maybe go back and sing again a part (if that don't mess with the score - cheaters). There are any possibility to do that with songs (even that is not possible with videos, try to do this only for songs) without looging the sync? PLEASE that is very important, thanks for your excelent work ;-)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#216 Show note name while singing</title>
+        <detail> While you sing, there could be a note name appearing over a current note, so that players get a hint, what note it is. It would be also a suggestion, when to start/stop singing, esp. for really long notes</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#151 More voicelevel controls are needed to settings...</title>
+        <detail> Whene having party, people tends to speak while choosing song, and current usdx duet alpha atleast uses background voice on menus which is not controllable at all and is too loud when used the volume, which you want when you sing the song. Also pre listen volume on song selection is too loud which you can set lower, but that lowers singing song volume also, so you cant hear the son g anymore. yet tho, menus background volume is too loud even when you select preview volume down. So voice volume settings are very buggy atm.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#166 Medley - skip song</title>
+        <detail> Hi, It would be welcome if in medley mode I could skip a song which I don't know/like or I know it's badly made. Number of skips would be configurable from 0 to, say, 3. Also it would be great, if used keys would be displayed. I mean there could be: Esc - exit, P - pause, (S - skip), written on the bottom of the screen, like in song selection menu</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#93 im Songeditierung verschiebung beschlunigen:</title>
+        <detail> wenn man mit strg + alt + links/rechts alle nachfolgenden noten verschiebt ist dies bei werten ab 200 recht langwirig,  eine lsung wre das direkte springen zu einem bestimmten wert und/oder das schneller werdende verscheiben bei gedr¨¹ckt halten der kombination. ein probetesten bestimmter seitenzahlen wre auch praktisch (start tag im editor einstellbar) viel Erfolg! 
+FaKK</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#115 Music volume / Mic gain</title>
+        <detail> It would be good to have a setting to control music volume - mic level better to be able to adjust output relative to any mic/soundcard combination. In my case music is just too loud compared to mic. Thanks and you're doing a great job here! majo</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#77 Party Modus: Improve Automatic Song selection of the softw.</title>
+        <detail> It seems that the Party Modus often choose the same songs. 
+The luck to get the same song in one Party Modus or e.g. the next 3 Party Modus should be lower if one song has been choosed</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#120 High Scores</title>
+        <detail> I believe that the high scores will must include also the scores that are played in the party mode. This is fixed in Singstar 2 (In Singstar 1 also has this &quot;bug&quot;)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#176 Adjust editor divide/multiply bpm shortcuts</title>
+        <detail> While I don't have a problem with M being the shortcut to double the BPM, D (the shortcut to halve it) and S (the shortcut to save) are close enough to have caused me much personal trauma :) Can we have these shortcuts replaced by something less likely to cause heartache if you make a typo? Maybe, &quot;2&quot; to multiply by 2 and &quot;shift+2&quot; to divide by 2? That would allow &quot;3&quot; and &quot;shift+3&quot; etc to satisfy those users calling for a way to deal with triplets and shouldn't affect lyrics involving numbers since these can be spelled out. Cheers, 
+thursday</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#106 Choose a better file type for songs - not *.txt</title>
+        <detail> Hi. :) Well, you should really think about an own file extension for your song text files. &quot;txt&quot; is just way too generic. If you change this, you should also convert old songs to the new extension automatically because such a change should be almost 100% transparent to the user :)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#69 XML files</title>
+        <detail> so as i already posted in forum, i think it would be a great idea to switch from txt files to xml files (like sony in singstar does). xml files are a very comfortable way to describe structured data and that would give us many advantages in song managment. 
+you can include different versions of the same song in one xml file (e.g. short and long version, duets, mutliple voices etc.) and ultrastar can switch between them like the user want to. (e.g. if there is a long and a short version of the song, you can choose between them before you sing -&gt; just like singstar). 
+and you haven't to edit or create the xml manually. there are good programms which allows you to create xml files in a comfortable way, shows them in a structured view and saves them as normal xml files (even compressing is possible). one good programm is XMLSpy which you can get here: 
+</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#137 Music Sheet mode</title>
+        <detail> Showing the actual notes on music sheet in graphic display.  
+Would be great for anyone who can read music! 
+Would be great for anyone wanting to learn to read music!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#179 Using pitch detection to create usfiles</title>
+        <detail> Hi, Recently I got an idea: Since you already have pitch detection code, how about using it in reverse way - to create usfiles themselves? You would pick a mp3 file and play it, during playing you would sing and your pitch would be detected and dumped to the text file. It would REALLY shorten time to create a song. Problems: 
+-No lyrics - you would have to put it by hand after recording - but it's like that in midi creation anyway 
+-Figuring out BPM - I would probably assume default value of around 300 and record accordingly 
+-Figuring out gap - I would suggest manually indicationg when gap starts and ends (ie Button &quot;Start recording&quot;, &quot;end recording&quot;) What do you think? Regards.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#188 persistant database for faster startup</title>
+        <detail> At the moment the startup time if there are a lot of songs (in my case 3945) in the songs folder is by far too slow. Please make the song database persistent. On startup UltraStar Deluxe should assume there were no changes to the songs. Nothing added, nothing removed. It should start with what was there the last time it was closed. The process checking the whole song database should run in the background with an priority low enough to not disturb the normal gameplay. If the user chooses a song it should be checked if this specific song is still on the disk and if so it could be played without problems. 
+If the song is not on the disk anymore USDX should open a simple dialog telling the user his choosen song is missing and therefore 
+removed from the database.  I think, this will speed up things a great deal! To minimize the cases this window appears and to reduce the time till newly added songs are found by the background scanning process, song management functions could be incorporated into USDX. A delete function that removes the selected song from database and harddisk. A delete function that allows to choose multiple songs for deletion. An add-songs function that allows the user to import the songs from a certain directory into USDX. If the user uses these functions to add and remove songs USDX will always  know which songs are there and which are not, making the scanning process nearly obsolete.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#22 Button on song selection screen to se scores</title>
+        <detail> Maybe will be useful if is not very complicated to implement, a option to view the hi-scores in the song selection screen, appearing on one side of the screen or pressing a key to go to the hi score screen of the song selected.</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#160 Ability to fast-forward to the beginning of the notes</title>
+        <detail> It would be great to be able to fast-forward the song up to like 5 secs before the beginning of the lyrics. It would be useful when the lyrics begin at like the 60th second of the song...</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#44 Sortierung ¨¹berarbeiten II</title>
+        <detail> Die alphabetische Sortierung sollte wie bei Windows funktionieren: Die rzte             dann 
+Die Toten Hosen 5th Dimension         dann 
+10CC Nicht so wie derzeit anders herum!</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#130 Editor info</title>
+        <detail> In the editor having a display of what keys do what on screen rater then try to remember. 
+would make process easier 
+('E' at song selection editor)</detail>
+        <time>2012-10-03</time>
+    </item>
+    <item>
+        <title>#177 Challenge Mod for 1.1?</title>
+        <detail> I really like the idea of the challenge mod, but I haven't been using 1.0.1 for donkey years. Which means that I envy those of you who enjoy that nice feature of the old Ultrastar deluxe.  So what I wonder is; will the challenge mod be implemented in the 1.1? And if so could you perhaps make a version where you can be e.g. three players in a single match? I don't know how this would work, thre players in a single match i.e. But since we started using the game's prime feature, i.e. being able to be more than two players at the same time, we're hardly ever only two players.</detail>
+        <time>2012-10-03</time>
+    </item>
+</requests>

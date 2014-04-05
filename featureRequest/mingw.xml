@@ -1,0 +1,1747 @@
+<?xml version="1.0" ?>
+<requests>
+    <item>
+        <title>Add meta packages to mingw-get - ID: 3356619</title>
+        <detail>It would be nice to have the option to upgrade all installed packages with mingw-get rather than trying to remember which packages have been installed.  A single command such as 'mingw-get upgrade installed' or 'mingw-get upgrade all' which iterated through all the installed packages and upgraded them to their latest versions would be lovely.</detail>
+        <time>Gregory Scott Hellings ( hellings  ) - 2011-07-06 09:14:41 PDT</time>
+    </item>
+    <item>
+        <title>missing FILE_MAP_EXECUTE in winbase.h - ID: 1913717</title>
+        <detail>I've remarked that FILE_MAP_EXECUTE is missing in winbase.h. 
+ 
+msdn page where it is mentioned: 
+ 
+http://msdn2.microsoft.com/en-us/library/aa366559(VS.85).aspx 
+ 
+I don't know which value i have to give to that macro, so i didn't attached any patch</detail>
+        <time>Vincent TORRI ( doursse  ) - 2008-03-13 10:27:30 PDT</time>
+    </item>
+    <item>
+        <title>manifest tool needed for windows vista/7/8 compatibility - ID: 3440395</title>
+        <detail>he microsoft visual c++ compiler has a manifest tool mt.exe for modifying executables and adding in manifest xml resources, which makes executables vista, 7, and 8 compatible (in other words, they won't get shoved into the virtual store when stored in the newly protected directory c:\program files\ - or is it executed?). 
+ 
+see http://JesusnJim.com/code/copmpilers/mingw.html 
+for documentation on the microsoft XML manifest format and how it should be added as a windows resource. 
+ 
+a specially done manifest can be made to be compatible with xp and windows 9x/me, but if you get it incorrectly formatted, the program will not execute on vista/7/8, and especially not on 9x/me.</detail>
+        <time>Jim Michaels ( jmichae3  ) - 2011-11-19 22:35:59 PST</time>
+    </item>
+    <item>
+        <title>InterlockedCompareExchange incorrect prototype - ID: 231820</title>
+        <detail>The winbase.h include file contains the following incorrect prototype: 
+ 
+PVOID WINAPI InterlockedCompareExchange(PVOID*,PVOID,PVOID); 
+ 
+It should be: 
+ 
+PVOID WINAPI InterlockedCompareExchangePointer(PVOID*,PVOID,PVOID); 
+ 
+and the following prototype is missing: 
+ 
+LONG WINAPI InterlockedCompareExchange(LPLONG,LONG,LONG); 
+ 
+(or vice versa depending on how you look at it).</detail>
+        <time>Nobody/Anonymous ( nobody  ) - 2001-02-09 22:23:22 PST</time>
+    </item>
+    <item>
+        <title>ifstream should be able to open any local file - ID: 2820015</title>
+        <detail>There should be some means for the file stream classes in C++ to open any existing file on a user's computer, or create any file with a valid name. As far as I know, the only way to open a file whose name falls outside of the system codepage is to use the corresponding &quot;short name&quot; (8.3), but not all filesystems have short names (e.g. on NTFS they can be disabled.) As long as ifstream has this limitation, it just can't be used in desktop programs that take internationalization seriously, so adding some sort of Unicode support would really help. 
+ 
+Some options for adding Unicode support: 
+- if the file name passed on the constructor or to open() begins with a &quot;*&quot;, discard the &quot;*&quot; and interpret the rest of the string as UTF-8; 
+- add a constructor that takes wchar_t* ; 
+- add a constructor that takes a file descriptor; 
+- use an environment setting or a global variable to decide if names passed to ifstream should be interpreted as UTF-8 or as system codepage; 
+ 
+All these suggestions have drawbacks, but to me they all look better than the current situation.</detail>
+        <time>Ciobi ( ciobi07  ) - 2009-07-11 03:47:55 PDT</time>
+    </item>
+    <item>
+        <title>seq is missing from coreutils - ID: 3340821</title>
+        <detail>Hi, 
+ 
+I need seq for one of my shell scripts and found out that it is currently missing from the coreutils package provided as part of MSYS. Please add this little usefull tool. 
+ 
+Regards, 
+Fabian</detail>
+        <time>Fabian Greffrath ( fabian_deb  ) - 2011-06-28 06:55:57 PDT</time>
+    </item>
+    <item>
+        <title>more wincrypt for openssl - ID: 2125212</title>
+        <detail>The attachment list modifications to mingw w32api header files and crypt32 import library required to build openssl repository version. 
+All information is obtained from public sources.</detail>
+        <time>Roumen Petrov ( rumen  ) - 2008-09-23 14:01:07 PDT</time>
+    </item>
+    <item>
+        <title>GCC/Binutils src unpacks in current dir - ID: 437273</title>
+        <detail>Typical strategy when creating source distributions is 
+to make sure that each goes into its own subdirectory, 
+named &amp;lt;package&amp;gt;-&amp;lt;version&amp;gt;. GCC and binutils source 
+trees unpack into the current directory, which can be 
+somewhat of a surprise to those who are used to getting 
+GNU sources, and don't bother to look at the table of 
+contents before running `tar -zxf ...'.</detail>
+        <time>Mumit Khan ( mumit  ) - 2001-06-28 19:44:26 PDT</time>
+    </item>
+    <item>
+        <title>d3d10 support for w32api - ID: 2975942</title>
+        <detail>Is it slated to add d3d10 support to w32api ? 
+ 
+thanks.</detail>
+        <time>Alan Hourihane ( alanh  ) - 2010-03-24 08:00:13 PDT</time>
+    </item>
+    <item>
+        <title>get ntstrsafe.h to mingw32 - ID: 3352636</title>
+        <detail>openvpn need ntstrsafe.h to build tap-win32 driver, but this header is only present in mingw64. Is there any plan to make it available to mingw32 ?</detail>
+        <time>Bertrand Jacquin ( bjacquin  ) - 2011-07-03 17:09:57 PDT</time>
+    </item>
+    <item>
+        <title>-0 not supported - ID: 1978642</title>
+        <detail>Most systems support the concept of -0 it appear the mingw runtime does not handle this. An example program is attached.</detail>
+        <time>Cary R. ( caryr  ) - 2008-05-29 18:59:07 PDT</time>
+    </item>
+    <item>
+        <title>Silent, custom Inno mingw-get-inst - ID: 3458415</title>
+        <detail>Basically just need to add a &quot;Components&quot; section to the iss installer. This will allow users a silent, custom installation, ie 
+mingw-get-inst-20111118.exe /silent /components=fortan,objc 
+ 
+See link for more info 
+http://stackoverflow.com/questions/8469569/determine-inno-setup-command-line-options</detail>
+        <time>Steven Penny ( svnpenn  ) - 2011-12-12 16:58:30 PST</time>
+    </item>
+    <item>
+        <title>MinGW packaging option - ID: 1364022</title>
+        <detail>I like the way that MinGW-4.1.0.exe was packaged -  
+sort of. It was great for a machine connected to the  
+internet. But, I needed to install MinGW on a second  
+machine that had a slow connection. Could there be an  
+option, or at least instructions, to download  
+everything to a CD and then install from there?</detail>
+        <time>Dave Pfaltzgraff ( davepfz  ) - 2005-11-22 10:03:07 PST</time>
+    </item>
+    <item>
+        <title>Please provide a &quot;which.exe&quot;, not just a shell script - ID: 3292402</title>
+        <detail>Hi, 
+ 
+MSYS currently provides the &quot;which&quot; command as a shell script, i.e. it cannot be run in a cmd.exe shell. However, especially in a cmd.exe shell it is important to know if e.g. calling &quot;find&quot; will run the POSIX find from MSYS (I have the MSYS /bin directory in my PATH) or the one from Windows. 
+ 
+Best regards, 
+Fabian</detail>
+        <time>Fabian Greffrath ( fabian_deb  ) - 2011-04-24 03:22:45 PDT</time>
+    </item>
+    <item>
+        <title>CSSC - ID: 3541941</title>
+        <detail>Hi, 
+ 
+As terrible as SCCS is, is there any chance to have a CSSC package? 
+ 
+Cheers, 
+Bogdan</detail>
+        <time>Love4Boobies ( love4boobies  ) - 2012-07-10 00:26:17 PDT</time>
+    </item>
+    <item>
+        <title>Clipboard support - ID: 892835</title>
+        <detail>Please add the functions or menu entries &quot;copy&quot; and &quot;insert&quot; to the command window.</detail>
+        <time>Markus Elfring ( elfring  ) - 2004-02-08 04:47:04 PST</time>
+    </item>
+    <item>
+        <title>Add unix2dos and dos2unix to MSYS-Base - ID: 2203906</title>
+        <detail>Cesar, 
+ 
+In view of the recent independent inquiries, we might consider adding this pair of minimal implementations to msysCORE. 
+ 
+I suggest this particular pair, in preference to other suggestions, because: 
+ 
+1) They are extremely light weight. 
+2) They exploit only standard behaviour of an existing MSYS tool. 
+3) They have no dependency external to existing msysCORE. 
+4) They DTRT, without any added bells or whistles. 
+ 
+Regards, 
+Keith.</detail>
+        <time>Keith Marshall ( keithmarshall  ) - 2008-10-28 04:58:51 PDT</time>
+    </item>
+    <item>
+        <title>w32api missing strsafe.h - ID: 3515366</title>
+        <detail>w32api is missing strsafe.h and everything defined in it 
+http://msdn.microsoft.com/en-us/library/windows/desktop/ms647466%28v=vs.85%29.aspx</detail>
+        <time>Zack Martinez ( zackmartinez  ) - 2012-04-05 21:12:56 PDT</time>
+    </item>
+    <item>
+        <title>Expand support for Ws2tcpip.h - ID: 2022851</title>
+        <detail>Add support for some missing funtions like 
+  GetAddrInfo(A/W) 
+  GetNameInfo(A/W) 
+  FreeAddrInfo(A/W) 
+ 
+and associated structures 
+  LPFN_GETNAMEINFO(T/A/W) 
+  (P)ADDRINFO(T/A/W) 
+  LPFN_FREEADDRINFO(T/A/W) 
+ 
+These are some of the functions in Ws2tcpip.h that are available since XPSP2.</detail>
+        <time>ultim ( ultim  ) - 2008-07-20 06:26:33 PDT</time>
+    </item>
+    <item>
+        <title>Perl 5.6 is 6 year old - ID: 3057002</title>
+        <detail>The perl package version available is 6 years old, could it be possible to update it to 5.12?</detail>
+        <time>David Zaragoza ( dzaragoza  ) - 2010-08-31 13:59:03 PDT</time>
+    </item>
+    <item>
+        <title>wanted: c++11/c++0x, TR1 - ID: 3440637</title>
+        <detail>C++11 (c++0x) is needed sorely.  I have a code base which requires it. 
+ 
+I should be able to do the following 
+#include  
+using namespace std; 
+uint64_t ui=0xffffffffffffffffULL; 
+ 
+and its associated initializer lists of course 
+ 
+#include  
+#include  
+#include  
+    map keys = { 
+        {&quot;HKEY_CLASSES_ROOT&quot;,HKEY_CLASSES_ROOT}, 
+        {&quot;HKEY_CURRENT_CONFIG&quot;,HKEY_CURRENT_CONFIG}, 
+        {&quot;HKEY_CURRENT_USER&quot;,HKEY_CURRENT_USER}, 
+        {&quot;HKEY_LOCAL_MACHINE&quot;,HKEY_LOCAL_MACHINE}, 
+        {&quot;HKEY_USERS&quot;,HKEY_USERS}, 
+        {&quot;HKCR&quot;,HKEY_CLASSES_ROOT}, 
+        {&quot;HKCC&quot;,HKEY_CURRENT_CONFIG}, 
+        {&quot;HKCU&quot;,HKEY_CURRENT_USER}, 
+        {&quot;HKLM&quot;,HKEY_LOCAL_MACHINE}, 
+        {&quot;HKU&quot;,HKEY_USERS} 
+    }; 
+ 
+ 
+actually, the microsoft compiler uses i64 instead of LL for 64-bit constants. for example 0xffffffffffffffffi64U; 
+without this, it breaks a lot of microsoft code in many places.</detail>
+        <time>Jim Michaels ( jmichae3  ) - 2011-11-21 00:13:11 PST</time>
+    </item>
+    <item>
+        <title>Listview title info struct missing from commctrl.h - ID: 3091539</title>
+        <detail>Installed from mingw-get-inst-20100909.exe on (10/20/2010) 
+ 
+I've just noticed that LVTILEVIEWINFO and associated constants are missing from commctrl.h.  Not a big deal to workaround though. 
+ 
+typedef struct LVTILEVIEWINFO { 
+  UINT  cbSize; 
+  DWORD dwMask; 
+  DWORD dwFlags; 
+  SIZE  sizeTile; 
+  int   cLines; 
+  RECT  rcLabelMargin; 
+} LVTILEVIEWINFO, *PLVTILEVIEWINFO; 
+ 
+ 
+#define LVTVIF_AUTOSIZE       0x00000000 
+#define LVTVIF_FIXEDWIDTH     0x00000001 
+#define LVTVIF_FIXEDHEIGHT    0x00000002 
+#define LVTVIF_FIXEDSIZE      0x00000003 
+ 
+#define LVTVIM_TILESIZE       0x00000001 
+#define LVTVIM_COLUMNS        0x00000002 
+#define LVTVIM_LABELMARGIN    0x00000004 
+ 
+#define LV_VIEW_TILE        0x0004 
+ 
+ 
+For example :- 
+ 
+bool InitListView() 
+{ 
+    int         num_icons, i; 
+    HICON       hIcon; 
+    LVCOLUMN    lvc; 
+    LVITEM      lvi = {0}; 
+ 
+    // Get handle to the list view control 
+    hListview = ::GetDlgItem(hDlg,IDL_DLG1); 
+ 
+ 
+    // Image list handles 
+    hImageNormal  = ImageList_Create(GetSystemMetrics(SM_CXICON), GetSystemMetrics(SM_CXICON), ILC_COLOR32 | ILC_MASK,1,1); 
+    hImageSmall   = ImageList_Create(GetSystemMetrics(SM_CXSMICON), GetSystemMetrics(SM_CYSMICON), ILC_MASK, 1, 1); 
+ 
+ 
+    if (!hImageNormal || !hImageSmall) 
+        return false; 
+ 
+    // Use the standard windows shell icons 
+    num_icons = static_cast(reinterpret_cast(ExtractIcon(0,&quot;shell32.dll&quot;,static_cast(-1)))); 
+ 
+    for (i = 0; i &lt; num_icons; ++i) 
+    { 
+        hIcon = ExtractIcon(0,&quot;shell32.dll&quot;,i); 
+ 
+        // Add to img list 
+        ImageList_AddIcon(hImageNormal,hIcon); 
+        ImageList_AddIcon(hImageSmall, hIcon); 
+ 
+        DestroyIcon(hIcon); 
+    } 
+ 
+    // Add Icon to our view 
+    ListView_SetImageList(hListview,hImageNormal,LVSIL_NORMAL); 
+    ListView_SetImageList(hListview,hImageSmall,LVSIL_SMALL); 
+ 
+ 
+    // Two cols 
+    lvc.mask = LVCF_FMT | LVCF_WIDTH | LVCF_TEXT | LVCF_SUBITEM; 
+ 
+    char *headers[] = { &quot;Col 1&quot;, &quot;Col 2&quot; }; 
+ 
+    for (i = 0; i &lt; 2; i++) 
+    { 
+        lvc.iSubItem    = i; 
+        lvc.pszText     = headers[i]; 
+        lvc.cx          = 100; 
+ 
+        if (!i) 
+            lvc.fmt = LVCFMT_LEFT; 
+        else 
+            lvc.fmt = LVCFMT_RIGHT; 
+ 
+        if (ListView_InsertColumn(hListview, i, &amp;lvc) == -1) 
+            return false; 
+    } 
+ 
+    // Title info 
+    LVTILEVIEWINFO tvi = {0}; 
+ 
+    tvi.cbSize      = sizeof(tvi); 
+    tvi.dwMask      = LVTVIM_COLUMNS; 
+    tvi.cLines      = 2; 
+ 
+    ListView_SetTileViewInfo(hListview, &amp;tvi); 
+ 
+    lvi.mask = LVIF_TEXT | LVIF_IMAGE |LVIF_STATE; 
+    lvi.iSubItem = 0; 
+    lvi.state = 0; 
+    lvi.stateMask = 0; 
+    lvi.pszText = LPSTR_TEXTCALLBACK; // sends an LVN_GETDISPINFO message 
+ 
+    for (i= 0; i &lt; num_icons; i++) 
+    { 
+        lvi.iImage = i; 
+ 
+        SendMessage(hListview,LVM_INSERTITEM,0,reinterpret_cast(&amp;lvi)); 
+ 
+    } 
+ 
+    // Full row select 
+    DWORD dwStyle = SendMessage(hListview,LVM_GETEXTENDEDLISTVIEWSTYLE,0,0); // get 
+    dwStyle |= LVS_EX_FULLROWSELECT; // Add to current 
+    SendMessage(hListview,LVM_SETEXTENDEDLISTVIEWSTYLE,0,dwStyle); // Send new 
+ 
+ 
+    // Show the control 
+    ShowWindow(hListview, SW_SHOW); 
+    UpdateWindow(hListview); 
+ 
+    return true; 
+}</detail>
+        <time>Aaron ( scanff  ) - 2010-10-20 14:14:14 PDT</time>
+    </item>
+    <item>
+        <title>w32api proposal - ID: 1175981</title>
+        <detail>This is my first shot contributing to this project; no 
+flames please ! ;-) 
+ As I told Earnie before he added me to the project, I 
+was currently working on &quot;repackaging&quot; the w32api set. 
+ 
+Because of filesize and major changes, I didn't do a 
+diff, nor did I send it by email to the msys-dev list. 
+ 
+All changes have been added in the Changelog; but I'll 
+list a synopsis so you can decide if it's worth 
+downloading or not. 
+ 
+Changes synopsis : 
+- Moved the tests out of the src directory and to a 
+test subdir 
+- All makefiles have been redone 
+- All support scripts moved to support subdir 
+- config.guess and config.sub updated and now 
+recognizes mSys and MinGW 
+- configure now uses some m4 scripts and added some 
+functionality : 
+--&gt; ddk and directx libraries are optionally built 
+(defaults to &quot;built&quot;) 
+--&gt; removed target test and replaced it by host test 
+(target is only usefull for building compilers) 
+--&gt; no longer checks compiler with AC_PROG_CC since we 
+never build an executable. Before, in case compiler 
+fails link stage, we can't build package. 
+--&gt; By default, package will build itself with 
+preinclude system includes (in /include/stdc). This can 
+be disabled. 
+--&gt; When installing, some inno scripts will be created. 
+I had initially done this for myself, but I kept it in 
+the package. 
+ 
+I probably broke some things too: notably when 
+compiling on cygwin (or for cygwin). But I currently 
+can test it (cygwin fails to install at this moment on 
+my computer). 
+I haven't yet tested x-compiling on my linux box either. 
+In other words, this is a proposal work in progress 
+requesting comments and ideas. 
+ 
+Cheers, 
+Julien</detail>
+        <time>Julien Lecomte ( julienlecomte  ) - 2005-04-03 13:42:53 PDT</time>
+    </item>
+    <item>
+        <title>A smarter mount command for MSYS - ID: 1818517</title>
+        <detail>Most users, coming from a *nix background, expect to be able to manipulate the kernel mount table using the `mount' and `umount' commands, at least in the basic form: 
+ 
+  $ mount   
+ 
+  $ umount  
+ 
+Currently, MSYS provides no `umount' command at all, and its `mount' command can do no more than list the mount table--it fails, if specified with any arguments. 
+ 
+The attached shell archive provides a prototype implementation for `mount' and `umount' commands, which will deliver a more *nix like behaviour.  It requires no modification to the existing core MSYS implementation, beyond:-- 
+ 
+  1) Existing `mount.exe' command renamed as `msysmnt.exe'; 
+ 
+  2) Two new shell scripts, (provided), to deliver the extended mount table manipulation features, while preserving existing behaviour when `mount' is invoked without arguments, (because the `mount' script invokes `msysmnt.exe' in this case). 
+ 
+This implementation differs from traditional *nix implementations, in the following respects:-- 
+ 
+  1) The `mount' command may be invoked in zero, one or two argument forms, but accepts no arguments to specify mount options. 
+ 
+  2) MSYS usage of `/etc/fstab', in place of the traditional `/etc/mnttab' or `/etc/mtab', is retained. 
+ 
+  3) The single argument form of the `mount' command uses `/etc/fstab.conf', for the purpose traditionally fulfilled by `/etc/fstab' in respect of this form of the command. 
+ 
+  4) The `umount' command requires exactly one argument, and supports no options. 
+ 
+  5) The `umount' command does not check for &quot;busy&quot; mount points--it simply and unconditionally removes any mount point record from `/etc/fstab' if it matches the specified argument. 
+ 
+The attached shell archive may be installed directly into the MSYS /bin directory, simply by executing: 
+ 
+  gzip -cd mount.shar.gz | sh 
+ 
+If preferred, it may be installed into a `sandbox/bin' directory, by executing: 
+ 
+  gzip -cd mount.shar.gz | prefix=/path/to/sandbox sh</detail>
+        <time>Keith Marshall ( keithmarshall  ) - 2007-10-23 05:34:33 PDT</time>
+    </item>
+    <item>
+        <title>Need to 'turn off' the munging of the '/' string - ID: 2998378</title>
+        <detail>I have 100's of make files that include the string '/'  (single quotes are not actually part of the string - just to delimit the string in his entry) - this is a STRING passed to applications.  I DON'T WANT MSYS BASH to turn it into C:/Msys/1.0 or anything other than '/' 
+ 
+How can I turn off the munging of this string (that is NOT a path)?</detail>
+        <time>Frank Motta ( fmotta  ) - 2010-05-07 15:12:15 PDT</time>
+    </item>
+    <item>
+        <title>File/package manifests - ID: 3533467</title>
+        <detail>I would like to request that future MinGW/MSYS releases include in their distribution archives a manifest file containing a list of the contents of said archive (i.e. as from the ouput of a &quot;tar tf&quot;) in a common directory such as /manifest (relative to its respective installation path).  On occasion I have found it necessary to know which archive contains which file, most often when I FUBAR something.  While it's trivial to recurse and list the files from each archive, having the information already on hand would be more convenient. 
+ 
+An example of such can be found within the binary archives for Windows from gtk.org, or the venerable DJGPP distribution files. 
+ 
+I'd also like to say how much I appreciate the work and effort of all of those who keep MinGW &amp; MSYS together.  I thank you.</detail>
+        <time>Andrew ( andrew_j  ) - 2012-06-08 07:49:34 PDT</time>
+    </item>
+    <item>
+        <title>Automatic conversion from LFN to SFN to MSYS - ID: 2901764</title>
+        <detail>MSYS tries to make use of Windows PATH variable. It can cause problems when there are spaces in Windows PATH. On the web I found recommendations to put paths in environment variables in Short File Name form. To do so I have just write some small piece of code. Look in to &quot;manual&quot; on https://sourceforge.net/projects/lfn2sfn/ . Maybe you will find these code usable and add its functionality to MSYS?</detail>
+        <time>zbuntowany ( zbuntowany  ) - 2009-11-21 06:17:38 PST</time>
+    </item>
+    <item>
+        <title>Add dlfcn-win32 to downloads page - ID: 1959946</title>
+        <detail>As Keith suggested, here are the packages for dlfcn-win32 that I wish to put up for download in the MinGW project download page.</detail>
+        <time>Ramiro Polla ( caldo_de_cana  ) - 2008-05-07 18:38:49 PDT</time>
+    </item>
+    <item>
+        <title>Compiler for D language - ID: 3532624</title>
+        <detail>Y not?</detail>
+        <time>ReckouNT ( reckount  ) - 2012-06-06 22:56:13 PDT</time>
+    </item>
+    <item>
+        <title>mingw-get needs proxy authentication support - ID: 3033232</title>
+        <detail>At this point, it's particularly difficult to use mingw-get (or even recompile it, for that matter) behind a corporate firewall that requires authentication. Respectfully request that mingw-get support the semi-standard &quot;http_proxy&quot; environment variable so that authenticating proxies are less painful.</detail>
+        <time>Scott Michel ( pingbak  ) - 2010-07-22 14:10:42 PDT</time>
+    </item>
+    <item>
+        <title>Could you port PEE of MoreUtils to Windows? - ID: 3594249</title>
+        <detail>Pee can be used to arrange Git scripts into a more controllable folder-based structure (like init.d/rc.d manages different scripts) 
+ 
+Bash syntax is not enough for this 
+ 
+https://github.com/msysgit/git/issues/25</detail>
+        <time>Burov Dmitry ( arioch_bdv  ) - 2012-12-09 05:06:53 PST</time>
+    </item>
+    <item>
+        <title>mingwrt-3.15: make getopt() track external optind increments - ID: 2222263</title>
+        <detail>There seems to be a problem with getopt/argc/argv in MinGW Runtime 3.15.1. If I build QEMU 0.9.1 with it, then &quot;qemu-img create -f qcow2 foo.dsk 2G&quot; just prints qemu-img's help and exits. Reverting to mingw-runtime-3.14.tar.gz solves the problem. 
+ 
+qemu-img exits when trying to analyze &quot;2G&quot; via &quot;argv[optind]&quot;. But with 3.15.1 this points to &quot;foo.dsk&quot; instead. 
+ 
+AFAIK code in qemu-img is used on many different plattforms, so this must be MinGW Runtime problem, because it seems to work on all other plattforms. 
+ 
+I'm trying to provide a test case brewed from qemu-img.c and bug report 2144266, but I'm not a versatile C programmer. 
+*** 
+#include  
+#include  
+ 
+int main(int argc, char **argv) 
+{ 
+  int opt; 
+ 
+  printf(&quot;argv[1]=%s\n&quot;, argv[1]); 
+  optind++; 
+  while ((opt = getopt(argc, argv, &quot;b:f:he6&quot;)) != -1) 
+    printf(&quot;argv[optind]=%s, opt=%c, optind=%d\n&quot;, argv[optind], opt, optind); 
+  printf(&quot;end    optind=%d\n&quot;, optind); 
+  return 0; 
+} 
+*** 
+ 
+Output for &quot;prog create -f qcow2 foo.dsk 2G&quot;: 
+ 
+- mingw-runtime-3.14: 
+argv[1]=create 
+argv[optind]=foo.dsk, opt=f, optind=4 
+end    optind=4 
+ 
+- mingw-runtime-3.15.1: 
+argv[1]=create 
+argv[optind]=foo.dsk, opt=f, optind=4 
+end    optind=3</detail>
+        <time>Robert Riebisch ( bttr  ) - 2008-11-04 12:32:35 PST</time>
+    </item>
+    <item>
+        <title>Windows Codec - ID: 3095841</title>
+        <detail>For some reason, MinGW doesn't implement wincodec. Is it because of licensing issues? If possible, please try to implement this</detail>
+        <time>Ð¡Ì«ÀÉ ( kotarou  ) - 2010-10-26 11:51:14 PDT</time>
+    </item>
+    <item>
+        <title>MSYS only with mingw-get-inst - ID: 3430200</title>
+        <detail>Hi, 
+ 
+I just recently discovered mingw-get / the Automated MinGW Installer. Great work! (I have used MSYS 1.0.11 for years and never touched it. Today I needed MSYS one a new computer.) 
+ 
+I noticed that when running the installer I couldn't deselect the C-compiler. That made me wonder if it shouldn't be possible to only install MSYS? That would be very useful for people that don't need any compilers. The reason I ask about this is that it would be nice to make the download as small as possible.</detail>
+        <time>Hans Fr. Nordhaug ( hansfn  ) - 2011-10-29 13:34:43 PDT</time>
+    </item>
+    <item>
+        <title>add borland console I/O functions to existing conio.h - ID: 2937731</title>
+        <detail>the borland functions add a rich set of console I/O functionality. 
+functions like clrscr(), textmode(), gotoxy(), and the like. 
+there are about 20-30 functions in all. 
+ 
+some of the microsoft/mingw functions like _cprintf, _cputs, _cgets need to be also defined as cprintf, cputs, cgets.  this can be accomplished with a #define as I have done.</detail>
+        <time>Jim Michaels ( jmichae3  ) - 2010-01-22 22:51:15 PST</time>
+    </item>
+    <item>
+        <title>ar.h - ID: 690228</title>
+        <detail>Would be nice to include ar.h. It's just a header with 
+a struct definition (taking it from glibc). It would 
+help me compiling jam on mingw (and I think older 
+versions of mingw had ar.h). 
+ 
+Thanks you</detail>
+        <time>Matthias Braun ( matzebraun  ) - 2003-02-20 11:20:23 PST</time>
+    </item>
+    <item>
+        <title>Windows XP x64 (EMT64, AMD64) support - ID: 1200767</title>
+        <detail>Windows XP x64 (EMT64, AMD64) support</detail>
+        <time>Laurent Desmecht ( maxun  ) - 2005-05-12 08:45:18 PDT</time>
+    </item>
+    <item>
+        <title>mingw-get: work around I/O pipelining for mintty/rxvt users - ID: 3192313</title>
+        <detail>MSYS users running mingw-get within a mintty or rxvt console observe intermittent and fragmented display of progress diagnostics. 
+ 
+The attached rebuild of mingw-get-0.dll from mingw-get-0.1-alpha-5.1 includes a forced fflush() on the console output stream, after each individual message is posted.  Could users of the affected terminal emulators please test, and verify that this corrects the problem.  If so, it can be immediately incorporated into a mingw-get-0.1-alpha-5..2 release, and merged to CVS trunk. 
+ 
+To test. please simply unlzma the attached in place of the existing c:/MinGW/libexec/mingw-get/mingw-get-0.dll, (with adjustment of the c:/MinGW prefix, as necessary to suit your installation).  Running 'mingw-get update' should be sufficient to observe the effect. 
+ 
+Thanks.</detail>
+        <time>Keith Marshall ( keithmarshall  ) - 2011-02-25 06:10:45 PST</time>
+    </item>
+    <item>
+        <title>header file collection - ID: 892840</title>
+        <detail>Please publish a link where all header files can be downloaded in one package. I want to perform software analysis (flaw detection). 
+I do not need a full source code distribution with all the C or C++ files.</detail>
+        <time>Markus Elfring ( elfring  ) - 2004-02-08 04:59:08 PST</time>
+    </item>
+    <item>
+        <title>Support for mudflap - ID: 1384844</title>
+        <detail>G++ 4.0.2 currently supports the libmudflap capability 
+to instrument code to expose problems with pointers. 
+Mudflap uses the intrinsic machinery of the compiler 
+to intelligently instrument the code at compile time 
+instead of after the fact attempts like valgrind.  The 
+instrumentation allows checking and nearly full speed 
+execution.</detail>
+        <time>Mark Edwards ( wa6smn  ) - 2005-12-18 18:48:58 PST</time>
+    </item>
+    <item>
+        <title>w32api missing winhttp.h/def - ID: 2830639</title>
+        <detail>w32api is missing winhttp.h, and the import library for winhttp.dll.  This library exists on Windows 2000 SP3, XP SP1 and above. 
+ 
+The MSDN documentation for WinHTTP is available at http://msdn.microsoft.com/en-us/library/aa384252(VS.85).aspx 
+ 
+I have w32api version 3.13, but I have verified the lack of the header and def file in the cvs linked from cygwin.com</detail>
+        <time>Jeremy Drake ( jeremyd2019  ) - 2009-07-31 17:19:34 PDT</time>
+    </item>
+    <item>
+        <title>GDB 5 - ID: 437492</title>
+        <detail>MinGW 1.0 doesn't seem to come with GDB. Could your group include it?</detail>
+        <time>Nobody/Anonymous ( nobody  ) - 2001-06-29 16:01:09 PDT</time>
+    </item>
+    <item>
+        <title>MSYS postinstall shell choice - ID: 768132</title>
+        <detail>It would be nice in the MSYS postinstall to be able to  
+set the default shell - cmd rather than rxvt most  
+notably. 
+ 
+Thanks. 
+ 
+Mike Thomas</detail>
+        <time>Mike Thomas ( mjthomas  ) - 2003-07-08 17:12:04 PDT</time>
+    </item>
+    <item>
+        <title>http proxy usage of mingw-installer - ID: 1470310</title>
+        <detail>Hi,  
+ 
+I downloaded the 5.0.2 installer and it took me ages to 
+find out why it could not make up an internet connection.  
+I silently uses the http proxy settings set in IE.  
+As I don't use IE normally it took a long time to find 
+out that the old and wrong settings there caused 
+mingw-installer to fail.  
+ 
+And addon or change of the error message box text would 
+be nice. Like &quot;could connect to proxy 
+111.222.333.444:3128&quot; instead of smth (can't remember 
+exactly now) &quot;Internet connection dropped ...&quot; 
+ 
+Thx,  
+ 
+   GR 
+ 
+PS. Also it would be nice to find the installer.exe (or 
+al least a hint) on the mingw.org download site. As 
+beeing new I to mingw I had absolutly no clue how and 
+what to download starting from:  
+http://www.mingw.org/download.shtml. I wasted a lot of 
+time without knowing that the installer exists..</detail>
+        <time>user2000 ( georg_ritter  ) - 2006-04-14 03:28:02 PDT</time>
+    </item>
+    <item>
+        <title>Add x64 (64-bit) support using the -m64 switch - ID: 3159064</title>
+        <detail>I can see no reason for it not being added. 
+I can't understand why it was removed in the first place.</detail>
+        <time>Jonas ( jonasno  ) - 2011-01-15 17:02:07 PST</time>
+    </item>
+    <item>
+        <title>Insight, the GDB GUI - ID: 1294101</title>
+        <detail>Greetings everyone, 
+ 
+What do you guys think of the possibility of adding a  
+native win32 non-cygwin dependant build of Insight to the  
+list of packages available from the MinGW team? 
+ 
+Myself and a plethora of other Dev-C++ users badly need  
+it because the one we are using now is so old and crusty  
+and no one is able to figure out how to compile the new  
+one. Many of us have tried, but failed miserably (myself  
+inclusive). 
+ 
+Kip</detail>
+        <time>Kip ( kiplingw  ) - 2005-09-17 14:32:50 PDT</time>
+    </item>
+    <item>
+        <title>Include a winwlx.h - ID: 2918512</title>
+        <detail>This is the continuation of the patch tracker 2481093. It turned out that the available patch couldn't be comitted because we didn't know the source. But in any case, we and likely others would benefit from a winwlx.h, so I've created this feature request.</detail>
+        <time>Peter strand ( astrand  ) - 2009-12-20 23:30:10 PST</time>
+    </item>
+    <item>
+        <title>Provide libraries compiled with -flto - ID: 3535233</title>
+        <detail>If possible, could MinGW provide libraries compiled with -flto option? 
+That would be mingwrt libraries (libmingw32.a, libmingwex.a, ...), and libstdc++, libgcc and others that actually contain code (libiconv, libz, ...). This would lead to smaller and/or faster code when one chooses to link the whole program with -flto. Thanks for consideration.</detail>
+        <time>Jan Ringo ( tringi  ) - 2012-06-14 08:59:23 PDT</time>
+    </item>
+    <item>
+        <title>Need an IOfficeAntiVirus definition - ID: 1785282</title>
+        <detail>See Mozilla bug https://bugzilla.mozilla.org/show_bug.cgi?id=394272 
+ 
+The latest builds of Firefox support virusscanning of downloaded files. 
+ 
+But that uses some MSVC specific code that is in the platform SDK. 
+But afaik, there is no equivalent code in mingw that supports IOfficeAntiVirus definition and stuff. 
+ 
+The header file of the Microsoft SDK that makes this possible is msoav.h. 
+ 
+I'm currently trying to disable this code for mingw builds, so that mingw users at least don't get build errors while compiling Firefox, but ideally that should not be necessary, of course. 
+ 
+This is the link to the msdn documentation: 
+http://msdn2.microsoft.com/en-us/library/ms537369.aspx</detail>
+        <time>Martijn Wargers ( martijnw22  ) - 2007-08-30 17:03:06 PDT</time>
+    </item>
+    <item>
+        <title>Move command window scroll bar to the left side. - ID: 1250578</title>
+        <detail>While it is traditional to have the scroll bar of a 
+text window on the right hand side, it is also 
+traditional to have a menu bar at the top.  The 
+combination reduces significanly the chances that 
+'mouse drift' will end up activating the 'close' box on 
+a window. 
+ 
+The MSYS rxvt does not normally have a menu bar.  As a 
+result it is quite easy to have the mouse pointer end 
+up over the close box when trying to review text that 
+has scrolled of the top of the screen.  The resulting 
+closing of the command window can be VERY frustrating. 
+ 
+If  the scroll bar is on the left and the mouse pointer 
+drifts up, the only thing that happens is the unwanted 
+activation of a pull-down menu.  While this is mildly 
+anoying, a few small flicks of the mouse works around 
+the problem.  The disasterous loss of information that 
+the current arangement produces does not happen. 
+ 
+This feature is very easy to implement.  In '/msys.bat' 
+there is an '-sr' option on the 'start ... rxvt' line. 
+ If this option is removed, the scroll bar appears on 
+the left of the command window rather than on the right.</detail>
+        <time>Max TenEyck Woodbury ( mtew  ) - 2005-08-02 14:33:41 PDT</time>
+    </item>
+    <item>
+        <title>libltdl - ID: 1195531</title>
+        <detail>It would be great to include libltdl (static library is 
+fine) with libtool in the msys-DTK or as a separate 
+package.</detail>
+        <time>Reed Hedges ( reed  ) - 2005-05-04 14:31:09 PDT</time>
+    </item>
+    <item>
+        <title>want new heap management - ID: 3527590</title>
+        <detail>msys gcc can't complie big source, will get out of memory allocation error. 
+also program in msys can't malloc mem big than 256MB.</detail>
+        <time>SquallATF ( squallatf  ) - 2012-05-17 05:55:10 PDT</time>
+    </item>
+    <item>
+        <title>PATH variable - ID: 3063415</title>
+        <detail>Catalogues should specify whether mingw-get should set the PATH environment variable for a particular package (e.g., it should be set for GCC, Binutils or MSYS but not for zlib) if it doesn't already exist. 
+ 
+PS: Wow, I'm impressed that you guys actually updated tha catalogues. My hat off to you (including to keithmarshall with whom I've had my arguments). 
+ 
+Cheers, 
+Bogdan</detail>
+        <time>Love4Boobies ( love4boobies  ) - 2010-09-10 02:07:44 PDT</time>
+    </item>
+    <item>
+        <title>Support for using MinGW binaries through plain MSDOS env. - ID: 3573824</title>
+        <detail>MinGW users are encouraged to use msys.bat to launch a special MSDOS environment in which to run the MinGW binaries (gcc, make, etc.). But wouldn't it be nice if MinGW instead allowed users to use these binaries from a plain Command Prompt window? 
+ 
+If the MinGW installer simply set a few environment variables, users wouldn't have to use a special MSYS window to access their Unix toolset. 
+ 
+I've found that adding the MinGW bin directory to the Windows PATH is sufficient for using 90% of the GCC toolchain functionality in any future Command Prompt window the user opens. 
+ 
+I understand the reason for cordoning MinGW tools off in their own environment--that way it doesn't interfere with other toolsets the user may have, such as Visual Studio command line tools, or Strawberry Perl (which happens to include gcc). But this shouldn't be a problem if MinGW appends, rather than prepends, the bin directory to the Windows PATH environment variable.</detail>
+        <time>https://www.google.com/accounts ( https://www.google.com/accounts  ) - 2012-10-02 08:23:15 PDT</time>
+    </item>
+    <item>
+        <title>pwd.h missing - ID: 1069329</title>
+        <detail>Well the file pwd.h is missing.  
+Yet the functions are supposed to be available in libc. 
+ 
+For the moment, I use a file from Cygwin, which is bad 
+because I don't need Cygwin. 
+ 
+And now the version stuff and all :  
+MinGW-3.1.0-1.exe 
+and  
+ 
+#define __MINGW32_VERSION 3.1 
+#define __MINGW32_MAJOR_VERSION 3 
+#define __MINGW32_MINOR_VERSION 1 
+ 
+PS : by the way, I love the work done but the MinGW 
+team. Tanx ! 
+ 
+PS1 : the download page is just a little confusing for 
+a total newbie : it's hard to guess what is usefull to 
+download for a rookie C developper. But after a while, 
+one manage to figure out :)</detail>
+        <time>None ( briodev  ) - 2004-11-19 02:50:55 PST</time>
+    </item>
+    <item>
+        <title>mingw-get: select a mirror for downloading - ID: 3420319</title>
+        <detail>The mingw-get and especially, mingw-get-inst, should allow users to select their 
+desired mirrors for downloading. This is very useful when: 
+ 
+- The default mirror doesnt work, or 
+- The default connection is slow. 
+ 
+I see that both Cygwin setup.exe and the TDM-GCC installer are very good at 
+supporting this.</detail>
+        <time>antran ( antran  ) - 2011-10-07 07:52:27 PDT</time>
+    </item>
+    <item>
+        <title>Building Linux apps on Windows. - ID: 465746</title>
+        <detail>In using wxWindows it would be very useful if I could  
+build for both Windows and Linux targets at the same  
+time. Is this possible with MinGW?</detail>
+        <time>Nobody/Anonymous ( nobody  ) - 2001-09-27 11:12:36 PDT</time>
+    </item>
+    <item>
+        <title>Support new safe functions in C runtime - ID: 3575051</title>
+        <detail>Hi! 
+ 
+Is there any work in progress incorporating the new safe CRT functions like sprintf_s or strcpy_s (see http://msdn.microsoft.com/en-us/library/8ef0s5kh.aspx ) into the mingw runtime/c library? If not, I would like to try this (and basic instructions would be appreciated).  
+ 
+Regards,  
+Matthias Bhm</detail>
+        <time>Matthias Bhm ( ma_boehm  ) - 2012-10-06 04:40:49 PDT</time>
+    </item>
+    <item>
+        <title>Changing PATH_MAX - ID: 2168675</title>
+        <detail>I read some of the mailing list archives back in 2005 about PATH_MAX (in include/limits.h) having the value 259 instead of MAX_PATH. 
+ 
+I believe it is time to change the value of PATH_MAX to MAX_PATH now.  If I understand correctly Cygwin has already done so, but MinGW hasn't.</detail>
+        <time>Rodney Beede ( rbeede  ) - 2008-10-15 07:51:09 PDT</time>
+    </item>
+    <item>
+        <title>__fastcall attr not inherited - ID: 646006</title>
+        <detail>If a virtual method is declared __fastcall in base 
+class, and it's overridden in a derived class, the 
+overridden method is not automatically made __fastcall, 
+resulting in errorneous code (caller acting as if 
+function was __fastcall, while it uses default calling 
+convention).</detail>
+        <time>Krzysztof Foltman ( kfoltman  ) - 2002-11-30 03:35:08 PST</time>
+    </item>
+    <item>
+        <title>Add ability to execute .bat files from an MSYS shell - ID: 3312424</title>
+        <detail>According to its wiki page, MSYS &quot;is intended to supplement MinGW and the deficiencies of the cmd shell.&quot; While this is mostly true and appreciated, there is one specific detail in which the MSYS shell fails for me: I cannot execute batch files from it. The most prominent example that bugs me is that I cannot evoke an MSYS build environment via &quot;/c/mingw/msys/1.0/msys.bat MSYS&quot; from a standard MinGW shell - but my concern is not limited to this example. 
+ 
+Do you think it is somehow possible (and reasonable) to extend MSYS to make it able to execute batch files? I am not thinking about directly parsing, but about detecting them and then executing them via e.g. &quot;cmd.exe /C example.bat&quot; - imagine something similar to Linux's binfmt mechanism. Furthermore, batch files (i.e. .bat and .cmd extensions) should appear in bash's tab completion and the output of which(1) alongside normal .exe files. 
+ 
+I am however not sure about the availability of variables that are set in such a batch file. Are there any other obvious deficiencies that I am missing here?</detail>
+        <time>Fabian Greffrath ( fabian_deb  ) - 2011-06-06 05:09:26 PDT</time>
+    </item>
+    <item>
+        <title>Add &quot;dd&quot; in MinGW. - ID: 2863476</title>
+        <detail>Is it possible?</detail>
+        <time>Igor Spiridonov ( flame1  ) - 2009-09-21 06:09:09 PDT</time>
+    </item>
+    <item>
+        <title>Add new package with GTK+ - ID: 1563176</title>
+        <detail>I am using MinGW for develop GTK+ programm. But for  
+compile need create very large Makefile with all  
+include and lib path. 
+ 
+If need I can create this Package for Windows. How to  
+do this and how to send created package to server?</detail>
+        <time>Vitold S ( vitold  ) - 2006-09-21 14:40:44 PDT</time>
+    </item>
+    <item>
+        <title>Symlink support for w2k and up - ID: 992789</title>
+        <detail>I'd like to see actual symlink support for Win2k and up since I  
+know that they can do symlinks (shame on Microsoft for not  
+providing the capability by default).  It'd be nice to be able to  
+actually use ln as it was meant to be used rather than simply be  
+a copy.</detail>
+        <time>Rene Horn ( ndogg  ) - 2004-07-17 03:10:20 PDT</time>
+    </item>
+    <item>
+        <title>Preservation of Symbolic links on &gt;Vista+NTFS - ID: 3500697</title>
+        <detail>Other projects have reported related problems: (e.g., http://code.google.com/p/msysgit/issues/detail?id=224) 
+ 
+ls -la will list: 
+... 
+drwxr-xr-x  9 adam Administrators        0 Feb  9 12:34 Goodwill Rancho 
+drwxr-xr-x  7 adam Administrators        0 Jan  3 10:25 Goodwill Yuba 
+... 
+ 
+While  cmd.exe /C dir lists: 
+... 
+03/08/2012  08:53 AM         Goodwill Rancho [V:\12019] 
+03/08/2012  08:55 AM         Goodwill Yuba [V:\12032] 
+... 
+ 
+in the same vein ln -s will copy instead of creating a symbolic link. It would be nice if msys coreutils could detect NTFS symbolic links and create them when appropriate.</detail>
+        <time>Adam Stark ( adstark1982  ) - 2012-03-09 13:13:51 PST</time>
+    </item>
+    <item>
+        <title>Feature for mingw-get: mingw-get createoffline   - ID: 3413286</title>
+        <detail>Hi there, 
+it would be very nice, if a feature like this can become developed : 
+ 
+mingw-get create OfflineBundel ALL 
+ 
+mingw-get create OfflineBundel MinGW 
+ 
+mingw-get create OfflineBundel MSYS 
+ 
+This should produce a zip (or tar.gz ) with the selected Bundle just copyable to 
+a Computer without internet connection. After extracting the archive everything 
+should work out of the box. That means no internet connection for installing! 
+ 
+Option ALL should include MSYS and all MinGW-Compilers for Win32 running in cmd.exe or command.com (as,gcc,g++,ada,fortran,java,pascal) 
+perhaps if existend MinGW-Interpreters for Win32 running in cmd.exe or command.com (perl,python,scheme,prolog) 
+ 
+Option MinGW should include all MinGW-Compilers&amp;Interpreters but no MSYS.  
+ 
+Best regards, 
+Robert</detail>
+        <time>Robert Hartmann ( ifrh  ) - 2011-09-23 05:04:18 PDT</time>
+    </item>
+    <item>
+        <title>RegisterTypeLibForUser and UnRegisterTypeLibForUser - ID: 2037445</title>
+        <detail>In win32api for gcc, it would be nice to add the definition of functions RegisterTypeLibForUser and UnRegisterTypeLibForUser. (Presently, only RegisterTypeLib and UnRegisterTypeLib are available.)</detail>
+        <time>Renaud Sizaire ( sizairer  ) - 2008-08-04 01:55:11 PDT</time>
+    </item>
+    <item>
+        <title>sigaction system call - ID: 3394996</title>
+        <detail>Would it be possible to add the sigaction system call in the file .../incluide/signal.h or something equivalent?. This question arises because when I try to compile Infomap NLP (can be downloaded from http://sourceforge.net/projects/infomap-nlp ) on Windows using MSYS (and after have installed the package &quot;msys-libgdbm&quot;), I get the error &quot;report.h:49: error: storage size of 'react' isn't known&quot;. On inquiry in the program files I discovered that the problem is the file report.c, which makes a call to sigaction, and this system call is not present in the file signal.h (see http://linux. about.com/library/cmd/blcmdl2_sigaction.htm for more information).</detail>
+        <time>AgAn ( aaferrari  ) - 2011-08-20 01:51:58 PDT</time>
+    </item>
+    <item>
+        <title>Bash refuses to start if ../etc is missing - ID: 1604960</title>
+        <detail>The MSYS bash/sh shells will fail to run (with no indication as to why) if the directory ../etc does not exist. I want to use bash.exe instead of cmd.exe, for some tasks, in an existing development environment, and this behavior is annoying, as it means I have to create a dummy ../etc directory in order to use bash. 
+ 
+Since the shell does not *require* any files inside of ../etc to exist (i.e., the shell runs fine if an empty ../etc exists), it seems like a better behavior would be to treat the lack of ../etc as though it exists, but doesn't contain any files.</detail>
+        <time>JediRy ( jediry  ) - 2006-11-28 17:50:21 PST</time>
+    </item>
+    <item>
+        <title>Pocket PC port - ID: 968798</title>
+        <detail>I've got this C++ template base Windows API GUI  
+project (http://smartwin.sourceforge.net) and I got this  
+great idea from someone of how to make it have an  
+competetive &quot;edge&quot;! 
+ 
+Make it possible to build Pocket PC/Windows CE GUI  
+Windows applications with it. 
+So I tried to browse around and the only solutions I  
+could find for building Pocket PC apps was either  
+Compact Framework + IL code or that seriously crappy  
+eMbedded Visual C++ IDE and compiler! 
+ 
+The eMbedded Visual C++ compiler which then showed  
+up to be the only &quot;C++ alternative&quot; is basically NOT AT  
+ALL C++, it is built from the MSVC6.0 version of the MS  
+compiler and doesn't support enough of the C++ std to  
+even make anything more advanced then multiple  
+inheritance and polymorphisme member functions.I think  
+it's got like 65% of the regression tests at boost... 
+ 
+If I were to port my library to eMbedded Visual C++ 4/5  
+parts of my library would basically have to VANISH. 
+Lots of the core features like template template  
+arguments, partial template specialization etc... which  
+the library is totally dependant upon wouldn't BE THERE. 
+ 
+MinGW and GCC is a pretty genious thing on it's own,  
+but think of the &quot;edge&quot; it would have if it were the only  
+adequate alternative for building Windows CE/Pocket PC  
+applications...</detail>
+        <time>Thomas Hansen ( polterguy  ) - 2004-06-08 04:30:56 PDT</time>
+    </item>
+    <item>
+        <title>Remove MSYS requirement for /etc - ID: 1094877</title>
+        <detail>sh.exe terminated without error message if no no ../etc  
+(relative to the binary) exists. This is unfortunate, as it  
+makes using sh without complete msys more  
+cumbersome. 
+If the directory exists sh.exe works fine, even if it is  
+empty, so it cannot be so important for sh.</detail>
+        <time>Thomas Neumann ( tneumann  ) - 2005-01-03 02:00:14 PST</time>
+    </item>
+    <item>
+        <title>silent installation - ID: 1544376</title>
+        <detail>I maintain a script which automatically installs the 
+build dependencies for Gaim on Windows.  In this 
+script, the installation of MinGW is done automatically 
+using the MinGW-3.1.0.exe installer.  The problem is I 
+very much want to move beyond this particular 
+installation package's ancient software versions, and I 
+don't want the user to be given the chance to change 
+installation settings in the installer as this process 
+is intended to be scripted so the user can't screw it up. 
+ 
+What I effectively need is the ability to make the 
+installer run automatically.  Running with the /S 
+parameter is supposed to this, but in this particular 
+case, it instead makes the installer immediately exit. 
+ It would be nice to have /S available or some 
+alternate command line parameters to specify which 
+packages to install, if it is possible via NSIS.  Any 
+chance this might happen?</detail>
+        <time>Kevin Stange ( kstange  ) - 2006-08-22 00:05:44 PDT</time>
+    </item>
+    <item>
+        <title>missing FILE_MAP_EXECUTE in winbase.h - ID: 1913391</title>
+        <detail>I've remarked that FILE_MAP_EXECUTE is missing in winbase.h. 
+ 
+msdn page where it is mentioned: 
+ 
+http://msdn2.microsoft.com/en-us/library/aa366559(VS.85).aspx 
+ 
+I don't know which value i have to give to that macro, so i didn't attached any patch</detail>
+        <time>Vincent TORRI ( doursse  ) - 2008-03-13 02:45:30 PDT</time>
+    </item>
+    <item>
+        <title>Permission denied - ID: 2855555</title>
+        <detail>$ cat &gt; foo&lt;&lt;BAR 
+&gt; BAR 
+sh.exe&quot;: cannot create temp file for here document: Permission denied 
+ 
+ 
+$ find . 
+. 
+find: .: Permission denied 
+ 
+ 
+$ find / 
+/ 
+find: : Permission denied 
+ 
+ 
+$ find * 
+_bhist 
+bash_full.o 
+en.prepl 
+en.pws 
+files 
+foo 
+madman 
+out 
+rh_opt.gdt 
+rh_opt.gpr 
+shit 
+test.sh 
+ 
+ 
+** So the last invocation of ' find ' works.  Sometimes ' find . ' works (after invoking w/ ' find * ').  ' find / ' never works. 
+** My main problem is that a temporary (or permanent) here-doc gives a &quot;Permission denied&quot; error. 
+** I can ' cat &gt; foo ' just fine though - even in /tmp</detail>
+        <time>iysil ( iysil  ) - 2009-09-09 14:55:57 PDT</time>
+    </item>
+    <item>
+        <title>compilation support for a MinGW/Cygwin environment - ID: 1054896</title>
+        <detail>Would you like to attract more resources for the following requests? 
+- https://sourceforge.net/tracker/?func=detail&amp;atid=350001&amp;aid=794228&amp;group_id=1 
+- https://sourceforge.net/tracker/?func=detail&amp;atid=350001&amp;aid=794230&amp;group_id=1</detail>
+        <time>Markus Elfring ( elfring  ) - 2004-10-26 15:12:43 PDT</time>
+    </item>
+    <item>
+        <title>Request to add Clang compiler and toolchain - ID: 3579507</title>
+        <detail>It would be very helpful to open source developers who need to test against widely used compilers if the Clang compiler and tool chain could be added to MinGW.  
+ 
+Thanks, 
+ 
+--Beman Dawes</detail>
+        <time>Beman Dawes ( beman_dawes  ) - 2012-10-23 09:03:30 PDT</time>
+    </item>
+    <item>
+        <title>Include strnlen - ID: 3507215</title>
+        <detail>strnlen is not included in the official builds of MinGW.  It should be included.</detail>
+        <time>Rodney Beede ( rbeede  ) - 2012-03-17 13:40:11 PDT</time>
+    </item>
+    <item>
+        <title>Please remove the default &quot;/usr&quot; to mount,  - ID: 3004470</title>
+        <detail>Please remove the default &quot;%MSYS_HOME%&quot; =&gt; &quot;/usr&quot; to mount, I would like to use &quot;%MSYS_HOME%/usr&quot; better. 
+ 
+Otherwise it would &quot;%MSYS_HOME%&quot; map to &quot;/usr/local&quot; 
+This is really too bad! 
+ 
+Thank you for your great job.</detail>
+        <time>Zealic ( zealic  ) - 2010-05-19 21:43:31 PDT</time>
+    </item>
+    <item>
+        <title>provide interix - ID: 3554063</title>
+        <detail>This might be totally bizarre, but could mingw somehow provide the capability to compile code written for interix?</detail>
+        <time>Orion Poplawski ( opoplawski  ) - 2012-08-03 11:01:45 PDT</time>
+    </item>
+    <item>
+        <title>winreg.h does not define RegGetValue  - ID: 3515356</title>
+        <detail>Latest CVS version of winreg.h (1.7) does not define RegGetValue[AW] 
+http://msdn.microsoft.com/en-us/library/windows/desktop/ms724868%28v=vs.85%29.aspx 
+ 
+Nor does it define the RRF_* constants used for the dwFlags argument</detail>
+        <time>Zack Martinez ( zackmartinez  ) - 2012-04-05 20:02:42 PDT</time>
+    </item>
+    <item>
+        <title>mingw-get: use consistent naming of packages - ID: 3303502</title>
+        <detail>Please use identical names for packages and their corresponding catalog files. Most packages follow this rule, but some use different names and it's a pain to have to open the catalog file and look for the correct name inside and mingw-get list is too verbose to be usable. 
+A few examples: 
+GCC4 - mingw32-gcc4.xml - mingw32-gcc 
+MinGW runtime - mingw32-runtime.xml - mingw32-mingwrt 
+etc.</detail>
+        <time>khagaroth ( khagaroth  ) - 2011-05-17 12:33:14 PDT</time>
+    </item>
+    <item>
+        <title>make default CC compiler missing - ID: 3090129</title>
+        <detail>The make default for CC maps to cc (visible if you print the database by &quot;make -p&quot;). However, cc.exe doesn't exist and it causes Makefiles that rely on the default make variables to fail. 
+ 
+Could be fixed easily in either of these 2 ways: 
+- Change the make default for CC to gcc, or 
+- Create a link (or copy) gcc to cc 
+ 
+This is a common problem in MinGW, when googling this, it finds a lot of projects recommend to copy gcc.exe to cc.exe.</detail>
+        <time>Bas Vodde ( basvodde  ) - 2010-10-18 19:37:25 PDT</time>
+    </item>
+    <item>
+        <title>dispex.h is missing - ID: 1556384</title>
+        <detail>The headerfile &quot;dispex.h&quot; is missing in w32api.</detail>
+        <time>Oliver Stneberg ( kidkat  ) - 2006-09-11 07:00:33 PDT</time>
+    </item>
+    <item>
+        <title>cscope support in VIM - ID: 836330</title>
+        <detail>Could you possibly support cscope in VIM?</detail>
+        <time>Louis Zhuang ( yzhuang  ) - 2003-11-05 00:29:43 PST</time>
+    </item>
+    <item>
+        <title>MSYS 'home' directory - ID: 923728</title>
+        <detail>It would kinda nice to be able to use the 'C:\Documents 
+and Settings\' directories as the users' home 
+directory (like GIMP for example), instead of 
+maintaining multiple home directories. 
+ 
+Thanx for all the hard work!</detail>
+        <time>Chris Sutcliffe ( ir0nh34d  ) - 2004-03-26 00:08:27 PST</time>
+    </item>
+    <item>
+        <title>mirror selection during automated install - ID: 2401017</title>
+        <detail>Hi, 
+ 
+I really like the automated installer. It would be even better if it allowed us to choose a sourceforge mirror to download from while it is running. 
+ 
+I'm currently downloading at 4KB/sec zzzzzzzzz.</detail>
+        <time>ntalkrescued ( ntalkrescued  ) - 2008-12-07 00:44:52 PST</time>
+    </item>
+    <item>
+        <title>save watchlist (and breakpoints) - ID: 2012493</title>
+        <detail>I am using MinGW 2.05 and what can i say, i know there are so many people that complain about this or that obscure feature missing or being &quot;badly&quot; implemented (yeah, right!), but what i'm here to report is a MAJOR USABILITY PROBLEM which essentially made me go back to Borland Builder 1.0 for all my C++ development.  
+How is it possible to come up with such a rather complete  C++ IDE (as version 2.05 definitely is) but not implement a &quot;save watch list&quot; option in the project preferences? Not being able to save the breakpoints is rather annoying, but having to type all those watched variables and expressions each time i reopen a project simply makes the IDE *unusable*. 
+ 
+So, the bottom line: if you want to make this program useful please implement the following in &quot;project settings&quot; (both should be 'ON' by default): 
+ 
+1) TOP PRIORITY: save watch list 
+2) Also important: save breakpoints (if the source changes outside mingw, forget about updating the breakpoints based on God knows what kind of heuristics, all is needed to make this IDE usable is to have the breakpoint line numbers saved for each file in the project, and if someone changes the sources outside the IDE let them deal with that)</detail>
+        <time>gyll ( gyll  ) - 2008-07-07 06:13:47 PDT</time>
+    </item>
+    <item>
+        <title>what about to add atan2() to mingwex - ID: 2120643</title>
+        <detail>The python complex module has own implementation of function acosh. The python regression tests fail on the test: acosh(complex(1.0, -0.0)) . 
+The expected result is : complex(0.0, -0.0) . 
+The current result based on mingwex lib from runtime 3.15  is: complex(0.0, 0.0) . 
+ 
+Also note issue 2117590 - modification of asinh (it is required too). 
+ 
+The next test program show problem: 
+----------------------- 
+#include  
+#include  
+ 
+int 
+main() { 
+  double y, x, r; 
+  y = -0.0; 
+  x = 1.4142135623730951; 
+  r = 2.*atan2(y,x); 
+  printf(&quot;2.*atan2(%.17g,%.17g)=%.17g\n&quot;, y, x, r); 
+  r = 2.*atan2l(y,x); 
+  printf(&quot;2.*atan2l(%.17g,%.17g)=%.17g\n&quot;, y, x, r); 
+  return (0); 
+} 
+----------------------- 
+The program is compiled with -posix and the output is: 
+2.*atan2(-0,1.4142135623730951)=0 
+2.*atan2l(-0,1.4142135623730951)=-0 
+The second one (-0) is expected. 
+ 
+Note that mingwex don't provide function atan2, contain atan2l and atan2f, so the first result is from msvcrt. 
+ 
+ 
+If I add to mingwex library function atan2(y,x) with a simple implementation like this: 
+double atan2 (double y, double x) 
+{ 
+  return atan2l (y, x); 
+} 
+, all python complex math tests succeed. 
+ 
+ 
+So what about mingwex library to replace msvcrt atan2 too ?</detail>
+        <time>Roumen Petrov ( rumen  ) - 2008-09-20 08:05:40 PDT</time>
+    </item>
+    <item>
+        <title>Add HPN patches to OpenSSH - ID: 3590979</title>
+        <detail>Besides an update to the existing OpenSSH package, it would be very nice if the MSYS package would come with the HPN patches [1] applied by default until they are eventually accepted upstream. From the HPN FAQ: 
+ 
+Q: If this HPN-SSH is so great why isn't it in the OpenSSH code base? 
+A: The HPN-SSH patch has been made available to the OpenSSH development team and I hope it will be incorporated (in either its current or some other form) in the near future. However, the team has other priorities and I'm perfectly able to maintain this patch until they can free up some time. Quite a number of organization are using HPN-SSH though including NASA, Sun Microsystems, HP, financial companies, research organizations, supercomputing centers, security concerns, and software developers. 
+ 
+[1] http://www.psc.edu/index.php/hpn-ssh</detail>
+        <time>Sebastian Schuberth ( eyebex  ) - 2012-11-29 02:36:55 PST</time>
+    </item>
+    <item>
+        <title>No large file support in coreutils/findutils - ID: 2797960</title>
+        <detail>The utilities &quot;find&quot; and &quot;ls&quot; both report incorrect sizes for large files, this happens with several versions of msys tools. 
+ 
+C:\&gt;dir bigfile  
+15/05/2009 17:45 4,610,933,043 bigfile  
+$ ls -l bigfile  
+-rw-rw-rw- 1 user group 315965747 May 15 17:45 bigfile  
+$ find bigfile -type f -printf '%s\n'  
+315965747</detail>
+        <time>James Lee ( jbitnet  ) - 2009-05-28 08:11:45 PDT</time>
+    </item>
+    <item>
+        <title>Support alternative drive aliases - ID: 3564917</title>
+        <detail>I suggest handling &quot;/media/&quot; the same way as &quot;/&quot;, maybe allowing to configure the &quot;/media&quot; part to some alternative prefix. 
+ 
+Conflicting labels would have some conciliating suffixes attached in the alias. For instance, if a flash drive labeled &quot;Backup&quot; is mounted on F: by Windows, then the following command lines would be treated the same way by Bash: 
+ 
+$ some-command /f/foobar 
+$ some-command /media/backup/foobar</detail>
+        <time>Renato Silva ( mark06  ) - 2012-09-04 21:45:03 PDT</time>
+    </item>
+    <item>
+        <title>Making autoconf script compliant for mingw+msys - ID: 1990812</title>
+        <detail>Hello. 
+I think it would be nice to have some guidelines for helping the making of autoconf scripts compliant with mingw+msys. 
+Using a script as is may not work, or it make work badly, for example several libraries cannot be compiled as shared yet. 
+I learned some concepts by trying to understand some tips &amp; tricks into already done scripts... however I'm a lot far from being an expert. 
+I believe that an article which guides an user a bit during this task would be extremely useful. 
+ 
+Sincerely, 
+ 
+Carlo Bramini.</detail>
+        <time>Carlo Bramini ( carlo_bramini  ) - 2008-06-11 05:46:55 PDT</time>
+    </item>
+    <item>
+        <title>qos.h lacking - ID: 1772992</title>
+        <detail>I am trying to build the AV service of ACE/TAO with MinGW (see www.cs.wustl.edu/~schmidt). This uses the QoS Winsock support, for example the QOS_NOT_SPECIFIED define. Which is defined by msvc/borland in qos.h. This doesn't seem part of the MinGW win32api winsock2 api and it would be nice to have this added</detail>
+        <time>Johnny Willemsen ( jwillemsen  ) - 2007-08-13 03:18:42 PDT</time>
+    </item>
+    <item>
+        <title>mingw32-curl package for mingw-get - ID: 3591446</title>
+        <detail>A curl package would be great, including a dev package with curl.h etc.</detail>
+        <time>Sebastian Schuberth ( eyebex  ) - 2012-11-30 13:23:06 PST</time>
+    </item>
+    <item>
+        <title>Keep version number in sync with gcc - ID: 828052</title>
+        <detail>Hi, 
+ 
+It would make thing more clear it the version number of  
+the MinGW packages would be (somewhat) the same as  
+the GCC version. The current release of MinGW is 3.1.0  
+but it contains GCC 3.2.3. Why not number the MinGW  
+package 3.2 as well? 
+ 
+Regards, 
+Frank</detail>
+        <time>Frank Fesevur ( ffes  ) - 2003-10-22 01:02:37 PDT</time>
+    </item>
+    <item>
+        <title>Common Dialog template files for w32api - ID: 2042809</title>
+        <detail>I hope Common Dialog template files (ColorDlg.h, Dlgs.h) are added to w32api package. 
+ 
+See, 
+ http://msdn.microsoft.com/en-us/library/ms646951(VS.85).aspx 
+ 
+Regards.</detail>
+        <time>Yuji Kuwabara ( yujikuwabara  ) - 2008-08-08 02:52:53 PDT</time>
+    </item>
+    <item>
+        <title>mgwmake should use multiple make jobs - ID: 3591445</title>
+        <detail>I would be nice if mgwport's mgwmake command [1] would by default pass &quot;-j N&quot; to make, where N is something like the number of available CPU cores + 1. The trick here probably is go the number of CPU core, as under MSYS there's nothing like /proc/cpuinfo AFAIK. 
+ 
+[1] https://gitorious.org/mgwport/mgwport/blobs/master/lib/src_compile.mgwpart</detail>
+        <time>Sebastian Schuberth ( eyebex  ) - 2012-11-30 13:20:30 PST</time>
+    </item>
+    <item>
+        <title>missing functions readlink which - ID: 1307927</title>
+        <detail>Running a config script under Msys: 
+ 
+MINGW32_NT-4.0 GLKC1135542 1.0.7(0.46/3/2) 2002- 
+05-09 08:27 i686 unknown 
+ 
+I had problems because the script used &quot;readlink&quot;  
+and &quot;which&quot;, neither of which seem to be provided. 
+ 
+I implemented the following shell stubs, I offer these  
+here for inclusion in a future release. 
+ 
+readlink; 
+ 
+#!/bin/sh 
+echo &quot;&quot; 
+ 
+ 
+which; 
+ 
+#! /bin/sh 
+# File: which 
+type -p $@ 
+ 
+ 
+Hope this is useful. 
+--  
+Ian</detail>
+        <time>Ian MacArthur ( ianmacarthur  ) - 2005-09-29 05:19:45 PDT</time>
+    </item>
+    <item>
+        <title>Bision m4 -g (--gnu) option not recognized. - ID: 3052961</title>
+        <detail>I try to compile latest gomingw  (golang.org) using new msys  - bison-2.4.2-1-msys-1.0.13. 
+ 
+But i got error  m4: --gnu option not recognized. 
+ 
+http://gnuwin32.sourceforge.net/packages/bison.htm  
+in this bison-m4 there is another option witch is not available in msys. 
+ 
+m4 --help 
+... 
+Limits control: 
+  -g, --gnu                    override -G to re-enable GNU extensions 
+  -G, --traditional            suppress all GNU extensions 
+... 
+ 
+best regards</detail>
+        <time>Konrad N. ( Konrad N.  ) - 2010-08-25 06:05:59 PDT</time>
+    </item>
+    <item>
+        <title>autoconf-2.69 does not biuld - ID: 3554714</title>
+        <detail>The RTEMS project uses autoconf-2.69 and it does not build with MSYS because m4 is consider too old. The message given is .. 
+ 
+configure: error: no acceptable m4 could be found in $PATH. 
+GNU M4 1.4.6 or later is required; 1.4.16 or newer is recommended. 
+GNU M4 1.4.15 uses a buggy replacement strstr on some systems. 
+Glibc 2.9 - 2.12 and GNU M4 1.4.11 - 1.4.15 have another strstr bug. 
+ 
+$ m4 --version 
+m4 (GNU M4) 1.4.14 
+Copyright (C) 2010 Free Software Foundation, Inc. 
+License GPLv3+: GNU GPL version 3 or later . 
+This is free software: you are free to change and redistribute it. 
+There is NO WARRANTY, to the extent permitted by law. 
+ 
+Written by Rene' Seindal. 
+$ mingw-get update 
+ [snip] 
+$ mingw-get upgrade msys-m4 
+upgrade: m4-1.4.14-1-msys-1.0.13-bin.tar.lzma 
+mingw-get.exe: *** INFO *** package m4-1.4.14-1-msys-1.0.13-bin.tar.lzma is up to date</detail>
+        <time>Chris Johns ( cjohns  ) - 2012-08-05 22:08:21 PDT</time>
+    </item>
+    <item>
+        <title>Update msysDTK - ID: 1739363</title>
+        <detail>When I was reffering a friend to msys, I noticed that the current version of the DTK is dates 2005.  Is there any way it could up dated with the current binaries and fixes?</detail>
+        <time>Cody Harris ( codyhs  ) - 2007-06-18 13:42:01 PDT</time>
+    </item>
+    <item>
+        <title>Test setup of RFE, ignore - ID: 747484</title>
+        <detail>Why not include a place for the kitchen sink. 
+ 
+Earnie.</detail>
+        <time>Earnie Boyd ( earnie  ) - 2003-06-02 04:53:22 PDT</time>
+    </item>
+    <item>
+        <title>FileFindFirst, FileFindNext, FileFindClose missing - ID: 1845880</title>
+        <detail>The functions FileFindFirst, FileFindNext, FileFindClose from the Windows API do not seem to be available in the MinGW libs. At least the linker is throwing errors on them. Can they be added?</detail>
+        <time>karx11erx ( d2x-xl  ) - 2007-12-06 16:10:22 PST</time>
+    </item>
+    <item>
+        <title>Implementation of dbghelp.lib - ID: 1660497</title>
+        <detail>I would like to have a free implementation of dbghelp.lib. 
+This file is shiped with MSVC as redistributable and as it seems to me just exports several symbols and loads dbghelp.dll 
+So I think it should be fairly easy to ship such a thing with MinGW.</detail>
+        <time>Dennis Schridde ( lindevel  ) - 2007-02-15 03:27:00 PST</time>
+    </item>
+    <item>
+        <title>new version with gcc-4.0.0 AND jessie-1.0.0 is necessary! - ID: 1189085</title>
+        <detail>Currently, the latest version of mingw distribution 
+(3.2.0-rc3) only includes support for the already 
+outdated gcc 3.4.2.  
+ 
+However, a new version of mingw should be due because: 
+ 
+- gcc-4.0.0 is already out since 20abr2005 
+(http://www.gnu.org/software/gcc/gcc-4.0/), with more 
+complete support for GCJ, C, C++ etc.  
+- current mingw version doesn't allow the use of HTTPS 
+in java URLs. Jessie 1.0.0 (or later) should also be 
+included.  
+- libiconv is not statically linked in gcj, requiring 
+the use of an extra iconv.dll to be deployed with any 
+.exe compiled from java files, even if gcj -static is used. 
+ 
+Are there any plans to deploy any similar mingw version 
+in the near future??</detail>
+        <time>jrnd ( jrnd548001  ) - 2005-04-24 13:00:56 PDT</time>
+    </item>
+    <item>
+        <title>additional msys.bat options - pass a command and geometry - ID: 1475507</title>
+        <detail>It is a very useful feature to pass additional 
+parameters for shell in msys.bat  
+ 
+It can be used to pass additional mount commands or to 
+run batch jobs within MSYS shell. 
+ 
+For example: 
+msys.bat cd /etc 
+ 
+Or it can be: 
+msys.bat mount d:\temp\src /mysrc;cd /mysrc 
+ 
+In this case if you want to compile just another 
+package in MINGW you do not need to unpack it into your 
+home directory or edit fstab. Unpack downloaded sources 
+anywhere and launch msys.bat with parameters to start 
+playing with configure immediately. 
+ 
+ 
+As a bonus I also added option to specify initial 
+resolution for MSYS window. 80x25 mode is too ancient. 
+ 
+msys.bat GEOMETRY 100x50 cd /mysrc 
+ 
+ 
+ 
+--- msys_old.bat	2004-03-16 14:32:52.000000000 +0000 
++++ msys.bat	2006-04-24 15:14:44.000000000 +0000 
+@@ -35,6 +35,27 @@ 
+ if &quot;x%MSYSTEM%&quot; == &quot;x&quot; set MSYSTEM=MINGW32 
+ if &quot;%1&quot; == &quot;MSYS&quot; set MSYSTEM=MSYS 
+ 
++rem techtonik shift to pass other parameters directly 
+to shell 
++if &quot;%1&quot; == &quot;MSYS&quot; shift 
++ 
++rem techtonik option to specify geometry 
++set GEOMETRY=80x25 
++if NOT &quot;%1&quot; == &quot;GEOMETRY&quot; goto skipgeometry 
++set GEOMETRY=%2 
++shift 
++shift 
++:skipgeometry 
++ 
++rem techtonik command to execute before starting shell 
++if &quot;x%1&quot; == &quot;x&quot; goto skipcommand 
++set COMMAND=%1 
++:commandloop 
++shift 
++set COMMAND=%COMMAND% %1 
++if NOT &quot;x%1&quot; == &quot;x&quot; goto commandloop 
++set COMMAND=-c &quot;%COMMAND%;sh&quot; 
++:skipcommand 
++ 
+ if NOT &quot;x%DISPLAY%&quot; == &quot;x&quot; set DISPLAY= 
+ 
+ if EXIST bin\nul cd bin 
+@@ -59,11 +80,11 @@ 
+ if &quot;%MSYSTEM%&quot; == &quot;MINGW32&quot; set BGCOLOR=%MINGW32BGCOLOR% 
+ if &quot;%MSYSTEM%&quot; == &quot;MINGW32&quot; set FGCOLOR=%MINGW32FGCOLOR% 
+ 
+-start rxvt -backspacekey  -sl 2500 -fg %FGCOLOR% -bg 
+%BGCOLOR% -sr -fn Courier-12 -tn msys -geometry 80x25 
+-e /bin/sh --login -i 
++start rxvt -backspacekey  -sl 2500 -fg %FGCOLOR% -bg 
+%BGCOLOR% -sr -fn Courier-12 -tn msys -geometry 
+%GEOMETRY% -e /bin/sh --login -i %COMMAND% 
+ exit 
+ 
+ :startsh 
+-start sh --login -i 
++start sh --login -i %COMMAND% 
+ exit 
+ 
+ :EOF</detail>
+        <time>anatoly techtonik ( techtonik  ) - 2006-04-24 05:48:58 PDT</time>
+    </item>
+    <item>
+        <title>shldisp.h - ID: 1021207</title>
+        <detail>I've been trying to make use of this file for the 
+purpose of using IAutoComplete.  Is there any chance of 
+getting any of it into mingw? I would use 
+SHAutoComplete but it's too limited for my purposes. 
+ 
+IAutoComplete 
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/ifaces/iautocomplete/iautocomplete.asp 
+IAutoComplete2 
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/ifaces/iautocomplete2/iautocomplete2.asp 
+ 
+Is this possible or is there a technical reason why I 
+can't use COM objects with gcc? 
+ 
+Adding IACList &amp; IACList2 to shlobj.h would also be 
+helpful. 
+ 
+IACList 
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/ifaces/iaclist/iaclist.asp 
+IACList2 
+http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/ifaces/iaclist2/iaclist2.asp</detail>
+        <time>Martin Pollard ( xmp  ) - 2004-09-02 07:38:18 PDT</time>
+    </item>
+    <item>
+        <title>add strtok_r to mingw library - ID: 2673480</title>
+        <detail>just requesting to add strtok_r to the library as mingw is the only compiler i've seen as of yet that doesn't have it... 
+ 
+i've been manually patching builds using the attached c file, similar to the following 
+gcc -c -o strtok_r.o strtok_r.c 
+ar r libmingwex.a strtok_r.o 
+ 
+and then add in the definition to string.h 
+_CRTIMP char* __cdecl __MINGW_NOTHROW	strtok_r (char*, const char*, char **); 
+ 
+it's a somewhat dirty patch fix IMO and 
+I would rather prefer mingw had strtok_r out of the box instead of needing to be patched... as all other c compilers already have strtok_r or whatever name they have for it. 
+ 
+I do this similarly for mingw 64 as well, and would also like to see it have strtok_r</detail>
+        <time>Steven Walters ( kemuri9  ) - 2009-03-08 17:16:57 PDT</time>
+    </item>
+    <item>
+        <title>missing #define from winreg.h - ID: 2526616</title>
+        <detail>+#if !defined(REG_LEGAL_CHANGE_FILTER) 
++#define REG_LEGAL_CHANGE_FILTER                 \ 
++                (REG_NOTIFY_CHANGE_NAME          |\ 
++                 REG_NOTIFY_CHANGE_ATTRIBUTES    |\ 
++                 REG_NOTIFY_CHANGE_LAST_SET      |\ 
++                 REG_NOTIFY_CHANGE_SECURITY) 
++#endif 
++</detail>
+        <time>Luke Kenneth Casson Leighton ( lkcl  ) - 2009-01-21 10:08:42 PST</time>
+    </item>
+    <item>
+        <title>GNU Make: Job server support - ID: 3459978</title>
+        <detail>It would be great if GNU Make 3.82 has job server support for Windows. A patch for 3.82 is available to add this at: http://www.mail-archive.com/make-w32@gnu.org/msg02283.html. This feature has already been integrated upstream in GNU Make CVS.</detail>
+        <time>Jonathan Liu ( net147  ) - 2011-12-15 03:56:12 PST</time>
+    </item>
+    <item>
+        <title>Add pdh from Windows SDK - ID: 3509880</title>
+        <detail>Would it be possible to add pdh.h and pdh.dll (libpdh.a I suppose) to the w32api?</detail>
+        <time>Orion Poplawski ( opoplawski  ) - 2012-03-21 14:58:50 PDT</time>
+    </item>
+    <item>
+        <title>strndup currently not supported - ID: 3294059</title>
+        <detail>Any chance we could get strndup supported?</detail>
+        <time>timwilson ( mtrobert  ) - 2011-04-27 16:38:45 PDT</time>
+    </item>
+    <item>
+        <title>Missing afxtempl.h - ID: 3554061</title>
+        <detail>Looks like we're missing afxtempl.h (and perhaps library).   Could this be added?</detail>
+        <time>Orion Poplawski ( opoplawski  ) - 2012-08-03 10:53:45 PDT</time>
+    </item>
+    <item>
+        <title>Novice users find it very hard to find the MSYS installer - ID: 2016512</title>
+        <detail>Hi, 
+ 
+I believe +90% of Mingw/MSYS users are users who merely follow compilation instructions of other open source projects, and are directed to download and install both MinGW and MSYS. 
+ 
+While it is rather easy to find a working MinGW installer and use it, it is very difficult for the novice user to locate the MSYS installer. 
+ 
+The user is exposed to a very long list of packages with rather obscure names, and for each packages, he sees another list of sub-packages. Worse, he may notice that each package has more than one 'version' (candidate/current/ etc.) 
+ 
+The worse of all, is that for MSYS, the CURRENT package is 'collapsed', so it is hidden from the user. 
+See http://sourceforge.net/project/showfiles.php?group_id=2435&amp;package_id=24963 
+What is shown is merely the Technology Preview, which is unstable and currently don't have any installer. 
+ 
+Why not making the 'Current' be the default? 
+ 
+Also, on MinGW site, why not have two BIG icons: 
+ 
+* Download MinGW for Windows (Current version) 
+* Download MSys for Windows (Current version) 
+ 
+This is similar to www.getfirefox.com and other websites of many other open-source projects.</detail>
+        <time>Tomer Shalev ( tomers  ) - 2008-07-12 00:01:36 PDT</time>
+    </item>
+    <item>
+        <title>__thiscall not supported - ID: 646004</title>
+        <detail>__thiscall calling convention (used, for example, in 
+Buzz machine interface) is not implemented. 
+ 
+This calling convention is used automatically by VC++ 
+for method calls when __fastcall is used as standard 
+calling convention. The difference between __thiscall 
+and __fastcall is that __fastcall passes two arguments 
+in registers (ECX and EDX, IIRC) while __thiscall 
+passes only 'this' pointer in ECX, and the rest is 
+pushed on the stack. The lack of __thiscall can be 
+worked around by using __thiscall and adding a dummy 
+'int' argument in front of other arguments (which would 
+reserve EDX so that the next arguments are pushed on 
+stack) - but it would be nicer to have this built in.</detail>
+        <time>Krzysztof Foltman ( kfoltman  ) - 2002-11-30 03:31:17 PST</time>
+    </item>
+    <item>
+        <title>code analysis, flaw detection, debugging - ID: 863899</title>
+        <detail>Would you like to use these tools? 
+1. Secure Programming Lint 
+   http://splint.org/ 
+ 
+2. AntiC 
+   http://www.garret.ru/~knizhnik/jlint/ReadMe.htm#introduction 
+ 
+3. Detecting Errors with Configurable Whole-Program Dataflow Analysis 
+   http://www.cs.utexas.edu/users/emery/#broadway 
+ 
+4. The Trier Data-Race Analyzer 
+   http://www.informatik.uni-trier.de/~seidl/DAEDALUS/mutex.html 
+ 
+5. Debugging Backwards in Time - Omniscient Debugging 
+   http://www.lambdacs.com/debugger/USENIX/Debugger_USENIX_2003.html 
+ 
+6. SF.net 
+   http://sourceforge.net/tracker/?func=detail&amp;amp;aid=667010&amp;amp;group_id=1&amp;amp;atid=350001</detail>
+        <time>Markus Elfring ( elfring  ) - 2003-12-21 04:37:15 PST</time>
+    </item>
+    <item>
+        <title>missing file Winscard.h - ID: 1507729</title>
+        <detail>The file Winscard.h is missing so it is not possible to 
+use the PC/SC interface of Windows. And I think the 
+Winscard.lib is also missing.</detail>
+        <time>Bart der Grosse ( bartdergrosse  ) - 2006-06-17 04:47:53 PDT</time>
+    </item>
+    <item>
+        <title>GCC-4.0 Win32 port - ID: 1188125</title>
+        <detail>Well, GCC-4.0 has been released on April 20 (as it says 
+here - http://gcc.gnu.org/ ). 
+ 
+One feature/improvement (for the C++ package) that 
+interests me is the following: 
+&quot;When compiling without optimizations (-O0), the C++ 
+frontend is much faster than in any previous versions 
+of GCC. Independent testers have measured speed-ups up 
+to 25% in real-world production code, compared to the 
+3.4 family (which was already the fastest version to 
+date). Upgrading from older versions might show even 
+bigger improvements.&quot; 
+ 
+It would of course be great if you guys will let 
+MinGW-3.2-Final out the door, and start working toward 
+a Win32 port of the new GCC-4.0 version... 
+ 
+Thanks!</detail>
+        <time>Avi Vahl ( avivahl  ) - 2005-04-22 07:49:03 PDT</time>
+    </item>
+    <item>
+        <title>/dev/random - ID: 1179760</title>
+        <detail>I would like to be able to gain access to /dev/  
+functionality especially dev/random etc.</detail>
+        <time>MCW ( magadred  ) - 2005-04-09 07:10:59 PDT</time>
+    </item>
+    <item>
+        <title>Wrong icon in taskbar - ID: 3406849</title>
+        <detail>It would be nice if a running instance of the shell also displayed its icon on the taskbar instead of using the generic application icon. It would make it easier for us to locate because e.g., in Windows Vista and Windows 7 names are not displayed by default (because window grouping is activated).</detail>
+        <time>Love4Boobies ( love4boobies  ) - 2011-09-09 10:22:23 PDT</time>
+    </item>
+    <item>
+        <title>[Need update] GNU Guile 2.0 - ID: 3289386</title>
+        <detail>The guile 1.8.7 present is quite old. Guile 2.0 involves a bytecode compiler. Hope you can update it. 
+ 
+By the way, it's not easy to compile at all.</detail>
+        <time>CrLF0710 ( crlf0710  ) - 2011-04-19 02:41:00 PDT</time>
+    </item>
+    <item>
+        <title>Support for _LARGEFILE_SOURCE and _FILE_OFFSET_BITS - ID: 1424866</title>
+        <detail>Having _LARGEFILE_SOURCE and _FILE_OFFSET_BITS  
+support (or something equivalent) would make  
+compiling several things easier.</detail>
+        <time>Anduin Withers ( withers  ) - 2006-02-05 16:18:00 PST</time>
+    </item>
+    <item>
+        <title>Downloadable Documentation - ID: 2786442</title>
+        <detail>I used to see downloadable documentation before. But now that feauture is missed in the new site. I think it could be nice for some developers to have an offline documentation, not all of us can develop while being connected to internet all the time. Also some environments or companies restrict internet access.</detail>
+        <time>Ê¿ ÌìÁú ( cablop  ) - 2009-05-03 23:34:00 PDT</time>
+    </item>
+    <item>
+        <title>MS Windows string.h compatibility - ID: 2949266</title>
+        <detail>Suggest to add the MS &quot;security&quot; string api updates for the &quot;_s&quot; functions, ex. strcat_s() etc.  It would make porting of current windows based code to MinGW much more seemless.</detail>
+        <time>win2min ( oceanjonesn  ) - 2010-02-10 11:29:06 PST</time>
+    </item>
+    <item>
+        <title>w32api missing direct2d headers - ID: 3516973</title>
+        <detail>I've searched bugs and feature requests trackers with no result. Currently mingw distribution lacks direct2d headers. 
+ 
+d2d1.h 
+d2d1helper.h 
+d2dbasetypes.h 
+d2derr.h 
+ 
+Hope they will be added soon.</detail>
+        <time>https://www.google.com/accounts ( https://www.google.com/accounts  ) - 2012-04-11 11:44:53 PDT</time>
+    </item>
+    <item>
+        <title>Add GetConsoleProcessList() - ID: 1357998</title>
+        <detail>Hi, 
+ 
+Windows XP defines GetConsoleProcessList() (see http://msdn.microsoft.com/library/en-us/dllproc/base/getconsoleprocesslist.asp). Could you please add it to wincon.h? 
+ 
+Thanks, 
+Samuel</detail>
+        <time>Samuel Thibault ( youpi_486  ) - 2005-11-16 02:39:34 PST</time>
+    </item>
+    <item>
+        <title>Zip File - ID: 482058</title>
+        <detail>Perhaps you should add a zip file for the complete  
+package - or at least a link to a win32 tar port from  
+somewhere else.  A lot of people may not know how to  
+open it.  You may say that they should have winzip,  
+or maybe they shouldn't be installing MinGW, but we  
+are starting to use it in our AP Computer Science  
+class, and although the people there can program,  
+they aren't necessarily Un*x people, and most of them  
+don't know what a tar.gz is.</detail>
+        <time>Nobody/Anonymous ( nobody  ) - 2001-11-15 04:06:38 PST</time>
+    </item>
+    <item>
+        <title>MSYS-1.0.10 crashes on Windows x64 - ID: 1221778</title>
+        <detail>MSYS does not work on Windows x64 at all: 
+ 
+C:\Program Files (x86)\CD-adapco\wingnu\msys\1.0\bin&gt;sh 
+ 
+sh-2.04$ ls 
+ 
+C:\Program Files 
+(x86)\CD-adapco\wingnu\msys\1.0\bin\sh.exe: *** fork: 
+can't reserve memory for stack 0x480000 - 0x680000, 
+Win32 error 0 
+ 
+      0 [main] sh 2192 sync_with_child: child 
+2316(0x2F8) died before 
+initialization with status code 0x1 
+ 
+    177 [main] sh 2192 sync_with_child: *** child state 
+waiting for longjmp 
+ 
+sh: fork: Resource temporarily unavailable 
+ 
+sh-2.04$</detail>
+        <time>hob4bit ( hob4bit  ) - 2005-06-16 02:08:29 PDT</time>
+    </item>
+    <item>
+        <title>/bin/sh.exe takes TWO SECONDS to start up on wine - ID: 2502144</title>
+        <detail>installed msys under wine. 
+pick a package, any package. 
+run ./configure 
+sit back... and wait for... well over one hour, possibly two to three, whilst every incarnation of /bin/sh.exe takes two seconds to start up. 
+ 
+using strace, it can be seen that over 200 truetype and other fonts are loaded (windows system fonts and fonts in /usr/share/); nssswitch is activated; x11 libraries are fired up - the list goes on. 
+ 
+over 40 dynamic libraries are loaded (both windows dlls and unix system libraries). 
+ 
+running a &quot;blank&quot; (basic hello world) application by contrast takes a few milliseconds. 
+ 
+it's well known that /bin/sh.exe takes forever to run (tenths of seconds) on windows, but _two seconds_ under wine makes it completely unusable.</detail>
+        <time>Luke Kenneth Casson Leighton ( lkcl  ) - 2009-01-12 10:54:17 PST</time>
+    </item>
+    <item>
+        <title>GNU Octave - ID: 3546932</title>
+        <detail>Hi, 
+ 
+Currently, the Octave folks provide a big archive containing MinGW/MSYS, Octave, and all its dependencies. I have proposed to them---but you have to be on board---that I take what they have and prepare a package that can be used with mingw-get instead. Given that my GNU CSSC package offering was not something you guys seemed to be interested in, I thought it might be a good idea to ask before doing the work. 
+ 
+Cheers, 
+Bogdan</detail>
+        <time>Love4Boobies ( love4boobies  ) - 2012-07-21 15:54:56 PDT</time>
+    </item>
+</requests>

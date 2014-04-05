@@ -1,0 +1,2179 @@
+<?xml version="1.0" ?>
+<requests>
+    <item>
+        <title>#98 optional voice chat</title>
+        <detail> hi , i would like to know if a voice chat 
+feature can be made available into ares, 
+kinda of the idea like yahoo chat has. 
+Users can either talk in it, listen in and laugh, 
+or totally ignore it ( select voice disable box ) 
+and do w/e they want . 
+It would be a fun new thing to put in, 
+and whoever doesnt like it can always disable it.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#178 Work on Vista functionality</title>
+        <detail> I think you should put a little time into making Ares run normal in Vista. 
+Allot of machines are now being bought with Vista on them and Ares is losing fans due to ongoing problems. 
+Ares 1.9.9 seems to run better on Vista then the current 2.X.X builds. Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#92 add torrent capabiltys</title>
+        <detail> make ares work with torrents so that it can compete  
+with the big dogs</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#214 Galician (galego) translation for Ares Galaxy</title>
+        <detail> New translation: 
+Congratulations, we love Ares.  
+Please, add this galego (galician) translation. It's done by the     team. Open software for everybody. </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#124 Name Lengths</title>
+        <detail> Make Ares read name lengths by chatacter, not byte. 
+That way unicode names wont get cut so often. 
+Either that or use 30 bytes instead of 20.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#250 Another column should be added to the Library section</title>
+        <detail> That column is one named Times Downloaded (or something similar) that'll show how many times the file has been downloaded by the users of Ares.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#55 Large Icon :)</title>
+        <detail> I use large Icons on my computer and these days most 
+programs ship with large icons :) so this makes for a 
+very pretty looking OS indeed... So I was wondering please, if somebody on the ARES 
+project could maybe render a large Icon and include it 
+in the next release?  This would make my Large icon set 
+one step closer to being complete ;) Thank you, and I love Ares and reccommend it to all my 
+friends - Keep up the inspirational work, people! James.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#180 bandwidth control</title>
+        <detail> ares bandwidth control dont work, so please fix it in future releases</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#245 Font Size</title>
+        <detail> In Ares, the font is extremely small, can a feature be added to increase or decrease the size of the font on the interface?  It makes it really hard to read. Thanks</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#68 Auto Join</title>
+        <detail> 
+t=6023&amp;highlight=auto+join loagn2004: 
+i think it would be cool if u have auto join to chat  
+room when u open ares so u dont have to click all ur  
+favs 1 at a time if u have a auto join u dont have to  
+click any just open ares and they join as soon as u  
+open ares Mike3115: 
+Good idea, however, I have several rooms on my list  
+that I only go into now and then. Linkin's suggestion  
+where you can right click and choose which rooms you  
+want to auto join or even a seprate list of rooms for  
+auto join would be good. I think this is a very good idea, check it out :)</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#139 Delete Option</title>
+        <detail> On the Context menu in the transfers pane, it would be nice to have a delete option for completed files so you don't have to hunt the file down in the library or on disk.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#19 ares over i2p.net</title>
+        <detail> can you code a socket for optional download over i2p.net ?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#62 Ares Version Idea</title>
+        <detail> Could the Ares version like &quot;Ares 1.9.1.3010&quot; be added  
+onto the ARCA join event. 
+If this was done i could get my remote admin to check  
+my website for the current ares version, then if the  
+user joining the room had a older ares version i could  
+get it to tell them to update giving them a link to  
+here. 
+It means that more people will use the newer builds,  
+and i think its a nice feature. Daz</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#232 'boss' key function</title>
+        <detail> exactly what i said, a boss key function.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#24 Longer visible chat area.</title>
+        <detail> I need to see the top of my banlist and stats report. 
+How about allowing us to specify how many lines to 
+allow? Just a hint... I'm not trying to be rude.. 
+Download Visa177's AC177 and use EVERY SINGLE thing 
+from there.. That guy made a kick-ass program and he's 
+awesome. Anyways yeah, I want Logged chat, and longer 
+chat area... thats all I'll begg for today. ^_^</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#10 Bunch of new Ideas.</title>
+        <detail> Please add a &quot;Now playing&quot; button. In the public 
+chat and private chat. - Should be able to config it in 
+Control Panel. Should be a sound when recivning private message. - 
+Should be able to chose in Control Panel Ares Version should be standing at the top of the 
+program. etc: Ares  -  When chatting, the own text should be a different 
+one then the others.  Faster Hash speed. (Not a must, but a pluss) The &quot;New Tab&quot; icon should be a new, better one. Bookmarks should be able in the Webbrowser. Auto-Connect to Ares channel. - Should be able to 
+chose in both Favorites (Auto-Connect to channel) and 
+Control Panel.(Auto-Connect all chosen favorites) Add Share Size to Library and Chat. If chosen &quot;Show Transfers&quot; in private chat. It 
+should automaticly do it next time opening a new 
+private chat window. Op, VIP, Reg, Normal should be some of status in a 
+chat. 
+etc: Op, VIP, Reg has diffrent stars. Normal status has 
+Normal star. Buddy List. When watching Pictures in Library, a preview 
+picture should be on the right side of Details. BUG: When i file is over 1000MB, it gets weird 
+characters. MUST be fixed. Looks ugly! When right clicking a file on search, there should 
+be a &quot;Downlaod to...&quot; choice. Some users dont want all 
+files in same map all the time. Thanks for your time, Martin! </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#70 Option to hide or show banned</title>
+        <detail> If a user is banned it will flood hosts screen with  
+the warning. 
+Example: 
+anon_c9d02336 (from 201.208.35.54) banned 
+anon_c9d02336 disconnected (killed) 
+anon_c9d02336 has parted 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 
+Connection rejected(banned user): anon_c9d02336  
+from:201.208.35.54 Please could a option be added in the control panel to  
+hide or show banned user events, or limit them to show  
+only 3. Thanks, N.Devil</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#259 compile error</title>
+        <detail>  jcl.inc(44): 'INTERFACE' expected but identifier 'ALERT_jedi_inc_incompatible' found 
+  jcl.inc(44): 'INTERFACE' expected but identifier 'ALERT_jedi_inc_incompatible' found 
+  jcl.inc(44): 'INTERFACE' expected but identifier 'ALERT_jedi_inc_incompatible' found 
+  JclBase.pas(95): Undeclared identifier: 'SizeInt' 
+  JclBase.pas(317): Undeclared identifier: 'TJclAddr' 
+  JclBase.pas(321): Undeclared identifier: 'TJclAddr64' 
+  jcl.inc(44): 'INTERFACE' expected but identifier 'ALERT_jedi_inc_incompatible' found 
+  JclBase.pas(376): Could not compile used unit 'JclResources.pas'</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#210 MediaDefender</title>
+        <detail>   Using the tools provided you can find out how they are flooding the Ares P2P network. It seems there client is &quot;1.9.2.3011&quot; and they use 3 different IP sets.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#209 block the deactivation</title>
+        <detail> I alwase forget de disable the automatique desactivation of windows after few minutes of non-usage. I wish that your softwate take care of this disagrement I also wish to set DL priorities by myself Thanks, and forgive my bad inglish</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#45 ARCA functions</title>
+        <detail> List muzzled users, theres list bans which makes life  
+easy but why not list muzzles? Thanks.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#9 Lan edition</title>
+        <detail> I am on a lan and i have to wait for ares to connect to  
+the net to share files accross lan could you do a lan  
+edition?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#234 Ares search in local network</title>
+        <detail> Is there any way to make ares search in my local network prior to search across the p2p files.  I have an internet rental place, and I have a server with 25000 mp3 songs, so many times hapend that users download songs I already have, and they use brandwith for this. If they download from my  server instead than fron internet, it would be nice and faster. The case here is that they do it with ares program.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#67 Skins?</title>
+        <detail> How about some skins</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#71 Priority/Order in Downloads + Bandwidth Intelegent Control</title>
+        <detail> The interface should allow the user to order the  
+downloads so that certain files are downloaded first  The other idea is to allow the user to set the max  
+bandwidth to target with a setting for the min and  
+max number of downloads to hit this bandwidth for example the user can set Min. download bandwidth  
+to 20KByte/Sec and MinDownloads = 1 and MaxDownloads=  
+3 this would allows ares to start downloading 1 file  
+only and if the bandwidth reachs 20K for this single  
+file then we continue only on the single file. In  
+case the download of 1 file only gets us to say 5  
+K/Sec then we start another download (unitl we reach  
+the MaxDownloads) unitl we reach a total download  
+bandwidth of 20K Of course given the order list above the downloads  
+should start with the order given by the user in all  
+cases in case you need to discuss the idea more please  
+email me on azmy@ebseg.com </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#248 Magnet Links on The Pirate Bay, etc.</title>
+        <detail> It would be nice if it could support them.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#86 Increase hosts per download</title>
+        <detail> Increase hosts per download 
+Is it possible to increase the number of hosts you can  
+download simultaneously from for each download? At the  
+moment I seem to be limited to 8.  (patrickdgraham@hotmail.com)</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#35 linux port pleeeaaassee</title>
+        <detail> id love to see this ported to linux, have used it on a  
+friends windoze box and i liked it but i refuse to use  
+windoze. too many virus's and spyware.. </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#118 Allow localhost to do more</title>
+        <detail> The localhost (127.0.0.1) is allowed to flood pm's and has no limit, could this also be done so host can run a chat client on that IP and not flood in the main chatroom? Thanks, Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#256 CBZ and CBR support</title>
+        <detail> Those files are not even visible nor found when scanning for files to share. Those stand for Comic Book reader Zip and Comic Book reader Rar. A common wraper used for electronic versions of comics and other graphics novels. Can they be made available in a close futire release?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#64 Chat Room Redirect</title>
+        <detail> I think that Ares Chat room should offer chat rooms  
+redirects like WinMX currently does. It allows you to  
+send all the users in your room to another room so you  
+can restart or do whatever and when your done the  
+person who was hosting a temp room for you can send  
+them back. Somthing simple like</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#100 DC option</title>
+        <detail> Hello, i would like to know if a feature can  
+be added to the hosting section. 
+Id like to know if it could be made possible  
+that the Host Opt's out DC'ing option 
+within the whole room.  
+Even though everyone can chose weather or not they 
+have dc option on or off , some people simply dont know about it and get bothered with hashlinks  
+or disturbing &quot; http:// &quot;links.  
+thx</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#39 System Tray Icon: indicate downloading/uploading</title>
+        <detail> Hi, It would be nice if the icon can display bar graph 
+something like ZoneAlarm's icon. Indicating if the Ares 
+is downloading/uploading data. It is useful because 
+most of the times Ares's GUI is minimized or ares 
+running in background. thanks. 
+</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#23 proxy feature using spare bandwidth</title>
+        <detail> Let users specify a percent of bandwidth that can be  
+used for performing proxy downloads for other users.  
+Possibly even with proxy chaining. This gives  
+deniability to the proxy, and anonymity to the client.  
+That way RIAA can't put up a server and sue anyone  
+that downloads from it. At least not effectively. Note  
+that you would want the proxy to work on a per client,  
+not per download basis. that way multiple downloads  
+from one source can't be attributed to the downloader.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#111 Block Proxy</title>
+        <detail> Hello ive been haveing an on going problem 
+with someone in my room is banned , but they got past the GUID ban method. They are proxying back like  
+a yoyo and its annoying me. I was wondering if  
+there can be a way to totally remove proxy support or  
+ban it off the servers somehow. Proxy method is driving me nuts. this woman is childish 222.152.179.244 </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#251 BitTorrent</title>
+        <detail> Its support should be extended to include support for DHT and Peer Exchange.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#184 Documentation</title>
+        <detail> You could post some documentation on the project, close the solved requests or bugs, and use the news for informing about such problems related to the new problems this program has. I say that because it seems to be a perfect program until you search a bit or reads the bugs section, which will cause to suspect someone's trying to hide something. 
+Information is the best way to be respectable.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#33 Faster Speeds / Version Info</title>
+        <detail> First ...i'd like to ask for something which i guess  
+is easy to add 
+Info about the version of Ares in &quot;Control Panel&quot; 
+cose a version comes out...u think u still using the  
+latest and in the meanwhile...something new is  
+out...or even an upgrade feature...be able to check on  
+connect if a new version is out and if yes...download  
+it trough the network and upgrade... 
+about the speeds....are these queues which disgust  
+me ;/ 
+i think people with higher uploading should go on  
+queues first... 
+think of it like this...there are people that download  
+a movie or whatever and just close the program... 
+how about the people that are downloading the same  
+movie? right there, the 'downloaders' of that movie  
+just lost a FULL-source 
+another thing i'd recommend...check this value by  
+day...since Ares maintains a part of  
+downloaded/uploaded MB 
+besides the global uploaded value...it should have a  
+daily (OR even hourly) uploaded so whoever had sent  
+more on this time..would have a higher queue cose  
+these people are the ones that keep the network up not  
+56k or people that download and just run off one other thing i would like is stats...not those  
+graphical ones like emule because they're tooooooo cpu  
+intensive...but stuff like..how many MB i  
+uploaded/downloaded until today keep up the good work 
+Kiko</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#244 CHATLESS</title>
+        <detail> make a patch, or update that disables the chat tab from working. I get distracted and do not need it. THanks</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#95 torrents</title>
+        <detail> I was recently using the torrent download part of ares , which works very well by the way, But when i hovered over it I had noticed that &quot;Upload&quot; was doing a Huge chunk. I was wondering if a little Upload limit Option can also be added for torrents . Might make torrents more speedy , and you can still share with everyone .</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#146 Catalan translation updated</title>
+        <detail> Here it is catalan translation updated on 23/01/2007 1:29</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#27 speed up</title>
+        <detail> could u please PLEASE make downloads faster? it took  
+me more than 3 days for a single anime file!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#20 Advanced upload settings</title>
+        <detail> I would like the ablility to specify times to raise and 
+lower upload/download limits... and possibly a time of 
+the day to share all my files... or just audio... u get 
+the idea. I think if more people had more options 
+they'd allow for more uploads during specific times, 
+thus helping out our current network situation. Thx.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#202 Annoying problems</title>
+        <detail> I believe that several users of the program we have the necessity some times to give priority to certain archives, this could be implemented in future versions of you plow to obtain greater comfort and to take advantage of the connection. This not only would have to also modify the relative speed of unloading but the unloading turn, or often happens something very annoying that is that when we slowed down a file or it cuts the connection, when reinitiating it begins to unload any file the less the one that we were unloading and possibly it needed little. Another option that I create good for this last problem is the one to add sub menu when secondary doing click in the file that allows us to begin to unload that file and when choosing that option of the possibility temporarily of increasing the amount to us of archives maximum to unload until finishing one or of slowing down some. In addition, some archives with very few sources would have to be prioritized, for example when selecting an automatic level</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#183 Two features</title>
+        <detail> I would like to see some indication of how long It's been since a file was first queued for downloading. I'm willing to wait for a number of days for a file to download but then I forget which download was queued when. As an example, I would like to manually 'cancel' any download that's been in the queue for three days. When I queue a large number of files for download some download immediately and there is no problem. I have my maximum number of concurrent downloads set to 10, so some files stay paused until a download is finished then they start downloading. A problem occurs when the 10 files are trying to connect but are unable to. Other files could be downloading but they're paused by Ares because the first 10 are trying to connect. I have to manually cycle through the queued files using the 'pause/unpause' feature to let a new group of 10 try to connect. It would be nice if Ares took care of this automatically. If a connection/download isn't established in 10 minutes, pause the download and move it to the bottom of the queue, then unpause the highest file in the queue. leond@stellartech.bc.ca</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#83 User Global ID Code Via Account Login (idea 2)</title>
+        <detail> Trying to think of ways to make Ares a safer place,  
+my friend &amp; myself come up with this... 
+Make users have an account needed to login. 
+This account then gives the user a global ID such as  
+1B6XH8. People hosting the chat room could then ban  
+users by this ID. Have a set of nodes keep record of  
+who¡¯s banned. 
+In control panel you could store your screen name &amp;  
+password to your account (again the nodes are used to  
+validate login). If a user is then banned there banned till host  
+unbans or has an IP change. Host can assign a log as  
+to why they were banned which other hosts can look  
+at. This could be used to look for users with such  
+things as child porn and have them blocked from all  
+chat rooms. Daz</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#237 Update the source files</title>
+        <detail> Please update the source files when you re-release the executable, there's been a few times now where you have put out a new executable and no new source with the fixes/changes - this applies to the chat server too. Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#43 Ares 2.0</title>
+        <detail> Does anyone know when or if Ares 2.0 will be out? It 
+doesn't look all too far away since there is a version 
+1.9 now. I think they should work hard on it and there 
+should be major changes in the GUI (or have an official 
+site with pleanty of good skins) and fix the many bugs 
+within Ares.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#164 itunes synching</title>
+        <detail> can u make it so every song u download automaticlly gets added to the itunes library</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#194 BitTorrent Improvement</title>
+        <detail> Ares download the torrent files at blinding speed... I really like it. I only want to specific my download file for each torrent, and please, don't download it in a new folder(name of the torrent).  just make it like other torrent client. So that I can share/seed the files longer, no need to stop the process, just because I want to move the files to another HDD. I hope to see this change in the future update.  All the best to you all at soureforge.net and who working on this lovely software, ARES.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#142 Session ID</title>
+        <detail> The new admin system on Ares is ok. 
+But when you part and exit you lose your admin and someone has to give it you again. 
+Is it possible for the server to send you a session ID, (a cookie basicly). The client then saves this and sends it to the server on the join event. 
+If both the server and client have the same session ID then you get granted op by the server itself. 
+Either that or a password option 
+/login  N.Devil</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#66 stop button</title>
+        <detail> how about a stop button added to the transfer page  
+like torrent clients do? i notice ares is still  
+trying to connect to a source even though it's  
+paused &quot;it'll find sources even though it's paused&quot;  
+dht working there. stopping the file will creat a  
+little more bandwidth used for other things.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#165 New translation</title>
+        <detail> Please, add this valencian translation. It's done by the   team. Our contributor is a big fan of Ares. Thank you.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#41 Working hash priority</title>
+        <detail> A working hash priority setting would be great. I'm  
+stuck at lower, and honestly, there are times when I  
+actually used realtime hashing. Just a suggestion.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#228 Download queue ordering</title>
+        <detail> Hi, i'm missing this feature: 
+A priority index of files (extra column) 
++ order files by priority 
++ mouse move files to set other priority 
+=&gt; Ares should then first dl the not paused files with lowest index THX </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#189 yacy p2p websearch in the new webbrowsertab</title>
+        <detail> Hello thanks for adding the webbrowser tab with the actual release. There is a p2p websearch engine, which is going to fight google central websearch database with a p2p approach. Every peer is a website indexer (low bandwidth/cpu  only) and can search the DHT of the network for urls. Can you add the installer of yacy p2p search into your installer and add the     to the webbrowsertab, so taht all ares users are running a DHT node for p2p webindexing? The network has 200 users and 400 Mio websites indexed. www.yacy.net Please support a google alternative.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#260 Scheduler</title>
+        <detail> Is there any chance that in the next version you could include a scheduling feature that will enable you to set specific times to download in (eg download between 1am and 9am daily)? Thanks in Advance PS: Awesome program!! Keep up the good work!!!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#25 visualizations?</title>
+        <detail> lets see some advanced visualization options, something 
+that users can create and support, something like the 
+itunes or WMP. winamp just something... maybe a plugin 
+or a patch that will create new horizans for this p2p 
+software</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#226 Lower Cpu/Bandwidth Usage</title>
+        <detail> Exactly as it says. The ability 2 change the cpu/bandwidth usage would help alot.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#148 Options: about interface</title>
+        <detail> Now the main reason I use Ares has been completely destroyed: it no longer uses extremely little resources and I really, really really miss the normal easy-to-use to-the-point theme. I hope some options can be made, like:  Display chatrooms on 
+( )taskbar 
+(-)tab bar 
+( )both Display direct-chats on 
+( )taskbar 
+(-)tab bar 
+( )both (-)Use lite GUI (old, little resource style of before the skinning features appeared (you may leave the internet radio button, it rulez! :D) 
+( )Use theme: 
+ And possibly a built-in skin editer (=built-in prefs.txt editor with color pickers and radio buttons etc. for each option). Althoughn I actually don't care about what programs look like (as long as they don't use much resources and work easy and nice) Ares 2 actually looks great! Jerry (jerrythabest@hotmail.com)</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#220 add ons</title>
+        <detail> ip filtering virus addons so less tech ppl can have one click anti virus and instead of having to configure their own file renamer add on disc extracter add on</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#204 Several basic possible improvements</title>
+        <detail> The reproducer although is very comfortable and fu¨¦ very good idea, sometimes is something annoying, for example the simple fact of not being able to clear the list with the key esc. The solution is simple and I believe that it would increase the comfort remarkably. Another important subject for us that we used the reproducer is the fact that when adding the reproduction list, this is not hidden automatically in very few seconds and if for example we are creating a new list to listen, this is annoying. The subject to add commentaries very is not spread and with the fact of being able to add a menu for the same or of being able to add commentaries easily it would help to cut the chain of archives that are not what they claim to be and its diffusion, reason why would increase the confidence in such and the archives in general. In addition, they do not think that for mp3 with the simple fact to listen to a part we know if is the file or no? they could implement a function to be able to mark like erroneous the archives that are not what if claims to be before unloading them they are of the specified type. On the other hand, they did not think about the implementation of plug ins? He would be novel and soon after there would be developments that to them work would save, being able to implement it in future versions, this last one perhaps does not seem to them well so simply they do not consider it. Greetings and very good work</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#129 Metalink support</title>
+        <detail> Metalink is an XML format used by download programs 
+that lists mirrors, p2p, checksums, and other metadata. 
+It is used by OpenOffice.org, openSUSE, and other 
+Linux/BSD distributions. 
+ Here's an example: 
+ 
+ 
+ 
+example-md5-hash 
+example-sha1-hash 
+ 
+ 
+ 
+ftp://ftp.example1.com/example.ext 
+ftp://ftp.example2.com/example.ext 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ More info at: </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#123 Filters</title>
+        <detail> Please could you make a seperate set of filters for PM. 
+At the moment allot of things are messed up for the remote admin systems becuase they cant send the help file to users in pm! 
+Either that or remove the PM filter.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#60 ares porn flaw</title>
+        <detail> ares fatal flaw for alot of guys would be the hassle 
+of canceling all there downloads clearing them then  
+deleting all in the library and playing something in  
+the media player before there girlfriends come in the  
+door sad ive down it many times lets face it i would  
+love to see a emergency button for that.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#240 I'm missing some column in Tranfer etc.</title>
+        <detail> Hi, i'm missing some things: 1) column Size in Transfer window - there is still no way to sort by file size now in 2.1, i can sort only by downloaded size :-( 2) in Transfer: icon in toolbar for Pause/Resume (now is it only on right mouse) Can you please add it? Thanks.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#84 Keyword Filter</title>
+        <detail> I have an idea for the Ares P2P program. There is a  
+lot files that come up when you type stuff in the  
+search. How about making a keyword filter so when you  
+put, say &quot;adult&quot;, no results will appear with the  
+word 'adult'</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#221 Invisible Interface</title>
+        <detail> There is a need that the new version of ares should have such functionalities as invisible mode. That means that by hitting a certain set of keys ares become invisible even from the taskbar. This functionality will maintain the user privacy while ares being unnoticed by others.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#154 Good features...</title>
+        <detail> Here are some features that I think would make Ares better:  
+1. Album artwork download (like iTunes). 
+2. Equalizer in Media Player. 
+3. To be able to clear the media title in the media player. 
+4. More file type support (MP4, etc.) 
+5. A different folder for Incomplete and Completed downloads. 
+6. More advanced skinning options. 
+7. Auto-update feature. 
+8. Improved BitTorrent client. 
+9. Add some more buttons back to the windows that were in them in 1.9.9 and below. (Screen, Transfer, Library - playlist). 
+10. Updated website with skins that users can submit. 
+11. CD Ripper/Burner suite. 
+12. A Chat free version of Ares, for those of us who don't care about Chat. 
+13. More advanced Searching options. (Search) For Ares 2.0+/1.8.1-1.9.9 skins go to: 
+</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#193 Download Priority</title>
+        <detail> If you add 50 files to download, there's currently no way to prioritize the more important ones other than pausing the less important ones until the more important ones have been downloaded, but you have to be ready to unpause the less important ones once the download is complete. It would be nice for a &quot;move up&quot; and &quot;move down&quot; feature on a right click context menu for showing files that have priority. The original Napster app years ago had this and I'm suprised to not see this in Ares yet. I love the Ares app.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#168 MSN &quot;Now Playing&quot; Support</title>
+        <detail> There should be support for MSN's &quot;Now Playing&quot; feature. blackdeathx   gmail.com</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#116 Extensions ?</title>
+        <detail> Plow does not recognize some files correctly, for example *.ratdvd to be able to share these archives is necessary to change the extension or to compress the file and even so if it surpasses limits of file You plow does not send anything by limits of file. It interests to me to know if this is going it to change</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#80 independent web browser</title>
+        <detail> Thanks for this cool file sharing software.I would  
+really like it if the Ares web browser was independent  
+of windows explorer.in that it has it's own memory of  
+storing links and pages visited.also for the user to  
+be able to clear this memory without affecting the  
+windows explorer links to pages visited.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#17 File names</title>
+        <detail> I think you should be able to choose how you want the 
+files to be named. For instance, Ares should be able to 
+save all your songs you download as Track - Artist.mp3. 
+The filenames could get the information from the 
+metadata..... I think this is a good idea because it 
+makes it a lot easier finding songs in a folder with 
+100's of other mp3 file names that start with a number.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#182 New Download Category</title>
+        <detail> Ares could minorly improve by adding the category &quot;torrents&quot; to the search pannel. 
+there allready is 
+-All 
+-Audio 
+-Video 
+-Image 
+-Document 
+-Software 
+-Other 
+there should also be 
+-Torrent There should also be sub categories for 'other' such as 'Zip' and 'Rar' and document like 'Doc' &amp; 'Txt'</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#257 Pause/Resume Button on menu</title>
+        <detail> On older versions, like 1.8.9.xxxx, you had a button on the menu for Pause/Resume, where you were able to select multiple files and either Pause or Resume all of them in one click. This feature is no longer available on new versions. or possibly, multiple selections are no longer available Because of this feature, which I believe is very essential in managing dowloads, I have opted not to upgrade to the latest version of ARAS. I am still running 1.8.9.3004. Would be helpful if this feature was added to the latest software version</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#186 Live Banlist</title>
+        <detail> I would like the chatroom bans to be added into the file after each one is made. 
+I have developed a tool to block TOR (a proxy service) from chatrooms, but cant make it update every hour or so because Ares requires a restart to the room for any changes made to the ban file. 
+If you could make the Ares chat server check for bans from the file it would allow custom bans to be added while the server is still running :) Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#241 Please, create a Linux version of Ares</title>
+        <detail> Hi Ares is the best P2P software I ever used (and I'm using P2P software since Kazaa was new). I really love it. But since a few years ago I started to use Mandriva Linux and I don't find any aplication that works so fine as Ares. Ares is great great program. So, IMHO you should develop a Linux version. It will be very welcome for all Linux users. And I think this is the right moment for it,, considering that Linux is growing more and more everyday. Best regards.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#230 choose torrent file</title>
+        <detail> Other torrent prog has it, when you dl a torrent file you get to choose the specific file instead of dl the whole file.  Thanks</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#74 Friends list &amp; GUID request</title>
+        <detail> A friends list that you can select from the  
+contextual menu &quot;add friend&quot; and &quot;remove friend&quot;. 
+This then gives them a friends icon, or highlights  
+them depending on the skins prefs. 
+It would be nice to have a auto send message, so if  
+there offline but your online they get the message  
+when they re-enter the room. 
+Also you should be able to do superban added for both  
+host and ARCA. This would ban them by there GUID. 
+I dont know about the others but im sick of banning  
+someone and then them using a proxy to get right back  
+in. This may just put a stop to the most of it :) Daz</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#36 For Mac Please?</title>
+        <detail> Is there going to be a Mac version of Ares available soon because i used it  
+on my pc and now wish to use it on my mac but its not available!!! please  
+bring out a mac version!! Callme_ree@hotmail.com</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#75 Clickable hashlinks</title>
+        <detail> Make hashlinks clickable like a http:// link for  
+instant joining to a room.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#89 Auto update</title>
+        <detail> It would be nice to have an auto update feature in 
+ares, so that when a new version is uploaded to the 
+server, then ares will notify you that there is a new 
+version available? </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#155 Cool feature...</title>
+        <detail> Hey there, I think that if the Screen tab could have visualizations like in iTunes and WMP it would be really cool. Also, these features (previously posted) are really good ideas: Here are some features that I think would make Ares better: 
+1. Album artwork download (like iTunes). 
+2. Equalizer in Media Player. 
+3. To be able to clear the media title in the media player. 
+4. More file type support (MP4, etc.) 
+5. A different folder for Incomplete and Completed downloads. 
+6. More advanced skinning options. 
+7. Auto-update feature. 
+8. Improved BitTorrent client. 
+9. Add some more buttons back to the windows that were in them in 1.9.9 and below. (Screen, Transfer, Library - playlist). 
+10. Updated website with skins that users can submit. 
+11. CD Ripper/Burner suite. 
+12. A Chat free version of Ares, for those of us who don't care about Chat. 
+13. More advanced Searching options. (Search)</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#6 Collection builer imbedded into program</title>
+        <detail> There are virtually zero collections on the Ares network. 
+I think if the collection builer was actually imbedded into  
+the program (like eMule), this feature would be used by  
+a substantial amount of users.  Even a complete newbie  
+could make one. Also, add a collection search option so people can  
+search for them on the Ares network. Collections are so great and could really improve the  
+content on the network, I don't understand why this  
+shouldn't be done.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#127 music screen</title>
+        <detail> Ares should have visualizations for the screen while listening to music. Windows Media Player visualizations shoud have some compatability.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#13 Search by extesion feature</title>
+        <detail> Overnet/Edonkey uses a feature for searching  
+by extension, of course they also have a file  
+check feature which verifies the file as being  
+the exact correct file the user is searching for. 
+Also if this cannot be implemented, is it  
+possible to have a portal for ISO images that  
+can be shared as a CD or DVD image? 
+Thanks again... 
+Akber Jafferi 
+akberztech@yahoo.com</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#73 Remember which search results to hide</title>
+        <detail> There are a bunch of junk search results and a bunch of 
+results I have already seen or have in my HD.  I want 
+to hide them so that I don't ever see them in my search 
+results again.  This is great for junkies like me who 
+like to search for movies to see but I see alot of 
+movies i have seen already. Thanks</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#152 Automaticly remove completed/errors from list</title>
+        <detail> What about a feature that will automatically remove completed downloads from transfers-list? 
+And also a feature that will automatically remove errors. 
+This feature should be optional. (toggle on/off)</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#135 selected downloads in torrent package</title>
+        <detail> like other clients(bitlord), maybe putting it in a folder dowload(on transfer window) with the files inside, giving the ability for preview play audio and video files, and all other things. just great download torrent with ARES! thanks</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#191 support proxy for downloads</title>
+        <detail> There are people behind proxy and firewall so they use http tunneling to be able to connect ares, so they need socks proxy. That was disabled in 2.x releases and I think it should be re-enabled again.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#114 Problem whit size of the files...</title>
+        <detail> A very important thing is that g has supported unloadings of 2 archives of but of. The archives that encounter of 3 g I cannot unload them, and I believe that it is because still it does not support it although if it shares but nonunloading correctly. </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#48 networked folders</title>
+        <detail> IS THERE ANYWAY THAT NETWORK FOLDER SUPPORT BE ADDED,  
+I CAN ONLY SHARE STUFF ON MY COMPUTER BUT I HAVE 5  
+OTHER COMPUTER NETWROKED AT MY HOUSE ALL CONNECTED TO  
+THE NET ON THE SAME WORK GROUP ANYWAY THAT I COULD  
+ADD THOSE FOLDERS TO THE ONES I AM SHARING pETERXSHARP@GMAIL.COM</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#162 Parental Control</title>
+        <detail> Hello, first of all I'd like to congratulate you and to say that Ares is a great piece of software, maybe the best P2P program around today. I like to use it whenever I go to an internet cafe. But to tell the truth I don't want to have any P2P program at my home's PC if it doesn't have a parental control feature (which Ares doesn't have that I know of, please forgive me if it does and I'm outdated). So I'd like to ask you guys to please improve Ares even more by adding parental control options. The only P2P program with &quot;parental control&quot; that I know of is Morpheus Ultra but it's &quot;security&quot; is pretty BAD. The mistake they made is that you can only password protect the running of the program and the search box, but the preferences for parental control CANNOT be password protected, which is pretty stupid. Just imagine this scneario: kid says &quot;dad I want to use the P2P program&quot;, dad says ok, runs the program and enters the password for the program to run, then kid says &quot;I want to do a search on car wallpapers&quot;, so dad enters &quot;car wallpapers&quot; in the search box, presses enter and enters the password again and then leaves the room. Then kid is now alone and selects the preferences menu, goes into parental control and deletes the filter and the password without being asked for any password verification, and this is REALLY STUPID and quite useless. So now kid can use p2p program any other time and search for porn, ebooks on home made bombs or how to kill other children with a toothpick, and he doesn't have to even try to crack any password. And they call this &quot;password protected parental control&quot;! Please improve your software by adding features of this kind and don't make the same mistake that the programmers for morpheus made. I'd like to humbly make some suggestions. It doesn't have to be anything fancy but you'd have to be a little careful and think like a parent (or a newbie hacker kid), not like a proggramer. You can have the user enter the word and phrase block list to create their own filter so that any search results containing any of those words or phrases will not be displayed, and of course to block them in the search box (please remember that you don't necesarilly have to make a search on &quot;sex&quot; to get results with that word, it just happens sometimes). Also you could add an &quot;allowed times schedule&quot; so that the software can only have access to the internet at some selected time ranges when the parent is at home of course. And the user could select the time ranges for each day of the week when he/she knows will be home to supervise their child. Of course the &quot;Parental Control&quot; options should be password protected, and by that I mean that the kid shouldn't be able to even look at the options without knowing the password. Any other thing you would like to add onto that would be great, or of course it'd be great if you improve those ideas. Please think of this and consider it, if you think of it, coding this is by far easier to do than all the features you have already coded which are more complex. I'm just asking for some simple features to make parents life easier, people who are not interested in such features would simply ignore them but you could grab more attention to your software from parents who would by far prefer Ares over any other P2P for home use. Thanks in advance for simply reading, thank you and good bye.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#46 Support for Windowblinds Skins</title>
+        <detail> Ares should be made more compatible with WindowsBlinds  
+skins and Object Desktop suites. It's pretty  
+inconvenient and unattractive when Ares needs to be  
+excluded from skinning just so the search page can be  
+read.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#213 wen ares 2.1.0 is coming out?</title>
+        <detail> we are waiting on the new ares to come out becose the last vercion of ares has alot of bugs can someone can tell us wen the new vercion is coming out?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#170 Download manager</title>
+        <detail> I was thinking of other ways to bring content to Ares. 
+Torrents have been done... so how about a download manager for Internet explorer and Firefox. 
+People could pause, queue and even go offline and then continue the download later. 
+The finished file then gets added to Ares, brining more content to the network by adding it to the shared folder :) Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#50 Updates...</title>
+        <detail> A column on userlist for a user number ID. 
+Then make ARCA use the number ID by default, this  
+would fix problems users have on older machines where  
+they cant copy and paste names. 
+Allot of people have looked on here about the ARCA  
+updates that should be made, and on peer evolution and  
+still nothing has been done. 
+Myself and many others think its time ARCA was updated  
+as programing standards on Ares have got better and  
+more can now be done. But ARCA is very limited, buggy  
+and does not feature such things as: 
+On join muzzle detect. 
+Clear muzzles. 
+List muzzles. 
+Anti muzzle flood detect. 
+Name support for older machines. And even if data is sent to ARCA correct but to fast  
+the ARCA socket will lock up. Please look into this for us programers.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#243 request for addition to ares</title>
+        <detail> It would be helpful if you guys added  
+browse users library files  button 
+and more strength for download files with one user connected</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#16 Good Idea</title>
+        <detail> I think you should allow us to choose which tabs show  
+up in the searches, for example, Title, Company,  
+Category, Date, etc...It's very annoying when useless  
+information is displayed and you cannot minimize that  
+column or completely delete it, thank about it. </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#30 Centered Topic</title>
+        <detail> In a chat, when u enter, the topic should be centered 
+on that bar where it is.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#61 Good Feature</title>
+        <detail> I would like ARCA to be able to get the user list. 
+Shown here in this link  
+kup1.jpg  the remote admin checks to se if the user  
+exists before performing the command. 
+If ARCA was to contain the user list providing the  
+ARCA socket bug gets fixed (that causes ARCA to crash  
+if data is sent at full speed to the socket) then the  
+Warn To User method could be used instead of a private  
+message. 
+Currently a client link is needed to get the user list  
+and perform private messages, if ARCA was to support  
+the user list instead then MUCH more can be done...  
+and in the long run the more the programmers are  
+interested in using Ares to build applications for the  
+other users. 
+I se it as the more Ares has to offer the more people  
+will use it. 
+-Warez client has download completion msn style popups  
+and a CD ripper. 
+-Ares has a enhanced chat (over Warez client) with  
+ARCA built in. Please try on the upcoming builds to through in this  
+feature, N.Devil</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#78 FASTER DOWNLOAD SPEED</title>
+        <detail> ARES NEEDS TO ALLOW FASTER DOWNLOAD SPEEDS.......</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#51 skins</title>
+        <detail> How do I get different skins for ares 1.9.0.3008?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#158 ARCA</title>
+        <detail> bring ARCA back!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#138 Keep seeding downloaded torrents</title>
+        <detail> Ares seems to seed only when the file still in transfer window... I now that these things are probably in development (after all Ares get in the torrent world by now) and although theses files are on Ares network, dont seed them trough others torrent programs its a little bit like an automatic leecher...  maybe a especial folder on library (torrents) showing some stats...</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#199 Support for Linux OS's</title>
+        <detail> Since Ares is open source I think its only right that It should support Open Source Operating Systems like Linux.  It should at least support some of the common open source operating systems like Ubuntu or Fedora.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#231 www-like search: &quot;string search&quot; -exclude, filetype:, etc.</title>
+        <detail> It would give more matching results.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#107 wine ares linux SO CLOSE TO WORKING font boxes appear! :(</title>
+        <detail> ok so i've tried to run ares in linux (ubuntu 6.06 lts) using wine and i've almost got it to work... as a matter of fact it even connects to the network and everything.... i can go in chats.... download files from people in chats..... but when i SEARCH for something in the SEARCH field the text appears normal but then you hit the SEARCH BUTTON it turns it into BLOCKS in the &quot;TAB&quot; that appears whenever you create a new search suggesting that ares is taking what you enter in the search field and somehow converting it to blocks and trying to find filenames that are blocks which of course will yield NO results because no one names their files as blocks (resembling two brackets [][][][][][]) THIS seems like SUCH A SIMPLE font issue... i dont know much but it is SO close to working flawlessly under wine can ANYONE PLEASE try to hash this out perhaps? I dont care if you guys ever work on developing a linux version if i can get it to work under wine i wont mind.... take your time for that but GOD if you can make this work by figuring out why all the entered search strings turn into blocks and try to get a solution so many people would be sufficed by a wine-ran ares until you guys decide to port it to linux... thanks for taking the time to read this. interrupt13 at yahoo dot </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#136 hosting screen</title>
+        <detail> i would like to know if there can be an option made to kinda like either hide or show arca events. 
+like my screen is FULL of  
+&quot;Remote Administration-&gt; WARNTOUSER&quot; 
+or like when someone gets kicked you get the messiest looking screen. or even when you get user banned rejection your screen is flooded with stuff .  
+I know there are options like using arca eclipse,  
+but its unsafe, and i would rather just host with ares. if you could make this so its kinda hidden by a check box option or something , that would make hosting much cleaner and so much more enjoyable.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#47 Improvements to be made</title>
+        <detail> I've been using Shareaza up until now and it works 
+moderately well... I just got Ares and it seems to work 
+much better as far as downloading, but there are some 
+UI changes I would like to see made: On the Search screen, when you double click a song 
+to download it, make it change colors or something to 
+make it more obvious that you are downloading that file. On the Download screen, make files autoclear when it 
+completes the download or is cancelled. its annoying 
+having a bunch of completed and cancelled files, I only 
+care about the ones that are still in transfer. Don't put the temp files in the download directory. 
+it sucks to have 45 temp files and to have to search 
+through them to find the 1 completed file. make a temp 
+directory in the Ares folder, store all transfers there 
+and when they are done, move them to the download folder. That's all I can think of at the moment... Ares works 
+better than Shareaza, but Shareaza is so much nicer to 
+use. Of course the purpose is to download so I'll be 
+using Ares from now on, but it'd be nice to get a more 
+friendly/customazible UI. Thanks!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#134 Stop asociation of M3U and PLS files</title>
+        <detail> Stop asociation of M3U and PLS files. 
+Make this an option and not activated by default. 
+Thanks</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#56 Quite possibly THE most important feature, please read devs!</title>
+        <detail> With Ares getting firewall-to-firewall support and  
+being used heavily on colleges and whatnot...it's  
+going to get A LOT of attention in the near future. 
+When the word gets spread around colleges about this  
+program, it's going to be huge.  Double-edge sword  
+though because of RIAA/MPAA also taking notice and  
+flooding with viruses and fake files.  That's why  
+it's absolutely essential that some sort of file  
+rating/comment system be put in place asap.  I may  
+sound to dramatic, but seriously, attack the problem  
+before it gets too out of hand.  While fakes and  
+viruses can't totally be eliminated...this will sure  
+help a lot.  Ares is probably the cleanest network as  
+far as fakes and viruses go, but I know that it won't  
+stay that way for long. 
+ Shareaza has something like this, perhaps the  
+developers can check that help for ideas.  You can  
+rate a file 1 for bad quality and 5 for good quality  
+and then post any comments about that file to give  
+users more information before they download it.  I've  
+been on the Ares network since there was 4 or 5,000  
+users...I don't want to see it go to crap like  
+FastTrack. Please!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#14 Seperate folder for incomplete files</title>
+        <detail> When Ares downloads a file, instead of the incomplete 
+file goes to the same folder as completed files, have 
+the option of imcomplete files going to a seperate folder.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#212 Font sharing</title>
+        <detail> Pls add capacity to share FONTS (recognize the file extension for adobe fonts or true type fonts</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#49 CAN port 80 can be used to download files</title>
+        <detail> I am connecting from a large network, so only port 80 
+is open.  
+Is port 80 can be used to download files?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#157 &quot;Share/Unshare&quot; Button in UI</title>
+        <detail> I think the &quot;share/unshare&quot; button should come back, so I have the ability to unshare multiple files at once.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#97 file support</title>
+        <detail> hey i would like to know if you can  
+add .avi file support to ares ,  
+i know you can use vlc player and such , 
+get different codecs etc. 
+ut i was wondering if it can be  
+made so no one needs  
+aditional software to watch a movie  
+in .avi format thx.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#117 Intelligent shipment</title>
+        <detail> The solution is that when somebody joint party something in You plow and single Ares is a source is able to analyze whichever people has the file, so that the distribution does not become difficult of the file that each client has the capacity to send although she does not have the complete file, but single when the file has it she limits of people who are not the sufficiently great thing like distributing itself quickly. If 1 file has a source and unloading the 10 people and has upload of 20KB 20:10 =2KB takes much in distributing itself and in having the complete file¡­ If one becomes of this form that I mention serious but fast.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#82 MAC Address</title>
+        <detail> I once got told Ares isn¡¯t working so good due to the  
+fact people are still using older Ares versions (even  
+if this is false it will get people using the newer  
+builds). My request should solve this. 
+Simply make the client also send out your MAC Address  
+to the chat rooms server when you join. If you have a  
+MAC address it knows you¡¯re on a new Ares build else  
+it rejects you till you update. Ares chat rooms could  
+also then ban by MAC address, so your infact adding  
+more safety. Daz</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#167 Streams</title>
+        <detail> I would like support for streams, so that Ares can act as a full media player and a replacement for WinAmp/VLC.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#255 Dns hash example arlnk://chatroom:test.myftp.org:port|roomna</title>
+        <detail> It would be great if the next ares released has the option to use dynamic dns hash such as arlnk://chatroom:test.myftp.org:port|roomname . oobe has already added this on cb0t and it works great. Problem is many people don't get provided with static ip easily, hence this would be good enough for regs to find the chatroom. Also if you could add the online time option back in the next release it would be great.  Thanks  
+Lucky Chang!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#187 skin packs</title>
+        <detail> like the new skin, but i dont particularly like how it doesnt affect the main part of the program e.g. where the files are listed in the libaray...before using ares i used limewire and it supports full interface skins, but i would like this in ares more because i find that ares works alot better also a better selection of skins, or making the default skin pack &quot;open source&quot; so that some nice people out there could make custom skin packs anyway, just an idea though i hope you do use it if you have time chaosblade@hotmail.co.uk</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#149 File Browse Tab Location</title>
+        <detail> I would like to se file browsing tabs be on the same tab area as PM's, it looks much neater and you can se what room you scanned the files from easy. 
+It keeps the channel tab count low to :) Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#1 netstat</title>
+        <detail> have it like some apps where i can see what ip i am  
+downloading from as well as upload from me..  i also wouldn't mind seeing a plug in like media player  
+has for visualisations</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#113 Block the evil</title>
+        <detail> child porn and highly illegal stuff like hacking accounts and website should be completely banned. somehow make ares auto ban this stuff. It gives Ares a bad reputation</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#132 Skin</title>
+        <detail> A skin the give ares the look back of the older versions, because i don't like the black style</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#173 Connectability to other networks</title>
+        <detail> Connectability to other networks should be a priority. Like KCEASY,there should be plugins or code within new builds that would allow Ares to connect to various other networks. This would allow Ares users to find/download a variety of new files which may not be found on the Ares network - enriching Ares for all of it's users. I am aware of the dangers of other networks filled with   and the idea that &quot;the man&quot; may consider Ares a new target if its reach extends into other networks. Anyway, adding connetability to other networks would make Ares that much better.  Keep up the good work. Ares user since it started, always been satisfied. </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#37 RANDOM PLAY with ALL AUDIO FILES</title>
+        <detail> or just RANDOM PLAY a virtual directory. 
+This would make Ares the only program I would need to  
+use for my music listening.  Some kind of shuffle. 
+Thanks</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#236 Add some Bearshare 5 features</title>
+        <detail> Congratulations¡­Ares is the only P2P I've found that finds and shares files as successfully as Bearshare 5 did¡­and is better than any other P2P I¡¯ve found so far.  I do however miss some of the features of Bearshare 5.  Separate Downloads &amp; Uploads tabs. Separate Temp folder for downloading and completed downloaded files folder. The ability to force-start the file transfer on selected files¡­is the biggest feature needed. The ability to sort the transfers &amp; received files by size or download finish time. More info like ¡®Active, Waiting, Trying, Downloading, Complete¡¯¡­on transfer status of a file. Show a thumbnail or active video in details area of downloaded file. More networks to search.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#215 add user search</title>
+        <detail> you should add user search where you could search a user to see if they are online </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#11 ARCA (Ares Remote Control Admin)</title>
+        <detail> One feature request is for a new command that allows  
+one user to view a Announce sytle comand. 
+So lets say a user was using MWRA for example and  
+they said #help, well normaly it would pm him/her the  
+help file... but if there was a command so that when that  
+user says #help it displays it to that user only in the  
+main chat screen then things would be a whole lot  
+nicer :) . 
+It can be done as it has been in Arca Eclipse 
+ 
+However for the people who hate having anything pm  
+flood them with commands then this is the answer. I ask for this command to be added because i know alot  
+of ares users would love it and there would then be 3  
+solid command types, hidden (host only), public  
+(announce), personal (sends to the user requesting only)</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#140 Root Save Folder</title>
+        <detail> Currently, Ares will not allow you to select the root of a drive (i have 7 hard drives) to store the files. You have to create a folder. Not a big issue. i just created a batch file to move them.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#253 Fake files</title>
+        <detail> Hi, 
+In order to avoid fake files could be very useful to give a vote or an opinion on files that are downloaded pointing to other users if the file is a fake. 
+This feature is also present in other P2P programs like Shareaza and Emule. 
+I think it is a very useful option. 
+Thank you. 
+Thanks for the work done to date. 
+Best regards.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#163 Speed Share - upload bursting</title>
+        <detail> So often downloads are nearly through and then loose sources. If Ares detects someone looking who's download could be completed by a brief-lived full dedication of remaining upload bandwidth many downloads would go quite quickly. Personally, I'ld suggest that.. if (TimeToCompleteFile &lt; .12*AvgUploadTime) 
+ fastTrackTask(CurrentTask); more or less saying crudely to put the high-priority/low-cost downloads in a reserved upload slot (optional of course) By the by, it would be nice to see someone hybrid torrent style and classic ares p2p sending methods so that we could be directly abstract :p -Yo</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#227 uninstall BUG - extensions !!!</title>
+        <detail> On W2k, Vista is the same problem: In system after Ares uninstall stay unwanted file associations. Can you please repair this bug?! My wish is: in Options checkboxes for each associated extension - some playlists i must after i install Ares manualy remove or change to my previous settings.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#121 Limit Incoming IP</title>
+        <detail> Due to the problem many people experience with the router reboot, I think you should include a feature to limit the incoming ip's to take some weight from the NAT table. Please reply at: 
+2BeLikeMe at Gmail dot </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#190 Rate</title>
+        <detail> To make the option for adding a rate about the link. So, it will could detected bad or false version of the files.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#218 Ares channels</title>
+        <detail> Please block the   and z¦Á chat servers from the Ares P2P network. 
+Both servers are listing fake user count's to attract more users and its causing people that have used your software for years to now leave due to the fact this simply isnt fair for us people who use the Ares or the AE chat server. 
+We dont want to use there crappy fake ass servers, we HATE fake channels!! Dont these people understand there killing Ares just to make there own crap look good? 
+And if your one of the fuckers reading this go choak on your moms greasy pubic hair. :D :D :D :D</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#21 update</title>
+        <detail> Possibly and automatic updates to keep users running 
+the newest software.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#96 Torrent Speed Limit</title>
+        <detail> Add the Limit Speed option ,  
+like u can for the other files. 
+I noticed torrent upload goes like 74.6kb's  
+(seen when u hover over active torrent), 
+so my download is slow.  
+I would like if there was a Limit you can 
+set torrent upload so that your still sharing ,  
+but its not messing with your download. :) 
+ty  ( made a request b4 this one , 
+but it didnt make sense as i had hoped it to LOL , hoping this one clarifies it )</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#31 Searches Are Too Low</title>
+        <detail> I am using ares after more than  a year.Although it has 
+maintained its excellent download speeds but its search 
+results are too less.Search for an artist like &quot;avril 
+lavigne&quot; audio files gave only max 150 results which is 
+too less.Please Fix this issue in the next releases. 
+Regards, 
+Mohsin. Using Ares Regular v1.88(latest build)</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#254 boost transfer initialization</title>
+        <detail> hi, 
+in my experiences with ares, i have spend much time to initialize the downloads on busy hosts, 
+if the developers make an function on this software to try only 3 times (example) to init and 
+go to another file if all hosts is busy</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#58 Host to Client feature.</title>
+        <detail> i think a really really nice thing about ares is the  
+abillity to make additions for it with something like  
+the ARCA protocol, this allows growth to the program  
+and makes people like me more interested in it. i think it would be nice if there was a feature added  
+toe the chat server, and ill also speak to multi about  
+it being added to AE, where a user(client) can send a  
+message(packet) to the server and then the server sends  
+that to user(s). say 2 additions to the chat protocol  now, when the server gets this, it sends  to that user, that way we can make our clients have  
+alot more feature involving one user, this is much  
+better than having to send text to the room and work  
+like that. another good addition would be  this would send  to all users(clients) on the chat server, this would  
+also be nice for adding more support for clients. but if such a thing is added, i think you should also  
+add support so idiots cannot flood with this feature,  
+say ban after 5 sends in 3 seconds or something like  
+that, something simmiliar to the way the text send  
+flood protection works. im sure alot of people would make nice software that  
+uses this feature, i would myself, and it will also  
+help ares grow and make it more friendly for  
+developers. ares is the only network i can think of  
+that has been so friendly with developers, adding the  
+ARCA protocol was a really good idea and i think adding  
+this would be too. if you would like to contact me on this you can email  
+me at daleg177@gmail.com, thanks. Dale aka Visa177</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#161 Unicode support</title>
+        <detail> is there a plan to support unicode in the future, in now versions the unicode is not supported and asian characters search returns no result.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#169 DIRECT CHAT</title>
+        <detail> I need help im kinda new in this... how can i &quot;direct chat&quot; with an IP address? i put the IP address in the Direct Chat box @ Control Panel, but nothing happens (after i click the 'direct chat' or 'connect' button or watever it is called). so someone can help me please?  
+Thanx, MdB_original</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#91 chat features need boosting</title>
+        <detail> give the chat room more features... and expesially  
+for hosting rooms. people that host rooms need more  
+options that what were given.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#224 libary increase</title>
+        <detail> the limit for the libary is 10,000 maybe for the next upcoming versions they should upgrade to 20,000.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#233 Album Info</title>
+        <detail> A button to get the album info of a song and save it in the ID3 tag. Multiple source.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#90 User Redirect ARCA</title>
+        <detail> It would be cool for user rediect on ARCA, much like  
+the server side already has. ARCA_CMD_REDIRECT = 67; // --&gt; INTERNAL IP + NULL +  
+ROOM PORT + NULL + EXTERNAL IP + NULL + ROOM NAME+  
+NULL + REDIRECT MSG Or ARCA_CMD_REDIRECT = 67; // --&gt; HASHLINK If this could be added it would be great, really hope  
+to se this in 3013. If this is not added please could  
+you give a reason as to what the problem was with  
+adding it.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#131 Ares 2.0.1 Chat/pm tab request</title>
+        <detail> Hey id like to know if you could pleaseeeeeeee make the chat tabs and the pm tabs as they were on ares 1.9.9 . Personally i dont like the new way for them , and many people WONT use ares 2.0 - 2.0.1 because of this. I absolutely love everything else. But its annoying having the tabs change on you , and having pm tabs on same line as the chat ones &gt;.&lt;.  
+Ty</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#172 Couple Suggestions</title>
+        <detail> On Minimize - Send a &quot;idle&quot; emote to rooms when Ares is sent to the system tray. Chat Session Logging - Create a .txt file, or some other format that can log rooms you've visited (including Time joined, Time Departed).</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#153 Different folder for unfinished downloads</title>
+        <detail> I think it's very annoying that when a download isn't finished it does appear in the folder with the rest of your downloads. 
+So... what about a feature that let's you choose a map for completed downloads and a map for incomplete downloads. 
+This feature would be optional.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#112 System Tray Icon Only (no task bar)</title>
+        <detail> It would be nice to have the ability to minimize to the System Tray only and not have the icon displayed on the Task Bar. Bitcomet does this. They are kind of redundant.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#174 A few small changes, but meaningful</title>
+        <detail> Great job on the new builds! Your dedication really shows! Playlists that &quot;hide&quot; on the left hand corner of the Application and scroll out on mouse-over. This would be a nice change as the playlist tends to block the view of the library.  Support of MP4 as mentioned in another request. MP4 support would be excellent.  An auto/manual update button, notification of new release. This would allow quick easy update, keep all users (except the ignorant and stubborn) up to date. Also  users are going to other web sites to get the new Ares build - not this site - and are getting virus' and the like.  Keep up the great work! Your hard work is appreciated, thank you. -Thanks for reading.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#133 WHERE IS THE PAUSE BUTTON!</title>
+        <detail> I think that put the pause button again in the transfer window help a lot! 
+Thanks</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#185 ISP,Packet system, Connection killing</title>
+        <detail> As most of you already know ISPs are using various methods to stop file sharing. Recently my ISP (Rogers) has begun killing my connection when I download torrents so I have given up on torrents altogether. Now it seems they have, through monitoring packets coming through my connection (and all rogers users), have established the pattern and have killed my internet connection rendering Ares almost unusable.  I'm not sure  exactly what would be the best solution to changing packets. I have read on various forums that a P2P can change its packet sizes to closer resemble look an HTTP type connection, thereby getting past the ISPs filtering. Thanks.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#105 CD Burning/Ripping Option</title>
+        <detail> So there I was, downloading on this streamlined prog... one of the few around without virus, trojans, spam, spyware, malware, adware, and so on... and it came to me... what if I could download music and such, organize my library, and burn my CDs without ever having to open another prog? Well... then life would be just amazing... draven.entarin@gmail.com</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#206  manual refresh option for BT trackers</title>
+        <detail> maybe when you right clck on a BT file download, there could be an option to refresh the tracker so you don't have to wait 55 minutes for it to refresh itself.  Great program BTW.  
+</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#34 Linux Port</title>
+        <detail> I'd like a linux version of this project. I use it in 
+windows and I think it could be easily ported to linux.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#181 Posting</title>
+        <detail> How about you use the &quot;News&quot; section to post details on upcoming builds and what to expect? 
+Maybe a detailed changelog to? Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#87 A linux version</title>
+        <detail> A linux version?? 
+ares is free and great software 
+and is great software  
+thanks</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#150 Passwords</title>
+        <detail> Hi there. I would Like to know if there can be a section made Beside the server ( In the ares control panel ) with admin passwords so that admins can login. 
+Or if a section can be added in the Chat config file with like AdminPass= password or  AdminLevelPass= password Host isnt always there to grant admin rights.  
+Just seems a little better this way. 
+Thank-you.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#239 Search within files</title>
+        <detail> You might be interested to include the functionallity in the specs (links below) into your application. I would like to invite you to look at specifications located at   or  Please feel free to share the information or to give feedback.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#223 User language ID</title>
+        <detail> Could you give each client a ID based off whatever the clients language is set to. 
+With this ID attach it to the login packet for when a user joins a chatroom, this way the host knows what language the user speaks. 
+This could allow hosts to have only the selected languages in there room, since Ares is a mess right now. AllowLanguages= 8,11</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#205 Important</title>
+        <detail> It seems that it is a great idea to keep before closing you plow or to reinitiate the PC the present sources to each file unloading in a flat document for example so that when opening you plow again first that does is to look for those sources and not to waste time of unloading if the same ones are online</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#242 &quot;visited rooms&quot; log</title>
+        <detail> just a txt log with names (and hashes?) of the rooms u visit. If you enter a room using a hashlink u input manually, it doesnt save the room to favs, and it can be sorta hard to find it again at times. plz. Log! Logs are fucking 1337 as well...</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#28 clear Playlist bar</title>
+        <detail> A quick option to clear the filename on the player bar 
+would be nice. as if a file is previewed in ares and then deleted, it 
+is still shown in the playlist bar at the bottom until 
+ares is full shutdown and reopened. Just a single button at the bottom with an X or 
+something to clear it.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#144 Start menu files</title>
+        <detail> Make the installer add more to the start menu. 
+ Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#104 ed2k/emule</title>
+        <detail> eD2k/eMule support</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#40 preview load window</title>
+        <detail> You know the window that comes up when you preview a 
+download? Can we have that always on top? I want to 
+chat and stuff while my previews are loading, but 
+sometimes they're big and they go behind the window and 
+I lose them :(</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#32 revisions</title>
+        <detail> A list of the revisions made to ares for each build on 
+the website</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#109 New Icon</title>
+        <detail>   I was looking around and found a few better Ares icons then the current. Maybe consider a new stylish icon rather then the current pixelised one. 
+It would look good for the new Ares with torrent and shoutcast support ;) Demo: 
+ N.Devil</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#197 MOTD end event</title>
+        <detail> MSG_CHAT_SERVER_MOTD_COMPLETED = 43 Could you send this after the MOTD has finished sending on the new server? 
+This would allow the MOTD to be optionaly skipped on custom clients (Ares could also have the option) but still allow announce events after completion! Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#141 It is labeled ares</title>
+        <detail> I wanted to change of place the folder where I had music before to be able to share it in Ares: But now it labels and does not start 
+ I have unistalled and install it agairn, but nothing. I cannot use ir. Could you help me  I wait for answers¡­  Thank you very much Fernando If you do not understand my traslation, here is in my own language: Yo quise cambiar de lugar la carpeta donde tenia antes musica para poder compartirla en el ares y ahora se tilda y no arranca el ares. Ya lo desinstale y lo volvi a instalar pero nada. 
+ Espero respuestas ...     
+Muchas gracias   
+Fernando my mail is fernanditogaucho@hotmail.com</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#247 Ares Galaxy Server/Client  Urgent !!</title>
+        <detail> a version of Ares, to place in a local network, install the computer ares (1) (server version), Head of Search in the P2P network files and save them locally, you can install on your computer ares (2 ... 15 .. or more) (client version) who can &quot;clients&quot; make requests to the computer (1), if not the file, it will look for a P2P network, however if this locally, send it to requesting computer within the local network. The client versions of Ares, only save the file listing shared by the computer (1). So sad that I am not a programmer to help.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#26 Mailing List</title>
+        <detail> Can you create a mailing list through sourceforge to 
+tell us when a new build is out. If you already have a 
+small one going or something, mines qpdj@bluebottle.com</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#126 Option to automatically switch to PM's</title>
+        <detail> I noticed with Ares 2.0 it will automaticly switch to your new PM. 
+Could this be optional? Its not very good when a chatroom RA/bot pm's you users details and events - gets rather annoying. Thanks, Daz</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#225 CHANGE ICON!</title>
+        <detail> I would like them to change the icon, 
+I just made this one hope it gets changed.. lol 
+thats the link 
+to a PNG icon 
+thanks www.myspace.com/lvlolotov</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#125 Please update the translation files</title>
+        <detail> Hi and happy new year everybody! 
+Some updates are available here: 
+ You can update your translation file too if it hasn't been done yet, it's located here: C:\Program Files\Ares\lang\
+Save the file in UTF-8 format and send it here:  
+If Ares isn't available in your language, you can get the default messages here:  
+Translate this file, ask some users to test your translation to be sure that everything is ok, save the file in UTF-8 format and send it here: </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#258 Add UPnP support</title>
+        <detail> Add UPnP support. eMule works fine with UPnP while Ares Galaxy cant.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#52 Blind Users</title>
+        <detail> The interface cannot be used by a blind person using  
+a screen reader like HAL(dolphin software) for  
+instance. Would it be possible to modify the GUI,  
+Only text option for instance, to make it possible to  
+use a screenreader. 
+Ps. spybot search and destroy has a Blind Users  
+option . Hope this is possible to do thanks.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#143 Internet Browsing</title>
+        <detail> Bring back internet browsing it was the dumbest thing to do i cant believe how stupid the developer's were!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#222 Priority download</title>
+        <detail> Set priority to download a file, and be able to have a preview picture on videos, pictures, and the album cover of music</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#252 Completed/Canceled Downloads</title>
+        <detail> There should be an option to automatically clear the download list of them.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#103 Filter Update</title>
+        <detail> My request is that you check this out: 
+ It works better then how the filters are at the moment.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#29 Opening Favourite Websites &amp; Ares information</title>
+        <detail> Hey Developers, Have been using Ares regularly for last two years  
+almost. You guys absolutely rock. I have two suggestions which i hope that you would  
+inculcate in your next development phase. No 1. When a new version come out, the only way i know  
+about it is that my old version(currently installed)  
+starts malfunctioning. It instead would be a good idea  
+if the information of the newer version is available  
+instead of these hiccups. One suggestion would be, it  
+can come on the Ares Galaxy login screen that we often  
+see as soon as the Ares application start. No 2. Some people like me like to browse in the  
+browser available along with the ares. It therorfore  
+will be a nice idea if it would be possible for us to  
+open our favourite folders too from the ares browser.  regards, Keep up the excellent work Jay</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#211 64 bit version</title>
+        <detail> I am not a coder myself, so I do not know if it would be possible to make an x64 version tha tis optimized as such, but it would be really nice.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#7 NO Tabbed Searching</title>
+        <detail> Tabbed searching makes Ares much more slower, I  
+think versions such as 1.83 &amp; below work perfectly,  
+they are pretty fast and don't have any problem  
+searching. Maybe the developers of Ares shoul make  
+Tabbed Searchhing an option at the control pannel!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#198 PeerGuardian Support</title>
+        <detail> On PeerGuardian2 while Ares is active its always trying to connect to: 
+&quot;MediaDefender - 38.102.233.170:4679 - UDP&quot; 
+ There must be some way you can fight against stuff like that. 
+</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#110 Modify multiple items in library</title>
+        <detail> When viewing details in library, it would be very handy to be able to select multiple files and then change, for instance, the Category, or the language, in a &quot;batch&quot;. So, for example, if you have a large collection of videoclips, you could select them all and then select the category &quot;music &amp; musicals&quot; so every item gets assigned to that category.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#99 overall improvement ideas</title>
+        <detail> ** Stop renaming my files when I use Ares! I.e. putting the numbers before the song title. ** Make it less system resource comsumptive.  When I run Ares, other programs and the overall system performance is slower compared to when Ares is not running.   
+</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#108 wine ares linux SO CLOSE TO WORKING font boxes appear! :(</title>
+        <detail> ok so i've tried to run ares in linux (ubuntu 6.06 lts) using wine and i've almost got it to work... as a matter of fact it even connects to the network and everything.... i can go in chats.... download files from people in chats..... but when i SEARCH for something in the SEARCH field the text appears normal but then you hit the SEARCH BUTTON it turns it into BLOCKS in the &quot;TAB&quot; that appears whenever you create a new search suggesting that ares is taking what you enter in the search field and somehow converting it to blocks and trying to find filenames that are blocks which of course will yield NO results because no one names their files as blocks (resembling two brackets [][][][][][]) THIS seems like SUCH A SIMPLE font issue... i dont know much but it is SO close to working flawlessly under wine can ANYONE PLEASE try to hash this out perhaps? I dont care if you guys ever work on developing a linux version if i can get it to work under wine i wont mind.... take your time for that but GOD if you can make this work by figuring out why all the entered search strings turn into blocks and try to get a solution so many people would be sufficed by a wine-ran ares until you guys decide to port it to linux... thanks for taking the time to read this. interrupt13 at yahoo dot </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#57 black list user or ip</title>
+        <detail> wish: that you can be able to black list locally when  
+the user either stops your donwload or pauses it  
+indefinitely, but, that upload bandwdth does not take  
+more andwidth than downloads, if not more bandwidth  
+available</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#192 Warn To User</title>
+        <detail> The old ARCA system had: 
+ARCA_CMD_WARNTOUSER = 71; // --&gt; mod's name + NULL + nick + NULL + message + NULL Which as you know was a private announcement that only that user alone could se. 
+Could that be added into the new Ares server? Im working on a remote admin for the new system as a side project. Id like this function and if possible could you please turn off the logtype announce to off as default. Thanks, Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#122 Userlist ID</title>
+        <detail> Add another column to the userlist for user ID. 
+Host could then do commands like /kick 04 and if you were to give the ARCA socket access to each users ID it opens up a whole new range of possibilities (as shown on Arca Eclipse). 
+Arca Eclipse could even take advantage of this for version 2.0 and use this new column, this would give the userlist a much neater look rather then the ID chopping your username inhalf. To stop users from joining with a name as a ID to confuse the system, block the names &quot;000&quot; to &quot;999&quot; (999 would be the max users allowed in the room - I think thats more then enough). | ID | Name | Files | Speed | Thanks, Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#38 CSV updater</title>
+        <detail> Would it be possible to have a CSV updater system  
+similar to that used by Azureuz bit torrent client so  
+end users can easily run the Beta test software shown  
+on this site in the Ares Client?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#208 New Download Column</title>
+        <detail> can you please include a new optional column in the transfer tab witch displays how long the download has been running for. -samrtiamNOSPAM@hotmail.com</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#63 Media Player</title>
+        <detail> It would be very useful if you assigned keyboard short  
+cuts to the play and pause function so that it can he  
+paused resumed easily in full screen mode. </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#76 a game to play in chats</title>
+        <detail> I thin ares should have a game built in like pictinary  
+that everyone can join in with and a score should be  
+tallied up for a tournament between different rooms</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#217 Baud Rate Selections</title>
+        <detail> Hello, I thought that Ares could make a page on their new updates saying about your baud rate because sometimes the downloads take to long and If they only had it showen on the screen that says that 3 users have DSL, 10 Users Has Cable, 20 Users have T1 and so on for 1 song that your aiming for... I am not sure if they ever though of that but that would be great and alot faster to download anything.  Thanks.Duane</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#12 Porting?</title>
+        <detail> Would It be possible to maybe port the wonderful ares 
+to the PocketPC environment? I have a pocket PC with web capabilities and would love 
+to be able to use ares on that! Please Consider.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#203</title>
+        <detail> The reproducer although is very comfortable and fu¨¦ very good idea, sometimes is something annoying, for example the simple fact of not being able to clear the list with the key esc. The solution is simple and I believe that it would increase the comfort remarkably. Another important subject for us that we used the reproducer is the fact that when adding the reproduction list, this is not hidden automatically in very few seconds and if for example we are creating a new list to listen, this is annoying. The subject to add commentaries very is not spread and with the fact of being able to add a menu for the same or of being able to add commentaries easily it would help to cut the chain of archives that are not what they claim to be and its diffusion, reason why would increase the confidence in such and the archives in general. In addition, they do not think that for mp3 with the simple fact to listen to a part we know if is the file or no? they could implement a function to be able to mark like erroneous the archives that are not what if claims to be before unloading them they are of the specified type. On the other hand, they did not think about the implementation of plug ins? He would be novel and soon after there would be developments that to them work would save, being able to implement it in future versions, this last one perhaps does not seem to them well so simply they do not consider it. Greetings and very good work</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#15 ARCA (Ares Remote Control Admin) Extras</title>
+        <detail> Add a get user details command. 
+ 
+Basicly it gets the rooms user list and displays the  
+whole lot in this form &quot;name, files, speed, file stats  
+(sharing or not) and internal &amp; external Ip&quot; (maybe even  
+DC port, although it would not be required). ARCA_CMD_USERLIST              = 38; // --&gt; mod's  
+name + NULL 
+ARCA_CMD_USERLINE              = 39; // &lt;-- mod's  
+name + NULL + line of userlist This would allow remote administration programs to  
+require no bot within the room, and a user lookup for  
+both host and admins. Secret or error? 
+ 
+Theres two commands that can be made within ares  
+chatroom's by a host that require no remote  
+administration, unyet are not within the ares &quot;/help&quot;. 
+/announce 
+/tomods Should these be included? if so then a &quot;/userlist&quot;  
+command could even be made from my other idea  
+above. Improve ares filter by filtering by name. 
+ 
+A example would be if a user joined thre room  
+with &quot;sex&quot; in his/her name then no matter what that  
+user says its filtered out. 
+This would also work good with ARCA as it would allow  
+the ares programmers (such as myself) to hide admins  
+doing commands and then announce whats happening  
+to the rest of the room after its been made. 
+If your woundering &quot;well why not filter out the command&quot;  
+the reason is that means a whole set of commands has  
+to be made specialy for the host to do exactly the same  
+things as the admins, as the host cannot be filtered. MOTD function improvments 
+ ARCA_CMD_RETRIEVEMOTD 
+ARCA_CMD_MOTDLINE 
+ARCA_CMD_CLEARMOTD 
+ARCA_CMD_MOTDWRITETODISK 
+ARCA_CMD_ADDMOTDLINE 
+ARCA_CMD_MOTDLOADFROMDISK Commands such as delete line and replace line are not  
+there, not good for admins if they make a error. 
+if the commands existed a Remote admin could easly  
+be made to use: or  Thanks for the last &quot;WARNTOUSER&quot; command i  
+requested. Daz, 
+Ares name: N Devil</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#94 spreading files faster</title>
+        <detail> could u please add support for multiple hashes on a file 
+kinda like .torrent files have 
+this way someone that already downloaded lets say: 
+5mb of a 300mb movie could spread those 5mb to other users 
+and also when a user downloads...try to get the first parts first so we can view it on something like mplayer and then the most 'rare pieces' so that it keeps the availability of those 'more rare pieces' higher 
+i think this would make spreading files on the network much much faster</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#18 logged chat</title>
+        <detail> I'd like the option to be able to keep a log of all chat  
+messages and RA commands and stuff like that. </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#145 Chatroom Music Display</title>
+        <detail> Is there a way that a when your listening to music you have the option of turning on and off that ppl in the chatroom can see what your listening to if they want and have commands to change it from the chatroom that is something everyone has been wanting for along time cause Blackhole and Mip player make it so you have more applications open then they actually want to!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#201 to previsualize</title>
+        <detail> I believe that the one of extreme utility the implementation of a system of 
+priorities to the headed ones of file that can be previsualized before the 
+other parts of such</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#229 Extra columns to order</title>
+        <detail> I'm missing extra columns for: 
+Size downloaded  
+File size  CAN YOU PLEASE ADD IT? THX</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#42 MSN Personal Message Plugin</title>
+        <detail> It would really be a good plugin, been able to have  
+the playing song in Ares to show in MSN like Windows  
+Media and iTunes.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#128 used-defined max number of connections</title>
+        <detail> My wireless router locks-up when too many connections are stablished (the ones reported by netstat)... 
+I'd like to have an option that allows me to set the maximum number of connections that Ares will try to establish. I guess that will fix my problem... Keep up the good work! 
+bruno_mauricio@hotmail.com</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#88 Favorites Control</title>
+        <detail> Because &quot;favorites&quot; automaticly get added I think the  
+following should be added. 1) Have the option to auto add favorites instead of  
+just adding them for every channel you join. 
+2) Have auto join option so when ares loads up it will  
+try and connect you the rooms you picked to auto join. 
+3) A way to clear favorites of channels that are older  
+then a given date. Daz</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#200 to previsualize</title>
+        <detail> I believe that the one of extreme utility the implementation of a system of priorities to the headed ones of file that can be previsualized before the other parts of such </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#3 Simple addition..</title>
+        <detail> The program would be tremendously improved if you  
+could delete the file after it has been completed in the  
+transfer tab. I often download 3 or 4 of the same file, so i  
+can choose the file with the highest quality.  If i do not  
+cancel the file before it is completed, I have to switch  
+tabs into my library to find it.. ( not easy when I'm  
+sharing over 4 GB! )  I think this would be a great  
+addition to your already outstanding program. Thanks!  jb djira19@aim.com</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#102 Song Display</title>
+        <detail> Hello. I would like to know if an option 
+to display songs can be added. I know  
+you can get programs like blackhole and  
+them.. but they contain keyloggers.. So i was wondering if like a small checkbox 
+could be added to either display song or to not. 
+would be nice. Altho some people think its annoying, remember theres an Off option &amp; that 
+many people like it, and they might like ares more. thx.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#72 Internet browser in Ares</title>
+        <detail> I'd like Ares to have a &quot;Home&quot; button (opening default 
+web page) and close panel button so that close a panel 
+easily. 
+Moreover user should be able to set default web page 
+which is opened by Ares. 
+Options window should have another panel concerning 
+internet browser in ares. That panel should have an 
+option of changing google default site used by ares for 
+searching. </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#219 file renamer</title>
+        <detail> use a mediamonkey/mmjukbox pre11 to tag and rename files to be included in the library, so network won't be so redundant and more accurate</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#171 DyDns support for ares hashlinks ?</title>
+        <detail> I was thinking it's about time maybe theres support on ares chatrooms for people with Dynamic Ip's to register with DyDNs or another dns service and continue to have the same hashlinks when ever Ip's change. It's a very common occurence for room hashes to change almost daily due to these dynamic Ip's. Could the hashlink service be modded to allow a Dns as well as an Ip ? I know theres numerous other programs that can easily read and connect to either an ip or a domain name. Why not ares as well. :D</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#147 Automatic upgrades</title>
+        <detail> Ares should implement an automatic upgrade system that notifies the user of a newer version of ares, and asks the user if they would like to upgrade, and maybe show them a changelog of what the newer version will change.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#207 many things good</title>
+        <detail> A list(no specific order)of many things ares would be so much better with by brent1675309@yahoo.com An graphic equalizer, along with SRS trubass, and SRS wow effect much like u would see on windows media player.  Ability to listen to radio through their stations. EX:rocky99.com I know this is asking a lot but a built in anti-virus system. 
+ A browser based on firefox instead of internet explorer or whatever it is based on. 
+ Um here is a biggie, download priority. 
+ A simple video and/or audio record and upload feature.  
+I'm a guitar player lol i'd like to share. 
+ Automatic updates if there is a bug, cuz i can't download  
+anything and i'm not quite sure why. 
+ Be able to download directly to a device/cd/dvd in case you don't want to clog up your computer with big movies.   
+ A cpu moniter on the top beside how long u have been online would be helpful. 
+ Let chat rooms upload a streaming playlist to it that all guests can hear. 
+ On that note if anyone has an x-box 360 and wants a friend add me my gamer tag is dem bits. thanks for your time in reading this =)</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#175 Radio</title>
+        <detail> Ok, since ares can save the song from the radio stations,  
+And since there is a folder for it in our shared folder, 
+I was wondering if there can be a folder under &quot;audio&quot; when you hit library. 
+It would be much easier to find the files &amp; they wont be jumbeled in with the other music. 
+Just a neat idea to help keep everything good. Thanks </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#159 Web Cams</title>
+        <detail> Why not allow plug-ins for audio mic and video cam such as AOL, yahoo and MSN?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#53 Some suggestions</title>
+        <detail> Make aute clear the idle for upload....so we noneed to  
+click clear buton always..hope you guys can make  
+it..... 
+</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#195 Proxy Issue</title>
+        <detail> Please disable proxy support for chatrooms! 
+It causes nothing but trouble to most of the chathosts on the network.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#263 Option to download files in other formats than MPEG</title>
+        <detail> The option to download audio or videos in other formats, by defaults than MPEG, like Vorbis or Matroska, formats in free software filosofy, becuse i dont want to support any material (or artist) that seeme and treatme like a criminal. More now, that they closed Megaupload for violating copyright cases ... Sorry for my bad english, but hopefully im not the only one with this idea (and concern) ... Translated with with the help of Google... Thanks...</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#5 Tabbed Searching</title>
+        <detail> I think it would be great to add 'tabbed searching' to the  
+many features of Ares. Many user as myself enjoy using  
+this feature greatly, and if it is possible, I and many  
+others believe that it would be definitely worth it. Thanks again, Ram</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#119 Sharing Limits</title>
+        <detail> the limit of sharing of 10,000 files, although i think if it shared anymore of that it would mess the program up a bit by overflooding and that. 
+what would be good to see is that you can have as many files as you want in ares libary and then just share/unshare ones you dont want to share and what you do want to share.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#2 multiple users</title>
+        <detail> would be nice to have support for multiple users in xp 
+so that more than a single session download different stuff</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#8 A good addition would be to strengthen the network</title>
+        <detail> 1: ares needs to be strengthend, it needs to be able to  
+connect and download from peers even if there is only  
+one, adopt a torrent type sharing policy where one may  
+download only if he had uploaded to the network  
+enough, dialup users should only be able to download  
+from users who have the same bandwidth, so a t3 user  
+isnt uploading at 5kbs to a dialup user who has 3 t3  
+users behind him, chocking the network if more  
+broadband users have the files more people get them  
+faster, dialup=death 2: ares should he able to connect to any file anywhere  
+on earth in any shared folders, if you can work out why  
+they cant and how to imrpove this the network will benifit  
+greatly 3: chat rooms hosted by 2 or more hosts who share teh  
+room traffic between them, so if one host goes down its  
+only a matter of reconecting the portion of the users who  
+are disconected, insted of waiting for the room to come  
+back up,  4: inegrated chat admin, a username and password is  
+given to an admin he then enters this information into a  
+dilog box in aresChat to access kick ban range ban and  
+other tools for the chat room he/she is modding  5: some sort of masking protocol to hide a users online  
+ID to give that user a safer online P2P experiance i2p  
+ans other protocols are a good way to go, proctect the  
+people who hold your network up is the way to go . .  thanks that my 2 cents (Xennos), ares super peer and  
+chat regular . .</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#261 Log</title>
+        <detail> Should have a message log</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#85 unshare</title>
+        <detail> i was thinking, maybe you could add a button to the  
+library section, that says &quot;share/unshare all&quot;  that  
+would unshare/share every single file, like say if  
+several ones are already shared, and several ones are  
+unshared this could be helpful for people who have  
+alot of files, and dont want to share any! thanks.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#262 SCTP protocol support</title>
+        <detail> Protection and reliability above all else. Nowadays, information plays a significant role in my life. In connection with this very appropriate introduction would be implementing the protocol SCTP (Stream Control Transmission Protocol - transfer protocol with flow control&quot;), a new version. This will provide protection against SYN-flood attacks, the establishment of a safe connection (using a four-handshake), as well as pleasant innovation in the form of the conservation message boundaries, multi-threading, unordered delivery, support for multiple interfaces. Implementation of this protocol allows the network to bring a new level of speed, reliability, security and data transmission capabilities over the network. Because the new protocol was created, taking into account shortcomings of TCP, in view of the network and make full use of their opportunities, and special attention was paid to safety and security. It is high time to promote, SCTP everywhere! Given the current active movement towards IPv6. + A lot of goodies from this extract is another good protocol SPDY. You can not hinder the development of technologies and the need to push modern protocols to the masses. It remains to convince Microsoft's usefulness and necessity of these protocols and to persuade them to intensive implementation. By the way Firefox is already implementing a protocol support SPDY (expected in version 11), as well as support going into the popular web-server nginx.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#216 Block dhtxxx@??? and alike</title>
+        <detail> please would u improve ares experience by blocking annoying users whu do not share like dht... 
+most of these users have the end of their nickname as @??? 
+and they easily come up in searches... 
+they really ruin my day...</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#249 Thumbnails</title>
+        <detail> Ares should generate thumbnails for movies and pictures so that way when a user searches for them and hovers over a result, he/she'll be able to get a preview of the picture/video before downloading it.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#151 Skin images in PNG</title>
+        <detail> The skin images should be in PNG or atleast let Ares support skin images in PNG. 
+The reason that I want this, because of the fact that PNG supports transparency; and that's good! It shouldn't be to hard.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#166 please Ares Galaxy Suported Linux Os</title>
+        <detail> please Ares Galaxy Suported Linux Os</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#59 For The Downloads</title>
+        <detail> Is there n e way to que the downloads and make them  
+download after the previous one completes.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#93 Ideas for next few builds</title>
+        <detail> -A &quot;make Ares my default torrent client&quot; button in control panel. 
+-A folder within the shared folder named &quot;My Torrents&quot; 
+-A button to locate you to you torrents folder (for peeps who seem to have trouble finding files). 
+-Fix the torrents that don¡¯t load proper with no name (annoying bug). 
+-Fix the skinning when creating a new search window. 
+-Add auto join options to favorites. 
+-Add a tick box in control panel to &quot;auto add to favorites&quot; having it auto add every room you join at the moment sucks, there should be an option. 
+-Give host the option to stop channel hashlink spamming in both main and pm. 
+-When banned ban the name and the ip, along with GUID. 
+-Keep a copy of the .torrent file in a folder. Here is a link of what we think: 
+ Great to se Ares now has the added torrent support, these are just suggestions us users look for and think would make Ares even better then it already is. N-Devil</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#246 SNODES AND CONNECT METODS</title>
+        <detail> PLEASE, ADD A REFERENCE OR VIEW OBJECT INFORM HOST SERVER CONNECTED. THE MESSAGE &quot;CONNECTING...&quot; IS VERY DESESPERATED. THE MANAGE OF INODES O SERVERS IS VERY VERY NEFASTED!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#65 other types to be supported by are media player</title>
+        <detail> ares media player should support real player and Qtime 
+files , you could see programmes such as real player 
+alternative use that </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#115 Make torrents</title>
+        <detail> The possibility of creating torrent from You plow and to continue a unloading of any client torrent¡­ </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#77 Newer Video file support</title>
+        <detail> i been useing ares for along time and i just found out 
+a while back i cant share files that are MP4 and files 
+with newer Encodeing thay wont show up in my Library hech ares wont hash 
+them can this be supported plz?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#120 Audio Search Advanced Dropdown Values</title>
+        <detail> Audio Advanced Search under Quality has a drop down box with various bit rates. This is good. But most people use bit rates up to 320 the list adds 800, 1200, 2000 and a blank value. These are not needed and means that users have an extra step to scroll down to the rate they do want eg 320, or 192 or 160 etc. So I suggest that you delete the values above 360. 
+I have mentioned this on an Ares forum and quite a few users agreed with me that values above 320 are not required and are indeed a bit of a nuisance.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#176 Adding Laungage Pack Data To Be Also Sent To Server</title>
+        <detail> ip + port + guid + version + username + browse + files are sent through the server already, if there is anyway to send the language pack info so that we can use this info in filters that would be awesome. I am not racist but it gets extremely annoying and you could probably understand why I would want this as info to be able to add to a filter. Thanks guys and good job, I am a almost 5 year member of this community and it just keeps getting better :) §«a§ñkti§Ø¦«g§ï§Ût.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#106 wine ares linux SO CLOSE TO WORKING font boxes appear! :(</title>
+        <detail> ok so i've tried to run ares in linux (ubuntu 6.06 lts) using wine and i've almost got it to work... as a matter of fact it even connects to the network and everything.... i can go in chats.... download files from people in chats..... but when i SEARCH for something in the SEARCH field the text appears normal but then you hit the SEARCH BUTTON it turns it into BLOCKS in the &quot;TAB&quot; that appears whenever you create a new search suggesting that ares is taking what you enter in the search field and somehow converting it to blocks and trying to find filenames that are blocks which of course will yield NO results because no one names their files as blocks (resembling two brackets [][][][][][]) THIS seems like SUCH A SIMPLE font issue... i dont know much but it is SO close to working flawlessly under wine can ANYONE PLEASE try to hash this out perhaps? I dont care if you guys ever work on developing a linux version if i can get it to work under wine i wont mind.... take your time for that but GOD if you can make this work by figuring out why all the entered search strings turn into blocks and try to get a solution so many people would be sufficed by a wine-ran ares until you guys decide to port it to linux... thanks for taking the time to read this. interrupt13 at yahoo dot </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#4 How mutch GB to share.</title>
+        <detail> I would want a example;     
+. In the chat. There are    now. What about adding ? Hope you get what i mean. /Martin</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#54 Dowloading Ares in Australia</title>
+        <detail> I can't seem to find a mirror for Australia to  
+download Ares.  I know there was one there a couple  
+of weeks ago out of Sydney, but it seems to have gone  
+missing.  Can I use a mirror from any of the others?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#69 downloading ares</title>
+        <detail> I am trying to help my friend download ares and we  
+can't figure out how to do it!  We went to the website  
+  and then  
+clicked on download and then all we could do was  
+browse the stats of ares.  Somehow we got to a place  
+where we had to choose a mirror, but when we chose one  
+all that happened was a folder was downloaded onto the  
+computer.  Could someone please give me detailed  
+instructions to help my friend download ares?  You can  
+send a reply to amanda.baron@hope.edu  Thanks! </detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#238 Smart Playlist / Auto Playlist</title>
+        <detail> Being able to play smart playlist , that approximately recognize (if possible) users music preferences / likes. Please could you implement something like this in the next release  Thanks for being the best / almost best / amongst best P2P file sharing clients!!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#235 Several Feature Requests</title>
+        <detail> Add Icecast Internet Radio in addition to Shoutcast. Allow the ability to send downloaded files to specific folders based on their file types.  For example, MP3 files could be sent to my music folder; .mpg files could be sent to by video folder, etc... Allow the ability to save searches. Allow the ability to search for more/new sources when files have been &quot;stalled&quot; for a long period of time. Prevent Ares from &quot;locking&quot; files.  Often, when a file completes downloading, I'll try to move it to a different location.  Ares prevents this until I close the program.  When a file completes downloading, Ares should give up &quot;control&quot; of the file. Provide the ability to remove the chat feature completely or at least remove it from the list of tabs. Add additional p2p networks. Provide an automatic update feature for when new versions of Ares are released. When I use Ares' browser window to search and then select torrents to download, the confirmation window pops up under the Ares window.  I have to minimize Ares to complete the process.  This is a minor annoyance and one I hope is fixed in future releases. Ares seems to always be in &quot;always on top&quot; mode.  Please allow the option to have other applications receive focus without having to minimize or close Ares. Thanks for this program.  I've tried many different p2p programs and this is the one I keep returning to.  Despite the appearance I might be dissatisfied with this program since I listed all these feature requests, I actually very much like the program.  ;)</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#137 please no noise while forward or backward</title>
+        <detail> save my hearing</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#179 luis migguel</title>
+        <detail> alex</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#188 Set Browser URL</title>
+        <detail> Could the Ares Browser load up the systems default homepage? 
+I personally HATE youtube. Daz.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#22 Privacy Feature</title>
+        <detail> I would like to have anyone that uses my computer be  
+required to use a password to login to Ares.  I have  
+kids that want to search for their own mp3's, but if  
+they don't check the Audio box, and search for  
+something as simple as the word &quot;Big&quot;, wellllll...you  
+already can visualize the results.  I'd like to be  
+able to limit their capabilities with privacy  
+settings.  Is this do-able?</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#101 improved chatroom connectivity</title>
+        <detail> i was thinking that it would be a good idea to have ares to have faster connectivity, and improved performance, including less disconnects and like say for example if your ISP (internet service provider) is set to block ares chatroom hosting then ares can get around that so users can connect! 
+cause i got a chatroom and noone can connect, they just enter and leave. 
+i know its not my computer or connection, cause i got friends who use the same isp and they got the same problem. 
+if you could fix that im sure more people would enjoy ares more! :) Zeke</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#160 Chat tabs</title>
+        <detail> Can you please make the chat tabs stay in place ? 
+I noticed when you have more then 5 rooms open ,  
+and when theres 2 lines of chat tabs- that the tabs move and jumble. 
+Please fix this!!</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#156 aacPlus radio codec support</title>
+        <detail> I have a station that broadcasts in aacPlus, and I cant listen from Ares. Winamp comes with aacPlus support pre-installed (so no one has to download codecs to listen from winamp) and I'd like the same to apply from Ares. Thanks guys.</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#44 PM's</title>
+        <detail> Cant the pm format be changed? From: 
+Josh: 
+   im doing a test 
+Greg: 
+   lol ok what for? 
+Josh: 
+    multiline in pm 
+Greg: 
+    ok cool To: 
+Josh: test 
+Josh: this looks nicer 
+Josh: would work good for remote admin applications Also be able to use ARCA to get userlist, or some  
+form of way to shorten names needed. 
+Asax Remote Admin uses &quot;#kick Gre*&quot; and it would  
+guess the rest of the name because of the * and kick  
+greg. This requires a bot to be in the room though. 
+If it was made possible a command to make dud pm's  
+for ARCA would then be good, would allow there to be  
+a invisible chat room bot as such. 
+Using pm's allows data to be sent way faster then in  
+main chat, cant the restrication for main chat be  
+taken away? Remote Admin applications would send data  
+at a much faster speed if ares was to allow it. Maybe  
+remove the limit on just warn to user? 
+If any of these changes are made please could you  
+reply back to confirm (saves time looking through  
+source) Thanks, Josh</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#130 Filter request</title>
+        <detail> Please read: 
+ Thanks, N.Devil</detail>
+        <time>2012-10-22</time>
+    </item>
+    <item>
+        <title>#177 Ares Chatserver - Log Levels</title>
+        <detail> Is it possible to have Loglevel for Announce, Caches, and Link set to 'OFF' by default in future releases.  Thanks in advance. shaun.</detail>
+        <time>2012-10-22</time>
+    </item>
+</requests>

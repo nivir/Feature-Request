@@ -1,0 +1,3 @@
+the xml documents are open source projects' feature requests which are collected from internet such as Sourceforge.
+
+One xml file named by the project name contains the project's all feature requests. Each file has one root node <requests>, it contains many sub-node <item> which refers to one feature request. Each <item> has 3 sub-node: <title>, refers to the topic of featrue request, <detail> refers to the content of feature request, <time> refers to the time posted.

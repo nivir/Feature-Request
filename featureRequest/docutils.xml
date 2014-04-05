@@ -1,0 +1,723 @@
+<?xml version="1.0" ?>
+<requests>
+    <item>
+        <title>undefined &amp;nbsp; entity - ID: 2453236</title>
+        <detail>The HTML formatter uses &amp;nbsp; in various places. However, this entity is undefined for XHTML. As there is no XHTML formatter, it would be nice if the existing HTML formatter would emit code that is at the same time valid HTML (4) as well as XHTML. 
+ 
+Thanks, 
+           Stefan</detail>
+        <time>Stefan Seefeld ( stefan  ) - 2008-12-19 21:54:14 PST</time>
+    </item>
+    <item>
+        <title>reST for TV/Radio/Play Script writers - ID: 1736178</title>
+        <detail>I am a Radio/Podcast drama writer and am trying to use reST for my scripts.  The basic format for a script would generally look like: 
+ 
+Freddy: So what are you doing to 
+        effect the ship's performance? 
+ 
+Kevin:  I've replaced the hyperfloat 
+        numbers with a module of my 
+        own creation. 
+ 
+Alternatively, if I'm lazy, I'd like to write: 
+ 
+Prof:   You know, you don't all have to keep your lines so short.  As a professor, I can say quite a bit more without taking a breath. 
+ 
+In both cases, I want the reader to know that the document structure is: 
+ 
+Name:   Dialogue 
+ 
+Where name is a name, a colon and a consistent (tabular) number of spaces separate it from the text, and the dialog may be either block-quoted in-line (as in the first example) or straight inlined (the second example). 
+ 
+This would sort of be like compact definition lists.  The other difference with existing reST writers is that it should look similar when written to other formats, such as in HTML and LaTeX.  How the exact formatting could be rendered in HTML make be tricky.  Certainly, you can set a hanging indent for text, but the dl tag will not compact and inline the text so it still looks like a definition list, what is not what I would like. 
+ 
+Ideally, a new style of this nature could be created.  Similar to Definition Lists, but compact and evenly spaced.  In fact, this might be rendered in a table in HTML to create the even spacing of each line of dialog, but that too has its drawbacks, since you don't want the renderer to generate: 
+ 
+Young   So, do I get the job? 
+Woman: 
+ 
+As that would look silly. 
+ 
+Does this make sense?  Is it clear what I'm trying to do?  Any suggestions? 
+ 
+Thanks!</detail>
+        <time>Jeffrey C. Jacobs ( timehorse  ) - 2007-06-12 16:56:31 PDT</time>
+    </item>
+    <item>
+        <title>emacs mode to match rst2pdf syntax (for Ubuntu 12.04) - ID: 3588800</title>
+        <detail>This patch is relative to the version of Docutils (0.8.1) and rst2pdf (0.16) present on Ubuntu 12.04.  rst2pdf expects its output file to be indicated with a '-o' flag, but the emacs mode only knows how to produce commands of the form: 
+ 
+   command [options] [conffile] input_file output_file 
+ 
+This patch adds an &quot;out-options&quot; record to allow: 
+ 
+  command [options] [conffile] input [out-options] output_file 
+ 
+This may not be useful to anyone, since it looks like the current development version of rst.el has changed a lot since 0.8.1.  That's OK with me.</detail>
+        <time>Eric W. Anderson ( kluwak  ) - 2012-11-20 12:59:47 PST</time>
+    </item>
+    <item>
+        <title>rst.el doesn't work with XEmacs - ID: 3395940</title>
+        <detail>I tried to use rst-mode with XEmacs 21.4, but loading it fails with the following error: 
+ 
+Invalid regexp: &quot;Invalid preceding regular expression&quot;</detail>
+        <time>Jakub Wilk ( ubanus  ) - 2011-08-21 15:22:51 PDT</time>
+    </item>
+    <item>
+        <title>Fine grained control of file insertion - ID: 3226532</title>
+        <detail>At the moment, file insertion is either on or off. What would be nice is to allow inclusions from specified directories. This way, the authors can keep the benefit of inclusions, but security can be maintained when performing operations in a web application context. 
+ 
+e.g. a command line option like: 
+ 
+ --include-paths=path1:path2:path3  
+ 
+will allow files that exist in path1, path2 and path3 to be included, and ignore others.</detail>
+        <time>Vittal Aithal ( vittal  ) - 2011-03-19 09:56:47 PDT</time>
+    </item>
+    <item>
+        <title>Custom Inline Markup - ID: 2969893</title>
+        <detail>I know this is going to get boos and jeers, but what I would like to propose we make the parser more flexible and allow for arbitrary inline markup beyond (as in in addition to but never excluding) the current inline markup: *emphasis*, **strong**, `interpreted`, ``literal``, _linktarget, linkref_, [footnote]_, etc. 
+ 
+Currently, the rst language allows those markups plus customization through a role assigned to interpreted text, e.g. :myrole:`text` or `text`:myrole:, where myrole is a registered role.  Again, none of the current roles should be changed in this proposal: subscript will still be used as `2`:sub:, and so on.  The only way to add custom inline markup would be to create a custom role for it.  Let's say for instance I want to have /italics/ be a new form of inline markup I want to use for a given document (this would ONLY apply to the document containing this custom role definition; documents already containing, say, a directory listing which uses /.../ as literal text would not be affected because it would not include the customization role).  I propose we augment the custom role directive simply by added a new optional parameter, :delimiters:, so that in the example I just gave: 
+ 
+.. role:: InlineItalics(emphasis) 
+   :class: italic 
+   :delimiters: / / 
+ 
+.. role:: InlineSubscript(subscript) 
+   :delimiters: _ _ 
+ 
+This text is /italic/, but is this proposal under H\ _2_\ O? 
+ 
+The format of :delimiters: is simple:   .  The rules for the custom delimiters would be the same as for any inline markup in terms of spaces before or after beginning or ending quotes and, very importantly, no current inline markup can be overridden by this technique; attempts to do so will generate an error: 
+ 
+.. role:: InlineRed 
+   :class: red 
+   :delimiter: * * 
+ 
+ 
+ 
+As you can see from the example above, I've use one pattern, namely the _ _ markup to indicate subscript; while _ [nothing] is used for a navigation target and [nothing] _ is used for a link, the customization is of the form _ _, which does not exactly match either of these and should be safe. 
+ 
+I know users of this technique will potentially pollute the rst language with lots of complicated custom markup, so if we add this, it would be useful to create an include file with some pre-emptive suggestions to keep things relatively standard.  Granted, we can still use the long form for things: 
+ 
+This text is :italic:`italic`, but is this proposal under H\ :sub:`2`\ O? 
+ 
+But isn't this easier to read? 
+ 
+This text is /italic/, but is this proposal under H\ _2_\ O? 
+ 
+And isn't that what rst is all about: Making markup transparent? 
+ 
+Now, I will look into this change but FIRST I want to get that Dave Abrahams patch from 2004 all spiffied up and ready for review in 2010 so that we can FINALLY nest the inline markup, and I have another change to the way roles work that I would like to implement first, namely if a custom role definition is used in a rst document before it is defined, DON'T immediately generate an error: create a pending node with the relevant text information and then in the Transform pass try again to resolve the custom role and if it fails THEN, generate the error.  Thus, custom role definitions may appear at the end of the file instead of having to go at the beginning.  I mention this because if you use delimiters, that is NOT possible.  The only way custom delimiters are going to be parsed is if they are defined before they are seen, which would unfortunately mean my role resolution patch may be less useful than I'd hoped, but I figure if someone 6 years from now wants to make custom delimiters be parsed in a lazy fashion like I propose for traditional interpreted roles, let them be my guest!</detail>
+        <time>Jeffrey C. Jacobs ( timehorse  ) - 2010-03-13 08:04:17 PST</time>
+    </item>
+    <item>
+        <title>[sandbox] rst2html-pygments with python-pygments 1.0 - ID: 2796329</title>
+        <detail>I've tried the new pygments 1.0 with the tool provided from the sandbox: 
+http://docutils.sourceforge.net/sandbox/code-block-directive/tools/pygments-enhanced-front-ends/rst2html-pygments 
+ 
+Unfortunately, it didn't work: 
+$ python ./rst2html-pygments --stylesheet=lsr.css intro.rst &gt; intro.html 
+/var/lib/python-support/python2.6/pygments/plugin.py:39: UserWarning: Module pygments was already imported from /var/lib/python-support/python2.6/pygments/__init__.py, but /var/lib/python-support/python2.6 is being added to sys.path 
+ 
+Is it possible to make a new script rst2html-pygments-1.0 (and also keep the old one)?</detail>
+        <time>Savvas Radevic ( medigeek  ) - 2009-05-25 01:58:32 PDT</time>
+    </item>
+    <item>
+        <title>Treat unicode &quot;smart&quot; quotes as punctuation - ID: 1474152</title>
+        <detail>Consider: double quotes are considered punctuation: 
+ 
+  $ echo '&quot;`Practical Common Lisp` is dead sexy.&quot;' | 
+rst2html | grep sexy 
+  &amp;quot;Practical Common Lisp is dead 
+sexy.&amp;quot; 
+ 
+but unicode smart quotes are not: 
+ 
+  $ echo '¡°`Practical Common Lisp` is dead sexy.¡±' | 
+rst2html | grep sexy 
+  ¡°`Practical Common Lisp` is dead sexy.¡± 
+ 
+The desired result is either: 
+ 
+  $ echo '¡°`Practical Common Lisp` is dead sexy.¡±' | 
+rst2html | grep sexy 
+  &amp;ldquo;Practical Common Lisp is dead 
+sexy.&amp;rdquo; 
+ 
+or: 
+ 
+  $ echo '¡°`Practical Common Lisp` is dead sexy.¡±' | 
+rst2html | grep sexy 
+  ¡°Practical Common Lisp is dead sexy.¡± 
+ 
+Note that this is more important for single quotes, 
+since rst2latex+latex converts 'foo' to ¡¯foo¡¯ (not 
+¡®foo¡¯), so smart quotes are *required* for correct 
+translation.</detail>
+        <time>Trent W. Buck ( trentbuck  ) - 2006-04-21 04:34:00 PDT</time>
+    </item>
+    <item>
+        <title>&quot;leveloffset&quot; directive for master documents - ID: 3587446</title>
+        <detail>Pasted from AsciiDoc documentation 
+ 
+You have a number of stand-alone AsciiDoc documents that you want to process as a single document. Simply processing them with a series of include macros won¡¯t work because the documents contain (level 0) document titles. The solution is to create a top level wrapper document and use the leveloffset attribute to push them all down one level.</detail>
+        <time>https://www.google.com/accounts ( https://www.google.com/accounts  ) - 2012-11-15 01:08:52 PST</time>
+    </item>
+    <item>
+        <title>I want to use strikethrough text - ID: 3567688</title>
+        <detail>Please implement the markup of strikethrough text to use many by a business scene. 
+ 
+For example, I sandwich it in a Hyphen-minus like textile. 
+ 
+Example:: 
+ 
+   I like -textile- reStructuredText. 
+ 
+STRIKE or DEL of html tag, or style sheet(text-decoration: line-through) ...</detail>
+        <time>togakushi ( togakushi  ) - 2012-09-14 03:34:13 PDT</time>
+    </item>
+    <item>
+        <title>LaTeX support for borderless tables directive - ID: 1547259</title>
+        <detail>The command-line option --table-style=nolines works for 
+both HTML and LaTeX rendering, but the borderless table 
+directive only works for HTML. It would be nice if that 
+directive worked for both HTML and LaTeX, so that 
+either output format would support per-table control of 
+table borders.</detail>
+        <time>Stuart Robinson ( stuartrobinson  ) - 2006-08-26 11:58:22 PDT</time>
+    </item>
+    <item>
+        <title>Installation script - ID: 990053</title>
+        <detail>Hi 
+ 
+Any decent application should allow itself to be 
+installed by ordinary users, not only by someone with 
+root privileges. The setup.py script attempts to write 
+in system wide areas, therefore making the root 
+privileges mandatory. 
+ 
+I suggest adding another install option, similar to the 
+--prefix one from standard ./configure / make / make 
+install installations. 
+ 
+(only tested docutils-0.3.3, but I assume previous 
+versions have the same requirement)</detail>
+        <time>manuel wolfshant ( wolfy67  ) - 2004-07-13 03:30:06 PDT</time>
+    </item>
+    <item>
+        <title>rst2html: option to keep original html - ID: 1588803</title>
+        <detail>It would be great, if there was an option for rst2html, 
+which would preserve original HTML. 
+ 
+I've written a reStructuredText plugin for b2evolution 
+(http://manual.b2evolution.net/Plugins/restructuredtext_plugin), 
+but there's no way to let it preserve original HTML 
+like e.g. an IMG tag: the special HTML characters get 
+converted and therefor the raw HTML gets displayed in 
+the browser. 
+ 
+Additionally, using &quot;Literal Blocks&quot; (literal_block) 
+does not work (and that's good IMHO, because special 
+chars should get encoded there). 
+ 
+ 
+My current workaround is, to replace all HTML tags with 
+some placeholder, pass that data to rs2html and replace 
+the placeholders with the original tags afterwards 
+again. Of course, this isn't ideal and it has the 
+tendency to produce invalid HTML (because rs2html wraps 
+something in P tags, which is not allowed for example). 
+ 
+Ideally, rs2html would still replace things like &quot;1 &lt; 
+2&quot; to &quot;1 &amp;lt; 2&quot; with this option (&quot;preserve html&quot;) 
+turned on.</detail>
+        <time>daniel hahler ( blueyed  ) - 2006-11-01 11:13:21 PST</time>
+    </item>
+    <item>
+        <title>RFE: document links - ID: 2080572</title>
+        <detail>Metadata is good. 
+ 
+Much in the same way that ReST authors can specify metadata that gets converted to HTML meta elements by rst2html, they should be able to use document links as specified in 
+ 
+http://www.w3.org/TR/html4/struct/links.html#edef-LINK 
+ 
+One way to implement this would be a copy of the meta directive, with an interface something like 
+ 
+ 
+.. link::  
+   :next type=text/html: chapter3.html 
+   :next type=text/plain: chapter3.txt 
+   :previous type=text/html: chapter1.html 
+   :previous type=text/html dir=rev: chapter 
+   :index type=text/html: index.html  
+ 
+ 
+producing in the HTML document 
+ 
+   
+     
+     
+     
+     
+     
+   
+ 
+Types could be inferred from the URI by the writer, possibly. 
+ 
+Another possible interface could a new directive for each of the linktypes described in  
+ 
+http://www.w3.org/TR/html4/types.html#type-links 
+ 
+such as: 
+ 
+.. link-next:: chapter3.html 
+   :type: text/html 
+ 
+.. link-next:: chapter3.txt 
+   :type: text/plain 
+ 
+.. link-previous:: chapter1.html 
+ 
+.. link-previous:: chapter3.html 
+   :direction: rev 
+ 
+.. link-alternate:: chapter2.pdf 
+   :type: application/pdf 
+   :media: print 
+ 
+This has the advantage of looking more like some of the other ReST metadata directives and less like a duplication of HTML. 
+ 
+In this case, there should be a mechanism for defining custom linktypes, too.</detail>
+        <time>Matthew Leingang ( leingang  ) - 2008-08-28 06:51:48 PDT</time>
+    </item>
+    <item>
+        <title>Improve documentation of creating directives with pending - ID: 2970440</title>
+        <detail>The text that describes how to use the transformation phase in the implementation of a directive is rather glib and simply directs the reader to study the code for the contents directive which does contain the details of how this is done, but is not ideally documented not brings the reader up in steps like the rest of the document does.  I would like to contribute a small tutorial as to how this is done when I have the chance if no-one else can take this on.</detail>
+        <time>Jeffrey C. Jacobs ( timehorse  ) - 2010-03-14 17:25:26 PDT</time>
+    </item>
+    <item>
+        <title>HTML Writer: a &lt;div&gt; for .. figure:: - ID: 1663816</title>
+        <detail>Text doesn't flow around a  
+ 
+  .. figure:: blah 
+     :align: right 
+ 
+     some caption 
+ 
+the same way it does for  
+ 
+  .. image:: blah 
+     :align: right 
+ 
+This problem could be fixed by wrapping a  around all such figures (similarly for left-aligned ones) and adding the following to the standard stylesheet: 
+ 
+  div.figure-right { float: right; clear: right; } 
+  div.figure-left { float: left; clear: left; } 
+ 
+Right now I have to fake it by wrapping all such figures in  
+ 
+  .. class:: figure-right</detail>
+        <time>Dave Abrahams ( david_abrahams  ) - 2007-02-19 12:32:00 PST</time>
+    </item>
+    <item>
+        <title>support HTML5/CSS3 - ID: 3349245</title>
+        <detail>Add an HTML5/CSS3 writer. Someone seems to have started work on this: https://github.com/eegg/docutils-html5-writer.</detail>
+        <time>jeffrey ( jfinkels  ) - 2011-07-01 21:06:53 PDT</time>
+    </item>
+    <item>
+        <title>Bring branches/nesting up to date - ID: 2970282</title>
+        <detail>I am trying to analyze the code contributed by David Abrahams back in 2004 to see if I can clean it up, bring it up to date, streamline it and thus resubmit it for inclusion in the next update.  I tried svn merge 2755:HEAD of the main line into the branch (2755 is the last time Mr. Abrahams merged the mainline in with his branch) with below average results; I tried merging his branch 1813:HEAD (1813 is the re-factored cvs2svn version number of when his branch was spawned) with mixed results.  There're been a number of changes the main line since he wrote this in 2004 to even the the main file he changed: docutils/parser/rst/states.py and they are complex so I'm trying to have a go at it but have only just started.  I spent most of yesterday struggling with merge so I've only just started looking at the code now; I will update this artifact as I make significant progress and will post my request for help, if needed, here.  Of course, help is always welcome.  Thanks. 
+ 
+FYI, the nesting branch is a solution which would allow authors to nest inline markup, i.e. *emphasize |H2O| in a **proper** :custom:`diet`*.</detail>
+        <time>Jeffrey C. Jacobs ( timehorse  ) - 2010-03-14 08:44:08 PDT</time>
+    </item>
+    <item>
+        <title>Emacs support; decoration styles - ID: 1357933</title>
+        <detail>The title decoration code allows for indentation in 
+over-and-under decorations (rst-default-indent). 
+ 
+In my &quot;under&quot; decorations, however, I like to run the 
+decoration one space bigger than the text. 
+ 
+Another style I have seen is to run decorations to the 
+full document width, regardless of the title text.  (In 
+this style, over-and-under titles are usually centred.) 
+ 
+It would be neat if rst.el had customizable options 
+allowing all these styles. 
+ 
+Suggestion: rst-right-only-indent for &quot;under&quot; decorations. 
+ 
+If rst-default-indent is nil (rather than 0), the 
+over-and-under deco goes to the right margin and the 
+text is centred.  If rst-right-only-indent is nil 
+(rather than 0), the &quot;under&quot; deco goes to the right margin.</detail>
+        <time>Lalo Martins ( lalo  ) - 2005-11-16 00:42:57 PST</time>
+    </item>
+    <item>
+        <title>Attributes in the main document are overriden - ID: 2714848</title>
+        <detail>Any attributes set to the root document node are lost during a Title Promotion transformation because the update function is called instead of merging the attributes of the section into the document.  For example, if a name is appended to the 'classes' attribute of the root document, this name is lost during the current version of the TitlePromoter transform.  What I propose in the associated patch is to add more functionality to the Element class to handle generic attribute assignment and merging and then to call this instead of directly updating the attribute dictionary as done in the current code.  This method has the ability to append rather than overwrite the basis attributes of an element as well as append any list elements in both the document and the section being merged in and replacing any attributes that are not both of list type with the values in the section node.  This preserves the values in the document class list attributes as the user would expect.</detail>
+        <time>Jeffrey C. Jacobs ( timehorse  ) - 2009-03-26 09:29:51 PDT</time>
+    </item>
+    <item>
+        <title>crash with configuration file - ID: 1605724</title>
+        <detail>I downloaded a snapshot of docutils: 
+ 
+(Docutils 0.5 [snapshot 2006-11-29, r4819]) 
+ 
+When I run rst2latex.py with a configuration file, python raises an error (below). My configuration file looks like this: 
+ 
+datestamp: %Y-%m-%d 
+ 
+ 
+ 
+Traceback (most recent call last): 
+  File &quot;/usr/bin/rst2latex.py&quot;, line 23, in ? 
+    publish_cmdline(writer_name='latex', description=description) 
+  File &quot;/usr/lib/python2.4/site-packages/docutils/core.py&quot;, line 335, in publish_cmdline 
+    config_section=config_section, enable_exit_status=enable_exit_status) 
+  File &quot;/usr/lib/python2.4/site-packages/docutils/core.py&quot;, line 197, in publish 
+    self.process_command_line( 
+  File &quot;/usr/lib/python2.4/site-packages/docutils/core.py&quot;, line 149, in process_command_line 
+    option_parser = self.setup_option_parser( 
+  File &quot;/usr/lib/python2.4/site-packages/docutils/core.py&quot;, line 112, in setup_option_parser 
+    usage=usage, description=description) 
+  File &quot;/usr/lib/python2.4/site-packages/docutils/frontend.py&quot;, line 485, in __init__ 
+    config_settings = self.get_standard_config_settings() 
+  File &quot;/usr/lib/python2.4/site-packages/docutils/frontend.py&quot;, line 544, in get_standard_config_settings 
+    settings.update(self.get_config_file_settings(filename), self) 
+  File &quot;/usr/lib/python2.4/site-packages/docutils/frontend.py&quot;, line 550, in get_config_file_settings 
+    parser.read(config_file, self) 
+  File &quot;/usr/lib/python2.4/site-packages/docutils/frontend.py&quot;, line 656, in read 
+    CP.ConfigParser.readfp(self, fp, filename) 
+  File &quot;/usr/lib/python2.4/ConfigParser.py&quot;, line 286, in readfp 
+    self._read(fp, filename) 
+  File &quot;/usr/lib/python2.4/ConfigParser.py&quot;, line 462, in _read 
+    raise MissingSectionHeaderError(fpname, lineno, line) 
+ConfigParser.MissingSectionHeaderError: File contains no section headers. 
+file: ./docutils.conf, line: 2 
+u'datestamp: %Y-%m-%d\n'</detail>
+        <time>Paul Henry Tremblay ( paultremblay  ) - 2006-11-29 16:09:36 PST</time>
+    </item>
+    <item>
+        <title>Sending notification mails to Docutils-develop - ID: 1026655</title>
+        <detail>This is a test to see if Docutils-develop gets notified 
+of this new tracker item.</detail>
+        <time>Felix Wiemann ( felixwiemann  ) - 2004-09-12 05:04:11 PDT</time>
+    </item>
+    <item>
+        <title>add border option to image - ID: 1193389</title>
+        <detail>Starting from docutils 0.3.7, 'target' option was added to  
+Image object. This is one of the things I've wanted for a  
+long time. Thanks for docutils developers. 
+ 
+Now I want another option, 'border'. 
+ 
+The rationale behind this feature request is as follows: 
+ 
+As I use 'target' option, I've notived one aesthetic  
+problem with it. Images are surrounded by blue border  
+lines. If you set the border attribute 0, you can get rid of  
+it. 
+ 
+For the moment, I'm adding one line of code to  
+rst/directives/images.py so that I can set the border  
+parameter. 
+ 
+--- images.py   25 Sep 2004 23:44:06 -0000      1.18 
++++ images.py   1 May 2005 15:36:03 -0000 
+@@ -59,6 +59,7 @@ 
+ 
+ image.arguments = (1, 0, 1) 
+ image.options = {'alt': directives.unchanged, 
++                 'border': directives.nonnegative_int, 
+                  'height': directives.nonnegative_int, 
+                  'width': directives.nonnegative_int, 
+                  'scale': directives.nonnegative_int, 
+ 
+(I don't know if this is the right solution, but it works at  
+least for me.)</detail>
+        <time>George Yoshida ( quiver  ) - 2005-05-01 08:49:53 PDT</time>
+    </item>
+    <item>
+        <title>Add :valueasclass: option to role directive - ID: 2970278</title>
+        <detail>It would be nice, for the purposes of a more flexible form of indexing such that all text adorned with a role that had this property would, in addition to its standard role classes, receive a class of the form role in it's class list.  This would allow for easy dynamic HTML using CSS for any such text markup.  In other words: 
+ 
+.. role:: keyword 
+   :valueasclass: 
+ 
+If you remember :keyword:`apple` or :keyword:`pear`, you're almost there! 
+ 
+This would render similar to: 
+ 
+The output would be 
+   
+     If you remember  
+      
+          apple 
+      or  
+      
+    , you're almost there! 
+ 
+Where further CSS could highlight text of class roleapple or rolepear as necessary.</detail>
+        <time>Jeffrey C. Jacobs ( timehorse  ) - 2010-03-14 08:31:05 PDT</time>
+    </item>
+    <item>
+        <title>linenos='table' style code highlighting - ID: 3586249</title>
+        <detail>Highlighting code with :number-lines: turned on renders the line numbers &quot;inline&quot; with the code lines in HTML. This makes it impractical to cut &amp; paste code snippets into an editor or the shell. Pygments has an option linenos that puts line numbers in a separate table column which makes cutting work. 
+ 
+However, from scanning the code it seems docutils' use of pygments is more low-level (e.g. not really using the formatters, just the lexers/tokenizers). An option to format lines with tables is hence not so straight-forward. Maybe I submit a patch myself later on...</detail>
+        <time>Markarian421 ( sf-jonas  ) - 2012-11-11 13:17:26 PST</time>
+    </item>
+    <item>
+        <title>include directive and parsed literals - ID: 3563801</title>
+        <detail>With Docutils &gt;= 0.9, it is impossible to include HTML files (without parsing of rst-inline-markup in the HTML file) with the &quot;include&quot; directive:: 
+ 
+ .. include:: test.html 
+    :code: HTML 
+ 
+It would be nice to have a new option for the include directive that allowed one to pass the content of the included file to a &quot;parsed literal&quot; block. Something like: 
+ 
+ .. include:: test.html 
+    :parsed-literal: HTML</detail>
+        <time>Mike Solomon ( organdiae  ) - 2012-08-31 11:49:20 PDT</time>
+    </item>
+    <item>
+        <title>:leveloffset directive for master documents - ID: 3587445</title>
+        <detail>Pasted fom AsciiDoc documentation: 
+ 
+You have a number of stand-alone AsciiDoc documents that you want to process as a single document. Simply processing them with a series of include macros won¡¯t work because the documents contain (level 0) document titles. The solution is to create a top level wrapper document and use the leveloffset attribute to push them all down one level.</detail>
+        <time>https://www.google.com/accounts ( https://www.google.com/accounts  ) - 2012-11-15 01:07:46 PST</time>
+    </item>
+    <item>
+        <title>allow custom interpreted text roles resolver - ID: 1145632</title>
+        <detail>I need to replace the default intepreted text roles 
+resolver roles.role() with a custom one. Actually there 
+is no easy way to do that. I have cooked the small 
+patch attached to do that. In this way i can do 
+something like: 
+ 
+class Roles: 
+    def __init__(self): 
+        self.resolvers = [ ] 
+ 
+    def register(self, resolver): 
+        self.resolvers.append(resolver) 
+ 
+    def role(self, *args, **kwargs): 
+        function, messages = roles.role(*args, **kwargs) 
+        if function is None: 
+            for resolver in self.resolvers: 
+                handler = resolver(*args, **kwargs) 
+                if callable(handler): 
+                    return handler, [] 
+        return function, messages 
+ 
+class Inliner(rst.states.Inliner): 
+    def __init__(self): 
+        roles = Roles() 
+        rst.states.Inliner.__init__(self, roles=roles) 
+ 
+class Parser(rst.Parser): 
+    def __init__(self): 
+        inliner = Inliner() 
+        rst.Parser.__init__(self, inliner=inliner) 
+ 
+class Reader(standalone.Reader): 
+    def __init__(self, obj, hub): 
+        parser = Parser() 
+        standalone.Reader.__init__(self, parser=parser) 
+ 
+reader = Reader(obj, hub)        
+reader.parser.inliner.roles.register(CustomRolesResolver(params)) 
+writer = Writer() 
+parts = publish_parts(source=src, 
+                          reader=reader, 
+                          writer=writer, 
+                          settings_overrides=settings, 
+                          config_section='my application') 
+ 
+where CustomRoleResolver() is a class that has a 
+__call__ method that implements the interface of 
+roles.role() function.</detail>
+        <time>Daniele Nicolodi ( dan_t_  ) - 2005-02-21 10:05:22 PST</time>
+    </item>
+    <item>
+        <title>code-block directive - ID: 1577415</title>
+        <detail>Mailing lists show several variations of a code-block 
+directive that allowed for semantic markup to literal 
+code blocks.  One version appears to be in active use 
+within the Trac project's reST parser. 
+ 
+Why is the code-block directive still not present in 
+mainline docutils?</detail>
+        <time>Trent W. Buck ( trentbuck  ) - 2006-10-14 15:10:55 PDT</time>
+    </item>
+    <item>
+        <title>Clickable images - ID: 798396</title>
+        <detail>I haven't seen any way to describe &amp;quot;clickable images&amp;quot; using 
+ the .. image directive that would allow to create such  
+ images. For now, only raw HTML can be used like this: 
+ 
+ .. raw:: html 
+ 
+   &amp;lt;a href=&amp;quot;http://validator.w3.org/check/referer&amp;quot;&amp;gt; 
+    &amp;lt;img src=&amp;quot;http://www.w3.org/Icons/valid-xhtml10&amp;quot; 
+         alt=&amp;quot;Valid XHTML 1.0!&amp;quot; height=&amp;quot;31&amp;quot; width=&amp;quot;88&amp;quot; /&amp;gt; 
+   &amp;lt;/a&amp;gt; 
+ 
+ which doesn't translate into LaTeX/PDF... but something like 
+ the following would be more convenient (note the proposed 
+ &amp;quot;link&amp;quot; attribute): 
+ 
+ .. image:: http://www.w3.org/Icons/valid-xhtml10 
+   :height: 31 
+   :width: 88 
+   :alt: Valid XHTML 1.0! 
+   :link: http://validator.w3.org/check/referer 
+ 
+(This was first submitted, probably erroneously, as a tech 
+support issue.)</detail>
+        <time>Dinu C. Gherman ( dinu_gherman  ) - 2003-08-31 23:43:38 PDT</time>
+    </item>
+    <item>
+        <title>please include rst2man/etc - ID: 1456993</title>
+        <detail>It would be nice if you could include rst2man from the experimental code tarball (docutils-sandbox-snapshot.tgz) in the main distribution. There are some other nice things in there too that could go into the main distribution.</detail>
+        <time>Paul Wise ( pabs3  ) - 2006-03-23 06:39:49 PST</time>
+    </item>
+    <item>
+        <title>adding pygments options to code directive - ID: 3577850</title>
+        <detail>some pygments lexers support options (notably the pycon lexer supports a python3 flag that enables python3 support). 
+the attached patch propose to support passing options to pygments using this syntax: 
+ 
+.. code:: pycon 
+    :pygments-options: python3 
+ 
+    &gt;&gt;&gt; print(&quot;coucou&quot;) 
+    coucou 
+ 
+ 
+remark: 
+the attached patch supports a list of key[=value] as pygments-options content, but values can not be lists, which would be needed to support all pygments lexer options.</detail>
+        <time>rndblnch ( rndblnch  ) - 2012-10-17 08:29:44 PDT</time>
+    </item>
+    <item>
+        <title>Allows easy referencing of section titles - ID: 3444138</title>
+        <detail>In rst2html, you have three choices regarding to generating toc backlinks: 
+ 
+--no-toc-backlinks 
+--top-toc-backlinks 
+--toc-entry-backlinks 
+ 
+However I would like each section title to have a link to itself, or at least 
+some anchor that allows to have the link to the current section, regardless 
+whether there's a toc in the document or not. 
+ 
+This is very handy when referencing online documents. Sphinx does something similar by using an on-hover pilcrow: 
+ 
+http://docs.python.org/reference/compound_stmts.html#the-for-statement 
+ 
+after each section title, there's pilcrow (on hover) linking to the current  
+section. 
+ 
+See the discussion at: 
+ 
+http://thread.gmane.org/gmane.text.docutils.user/6517 
+ 
+&lt;&lt;Use case: 
+ 
+I often need a reference to a section in the docs when answering a question 
+here or at the Sphinx list. Then, usually I open the HTML version of the 
+doc, check the content and copy the link from there. 
+ 
+a) With a toc and --toc-entry-backlinks (or a small toc and 
+   --top-toc-backlinks), it is straightforward to 
+ 
+   * click at the section heading -&gt; brings you to the toc, 
+   * right-click at the toc entry and select &quot;copy link address&quot;, 
+   * paste the link in the editor. 
+ 
+   Example: 
+   http://docutils.sourceforge.net/docs/dev/todo.html#epub-html-writer 
+ 
+b) Without a toc or with --no-toc-backlinks, this work-flow does not work: 
+ 
+   * no &quot;copyable link&quot; in the document without a toc 
+   * &quot;copyable link&quot; in the toc not easy to find when reading the section with 
+     --no-toc-backlinks. 
+ 
+So, while I don't like Sphinx's &quot;pop-up&quot; pilcrows, I see their use in case 
+b) (and for other referencable objects). 
+ 
+You could file a feature request at the tracker 
+http://sourceforge.net/tracker/?group_id=38414&amp;atid=422033 
+ 
+ 
+Alternatively, we could offer a new option for the `toc_backlinks` setting: 
+ 
+  Enable backlinks from section titles to  
+ 
+  * table of contents entries (&quot;entry&quot;),  
+  * to the top of the TOC (&quot;top&quot;),  
+  * to themselves (&quot;self&quot;), 
+  * or disable (&quot;none&quot;). 
+ 
+  together with a --self-backlinks command line option. 
+ 
+Then, with toc_backlinks == &quot;self&quot;, right-click on a section title would 
+allow to copy the sections URL.&gt;&gt; 
+ 
+That's exactly my use case as well: I generate online documents with rst2html all the time, and whenever I need to reference to a document I usually do link to the relevant section. 
+ 
+I was already aware of the &quot;entry&quot; option (to toc, then get the url), but that's rather inconvenient, and as you say it doesn't work whenever the toc is missing. 
+ 
+I'm personally fine with either the Sphinx solution (&quot;on-hover pilcrow&quot;, which would be easy enough to customize via css) or via the &quot;self&quot; behavior (which I like much more at the moment. Admittedly I have never used the back-to-toc feature of the section titles, I would instead certainly use the direct link without further fuss).</detail>
+        <time>Yuri D'Elia ( wavexx  ) - 2011-11-28 06:44:36 PST</time>
+    </item>
+    <item>
+        <title>support unicode box characters for table markup - ID: 1443774</title>
+        <detail>See first attachment.</detail>
+        <time>Trent W. Buck ( trentbuck  ) - 2006-03-05 15:41:02 PST</time>
+    </item>
+    <item>
+        <title>Support for remote image URIs in ODT writer - ID: 3297671</title>
+        <detail>Currently if one use something in a rst file like: 
+ 
+.. image:: http://www.example.com/foo.png 
+ 
+And passes it to rst2odt, the image is not included in the document, showing instead the following warning: 
+ 
+(WARNING/2) Cannot find image file http://www.example.com/foo.png 
+ 
+It would be nice if the image could be fetched and included in the document. Currently rst2pdf does it by using urllib.urlretrieve if it detects a HTTP URI.</detail>
+        <time>https://www.google.com/accounts ( https://www.google.com/accounts  ) - 2011-05-04 13:38:00 PDT</time>
+    </item>
+    <item>
+        <title>Please include roman.py - ID: 2437754</title>
+        <detail>Docutils has an undocumented dependency on roman.py (it's not mentioned on the website anyway) and I'm currently having trouble finding it to install it. Google searches bring up various Linux packages which aren't helpful.</detail>
+        <time>Richard Jones ( richard  ) - 2008-12-16 21:21:31 PST</time>
+    </item>
+    <item>
+        <title>install command line tools via setup.py - ID: 654826</title>
+        <detail>Setup.py should be augmented to install some/all of the 
+tools into the appropriate install directory when 
+'python setup.py install' is invoked. 
+ 
+The tools are very useful as is and this would make 
+them even more accessible. 
+ 
+One issue:  some of the tools should either be renamed 
+or not installed.  For example, 'html.py' should be 
+renamed such that it is associated more strongly with 
+docutils when installed into a relatively cluttered 
+spot such as /usr/local/bin/ 
+ 
+Thanks -- awesome tool -- I have started using docutils 
+for everything, including non-python things (and will 
+likely have a bunch of bug reports, feature requests 
+and patches related to non-Python support).</detail>
+        <time>Bill Bumgarner ( bbum  ) - 2002-12-16 12:26:36 PST</time>
+    </item>
+</requests>

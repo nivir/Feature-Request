@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<requests>
+    <item>
+        <title>support for new xorg release which deprecated xfs  - ID: 2504808</title>
+        <detail>Hi , subject says all , news xorg don't use xfs anymore could you please do a package that use the new structure of fonts for xorg .  
+ 
+Thanks,</detail>
+        <time>S¨¦rgio Monteiro Basto ( sergiomb  ) - 2009-01-13 07:44:10 PST</time>
+    </item>
+    <item>
+        <title>Include Vista fonts - ID: 1738684</title>
+        <detail>Cambria, Calibri, Candara, Consolas, Constantia, Corbel fonts from Windows Vista typeface can be included using a &quot;Microsoft Office Compatibility Pack for Word, Excel, and PowerPoint 2007 File Formats&quot;</detail>
+        <time>aleks ( yaleks  ) - 2007-06-17 08:49:33 PDT</time>
+    </item>
+    <item>
+        <title>Addition of Arial Unicode MS - ID: 642759</title>
+        <detail>I don't know if the EULA allows it, but if you could make  
+Arial Unicode MS (a 23 Mb font featuring tens of  
+thousands of glyphs) available, I'd appreciate it very  
+much.  Once upon a time, you could get this font from  
+MS's website, but no longer it seems.</detail>
+        <time>David L. Chandler ( dchandler  ) - 2002-11-23 07:43:08 PST</time>
+    </item>
+    <item>
+        <title>An RPM that gets the fonts from the net - ID: 680485</title>
+        <detail>I like the way Debian's package works: instead of 
+including the fonts directly, which would not be legal, 
+and instead of requiring you to make your own package, 
+like we have here, they include scripting which uses 
+wget and cabextract to actually download the fonts for 
+you during the install process. 
+ 
+Thus distributing the package is completely legal, and 
+anyone can install it without complicated instructions 
+about making your own RPM, etc., because the fonts are 
+retrieved dynamically at runtime rather than being 
+shipped with the package itself. 
+ 
+ 
+It seems to me that this kind of RPM, at least as an 
+option, would be much easier for people to use. 
+ 
+Just a thought...</detail>
+        <time>Paul D. Smith ( psmith  ) - 2003-02-04 13:39:27 PST</time>
+    </item>
+</requests>

@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<requests>
+    <item>
+        <title>#19 support MYSQL_OPT_READ_TIMEOUT</title>
+        <detail> Add 'read_timeout' to connect kwarg options.    Unless I'm missing something the changes are trivial and in _mysql_ConnectionObject_Initialize.   I've added this to my own personal build. It's a blunt instrument in the absence of item 1542332 &quot;Make a new cursor class to limit query time&quot;</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#24 Fractional second support for MySQL 5.6.5</title>
+        <detail> Fractional second support up to microseconds has recently been added in MySQL 5.6.4 and higher. I was hoping that MySQLdb will add support for this feature with timedelta. Currently, to bypass this issue I have modified MySQLdb/times.py and it seems to be working for my purposes.  def format_TIMEDELTA(v): Although my patch seems to be working, to be more robust I expect that timedelta millisecond support might also be needed.</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#10 Add SQL Prepared Statements</title>
+        <detail> MySQL 4.1 and newer supports SQL prepared statements. 
+Can you please add SQL prepared statement support? 
+Prepared statements run faster and automatically escape 
+the values that are being inserted into the database. Thanks, 
+Scott</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#9 MYSQL_OPT_RECONNECT support</title>
+        <detail> Recent versions of MySQL (5.0.3+) changed the default 
+reconnect flag from 1 (auto-reconnect) to 0 (don't 
+reconnect automatically). From 
+ &quot;Note that upon connection, mysql_real_connect() sets 
+the reconnect flag (part of the MYSQL structure) to a 
+value of 1 in versions of the API older than 5.0.3, or 
+0 in newer versions. A value of 1 for this flag 
+indicates that if a statement cannot be performed 
+because of a lost connection, to try reconnecting to 
+the server before giving up. As of MySQL 5.0.13, you 
+can use the MYSQL_OPT_RECONNECT option to 
+mysql_options() to control reconnection behavior.&quot; I'd like to see this option supported by MySQLdb soon 
+so that I can get rid of those annoying &quot;MySQL server 
+has gone away&quot; errors.  Thanks, 
+George</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#23 utf8mb4 Patch - 4 Byte Unicode Support</title>
+        <detail> Although MySQLdb 1.2.3 does have UTF8 support, MySQL did not support 4-byte characters until MySQL 5.5, with the introduction of the &quot;utf8mb4&quot; character type. However, MySQLdb does not support the &quot;utf8mb4&quot; charset. This means that Unicode strings that are perfectly valid in Python, should they contain 4-byte characters, cannot be sent to a MySQL database. I created my own patch (a few lines in connections.py and cursors.py that I'd be happy to share with anyone if they feel it would help), but this would helpful in th elong term - and really is required in a MySQLdb 1.3. Thank you.</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#20 Please add Win32 installation support for MySQLdb Python2.6</title>
+        <detail> Attempting a download of the MySQLdb for Win32, I don't see specific installation support for Python 2.6 (only 2.5)</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#17 Please add support for Py3k</title>
+        <detail> Could you please add support for Py3k.  The big change I see is dealing with unicode and adding encode and decode for going between strings and bytes.  Could you give a estimate on how long this might take?  Much appreciated.</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#13 Add database and user attributes to connection object</title>
+        <detail> I often switch between different dbs at the same 
+destination in my code. Which means that I inevitably 
+get confused about exactly which one I am connected to 
+at any one time. It would be nice if I could just check some attributes 
+on the connection object to find out who I am connected 
+as and which database I am using. The connection object currently has methods to 
+determine host, server and protocol information but I 
+presume these are provided by the underlying library.  I've searched through the MySQL and MySQL Python 
+documentation and I cant find a way to get this 
+information at the moment.</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#14 Making location of mysql_config configurable</title>
+        <detail> mysql_config should be in the $PATH, but that is not always the case. In fact, it's never the case on my machines :) Especially when working on 20 versions 'at ones', one doesn't put mysql stuff in the $PATH. I made some changes to the setup_posix.py file so it reads the option mysql-config and uses that one instead of the one in $PATH. So, it works this way: update site.cfg with 
+mysql-config = /data1/mysql/5.1.15/bin/mysql_config doing ./setup.py build, the one defined in site.cfg will be used. Patch attached against 1.2.2b3. Hope this helps!</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#11 Make a new cursor class to limit query time</title>
+        <detail> Often when using mysqldb on really large databases 
+there is a potential to issue huge queries which would 
+just take way too long. This is obviously not ideal, 
+but the risk is that having a very slow query on the 
+server may cause unacceptable performance problems. It would be nice to add the safety check in the cursor 
+class to ensure that the query doesnt take too long - 
+if it does it should be killed. For example see:  Where a threading.Timer is used to time the query 
+killing it if it takes too long. This is essential for shared sites where any query 
+longer than a few seconds can really affect performace. Michael.</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#21 warning when executemany is performed with separate executes</title>
+        <detail> please consider adding a warning to executemany, when it is performed using separate execute's, or even removing this feature entirely. imo, executemany should always try to use a single execute or fail loudly, because that is what most users would expect, and it would make for a simpler and more understandable API. of course it's easy enough for users to use a for-loop to do individual executes if executemany doesn't work.. thanks!</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#12 Quasi-SSCursor class</title>
+        <detail> Sometimes its not possible to use client side cursors 
+because the memory hit is too big when copying the 
+result set into the client. Using SS cursors is also 
+not appropriate because the client may not want all the 
+results anyway (i.e. might read a couple of rows then 
+lose the context). We need a cursor class which does something in between. Copy result sets to the client up to a maximum number 
+of rows. When those are consumed, grab the next lot 
+from the server etc. This achieves a balance between 
+client memory consumption and network traffic. We need to trap &quot;mysql commands out of sequence&quot; errors 
+to transparently hide a reconnection if the SS 
+connection has not been fully drained. See for example: 
+ This would be nice if it was already built in because 
+it would prevent the memory hit that client side has, 
+but make using SS more friendly. Michael.</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#15 change character set dir</title>
+        <detail> Hi, I am working on windows and needed to set the character set to cp850. The problem is that MySQLdb expects the charset files in C:\mysql\share\charsets. I just created the directory so it works for me. But this should be change so everybody can configure where the files can be found.</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#18 append debug feature like echo=True in sqlalchemy</title>
+        <detail> Hi, What do you think about append debug/verbose feature like echo=True in sqlalchemy ? Regards, 
+Stephane</detail>
+        <time>2012-09-19</time>
+    </item>
+    <item>
+        <title>#22 Update README for Windows installation</title>
+        <detail> Hi, I recently built MySQLdb on Windows. Originally, I was using the README as a guide, but found that documentation seemed old? To my surprise, it was actually very straightforward to build. I simply changed the registry key is site.cfg, and everything worked. I'm using Python 2.7. Would it be possible to update the README file to reflect this?</detail>
+        <time>2012-09-19</time>
+    </item>
+</requests>

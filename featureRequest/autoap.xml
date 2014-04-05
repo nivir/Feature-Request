@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<requests>
+    <item>
+        <title>Add new Micro Build v24 Pre-SP2 w/GUI &amp; AutoAP - ID: 2914540</title>
+        <detail>Request new build based on the micro DD-WRT VINT firmware image, including AutoAP and GUI the previous work of art to replace the GREAT, but unfortunately much out of date &quot;dd-wrt.v24_micro_generic.aapng.20070822RC1b.zip&quot;. 
+ 
+This replacement updated build, based on VINT firmware, would work with most DD-WRT compatible hardware out there, and would not only improve on discovered security concerns, but also greatly simplify AutoAP deployment and configuration in a variety of routers.  While dreaming...if it were possible to add a tab for the AutoAP GUI into the default DD-WRT GUI, and a tab in the AutoAP to go back to the DD-WRT (make it look 'integrated'?), it would be beautiful!</detail>
+        <time>KiethS ( KiethS  ) - 2009-12-14 18:38:17 PST</time>
+    </item>
+    <item>
+        <title>Priority system - ID: 3435977</title>
+        <detail>1) by signal strength 
+2) by ping timeout 
+3) manual, by priority list</detail>
+        <time>SantaFox ( santafox  ) - 2011-11-10 00:31:09 PST</time>
+    </item>
+    <item>
+        <title>Add Web Interface to AutoAP in DD-WRT  - ID: 2903991</title>
+        <detail>It Would be beautiful to see a web interface to autoap in dd-wrt.</detail>
+        <time>Nobody/Anonymous ( nobody  ) - 2009-11-25 12:01:29 PST</time>
+    </item>
+    <item>
+        <title>Connect to preferred WPA access point - ID: 3307647</title>
+        <detail>Any plans to make AutoAP able to connect to WPA access points?  It connects very nicely to WEP-protected systems, but not to WPA.</detail>
+        <time>Carl Hayes ( nn5i  ) - 2011-05-25 10:25:02 PDT</time>
+    </item>
+</requests>
